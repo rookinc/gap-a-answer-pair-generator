@@ -1,0 +1,95 @@
+{
+  "accepted_strict_count": 12,
+  "audit_id": "001",
+  "boundary": "This rebuilds the Project 18 realized row-pair universe inside Project 21. It is a baseline reproduction, not a native generator and not Gap A closure.",
+  "candidate_count": 48,
+  "candidate_role_pair_counts": {
+    "IW/YZ": 16,
+    "TI/XY": 16,
+    "WX/ZT": 16
+  },
+  "exact_selectors": [
+    "reciprocal_answer_pair",
+    "strict_pair_grammar"
+  ],
+  "expected_pair_count": 12,
+  "input_pairs": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_shared_reverse_pair_coupling_audit_021.v1.json",
+  "input_rows": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+  "reverse_row_count": 12,
+  "selector_scores": [
+    {
+      "accepted_count": 14,
+      "exact": false,
+      "expected_count": 12,
+      "false_positive_count": 2,
+      "miss_count": 0,
+      "selector": "same_from_C"
+    },
+    {
+      "accepted_count": 14,
+      "exact": false,
+      "expected_count": 12,
+      "false_positive_count": 2,
+      "miss_count": 0,
+      "selector": "same_to_C"
+    },
+    {
+      "accepted_count": 18,
+      "exact": false,
+      "expected_count": 12,
+      "false_positive_count": 6,
+      "miss_count": 0,
+      "selector": "same_C_delta"
+    },
+    {
+      "accepted_count": 14,
+      "exact": false,
+      "expected_count": 12,
+      "false_positive_count": 2,
+      "miss_count": 0,
+      "selector": "same_integer_C_delta"
+    },
+    {
+      "accepted_count": 26,
+      "exact": false,
+      "expected_count": 12,
+      "false_positive_count": 14,
+      "miss_count": 0,
+      "selector": "same_lift_q"
+    },
+    {
+      "accepted_count": 14,
+      "exact": false,
+      "expected_count": 12,
+      "false_positive_count": 2,
+      "miss_count": 0,
+      "selector": "answer_R_supplies_S_to_C"
+    },
+    {
+      "accepted_count": 14,
+      "exact": false,
+      "expected_count": 12,
+      "false_positive_count": 2,
+      "miss_count": 0,
+      "selector": "return_R_returns_S_from_C"
+    },
+    {
+      "accepted_count": 12,
+      "exact": true,
+      "expected_count": 12,
+      "false_positive_count": 0,
+      "miss_count": 0,
+      "selector": "reciprocal_answer_pair"
+    },
+    {
+      "accepted_count": 12,
+      "exact": true,
+      "expected_count": 12,
+      "false_positive_count": 0,
+      "miss_count": 0,
+      "selector": "strict_pair_grammar"
+    }
+  ],
+  "shared_row_count": 12,
+  "status": "project18_pair_universe_rebuild_recorded"
+}
