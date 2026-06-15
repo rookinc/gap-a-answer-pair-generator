@@ -1,0 +1,224 @@
+{
+  "audit_id": "010",
+  "boundary": "This is an import manifest only. It does not test a generator and does not close Gap A.",
+  "copied_json": [
+    {
+      "bytes": 31101,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/g60_native_generator_input_bundle_001.v1.json",
+      "sha256": "d9ad376911b03cad2aa0f9214b5372de78135ca6fa3b72e56da5f3478f9771ee",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/g60_native_generator_input_bundle_001.v1.json"
+    },
+    {
+      "bytes": 20162,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+      "sha256": "4a77cbd5b0cf631fdbba27c1eb3c04d6d8c593f2f0dbab6eb70bfff98419f78f",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/g60_native_overlay_generator_family_search_001.v1.json"
+    },
+    {
+      "bytes": 12266,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/context_dependent_overlay_delta_rules_001.v1.json",
+      "sha256": "a35bcc26a4f500794db567976eb6912d70e7a01def725b600bd6b0d070c4dfdf",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/context_dependent_overlay_delta_rules_001.v1.json"
+    },
+    {
+      "bytes": 23853,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/c_transition_overlay_delta_generator_001.v1.json",
+      "sha256": "7340e23329c4490db4ea5d000412459ecd4a1a66e8a3219f1675457297209b6d",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_overlay_delta_generator_001.v1.json"
+    },
+    {
+      "bytes": 13899,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/c_transition_delta_lift_decomposition_001.v1.json",
+      "sha256": "da2e7e3249b0f5852a578c688f1c3eae238c2f3d88d52c1d7762cfc853bf8467",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_delta_lift_decomposition_001.v1.json"
+    },
+    {
+      "bytes": 12152,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/lift_q_context_rules_001.v1.json",
+      "sha256": "b79562c2ff0e8e45817cd85fb43336498feeadd711b4e446f0123d6efcab2b67",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/lift_q_context_rules_001.v1.json"
+    },
+    {
+      "bytes": 14964,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/from_c_lift_q_overlay_delta_formula_001.v1.json",
+      "sha256": "9225cbf85db22dc5852ade9fc659abcd9caa81e9066669b50619c6cea7c334e6",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/from_c_lift_q_overlay_delta_formula_001.v1.json"
+    },
+    {
+      "bytes": 11131,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/from_c_lift_partition_native_context_001.v1.json",
+      "sha256": "e5957975dbd74d52dde7c9d963c80f155bcf554ed453048769e1d1747675c6ef",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/from_c_lift_partition_native_context_001.v1.json"
+    },
+    {
+      "bytes": 7290,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/q3_selector_sanity_audit_001.v1.json",
+      "sha256": "33815cc31ae6362d806c469dae8795380a4392a3b085d89e27acde2704ce7d40",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/q3_selector_sanity_audit_001.v1.json"
+    },
+    {
+      "bytes": 18063,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/c_transition_support_partition_audit_001.v1.json",
+      "sha256": "580e5e14b32e6ae2388c4db495043f68fde3c34a306083a63eacc29204cec155",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_support_partition_audit_001.v1.json"
+    },
+    {
+      "bytes": 7433,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/c_transition_support_canonical_audit_002.v1.json",
+      "sha256": "441c8ae2b7c22b1f3ffc425a8a87032169c0f52bdb63f00aed0bdc024360291d",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_support_canonical_audit_002.v1.json"
+    },
+    {
+      "bytes": 73289,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/c_transition_schema_inspection_003a.v1.json",
+      "sha256": "f4a76fb9cae7fd65603b10fb2602852e40ada857e8b426b85c38f8b97fde09b5",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_schema_inspection_003a.v1.json"
+    },
+    {
+      "bytes": 6015,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/c_transition_station_role_cover_audit_003b.v1.json",
+      "sha256": "be0da2ba99d24b46db3ff7e36d6ee81e23501052a3bcc244bc635f48ddc0cd96",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_station_role_cover_audit_003b.v1.json"
+    },
+    {
+      "bytes": 11190,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/c_transition_role_channel_grammar_audit_004.v1.json",
+      "sha256": "1252c1ccb342416ef8f60fa06d96e090ad292a3a25f506db956a2101ffa8c661",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_role_channel_grammar_audit_004.v1.json"
+    },
+    {
+      "bytes": 3143,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/c_transition_role_block_circulation_audit_005.v1.json",
+      "sha256": "ac098d11a3e564683d5154a0e3775d8e79002a5ec20dbba1da7f11d1aed5f3b5",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/c_transition_role_block_circulation_audit_005.v1.json"
+    },
+    {
+      "bytes": 6927,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/role_block_directed_transition_selector_006c.v1.json",
+      "sha256": "dcd039bc2cd3236005bfce890c66bd9df593196da923caa41785537b5c6a5829",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/role_block_directed_transition_selector_006c.v1.json"
+    },
+    {
+      "bytes": 3392,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/gap_a_wxyzti_role_block_selector_checkpoint_006c.v1.json",
+      "sha256": "76cfbc2502cb7ebb75260ff1474bbb7fdf93969e4a1ac0def297a7445c69a8b8",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/gap_a_wxyzti_role_block_selector_checkpoint_006c.v1.json"
+    }
+  ],
+  "copied_json_count": 17,
+  "copied_note_count": 17,
+  "copied_notes": [
+    {
+      "bytes": 2945,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/g60_native_generator_input_bundle_001.md",
+      "sha256": "bc26add4bde2e71ae59ebf559d9a05ed4e805f657eaceae5d0f732a44dd0e9cd",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/g60_native_generator_input_bundle_001.md"
+    },
+    {
+      "bytes": 3091,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/g60_native_overlay_generator_family_search_001.md",
+      "sha256": "9fd962715741dd95af623194f038f875cdecca8e7ca81c8fb751e662159e6ac7",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/g60_native_overlay_generator_family_search_001.md"
+    },
+    {
+      "bytes": 7390,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/context_dependent_overlay_delta_rules_001.md",
+      "sha256": "36c3b23c564c4e534b5cd4195c068e5064268ca8f4cbd0770bbf4ebee40ed221",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/context_dependent_overlay_delta_rules_001.md"
+    },
+    {
+      "bytes": 2490,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/c_transition_overlay_delta_generator_001.md",
+      "sha256": "6bd4a0afb16649c443f88329ebe627b9f4350415e5d850197e338afd73604657",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/c_transition_overlay_delta_generator_001.md"
+    },
+    {
+      "bytes": 2395,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/c_transition_delta_lift_decomposition_001.md",
+      "sha256": "0c7d6a15df111e6454ec2546b3eb961175a3821029326984d707d211429b0818",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/c_transition_delta_lift_decomposition_001.md"
+    },
+    {
+      "bytes": 7165,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/lift_q_context_rules_001.md",
+      "sha256": "5853a45a9dc3246837c4747e3c9b2a4f1af782069633032e5b5538e7e4247d31",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/lift_q_context_rules_001.md"
+    },
+    {
+      "bytes": 1530,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/from_c_lift_q_overlay_delta_formula_001.md",
+      "sha256": "ad5f109243654800c196199d80af79c074e4962971960a3807ec6b80a1ce32c3",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/from_c_lift_q_overlay_delta_formula_001.md"
+    },
+    {
+      "bytes": 1886,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/from_c_lift_partition_native_context_001.md",
+      "sha256": "4726a6d08194a22b7da7e5a253f5cb09e19b2df19be44ba5628e36c0c289c842",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/from_c_lift_partition_native_context_001.md"
+    },
+    {
+      "bytes": 1588,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/q3_selector_sanity_audit_001.md",
+      "sha256": "3fb7ba4d7fa279a021029f443b34fdecd1d1cc05fa6a086968d0161e44d71d17",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/q3_selector_sanity_audit_001.md"
+    },
+    {
+      "bytes": 1117,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/c_transition_support_partition_audit_001.md",
+      "sha256": "fd2492a33c6a2c9cc6a5dd8899ed0261a16565db5e3ee4b6a21ad92b10572359",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/c_transition_support_partition_audit_001.md"
+    },
+    {
+      "bytes": 1541,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/c_transition_support_canonical_audit_002.md",
+      "sha256": "ad3d1db09eaec8c397da2f562a4059562d6268205ffb0ca863c4b88520c22f80",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/c_transition_support_canonical_audit_002.md"
+    },
+    {
+      "bytes": 2394,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/c_transition_schema_inspection_003a.md",
+      "sha256": "ceace563410f19b133bba60d97eba1a5971698e79c5f262e32e32c47ff245ea4",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/c_transition_schema_inspection_003a.md"
+    },
+    {
+      "bytes": 2183,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/c_transition_station_role_cover_audit_003b.md",
+      "sha256": "1f1d80c3b1386235ebb27f971b4936aec8a2396ede0e4ae0474c07e541c506b1",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/c_transition_station_role_cover_audit_003b.md"
+    },
+    {
+      "bytes": 1450,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/c_transition_role_channel_grammar_audit_004.md",
+      "sha256": "6b6b1e261b4df05c13d2e87ef6e251c65ecfee34cef6c481e872f49c45a25791",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/c_transition_role_channel_grammar_audit_004.md"
+    },
+    {
+      "bytes": 1021,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/c_transition_role_block_circulation_audit_005.md",
+      "sha256": "2f1a54a32f707ceaf56671fe2480e6a8b094773e416ca38a177a2bc4162cbd1b",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/c_transition_role_block_circulation_audit_005.md"
+    },
+    {
+      "bytes": 913,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/role_block_directed_transition_selector_006c.md",
+      "sha256": "b4fb0274c240be23b3f8613ea70bdce005c933c8064a3e659e53bf15427b6daf",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/role_block_directed_transition_selector_006c.md"
+    },
+    {
+      "bytes": 2674,
+      "dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes/gap_a_wxyzti_role_block_selector_checkpoint_006c.md",
+      "sha256": "75c4662a8c312c384f365826f8173e9824aaf0fa5d09d7e82bc927c3da15c7d9",
+      "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/notes/gap_a_wxyzti_role_block_selector_checkpoint_006c.md"
+    }
+  ],
+  "interpretation": "Project 21 imported the earlier Project 18 native-chain artifacts, before the later WXYZTI row-pair audits. These artifacts are candidates for recovering the missing transition-support and A/B assignment provenance.",
+  "json_dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json",
+  "missing_json": [],
+  "missing_json_count": 0,
+  "missing_note_count": 0,
+  "missing_notes": [],
+  "notes_dest": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/notes",
+  "requested_name_count": 17,
+  "source_project": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission",
+  "status": "project18_native_chain_import_recorded"
+}
