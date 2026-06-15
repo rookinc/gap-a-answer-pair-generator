@@ -1,0 +1,13 @@
+transition_key,from_C,to_C,role_pair,shared_role,reverse_role,expected_shared_role_from_002,expected_reverse_role_from_002,roles_match_002,S_from_A,S_B,S_to_A,R_A,S_A_delta,R_minus_S_from_A,S_B_minus_to_C,shared_from_columns,shared_to_columns,reverse_from_columns,reverse_to_columns,shared_from_fiber,shared_to_fiber,reverse_from_fiber,reverse_to_fiber
+"(0, 2)",0,2,WX/ZT,ZT,WX,ZT,WX,True,10,5,12,1,2,6,3,"[2, 17]","[8, 18]","[0, 4]","[0, 4]",0,2,0,2
+"(1, 10)",1,10,IW/YZ,IW,YZ,IW,YZ,True,2,13,9,0,7,13,3,"[4, 9]","[28, 29]","[0, 2]","[0, 2]",1,10,1,10
+"(2, 4)",2,4,WX/ZT,ZT,WX,ZT,WX,True,12,5,10,3,13,6,1,"[8, 18]","[13, 17]","[7, 10]","[7, 10]",2,4,2,4
+"(2, 5)",2,5,TI/XY,XY,TI,XY,TI,True,1,0,10,12,9,11,10,"[0, 4]","[2, 17]","[8, 18]","[8, 18]",2,5,2,5
+"(2, 14)",2,14,IW/YZ,IW,YZ,IW,YZ,True,1,11,7,3,6,2,12,"[4, 5]","[23, 24]","[7, 12]","[7, 12]",2,14,2,14
+"(4, 5)",4,5,TI/XY,XY,TI,XY,TI,True,3,2,12,10,9,7,12,"[7, 10]","[8, 18]","[13, 17]","[13, 17]",4,5,4,5
+"(5, 0)",5,0,IW/YZ,IW,YZ,IW,YZ,True,12,2,1,10,4,13,2,"[8, 18]","[0, 4]","[2, 17]","[2, 17]",5,0,5,0
+"(5, 2)",5,2,IW/YZ,IW,YZ,IW,YZ,True,10,4,3,12,8,2,2,"[13, 17]","[7, 10]","[8, 18]","[8, 18]",5,2,5,2
+"(10, 13)",10,13,WX/ZT,ZT,WX,ZT,WX,True,0,1,2,9,2,9,3,"[0, 2]","[4, 9]","[28, 29]","[28, 29]",10,13,10,13
+"(11, 2)",11,2,TI/XY,XY,TI,XY,TI,True,7,14,3,1,11,9,12,"[23, 24]","[7, 12]","[4, 5]","[4, 5]",11,2,11,2
+"(13, 1)",13,1,TI/XY,XY,TI,XY,TI,True,9,10,0,2,6,8,9,"[28, 29]","[0, 2]","[4, 9]","[4, 9]",13,1,13,1
+"(14, 11)",14,11,WX/ZT,ZT,WX,ZT,WX,True,3,2,1,7,13,4,6,"[7, 12]","[4, 5]","[23, 24]","[23, 24]",14,11,14,11
