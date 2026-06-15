@@ -1,0 +1,107 @@
+{
+  "audit_id": "002",
+  "boundary": "This is admission-blind relative to Project 18 expected pair records, but it still uses realized WXYZTI station rows. It is not Gap A closure.",
+  "candidate_count": 48,
+  "candidate_role_pair_counts": {
+    "IW/YZ": 16,
+    "TI/XY": 16,
+    "WX/ZT": 16
+  },
+  "input_rows": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+  "reverse_row_count": 12,
+  "selected_count": 12,
+  "selected_pair_keys": [
+    [
+      "IW/YZ",
+      1,
+      10,
+      "IW",
+      "YZ"
+    ],
+    [
+      "IW/YZ",
+      2,
+      14,
+      "IW",
+      "YZ"
+    ],
+    [
+      "IW/YZ",
+      5,
+      0,
+      "IW",
+      "YZ"
+    ],
+    [
+      "IW/YZ",
+      5,
+      2,
+      "IW",
+      "YZ"
+    ],
+    [
+      "TI/XY",
+      2,
+      5,
+      "XY",
+      "TI"
+    ],
+    [
+      "TI/XY",
+      4,
+      5,
+      "XY",
+      "TI"
+    ],
+    [
+      "TI/XY",
+      11,
+      2,
+      "XY",
+      "TI"
+    ],
+    [
+      "TI/XY",
+      13,
+      1,
+      "XY",
+      "TI"
+    ],
+    [
+      "WX/ZT",
+      0,
+      2,
+      "ZT",
+      "WX"
+    ],
+    [
+      "WX/ZT",
+      2,
+      4,
+      "ZT",
+      "WX"
+    ],
+    [
+      "WX/ZT",
+      10,
+      13,
+      "ZT",
+      "WX"
+    ],
+    [
+      "WX/ZT",
+      14,
+      11,
+      "ZT",
+      "WX"
+    ]
+  ],
+  "selected_role_pair_counts": {
+    "IW/YZ": 4,
+    "TI/XY": 4,
+    "WX/ZT": 4
+  },
+  "shared_row_count": 12,
+  "status": "admission_blind_row_pair_selector_recorded",
+  "uses_project18_expected_pair_records": false
+}
