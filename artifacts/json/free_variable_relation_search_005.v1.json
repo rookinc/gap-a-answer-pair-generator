@@ -1,0 +1,1350 @@
+{
+  "audit_id": "005",
+  "boundary": "This is a descriptive relation search over realized selected pairs. Exact relations here may be overfit. This is not a native generator and not Gap A closure.",
+  "deterministic_test_count": 686,
+  "exact_deterministic_test_count": 304,
+  "feature_fields": [
+    "role_pair",
+    "c0",
+    "c1",
+    "shared",
+    "reverse",
+    "C_delta",
+    "lift_q"
+  ],
+  "global_affine_law_count": 0,
+  "global_affine_laws_first_50": [],
+  "input_004": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/realized_free_variable_table_004.v1.json",
+  "interpretation": "This searches for low-complexity relations in the realized free-variable table. It is intended to identify whether the missing A/B assignment law is already visible from c0, c1, C_delta, lift_q, and role-channel labels, or whether additional native structure is required.",
+  "non_identity_exact_deterministic_test_count": 38,
+  "non_identity_exact_deterministic_tests_first_50": [
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "c1",
+        "reverse"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "c1",
+        "shared"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c1"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "c0",
+        "reverse"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "c0",
+        "shared"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c0"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "reverse",
+        "C_delta",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "R_minus_S_from_A"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "C_delta",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "R_minus_S_from_A"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "shared",
+        "C_delta",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "R_minus_S_from_A"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "c1",
+        "reverse",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "c1",
+        "shared",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "c1",
+        "shared",
+        "reverse"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c1",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c1",
+        "reverse"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c1",
+        "shared"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "reverse",
+        "C_delta",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "C_delta",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "shared",
+        "C_delta",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "c0",
+        "reverse",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "c0",
+        "shared",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "c0",
+        "shared",
+        "reverse"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c0",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c0",
+        "reverse"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c0",
+        "shared"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "reverse",
+        "C_delta",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "R_minus_S_from_A"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "shared",
+        "C_delta",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "R_minus_S_from_A"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "shared",
+        "reverse",
+        "C_delta",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "R_minus_S_from_A"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "c1",
+        "shared",
+        "reverse",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c1",
+        "reverse",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c1",
+        "shared",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c1",
+        "shared",
+        "reverse"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_A_delta"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "reverse",
+        "C_delta",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "shared",
+        "C_delta",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "shared",
+        "reverse",
+        "C_delta",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "c0",
+        "shared",
+        "reverse",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c0",
+        "reverse",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c0",
+        "shared",
+        "lift_q"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    },
+    {
+      "ambiguous_examples_first_10": {},
+      "ambiguous_group_count": 0,
+      "exact": true,
+      "group_count": 11,
+      "keys": [
+        "role_pair",
+        "c0",
+        "shared",
+        "reverse"
+      ],
+      "row_count": 12,
+      "row_identity_like": false,
+      "target": "S_B_minus_c1"
+    }
+  ],
+  "numeric_fields": [
+    "c0",
+    "c1",
+    "C_delta",
+    "lift_q"
+  ],
+  "pairwise_target_relations_first_50": [
+    {
+      "a": "S_to_A",
+      "b": "S_B_minus_c1",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "0": 2,
+        "1": 1,
+        "6": 3,
+        "9": 2,
+        "10": 2,
+        "14": 2
+      },
+      "equal_count": 2,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 2,
+        "3": 1,
+        "4": 1,
+        "5": 3,
+        "7": 1,
+        "9": 2,
+        "11": 1,
+        "12": 1
+      }
+    },
+    {
+      "a": "R_A",
+      "b": "R_minus_S_from_A",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "0": 1,
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "7": 1,
+        "9": 1,
+        "10": 2,
+        "12": 2
+      },
+      "equal_count": 1,
+      "row_count": 12,
+      "sum_counts": {
+        "2": 1,
+        "3": 1,
+        "5": 1,
+        "7": 1,
+        "8": 2,
+        "9": 1,
+        "10": 2,
+        "11": 1,
+        "13": 1,
+        "14": 1
+      }
+    },
+    {
+      "a": "R_minus_S_from_A",
+      "b": "S_B_minus_c1",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "0": 1,
+        "1": 1,
+        "3": 1,
+        "5": 2,
+        "6": 1,
+        "10": 2,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1
+      },
+      "equal_count": 1,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "4": 2,
+        "6": 2,
+        "7": 1,
+        "9": 1,
+        "10": 1,
+        "12": 1,
+        "14": 1
+      }
+    },
+    {
+      "a": "S_B",
+      "b": "R_minus_S_from_A",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "0": 1,
+        "2": 2,
+        "4": 2,
+        "5": 1,
+        "7": 1,
+        "9": 1,
+        "10": 1,
+        "13": 1,
+        "14": 2
+      },
+      "equal_count": 1,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "3": 1,
+        "6": 2,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 4,
+        "13": 1
+      }
+    },
+    {
+      "a": "S_B",
+      "b": "S_B_minus_c1",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "0": 1,
+        "1": 1,
+        "2": 3,
+        "4": 1,
+        "5": 2,
+        "10": 1,
+        "11": 1,
+        "13": 1,
+        "14": 1
+      },
+      "equal_count": 1,
+      "row_count": 12,
+      "sum_counts": {
+        "1": 1,
+        "4": 3,
+        "6": 2,
+        "8": 3,
+        "10": 1,
+        "11": 1,
+        "14": 1
+      }
+    },
+    {
+      "a": "S_from_A",
+      "b": "S_B_minus_c1",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "0": 1,
+        "4": 1,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "10": 2,
+        "11": 1,
+        "12": 2,
+        "14": 1
+      },
+      "equal_count": 1,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "3": 2,
+        "4": 1,
+        "5": 1,
+        "9": 1,
+        "11": 1,
+        "12": 1,
+        "13": 3,
+        "14": 1
+      }
+    },
+    {
+      "a": "S_to_A",
+      "b": "S_A_delta",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "0": 1,
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "7": 1,
+        "9": 1,
+        "10": 2,
+        "12": 2
+      },
+      "equal_count": 1,
+      "row_count": 12,
+      "sum_counts": {
+        "1": 1,
+        "4": 2,
+        "5": 1,
+        "6": 2,
+        "8": 1,
+        "11": 1,
+        "13": 1,
+        "14": 3
+      }
+    },
+    {
+      "a": "R_A",
+      "b": "S_A_delta",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "1": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "11": 1,
+        "12": 1,
+        "14": 1
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "1": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "11": 1,
+        "12": 1,
+        "14": 1
+      }
+    },
+    {
+      "a": "R_A",
+      "b": "S_B_minus_c1",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "1": 1,
+        "2": 2,
+        "4": 1,
+        "6": 2,
+        "8": 2,
+        "10": 1,
+        "12": 1,
+        "13": 2
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "3": 1,
+        "4": 2,
+        "7": 2,
+        "11": 1,
+        "12": 2,
+        "13": 2,
+        "14": 1
+      }
+    },
+    {
+      "a": "S_A_delta",
+      "b": "R_minus_S_from_A",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "2": 2,
+        "4": 1,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "9": 2,
+        "11": 1,
+        "13": 2
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "1": 1,
+        "2": 2,
+        "4": 1,
+        "5": 3,
+        "8": 2,
+        "10": 1,
+        "11": 1,
+        "14": 1
+      }
+    },
+    {
+      "a": "S_A_delta",
+      "b": "S_B_minus_c1",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "2": 1,
+        "4": 1,
+        "6": 1,
+        "7": 1,
+        "9": 1,
+        "12": 3,
+        "14": 4
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "8": 1,
+        "10": 2,
+        "14": 1
+      }
+    },
+    {
+      "a": "S_B",
+      "b": "R_A",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "7": 4,
+        "8": 2,
+        "10": 1,
+        "13": 2
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "1": 1,
+        "6": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "12": 4,
+        "13": 1,
+        "14": 1
+      }
+    },
+    {
+      "a": "S_B",
+      "b": "S_A_delta",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "3": 2,
+        "4": 2,
+        "5": 1,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "11": 1,
+        "13": 1,
+        "14": 1
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1
+      }
+    },
+    {
+      "a": "S_B",
+      "b": "S_to_A",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "1": 3,
+        "4": 2,
+        "5": 2,
+        "8": 1,
+        "10": 2,
+        "11": 1,
+        "14": 1
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "2": 2,
+        "3": 4,
+        "7": 2,
+        "10": 2,
+        "14": 1
+      }
+    },
+    {
+      "a": "S_from_A",
+      "b": "R_A",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "2": 2,
+        "4": 1,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "9": 2,
+        "11": 1,
+        "13": 2
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "2": 1,
+        "4": 1,
+        "7": 2,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 2,
+        "13": 2
+      }
+    },
+    {
+      "a": "S_from_A",
+      "b": "R_minus_S_from_A",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "1": 1,
+        "4": 2,
+        "5": 1,
+        "6": 2,
+        "8": 1,
+        "11": 1,
+        "13": 1,
+        "14": 3
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "7": 1,
+        "9": 1,
+        "10": 2,
+        "12": 2
+      }
+    },
+    {
+      "a": "S_from_A",
+      "b": "S_A_delta",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "2": 1,
+        "3": 1,
+        "5": 1,
+        "7": 1,
+        "8": 2,
+        "9": 1,
+        "10": 2,
+        "11": 1,
+        "13": 1,
+        "14": 1
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "7": 1,
+        "9": 1,
+        "10": 2,
+        "12": 2
+      }
+    },
+    {
+      "a": "S_from_A",
+      "b": "S_B",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "1": 3,
+        "4": 1,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "10": 1,
+        "14": 2
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 2,
+        "1": 2,
+        "2": 1,
+        "4": 1,
+        "5": 2,
+        "6": 1,
+        "12": 1,
+        "14": 2
+      }
+    },
+    {
+      "a": "S_from_A",
+      "b": "S_to_A",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "2": 2,
+        "4": 1,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "9": 2,
+        "11": 1,
+        "13": 2
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "2": 1,
+        "4": 1,
+        "7": 2,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 2,
+        "13": 2
+      }
+    },
+    {
+      "a": "S_to_A",
+      "b": "R_A",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "2": 2,
+        "4": 1,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "9": 2,
+        "11": 1,
+        "13": 2
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "0": 1,
+        "2": 1,
+        "4": 1,
+        "7": 2,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 2,
+        "13": 2
+      }
+    },
+    {
+      "a": "S_to_A",
+      "b": "R_minus_S_from_A",
+      "constant_diff": false,
+      "constant_sum": false,
+      "diff_counts": {
+        "1": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "11": 1,
+        "12": 1,
+        "14": 1
+      },
+      "equal_count": 0,
+      "row_count": 12,
+      "sum_counts": {
+        "1": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "11": 1,
+        "12": 1,
+        "14": 1
+      }
+    }
+  ],
+  "record_count": 12,
+  "role_coded_affine_law_count": 0,
+  "role_coded_affine_laws_first_50": [],
+  "role_specific_affine": {
+    "IW/YZ": {
+      "law_count": 3,
+      "laws_first_40": [
+        {
+          "coeffs": [
+            1,
+            3
+          ],
+          "const": 6,
+          "expr": "R_A = C_delta + 3*lift_q + 6 mod 15",
+          "nonzero_coeff_count": 2,
+          "target": "R_A",
+          "term_count": 2,
+          "terms": [
+            "C_delta",
+            "lift_q"
+          ]
+        },
+        {
+          "coeffs": [
+            1,
+            8
+          ],
+          "const": 6,
+          "expr": "R_A = C_delta + 8*lift_q + 6 mod 15",
+          "nonzero_coeff_count": 2,
+          "target": "R_A",
+          "term_count": 2,
+          "terms": [
+            "C_delta",
+            "lift_q"
+          ]
+        },
+        {
+          "coeffs": [
+            1,
+            13
+          ],
+          "const": 6,
+          "expr": "R_A = C_delta + 13*lift_q + 6 mod 15",
+          "nonzero_coeff_count": 2,
+          "target": "R_A",
+          "term_count": 2,
+          "terms": [
+            "C_delta",
+            "lift_q"
+          ]
+        }
+      ],
+      "row_count": 4
+    },
+    "TI/XY": {
+      "law_count": 3,
+      "laws_first_40": [
+        {
+          "coeffs": [
+            1,
+            4
+          ],
+          "const": 14,
+          "expr": "S_from_A = c0 + 4*lift_q + 14 mod 15",
+          "nonzero_coeff_count": 2,
+          "target": "S_from_A",
+          "term_count": 2,
+          "terms": [
+            "c0",
+            "lift_q"
+          ]
+        },
+        {
+          "coeffs": [
+            1,
+            9
+          ],
+          "const": 14,
+          "expr": "S_from_A = c0 + 9*lift_q + 14 mod 15",
+          "nonzero_coeff_count": 2,
+          "target": "S_from_A",
+          "term_count": 2,
+          "terms": [
+            "c0",
+            "lift_q"
+          ]
+        },
+        {
+          "coeffs": [
+            1,
+            14
+          ],
+          "const": 14,
+          "expr": "S_from_A = c0 + 14*lift_q + 14 mod 15",
+          "nonzero_coeff_count": 2,
+          "target": "S_from_A",
+          "term_count": 2,
+          "terms": [
+            "c0",
+            "lift_q"
+          ]
+        }
+      ],
+      "row_count": 4
+    },
+    "WX/ZT": {
+      "law_count": 3,
+      "laws_first_40": [
+        {
+          "coeffs": [
+            14,
+            1
+          ],
+          "const": 12,
+          "expr": "S_to_A = 14*c0 + lift_q + 12 mod 15",
+          "nonzero_coeff_count": 2,
+          "target": "S_to_A",
+          "term_count": 2,
+          "terms": [
+            "c0",
+            "lift_q"
+          ]
+        },
+        {
+          "coeffs": [
+            14,
+            6
+          ],
+          "const": 12,
+          "expr": "S_to_A = 14*c0 + 6*lift_q + 12 mod 15",
+          "nonzero_coeff_count": 2,
+          "target": "S_to_A",
+          "term_count": 2,
+          "terms": [
+            "c0",
+            "lift_q"
+          ]
+        },
+        {
+          "coeffs": [
+            14,
+            11
+          ],
+          "const": 12,
+          "expr": "S_to_A = 14*c0 + 11*lift_q + 12 mod 15",
+          "nonzero_coeff_count": 2,
+          "target": "S_to_A",
+          "term_count": 2,
+          "terms": [
+            "c0",
+            "lift_q"
+          ]
+        }
+      ],
+      "row_count": 4
+    }
+  },
+  "status": "free_variable_relation_search_recorded",
+  "target_fields": [
+    "S_from_A",
+    "S_B",
+    "S_to_A",
+    "R_A",
+    "S_A_delta",
+    "R_minus_S_from_A",
+    "S_B_minus_c1"
+  ]
+}
