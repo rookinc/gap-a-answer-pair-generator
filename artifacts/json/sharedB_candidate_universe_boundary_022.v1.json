@@ -1,0 +1,354 @@
+{
+  "anchor_cycle_universe_count": 990,
+  "audit_id": "022",
+  "blocks": {
+    "A": [
+      0,
+      2,
+      10,
+      14
+    ],
+    "B": [
+      2,
+      4,
+      11,
+      13
+    ],
+    "C": [
+      1,
+      2,
+      5
+    ]
+  },
+  "boundary": "This is a candidate-universe boundary audit. It does not derive the observed shared_B edges; it shows where the overgeneration lives and what a future native selector must explain. It does not close Gap A.",
+  "c_cycle_universe_count": 48,
+  "combined_cycle_candidate_count": 47520,
+  "false_positive_counts": {
+    "anchor_only": 188,
+    "c_and_anchor_only": 12,
+    "c_transition_only": 3956,
+    "observed_edge_filter": 0
+  },
+  "input_021": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/c_transition_block_order_derivation_021.v1.json",
+  "input_g60_overlay": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+  "interpretation": "The 004 block circulation generates 48 possible C-cycles. The observed reverse-partner anchors generate 990 possible twisted ordered column 3-cycles. Their loose product gives 47,520 candidate shared_B cycles, but only 4 are observed. C-transition selection alone, anchor selection alone, and their conjunction still overgenerate. The exact filter is the role-edge filter: each of the three role-labeled moves must exist as an observed shared_B edge. That filter recovers the 4 cycles exactly, but it is circular until the role-edge moves are derived from a native register or candidate universe. Therefore the missing generator has been narrowed to the role-labeled shared_B edge selector.",
+  "miss_counts": {
+    "anchor_only": 0,
+    "c_and_anchor_only": 0,
+    "c_transition_only": 0,
+    "observed_edge_filter": 0
+  },
+  "observed_anchor_cycle_count": 4,
+  "observed_anchor_cycles": [
+    "(('XY', '[0,4]', '[2,17]'), ('IW', '[8,18]', '[0,4]'), ('ZT', '[2,17]', '[8,18]'))",
+    "(('XY', '[23,24]', '[7,12]'), ('IW', '[4,5]', '[23,24]'), ('ZT', '[7,12]', '[4,5]'))",
+    "(('XY', '[28,29]', '[0,2]'), ('IW', '[4,9]', '[28,29]'), ('ZT', '[0,2]', '[4,9]'))",
+    "(('XY', '[7,10]', '[8,18]'), ('IW', '[13,17]', '[7,10]'), ('ZT', '[8,18]', '[13,17]'))"
+  ],
+  "observed_c_cycle_count": 4,
+  "observed_c_cycles": [
+    "(('XY', 2, 5), ('IW', 5, 0), ('ZT', 0, 2))",
+    "(('XY', 4, 5), ('IW', 5, 2), ('ZT', 2, 4))",
+    "(('XY', 11, 2), ('IW', 2, 14), ('ZT', 14, 11))",
+    "(('XY', 13, 1), ('IW', 1, 10), ('ZT', 10, 13))"
+  ],
+  "observed_cycles": [
+    {
+      "anchor_cycle": [
+        [
+          "XY",
+          "[0,4]",
+          "[2,17]"
+        ],
+        [
+          "IW",
+          "[8,18]",
+          "[0,4]"
+        ],
+        [
+          "ZT",
+          "[2,17]",
+          "[8,18]"
+        ]
+      ],
+      "c_cycle": [
+        [
+          "XY",
+          2,
+          5
+        ],
+        [
+          "IW",
+          5,
+          0
+        ],
+        [
+          "ZT",
+          0,
+          2
+        ]
+      ],
+      "exact_cycle": [
+        [
+          "XY",
+          2,
+          5,
+          "[0,4]",
+          "[2,17]"
+        ],
+        [
+          "IW",
+          5,
+          0,
+          "[8,18]",
+          "[0,4]"
+        ],
+        [
+          "ZT",
+          0,
+          2,
+          "[2,17]",
+          "[8,18]"
+        ]
+      ]
+    },
+    {
+      "anchor_cycle": [
+        [
+          "XY",
+          "[7,10]",
+          "[8,18]"
+        ],
+        [
+          "IW",
+          "[13,17]",
+          "[7,10]"
+        ],
+        [
+          "ZT",
+          "[8,18]",
+          "[13,17]"
+        ]
+      ],
+      "c_cycle": [
+        [
+          "XY",
+          4,
+          5
+        ],
+        [
+          "IW",
+          5,
+          2
+        ],
+        [
+          "ZT",
+          2,
+          4
+        ]
+      ],
+      "exact_cycle": [
+        [
+          "XY",
+          4,
+          5,
+          "[7,10]",
+          "[8,18]"
+        ],
+        [
+          "IW",
+          5,
+          2,
+          "[13,17]",
+          "[7,10]"
+        ],
+        [
+          "ZT",
+          2,
+          4,
+          "[8,18]",
+          "[13,17]"
+        ]
+      ]
+    },
+    {
+      "anchor_cycle": [
+        [
+          "XY",
+          "[23,24]",
+          "[7,12]"
+        ],
+        [
+          "IW",
+          "[4,5]",
+          "[23,24]"
+        ],
+        [
+          "ZT",
+          "[7,12]",
+          "[4,5]"
+        ]
+      ],
+      "c_cycle": [
+        [
+          "XY",
+          11,
+          2
+        ],
+        [
+          "IW",
+          2,
+          14
+        ],
+        [
+          "ZT",
+          14,
+          11
+        ]
+      ],
+      "exact_cycle": [
+        [
+          "XY",
+          11,
+          2,
+          "[23,24]",
+          "[7,12]"
+        ],
+        [
+          "IW",
+          2,
+          14,
+          "[4,5]",
+          "[23,24]"
+        ],
+        [
+          "ZT",
+          14,
+          11,
+          "[7,12]",
+          "[4,5]"
+        ]
+      ]
+    },
+    {
+      "anchor_cycle": [
+        [
+          "XY",
+          "[28,29]",
+          "[0,2]"
+        ],
+        [
+          "IW",
+          "[4,9]",
+          "[28,29]"
+        ],
+        [
+          "ZT",
+          "[0,2]",
+          "[4,9]"
+        ]
+      ],
+      "c_cycle": [
+        [
+          "XY",
+          13,
+          1
+        ],
+        [
+          "IW",
+          1,
+          10
+        ],
+        [
+          "ZT",
+          10,
+          13
+        ]
+      ],
+      "exact_cycle": [
+        [
+          "XY",
+          13,
+          1,
+          "[28,29]",
+          "[0,2]"
+        ],
+        [
+          "IW",
+          1,
+          10,
+          "[4,9]",
+          "[28,29]"
+        ],
+        [
+          "ZT",
+          10,
+          13,
+          "[0,2]",
+          "[4,9]"
+        ]
+      ]
+    }
+  ],
+  "observed_edge_filter_exact": true,
+  "observed_edge_filtered_cycles": [
+    "(('XY', 2, 5, '[0,4]', '[2,17]'), ('IW', 5, 0, '[8,18]', '[0,4]'), ('ZT', 0, 2, '[2,17]', '[8,18]'))",
+    "(('XY', 4, 5, '[7,10]', '[8,18]'), ('IW', 5, 2, '[13,17]', '[7,10]'), ('ZT', 2, 4, '[8,18]', '[13,17]'))",
+    "(('XY', 11, 2, '[23,24]', '[7,12]'), ('IW', 2, 14, '[4,5]', '[23,24]'), ('ZT', 14, 11, '[7,12]', '[4,5]'))",
+    "(('XY', 13, 1, '[28,29]', '[0,2]'), ('IW', 1, 10, '[4,9]', '[28,29]'), ('ZT', 10, 13, '[0,2]', '[4,9]'))"
+  ],
+  "observed_exact_cycle_count": 4,
+  "prior_021": {
+    "all_cycles_match_block_order": true,
+    "conditional_derivation_pass": true,
+    "cycle_count": 4
+  },
+  "reduction_factors": {
+    "anchor_only_to_observed": 48.0,
+    "c_and_anchor_only_to_observed": 4.0,
+    "c_transition_only_to_observed": 990.0,
+    "combined_to_observed": 11880.0
+  },
+  "reverse_anchor_count": 12,
+  "reverse_anchors": [
+    "[0,2]",
+    "[0,4]",
+    "[13,17]",
+    "[2,17]",
+    "[23,24]",
+    "[28,29]",
+    "[4,5]",
+    "[4,9]",
+    "[7,10]",
+    "[7,12]",
+    "[8,18]"
+  ],
+  "reverse_distinct_anchor_count": 11,
+  "role_block_edge": {
+    "IW": [
+      "C",
+      "A"
+    ],
+    "XY": [
+      "B",
+      "C"
+    ],
+    "ZT": [
+      "A",
+      "B"
+    ]
+  },
+  "role_order": [
+    "XY",
+    "IW",
+    "ZT"
+  ],
+  "selected_counts": {
+    "anchor_only": 192,
+    "c_and_anchor_only": 16,
+    "c_transition_only": 3960,
+    "observed_edge_filter": 4
+  },
+  "shared_row_count": 12,
+  "status": "sharedB_candidate_universe_boundary_recorded"
+}
