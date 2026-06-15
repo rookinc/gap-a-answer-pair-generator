@@ -1,0 +1,630 @@
+{
+  "all_c_cycles_are_XY_IW_ZT": true,
+  "audit_id": "020",
+  "boundary": "This is a structure audit over already selected shared_B motion. It does not derive the motion from a full dodecahedral register or close Gap A.",
+  "bouquet_two_3_cycles_count": 1,
+  "c_cycle_count": 4,
+  "cnode_to_component_indices": {
+    "0": [
+      1
+    ],
+    "1": [
+      0
+    ],
+    "10": [
+      0
+    ],
+    "11": [
+      2
+    ],
+    "13": [
+      0
+    ],
+    "14": [
+      2
+    ],
+    "2": [
+      1,
+      2
+    ],
+    "4": [
+      1
+    ],
+    "5": [
+      1
+    ]
+  },
+  "component_count": 3,
+  "component_edge_size_counts": {
+    "3": 2,
+    "6": 1
+  },
+  "component_size_counts": {
+    "3": 2,
+    "5": 1
+  },
+  "components": [
+    {
+      "branch_nodes": [],
+      "c_nodes": [
+        1,
+        10,
+        13
+      ],
+      "component_index": 0,
+      "cycle_count": 1,
+      "cycles": [
+        {
+          "c_transitions": [
+            [
+              13,
+              1
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              10,
+              13
+            ]
+          ],
+          "column_edges_in_c_order": [
+            [
+              "[28,29]",
+              "[0,2]"
+            ],
+            [
+              "[4,9]",
+              "[28,29]"
+            ],
+            [
+              "[0,2]",
+              "[4,9]"
+            ]
+          ],
+          "length": 3,
+          "roles_in_c_order": [
+            "XY",
+            "IW",
+            "ZT"
+          ],
+          "roles_match_XY_IW_ZT_order": true
+        }
+      ],
+      "edge_count": 3,
+      "edge_rows": [
+        {
+          "edge_role": "XY",
+          "from_ABC": [
+            9,
+            10,
+            13
+          ],
+          "from_columns": "[28,29]",
+          "role_pair": "TI/XY",
+          "to_ABC": [
+            0,
+            10,
+            1
+          ],
+          "to_columns": "[0,2]",
+          "transition": [
+            13,
+            1
+          ]
+        },
+        {
+          "edge_role": "ZT",
+          "from_ABC": [
+            0,
+            1,
+            10
+          ],
+          "from_columns": "[0,2]",
+          "role_pair": "WX/ZT",
+          "to_ABC": [
+            2,
+            1,
+            13
+          ],
+          "to_columns": "[4,9]",
+          "transition": [
+            10,
+            13
+          ]
+        },
+        {
+          "edge_role": "IW",
+          "from_ABC": [
+            2,
+            13,
+            1
+          ],
+          "from_columns": "[4,9]",
+          "role_pair": "IW/YZ",
+          "to_ABC": [
+            9,
+            13,
+            10
+          ],
+          "to_columns": "[28,29]",
+          "transition": [
+            1,
+            10
+          ]
+        }
+      ],
+      "has_branch_node": false,
+      "is_bouquet_two_3_cycles": false,
+      "is_simple_3_cycle": true,
+      "node_count": 3,
+      "nodes": [
+        "[0,2]",
+        "[28,29]",
+        "[4,9]"
+      ],
+      "role_counts": {
+        "IW": 1,
+        "XY": 1,
+        "ZT": 1
+      },
+      "roles_in_column_edge_order": [
+        "XY",
+        "ZT",
+        "IW"
+      ],
+      "transitions": [
+        [
+          13,
+          1
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          1,
+          10
+        ]
+      ]
+    },
+    {
+      "branch_nodes": [
+        {
+          "branch_like": true,
+          "in_degree": 2,
+          "node": "[8,18]",
+          "out_degree": 2
+        }
+      ],
+      "c_nodes": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "component_index": 1,
+      "cycle_count": 2,
+      "cycles": [
+        {
+          "c_transitions": [
+            [
+              2,
+              5
+            ],
+            [
+              5,
+              0
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "column_edges_in_c_order": [
+            [
+              "[0,4]",
+              "[2,17]"
+            ],
+            [
+              "[8,18]",
+              "[0,4]"
+            ],
+            [
+              "[2,17]",
+              "[8,18]"
+            ]
+          ],
+          "length": 3,
+          "roles_in_c_order": [
+            "XY",
+            "IW",
+            "ZT"
+          ],
+          "roles_match_XY_IW_ZT_order": true
+        },
+        {
+          "c_transitions": [
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              2
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "column_edges_in_c_order": [
+            [
+              "[7,10]",
+              "[8,18]"
+            ],
+            [
+              "[13,17]",
+              "[7,10]"
+            ],
+            [
+              "[8,18]",
+              "[13,17]"
+            ]
+          ],
+          "length": 3,
+          "roles_in_c_order": [
+            "XY",
+            "IW",
+            "ZT"
+          ],
+          "roles_match_XY_IW_ZT_order": true
+        }
+      ],
+      "edge_count": 6,
+      "edge_rows": [
+        {
+          "edge_role": "XY",
+          "from_ABC": [
+            1,
+            0,
+            2
+          ],
+          "from_columns": "[0,4]",
+          "role_pair": "TI/XY",
+          "to_ABC": [
+            10,
+            0,
+            5
+          ],
+          "to_columns": "[2,17]",
+          "transition": [
+            2,
+            5
+          ]
+        },
+        {
+          "edge_role": "ZT",
+          "from_ABC": [
+            10,
+            5,
+            0
+          ],
+          "from_columns": "[2,17]",
+          "role_pair": "WX/ZT",
+          "to_ABC": [
+            12,
+            5,
+            2
+          ],
+          "to_columns": "[8,18]",
+          "transition": [
+            0,
+            2
+          ]
+        },
+        {
+          "edge_role": "IW",
+          "from_ABC": [
+            12,
+            2,
+            5
+          ],
+          "from_columns": "[8,18]",
+          "role_pair": "IW/YZ",
+          "to_ABC": [
+            1,
+            2,
+            0
+          ],
+          "to_columns": "[0,4]",
+          "transition": [
+            5,
+            0
+          ]
+        },
+        {
+          "edge_role": "XY",
+          "from_ABC": [
+            3,
+            2,
+            4
+          ],
+          "from_columns": "[7,10]",
+          "role_pair": "TI/XY",
+          "to_ABC": [
+            12,
+            2,
+            5
+          ],
+          "to_columns": "[8,18]",
+          "transition": [
+            4,
+            5
+          ]
+        },
+        {
+          "edge_role": "ZT",
+          "from_ABC": [
+            12,
+            5,
+            2
+          ],
+          "from_columns": "[8,18]",
+          "role_pair": "WX/ZT",
+          "to_ABC": [
+            10,
+            5,
+            4
+          ],
+          "to_columns": "[13,17]",
+          "transition": [
+            2,
+            4
+          ]
+        },
+        {
+          "edge_role": "IW",
+          "from_ABC": [
+            10,
+            4,
+            5
+          ],
+          "from_columns": "[13,17]",
+          "role_pair": "IW/YZ",
+          "to_ABC": [
+            3,
+            4,
+            2
+          ],
+          "to_columns": "[7,10]",
+          "transition": [
+            5,
+            2
+          ]
+        }
+      ],
+      "has_branch_node": true,
+      "is_bouquet_two_3_cycles": true,
+      "is_simple_3_cycle": false,
+      "node_count": 5,
+      "nodes": [
+        "[0,4]",
+        "[13,17]",
+        "[2,17]",
+        "[7,10]",
+        "[8,18]"
+      ],
+      "role_counts": {
+        "IW": 2,
+        "XY": 2,
+        "ZT": 2
+      },
+      "roles_in_column_edge_order": [
+        "XY",
+        "ZT",
+        "IW",
+        "XY",
+        "ZT",
+        "IW"
+      ],
+      "transitions": [
+        [
+          2,
+          5
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          2
+        ]
+      ]
+    },
+    {
+      "branch_nodes": [],
+      "c_nodes": [
+        2,
+        11,
+        14
+      ],
+      "component_index": 2,
+      "cycle_count": 1,
+      "cycles": [
+        {
+          "c_transitions": [
+            [
+              11,
+              2
+            ],
+            [
+              2,
+              14
+            ],
+            [
+              14,
+              11
+            ]
+          ],
+          "column_edges_in_c_order": [
+            [
+              "[23,24]",
+              "[7,12]"
+            ],
+            [
+              "[4,5]",
+              "[23,24]"
+            ],
+            [
+              "[7,12]",
+              "[4,5]"
+            ]
+          ],
+          "length": 3,
+          "roles_in_c_order": [
+            "XY",
+            "IW",
+            "ZT"
+          ],
+          "roles_match_XY_IW_ZT_order": true
+        }
+      ],
+      "edge_count": 3,
+      "edge_rows": [
+        {
+          "edge_role": "XY",
+          "from_ABC": [
+            7,
+            14,
+            11
+          ],
+          "from_columns": "[23,24]",
+          "role_pair": "TI/XY",
+          "to_ABC": [
+            3,
+            14,
+            2
+          ],
+          "to_columns": "[7,12]",
+          "transition": [
+            11,
+            2
+          ]
+        },
+        {
+          "edge_role": "ZT",
+          "from_ABC": [
+            3,
+            2,
+            14
+          ],
+          "from_columns": "[7,12]",
+          "role_pair": "WX/ZT",
+          "to_ABC": [
+            1,
+            2,
+            11
+          ],
+          "to_columns": "[4,5]",
+          "transition": [
+            14,
+            11
+          ]
+        },
+        {
+          "edge_role": "IW",
+          "from_ABC": [
+            1,
+            11,
+            2
+          ],
+          "from_columns": "[4,5]",
+          "role_pair": "IW/YZ",
+          "to_ABC": [
+            7,
+            11,
+            14
+          ],
+          "to_columns": "[23,24]",
+          "transition": [
+            2,
+            14
+          ]
+        }
+      ],
+      "has_branch_node": false,
+      "is_bouquet_two_3_cycles": false,
+      "is_simple_3_cycle": true,
+      "node_count": 3,
+      "nodes": [
+        "[23,24]",
+        "[4,5]",
+        "[7,12]"
+      ],
+      "role_counts": {
+        "IW": 1,
+        "XY": 1,
+        "ZT": 1
+      },
+      "roles_in_column_edge_order": [
+        "XY",
+        "ZT",
+        "IW"
+      ],
+      "transitions": [
+        [
+          11,
+          2
+        ],
+        [
+          14,
+          11
+        ],
+        [
+          2,
+          14
+        ]
+      ]
+    }
+  ],
+  "input_019": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/dodecahedral_register_incidence_test_019.v1.json",
+  "input_g60_overlay": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+  "interpretation": "This audit decomposes the shared_B column-motion graph from audit 019. The motion splits into two simple 3-cycles and one 5-node bouquet made from two 3-cycles sharing a column anchor. In C-transition order, each detected 3-cycle follows the role order XY -> IW -> ZT. This suggests the shared_B residual is not arbitrary column motion: it is organized by a small cycle grammar over reverse-partner anchors.",
+  "node_count": 11,
+  "prior_019_shadow_verdict": "strong_dodecahedral_register_shadow_signal",
+  "role_to_component_indices": {
+    "IW": [
+      0,
+      1,
+      2
+    ],
+    "XY": [
+      0,
+      1,
+      2
+    ],
+    "ZT": [
+      0,
+      1,
+      2
+    ]
+  },
+  "shared_row_count": 12,
+  "simple_3_cycle_count": 2,
+  "status": "sharedB_motion_component_structure_recorded"
+}
