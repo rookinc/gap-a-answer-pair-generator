@@ -1,0 +1,604 @@
+{
+  "all_cycles_are_rotation_of_004_circulation": true,
+  "all_cycles_close_C": true,
+  "all_cycles_match_block_order": true,
+  "all_cycles_match_channel_order": true,
+  "all_cycles_match_role_order": true,
+  "all_rows_match_channel_map": true,
+  "audit_id": "021",
+  "block_edge_counts": {
+    "('A', 'B')": 4,
+    "('B', 'C')": 4,
+    "('C', 'A')": 4
+  },
+  "boundary": "This derives the shared_B cycle order only conditional on the imported 004 block circulation and the already selected shared_B rows. It does not derive the shared_B rows from a full candidate universe, does not construct the full dodecahedral register, and does not close Gap A.",
+  "channel_counts": {
+    "IW/YZ": 4,
+    "TI/XY": 4,
+    "WX/ZT": 4
+  },
+  "channel_map_004_used": {
+    "IW/YZ": {
+      "from_block": "C",
+      "from_values": [
+        1,
+        2,
+        5
+      ],
+      "to_block": "A",
+      "to_values": [
+        0,
+        2,
+        10,
+        14
+      ]
+    },
+    "TI/XY": {
+      "from_block": "B",
+      "from_values": [
+        2,
+        4,
+        11,
+        13
+      ],
+      "to_block": "C",
+      "to_values": [
+        1,
+        2,
+        5
+      ]
+    },
+    "WX/ZT": {
+      "from_block": "A",
+      "from_values": [
+        0,
+        2,
+        10,
+        14
+      ],
+      "to_block": "B",
+      "to_values": [
+        2,
+        4,
+        11,
+        13
+      ]
+    }
+  },
+  "component_count": 3,
+  "conditional_derivation_pass": true,
+  "cycle_count": 4,
+  "cycles": [
+    {
+      "block_edges": [
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "A"
+        ],
+        [
+          "A",
+          "B"
+        ]
+      ],
+      "block_edges_match_BCA_order": true,
+      "c_path": [
+        2,
+        5,
+        0,
+        2
+      ],
+      "channels": [
+        "TI/XY",
+        "IW/YZ",
+        "WX/ZT"
+      ],
+      "channels_are_cyclic_rotation_of_004_circulation": true,
+      "channels_match_expected_shared_B_order": true,
+      "closes_C_cycle": true,
+      "column_edges": [
+        [
+          "[0,4]",
+          "[2,17]"
+        ],
+        [
+          "[8,18]",
+          "[0,4]"
+        ],
+        [
+          "[2,17]",
+          "[8,18]"
+        ]
+      ],
+      "component_index": 1,
+      "roles": [
+        "XY",
+        "IW",
+        "ZT"
+      ],
+      "roles_match_expected_shared_B_order": true,
+      "transitions": [
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ]
+    },
+    {
+      "block_edges": [
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "A"
+        ],
+        [
+          "A",
+          "B"
+        ]
+      ],
+      "block_edges_match_BCA_order": true,
+      "c_path": [
+        4,
+        5,
+        2,
+        4
+      ],
+      "channels": [
+        "TI/XY",
+        "IW/YZ",
+        "WX/ZT"
+      ],
+      "channels_are_cyclic_rotation_of_004_circulation": true,
+      "channels_match_expected_shared_B_order": true,
+      "closes_C_cycle": true,
+      "column_edges": [
+        [
+          "[7,10]",
+          "[8,18]"
+        ],
+        [
+          "[13,17]",
+          "[7,10]"
+        ],
+        [
+          "[8,18]",
+          "[13,17]"
+        ]
+      ],
+      "component_index": 1,
+      "roles": [
+        "XY",
+        "IW",
+        "ZT"
+      ],
+      "roles_match_expected_shared_B_order": true,
+      "transitions": [
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "block_edges": [
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "A"
+        ],
+        [
+          "A",
+          "B"
+        ]
+      ],
+      "block_edges_match_BCA_order": true,
+      "c_path": [
+        11,
+        2,
+        14,
+        11
+      ],
+      "channels": [
+        "TI/XY",
+        "IW/YZ",
+        "WX/ZT"
+      ],
+      "channels_are_cyclic_rotation_of_004_circulation": true,
+      "channels_match_expected_shared_B_order": true,
+      "closes_C_cycle": true,
+      "column_edges": [
+        [
+          "[23,24]",
+          "[7,12]"
+        ],
+        [
+          "[4,5]",
+          "[23,24]"
+        ],
+        [
+          "[7,12]",
+          "[4,5]"
+        ]
+      ],
+      "component_index": 2,
+      "roles": [
+        "XY",
+        "IW",
+        "ZT"
+      ],
+      "roles_match_expected_shared_B_order": true,
+      "transitions": [
+        [
+          11,
+          2
+        ],
+        [
+          2,
+          14
+        ],
+        [
+          14,
+          11
+        ]
+      ]
+    },
+    {
+      "block_edges": [
+        [
+          "B",
+          "C"
+        ],
+        [
+          "C",
+          "A"
+        ],
+        [
+          "A",
+          "B"
+        ]
+      ],
+      "block_edges_match_BCA_order": true,
+      "c_path": [
+        13,
+        1,
+        10,
+        13
+      ],
+      "channels": [
+        "TI/XY",
+        "IW/YZ",
+        "WX/ZT"
+      ],
+      "channels_are_cyclic_rotation_of_004_circulation": true,
+      "channels_match_expected_shared_B_order": true,
+      "closes_C_cycle": true,
+      "column_edges": [
+        [
+          "[28,29]",
+          "[0,2]"
+        ],
+        [
+          "[4,9]",
+          "[28,29]"
+        ],
+        [
+          "[0,2]",
+          "[4,9]"
+        ]
+      ],
+      "component_index": 0,
+      "roles": [
+        "XY",
+        "IW",
+        "ZT"
+      ],
+      "roles_match_expected_shared_B_order": true,
+      "transitions": [
+        [
+          13,
+          1
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          10,
+          13
+        ]
+      ]
+    }
+  ],
+  "expected_channel_circulation_004": [
+    "WX/ZT",
+    "TI/XY",
+    "IW/YZ"
+  ],
+  "expected_shared_B_block_order": [
+    [
+      "B",
+      "C"
+    ],
+    [
+      "C",
+      "A"
+    ],
+    [
+      "A",
+      "B"
+    ]
+  ],
+  "expected_shared_B_channel_order": [
+    "TI/XY",
+    "IW/YZ",
+    "WX/ZT"
+  ],
+  "expected_shared_B_role_order": [
+    "XY",
+    "IW",
+    "ZT"
+  ],
+  "input_004": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/c_transition_role_channel_grammar_audit_004.v1.json",
+  "input_020": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/sharedB_motion_component_structure_020.v1.json",
+  "input_g60_overlay": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+  "interpretation": "This audit checks whether the shared_B role order XY -> IW -> ZT is just an observed column-cycle fact or whether it is forced by the earlier C-transition block circulation. Using the 004 block map, XY belongs to TI/XY and sends B -> C; IW belongs to IW/YZ and sends C -> A; ZT belongs to WX/ZT and sends A -> B. Therefore every closed shared_B C-cycle follows B -> C -> A -> B, which is a cyclic rotation of the 004 channel circulation A -> B -> C -> A. This conditionally derives the observed XY -> IW -> ZT order from the native C-transition block grammar.",
+  "prior_004_status": "c_transition_role_channel_grammar_audit_recorded",
+  "prior_020_counts": {
+    "all_c_cycles_are_XY_IW_ZT": true,
+    "c_cycle_count": 4,
+    "component_size_counts": {
+      "3": 2,
+      "5": 1
+    }
+  },
+  "role_counts": {
+    "IW": 4,
+    "XY": 4,
+    "ZT": 4
+  },
+  "row_tests": [
+    {
+      "component_index": 0,
+      "edge_role": "IW",
+      "expected_block_edge": [
+        "C",
+        "A"
+      ],
+      "from_C_in_expected_block": true,
+      "from_columns": "[4,9]",
+      "matches_channel_map": true,
+      "role_pair": "IW/YZ",
+      "to_C_in_expected_block": true,
+      "to_columns": "[28,29]",
+      "transition": [
+        1,
+        10
+      ]
+    },
+    {
+      "component_index": 2,
+      "edge_role": "IW",
+      "expected_block_edge": [
+        "C",
+        "A"
+      ],
+      "from_C_in_expected_block": true,
+      "from_columns": "[4,5]",
+      "matches_channel_map": true,
+      "role_pair": "IW/YZ",
+      "to_C_in_expected_block": true,
+      "to_columns": "[23,24]",
+      "transition": [
+        2,
+        14
+      ]
+    },
+    {
+      "component_index": 1,
+      "edge_role": "IW",
+      "expected_block_edge": [
+        "C",
+        "A"
+      ],
+      "from_C_in_expected_block": true,
+      "from_columns": "[8,18]",
+      "matches_channel_map": true,
+      "role_pair": "IW/YZ",
+      "to_C_in_expected_block": true,
+      "to_columns": "[0,4]",
+      "transition": [
+        5,
+        0
+      ]
+    },
+    {
+      "component_index": 1,
+      "edge_role": "IW",
+      "expected_block_edge": [
+        "C",
+        "A"
+      ],
+      "from_C_in_expected_block": true,
+      "from_columns": "[13,17]",
+      "matches_channel_map": true,
+      "role_pair": "IW/YZ",
+      "to_C_in_expected_block": true,
+      "to_columns": "[7,10]",
+      "transition": [
+        5,
+        2
+      ]
+    },
+    {
+      "component_index": 1,
+      "edge_role": "XY",
+      "expected_block_edge": [
+        "B",
+        "C"
+      ],
+      "from_C_in_expected_block": true,
+      "from_columns": "[0,4]",
+      "matches_channel_map": true,
+      "role_pair": "TI/XY",
+      "to_C_in_expected_block": true,
+      "to_columns": "[2,17]",
+      "transition": [
+        2,
+        5
+      ]
+    },
+    {
+      "component_index": 1,
+      "edge_role": "XY",
+      "expected_block_edge": [
+        "B",
+        "C"
+      ],
+      "from_C_in_expected_block": true,
+      "from_columns": "[7,10]",
+      "matches_channel_map": true,
+      "role_pair": "TI/XY",
+      "to_C_in_expected_block": true,
+      "to_columns": "[8,18]",
+      "transition": [
+        4,
+        5
+      ]
+    },
+    {
+      "component_index": 2,
+      "edge_role": "XY",
+      "expected_block_edge": [
+        "B",
+        "C"
+      ],
+      "from_C_in_expected_block": true,
+      "from_columns": "[23,24]",
+      "matches_channel_map": true,
+      "role_pair": "TI/XY",
+      "to_C_in_expected_block": true,
+      "to_columns": "[7,12]",
+      "transition": [
+        11,
+        2
+      ]
+    },
+    {
+      "component_index": 0,
+      "edge_role": "XY",
+      "expected_block_edge": [
+        "B",
+        "C"
+      ],
+      "from_C_in_expected_block": true,
+      "from_columns": "[28,29]",
+      "matches_channel_map": true,
+      "role_pair": "TI/XY",
+      "to_C_in_expected_block": true,
+      "to_columns": "[0,2]",
+      "transition": [
+        13,
+        1
+      ]
+    },
+    {
+      "component_index": 1,
+      "edge_role": "ZT",
+      "expected_block_edge": [
+        "A",
+        "B"
+      ],
+      "from_C_in_expected_block": true,
+      "from_columns": "[2,17]",
+      "matches_channel_map": true,
+      "role_pair": "WX/ZT",
+      "to_C_in_expected_block": true,
+      "to_columns": "[8,18]",
+      "transition": [
+        0,
+        2
+      ]
+    },
+    {
+      "component_index": 1,
+      "edge_role": "ZT",
+      "expected_block_edge": [
+        "A",
+        "B"
+      ],
+      "from_C_in_expected_block": true,
+      "from_columns": "[8,18]",
+      "matches_channel_map": true,
+      "role_pair": "WX/ZT",
+      "to_C_in_expected_block": true,
+      "to_columns": "[13,17]",
+      "transition": [
+        2,
+        4
+      ]
+    },
+    {
+      "component_index": 0,
+      "edge_role": "ZT",
+      "expected_block_edge": [
+        "A",
+        "B"
+      ],
+      "from_C_in_expected_block": true,
+      "from_columns": "[0,2]",
+      "matches_channel_map": true,
+      "role_pair": "WX/ZT",
+      "to_C_in_expected_block": true,
+      "to_columns": "[4,9]",
+      "transition": [
+        10,
+        13
+      ]
+    },
+    {
+      "component_index": 2,
+      "edge_role": "ZT",
+      "expected_block_edge": [
+        "A",
+        "B"
+      ],
+      "from_C_in_expected_block": true,
+      "from_columns": "[7,12]",
+      "matches_channel_map": true,
+      "role_pair": "WX/ZT",
+      "to_C_in_expected_block": true,
+      "to_columns": "[4,5]",
+      "transition": [
+        14,
+        11
+      ]
+    }
+  ],
+  "shared_row_count": 12,
+  "status": "c_transition_block_order_derivation_recorded"
+}
