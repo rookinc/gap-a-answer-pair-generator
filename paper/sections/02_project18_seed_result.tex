@@ -1,0 +1,36 @@
+\section{Project 18 seed result}
+
+The seed result is the WXYZTI reciprocal pair grammar found after the Project 18 kernel-admission theorem.
+
+The realized overlay contains 24 station rows. These split into two role classes:
+\[
+\texttt{reverse\_partner}
+\qquad\text{and}\qquad
+\texttt{shared\_B}.
+\]
+
+The reverse-partner rows satisfy the exact transform
+\[
+(A,B,C)\mapsto(A,C,B).
+\]
+The shared-\(B\) rows preserve \(B\) and the slot coordinate.
+
+The key result is paired rather than single-row. Each realized directed transition is represented by a reciprocal pair \((S,R)\), where \(S\) is a shared-\(B\) row and \(R\) is a reverse-partner row. The cross-coupling law is
+\[
+S.C_{\mathrm{to}}=R.B_{\mathrm{from}}=R.\mathrm{slot}_{\mathrm{from}},
+\]
+and
+\[
+R.B_{\mathrm{to}}=S.C_{\mathrm{from}},
+\qquad
+R.\mathrm{slot}_{\mathrm{to}}=S.C_{\mathrm{from}}.
+\]
+
+A row-pair candidate universe was then formed by crossing every realized shared-\(B\) row with every realized reverse-partner row in the same role-pair channel. This produced 48 candidate pairings. The reciprocal answer-pair selector accepted exactly the 12 realized pairs:
+\[
+\text{accepted}=12,\qquad
+\text{false positives}=0,\qquad
+\text{misses}=0.
+\]
+
+This is the seed result for the present paper.
