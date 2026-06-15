@@ -1,0 +1,297 @@
+{
+  "R_minus_S_from_A_counts": {
+    "2": 2,
+    "4": 1,
+    "6": 2,
+    "7": 1,
+    "8": 1,
+    "9": 2,
+    "11": 1,
+    "13": 2
+  },
+  "S_A_delta_counts": {
+    "2": 2,
+    "4": 1,
+    "6": 2,
+    "7": 1,
+    "8": 1,
+    "9": 2,
+    "11": 1,
+    "13": 2
+  },
+  "S_B_minus_c1_counts": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "6": 1,
+    "9": 1,
+    "10": 1,
+    "12": 3
+  },
+  "audit_id": "004",
+  "boundary": "This table uses realized selected pairs. It is descriptive and preparatory, not a native generator and not Gap A closure.",
+  "input_rows": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+  "input_selector_002": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/admission_blind_row_pair_selector_002.v1.json",
+  "interpretation": "This table exposes the four free variables left by the synthetic skeleton: S.from_A, S.B/slot, S.to_A, and R.from_A. It is a preparation step for finding the missing A/B assignment law.",
+  "record_count": 12,
+  "records": [
+    {
+      "R_A": 0,
+      "R_minus_S_from_A": 13,
+      "S_A_delta": 7,
+      "S_B": 13,
+      "S_B_minus_c1": 3,
+      "S_from_A": 2,
+      "S_to_A": 9,
+      "c0": 1,
+      "c1": 10,
+      "key": [
+        "IW/YZ",
+        1,
+        10,
+        "IW",
+        "YZ"
+      ],
+      "reverse": "YZ",
+      "role_pair": "IW/YZ",
+      "shared": "IW"
+    },
+    {
+      "R_A": 3,
+      "R_minus_S_from_A": 2,
+      "S_A_delta": 6,
+      "S_B": 11,
+      "S_B_minus_c1": 12,
+      "S_from_A": 1,
+      "S_to_A": 7,
+      "c0": 2,
+      "c1": 14,
+      "key": [
+        "IW/YZ",
+        2,
+        14,
+        "IW",
+        "YZ"
+      ],
+      "reverse": "YZ",
+      "role_pair": "IW/YZ",
+      "shared": "IW"
+    },
+    {
+      "R_A": 10,
+      "R_minus_S_from_A": 13,
+      "S_A_delta": 4,
+      "S_B": 2,
+      "S_B_minus_c1": 2,
+      "S_from_A": 12,
+      "S_to_A": 1,
+      "c0": 5,
+      "c1": 0,
+      "key": [
+        "IW/YZ",
+        5,
+        0,
+        "IW",
+        "YZ"
+      ],
+      "reverse": "YZ",
+      "role_pair": "IW/YZ",
+      "shared": "IW"
+    },
+    {
+      "R_A": 12,
+      "R_minus_S_from_A": 2,
+      "S_A_delta": 8,
+      "S_B": 4,
+      "S_B_minus_c1": 2,
+      "S_from_A": 10,
+      "S_to_A": 3,
+      "c0": 5,
+      "c1": 2,
+      "key": [
+        "IW/YZ",
+        5,
+        2,
+        "IW",
+        "YZ"
+      ],
+      "reverse": "YZ",
+      "role_pair": "IW/YZ",
+      "shared": "IW"
+    },
+    {
+      "R_A": 12,
+      "R_minus_S_from_A": 11,
+      "S_A_delta": 9,
+      "S_B": 0,
+      "S_B_minus_c1": 10,
+      "S_from_A": 1,
+      "S_to_A": 10,
+      "c0": 2,
+      "c1": 5,
+      "key": [
+        "TI/XY",
+        2,
+        5,
+        "XY",
+        "TI"
+      ],
+      "reverse": "TI",
+      "role_pair": "TI/XY",
+      "shared": "XY"
+    },
+    {
+      "R_A": 10,
+      "R_minus_S_from_A": 7,
+      "S_A_delta": 9,
+      "S_B": 2,
+      "S_B_minus_c1": 12,
+      "S_from_A": 3,
+      "S_to_A": 12,
+      "c0": 4,
+      "c1": 5,
+      "key": [
+        "TI/XY",
+        4,
+        5,
+        "XY",
+        "TI"
+      ],
+      "reverse": "TI",
+      "role_pair": "TI/XY",
+      "shared": "XY"
+    },
+    {
+      "R_A": 1,
+      "R_minus_S_from_A": 9,
+      "S_A_delta": 11,
+      "S_B": 14,
+      "S_B_minus_c1": 12,
+      "S_from_A": 7,
+      "S_to_A": 3,
+      "c0": 11,
+      "c1": 2,
+      "key": [
+        "TI/XY",
+        11,
+        2,
+        "XY",
+        "TI"
+      ],
+      "reverse": "TI",
+      "role_pair": "TI/XY",
+      "shared": "XY"
+    },
+    {
+      "R_A": 2,
+      "R_minus_S_from_A": 8,
+      "S_A_delta": 6,
+      "S_B": 10,
+      "S_B_minus_c1": 9,
+      "S_from_A": 9,
+      "S_to_A": 0,
+      "c0": 13,
+      "c1": 1,
+      "key": [
+        "TI/XY",
+        13,
+        1,
+        "XY",
+        "TI"
+      ],
+      "reverse": "TI",
+      "role_pair": "TI/XY",
+      "shared": "XY"
+    },
+    {
+      "R_A": 1,
+      "R_minus_S_from_A": 6,
+      "S_A_delta": 2,
+      "S_B": 5,
+      "S_B_minus_c1": 3,
+      "S_from_A": 10,
+      "S_to_A": 12,
+      "c0": 0,
+      "c1": 2,
+      "key": [
+        "WX/ZT",
+        0,
+        2,
+        "ZT",
+        "WX"
+      ],
+      "reverse": "WX",
+      "role_pair": "WX/ZT",
+      "shared": "ZT"
+    },
+    {
+      "R_A": 3,
+      "R_minus_S_from_A": 6,
+      "S_A_delta": 13,
+      "S_B": 5,
+      "S_B_minus_c1": 1,
+      "S_from_A": 12,
+      "S_to_A": 10,
+      "c0": 2,
+      "c1": 4,
+      "key": [
+        "WX/ZT",
+        2,
+        4,
+        "ZT",
+        "WX"
+      ],
+      "reverse": "WX",
+      "role_pair": "WX/ZT",
+      "shared": "ZT"
+    },
+    {
+      "R_A": 9,
+      "R_minus_S_from_A": 9,
+      "S_A_delta": 2,
+      "S_B": 1,
+      "S_B_minus_c1": 3,
+      "S_from_A": 0,
+      "S_to_A": 2,
+      "c0": 10,
+      "c1": 13,
+      "key": [
+        "WX/ZT",
+        10,
+        13,
+        "ZT",
+        "WX"
+      ],
+      "reverse": "WX",
+      "role_pair": "WX/ZT",
+      "shared": "ZT"
+    },
+    {
+      "R_A": 7,
+      "R_minus_S_from_A": 4,
+      "S_A_delta": 13,
+      "S_B": 2,
+      "S_B_minus_c1": 6,
+      "S_from_A": 3,
+      "S_to_A": 1,
+      "c0": 14,
+      "c1": 11,
+      "key": [
+        "WX/ZT",
+        14,
+        11,
+        "ZT",
+        "WX"
+      ],
+      "reverse": "WX",
+      "role_pair": "WX/ZT",
+      "shared": "ZT"
+    }
+  ],
+  "role_pair_counts": {
+    "IW/YZ": 4,
+    "TI/XY": 4,
+    "WX/ZT": 4
+  },
+  "status": "realized_free_variable_table_recorded"
+}
