@@ -1,0 +1,330 @@
+# Source artifact schema inventory 009
+
+Status: source_artifact_schema_inventory_recorded
+
+## Source cache
+
+- file_count: `16`
+- record_list_count: `113`
+- global_needle_counts: `{'A': 1514, 'B': 24, 'C': 94, 'fiber': 205, 'key': 50, 'role': 15, 'slot': 182}`
+
+## Promising files
+
+- `wxyzti_station_provenance_law_audit_010.v1.json`
+  - score: `10`
+  - needle_hit_count: `162`
+  - top_keys: `['boundary', 'deterministic_test_count', 'exact_deterministic_test_count', 'exact_deterministic_tests_first_40', 'input', 'interpretation', 'role_class_counts', 'role_class_summary', 'role_counts', 'role_pair_counts', 'role_pair_summary', 'rows', 'semantic_row_count', 'station_role_summary', 'status']`
+  - records: `exact_deterministic_tests_first_40` count `23`
+    - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'keys', 'value']`
+  - records: `role_class_summary` count `2`
+    - sample_keys: `['A_same_count', 'B_same_count', 'C_delta_counts', 'count', 'fiber_delta_field_counts', 'fiber_delta_matches_canonical_count', 'from_C_values', 'lift_q_counts', 'role_class', 'slot_delta_counts', 'slot_same_count', 'to_C_values']`
+  - records: `role_pair_summary` count `3`
+    - sample_keys: `['A_same_count', 'B_same_count', 'C_delta_counts', 'count', 'fiber_delta_field_counts', 'fiber_delta_matches_canonical_count', 'from_C_values', 'lift_q_counts', 'role_pair', 'slot_delta_counts', 'slot_same_count', 'to_C_values']`
+  - records: `rows` count `24`
+    - sample_keys: `['A_same', 'B_same', 'C_delta', 'base_delta_mod15', 'features', 'fiber_delta', 'fiber_delta_from_fields', 'fiber_delta_matches_canonical', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_slot', 'lift_q', 'path', 'role_class', 'role_pair', 'slot_delta', 'slot_same', 'source', 'station_role', 'to_A', 'to_B', 'to_C', 'to_fiber', 'to_slot']`
+  - records: `station_role_summary` count `6`
+    - sample_keys: `['A_same_count', 'B_same_count', 'C_delta_counts', 'count', 'fiber_delta_field_counts', 'fiber_delta_matches_canonical_count', 'from_C_values', 'lift_q_counts', 'slot_delta_counts', 'slot_same_count', 'station_role', 'to_C_values']`
+- `wxyzti_station_transition_feature_inspection_009.v1.json`
+  - score: `10`
+  - needle_hit_count: `64`
+  - top_keys: `['boundary', 'expected_pair_role_row_count', 'expected_role_counts', 'expected_rows_first_40', 'feature_keys', 'feature_summaries', 'interpretation', 'nonexpected_pair_role_row_count', 'nonexpected_role_counts', 'nonexpected_rows_first_40', 'raw_row_count', 'role_counts', 'scanned_files', 'semantic_pair_role_row_count', 'status']`
+  - records: `expected_rows_first_40` count `24`
+    - sample_keys: `['features', 'from_C', 'is_expected_for_role', 'keys', 'path', 'source', 'station_role', 'to_C']`
+  - records: `feature_summaries` count `12`
+    - sample_keys: `['expected_distinct_count', 'expected_only_count', 'expected_values_first_20', 'feature', 'nonexpected_distinct_count', 'nonexpected_only_count', 'nonexpected_values_first_20', 'shared_distinct_count']`
+- `wxyzti_station_affine_law_search_015.v1.json`
+  - score: `5`
+  - needle_hit_count: `75`
+  - top_keys: `['boundary', 'exact_named_tests', 'group_keys_tested', 'group_searches', 'input', 'interpretation', 'modulus', 'near_named_tests_first_40', 'row_count', 'source_fields', 'station_best_to_C', 'status', 'targets']`
+  - records: `exact_named_tests` count `19`
+    - sample_keys: `['exact', 'group_key', 'group_value', 'law', 'match_count', 'row_count']`
+  - records: `group_searches` count `17`
+    - sample_keys: `['best_laws_first_20', 'from_C_values', 'from_slot_values', 'group_keys', 'group_value', 'law_count', 'row_count', 'to_C_values']`
+  - records: `group_searches[0].best_laws_first_20` count `18`
+    - sample_keys: `['coeffs', 'const', 'expr', 'nonzero_coeff_count', 'row_count', 'target', 'term_count', 'terms']`
+  - records: `group_searches[1].best_laws_first_20` count `20`
+    - sample_keys: `['coeffs', 'const', 'expr', 'nonzero_coeff_count', 'row_count', 'target', 'term_count', 'terms']`
+  - records: `group_searches[2].best_laws_first_20` count `20`
+    - sample_keys: `['coeffs', 'const', 'expr', 'nonzero_coeff_count', 'row_count', 'target', 'term_count', 'terms']`
+- `wxyzti_station_transform_map_audit_019.v1.json`
+  - score: `5`
+  - needle_hit_count: `189`
+  - top_keys: `['boundary', 'input', 'interpretation', 'name', 'reverse_partner_matches', 'reverse_partner_misses', 'reverse_partner_row_count', 'reverse_partner_swap_BC_exact', 'reverse_partner_swap_BC_match_count', 'reverse_partner_swap_BC_miss_count', 'row_count', 'shared_B_by_role', 'shared_B_delta_counts', 'shared_B_items', 'shared_B_row_count', 'status']`
+  - records: `reverse_partner_matches` count `12`
+    - sample_keys: `['from_ABC', 'matches', 'predicted_to_ABC', 'station_role', 'to_ABC']`
+  - records: `shared_B_by_role.IW.items` count `4`
+    - sample_keys: `['B_preserved', 'delta_ABC_mod15', 'from_ABC', 'role_pair', 'rows', 'slot_preserved', 'station_role', 'to_ABC']`
+  - records: `shared_B_by_role.XY.items` count `4`
+    - sample_keys: `['B_preserved', 'delta_ABC_mod15', 'from_ABC', 'role_pair', 'rows', 'slot_preserved', 'station_role', 'to_ABC']`
+  - records: `shared_B_by_role.ZT.items` count `4`
+    - sample_keys: `['B_preserved', 'delta_ABC_mod15', 'from_ABC', 'role_pair', 'rows', 'slot_preserved', 'station_role', 'to_ABC']`
+  - records: `shared_B_items` count `12`
+    - sample_keys: `['B_preserved', 'delta_ABC_mod15', 'from_ABC', 'role_pair', 'rows', 'slot_preserved', 'station_role', 'to_ABC']`
+- `gap_a_wxyzti_pair_grammar_checkpoint_021.v1.json`
+  - score: `2`
+  - needle_hit_count: `51`
+  - top_keys: `['boundary', 'checkpoint', 'compact_statement', 'core_result', 'inputs', 'next_problem', 'pair_coupling_law', 'reverse_partner_law', 'shared_B_law', 'status', 'title']`
+  - records: none detected
+- `gap_a_wxyzti_role_block_selector_checkpoint_006c.v1.json`
+  - score: `2`
+  - needle_hit_count: `51`
+  - top_keys: `['boundary', 'checkpoint', 'core_result', 'interpretation', 'key_counts', 'next_problem', 'selector_chain', 'status', 'title']`
+  - records: `core_result.channel_order` count `3`
+    - sample_keys: `['from', 'role_pair', 'to']`
+  - records: `selector_chain` count `3`
+    - sample_keys: `['result', 'source_artifact', 'step']`
+- `wxyzti_allowed_pair_rule_search_013.v1.json`
+  - score: `2`
+  - needle_hit_count: `99`
+  - top_keys: `['boundary', 'exact_base_only_first_80', 'exact_base_only_rule_count', 'exact_rule_count', 'feature_count', 'input', 'interpretation', 'low_group_exact_base_first_80', 'low_group_exact_base_rule_count', 'non_row_exact_base_first_80', 'non_row_exact_base_rule_count', 'row_count', 'source_pair_counts', 'source_summary_by_role_pair_from_C', 'status', 'target_count', 'tests_of_interest']`
+  - records: `exact_base_only_first_80` count `80`
+    - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'max_group_size', 'row_count', 'row_identity_like', 'target', 'uses_derived_feature']`
+  - records: `low_group_exact_base_first_80` count `80`
+    - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'max_group_size', 'row_count', 'row_identity_like', 'target', 'uses_derived_feature']`
+  - records: `non_row_exact_base_first_80` count `80`
+    - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'max_group_size', 'row_count', 'row_identity_like', 'target', 'uses_derived_feature']`
+  - records: `source_summary_by_role_pair_from_C` count `11`
+    - sample_keys: `['from_C', 'role_pair', 'row_count', 'to_C_count', 'to_C_values']`
+  - records: `tests_of_interest` count `12`
+    - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'max_group_size', 'row_count', 'target']`
+- `wxyzti_ambiguous_source_split_audit_014.v1.json`
+  - score: `2`
+  - needle_hit_count: `135`
+  - top_keys: `['ambiguous_station_sources', 'base_tests', 'boundary', 'focus_groups', 'input', 'interpretation', 'row_count', 'status']`
+  - records: `ambiguous_station_sources` count `2`
+    - sample_keys: `['from_C', 'minimal_splitters_to_to_C', 'row_count', 'rows', 'station_role', 'to_C_values']`
+  - records: `ambiguous_station_sources[0].minimal_splitters_to_to_C` count `9`
+    - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'target']`
+  - records: `ambiguous_station_sources[0].rows` count `2`
+    - sample_keys: `['C_delta', 'C_wrap_flag', 'fiber_delta', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_fiber', 'to_slot']`
+  - records: `ambiguous_station_sources[1].minimal_splitters_to_to_C` count `7`
+    - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'target']`
+  - records: `ambiguous_station_sources[1].rows` count `2`
+    - sample_keys: `['C_delta', 'C_wrap_flag', 'fiber_delta', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_fiber', 'to_slot']`
+- `wxyzti_answer_pair_candidate_universe_audit_022.v1.json`
+  - score: `2`
+  - needle_hit_count: `150`
+  - top_keys: `['accepted_strict_pairs', 'boundary', 'candidate_count', 'candidate_role_pair_counts', 'candidate_universe', 'exact_selectors', 'expected_pair_count', 'expected_role_pair_counts', 'input_pairs', 'input_rows', 'interpretation', 'rejected_strict_pairs_first_30', 'reverse_row_count', 'selector_scores', 'shared_row_count', 'status', 'strict_pair_grammar_accepted_count', 'strict_pair_grammar_rejected_count']`
+  - records: `accepted_strict_pairs` count `12`
+    - sample_keys: `['expected', 'flags', 'pair_id', 'reverse_partner_row', 'reverse_role', 'role_pair', 'shared_B_row', 'shared_role']`
+  - records: `rejected_strict_pairs_first_30` count `30`
+    - sample_keys: `['expected', 'flags', 'pair_id', 'reverse_partner_row', 'reverse_role', 'role_pair', 'shared_B_row', 'shared_role']`
+  - records: `selector_scores` count `12`
+    - sample_keys: `['accepted_count', 'candidate_count', 'exact', 'expected_count', 'false_positive_count', 'false_positive_ids_first_20', 'miss_count', 'miss_ids_first_20', 'selector']`
+- `wxyzti_g30_shadow_sheet_audit_011.v1.json`
+  - score: `2`
+  - needle_hit_count: `237`
+  - top_keys: `['all_fiber_mod15_delta_equals_C_delta', 'all_fiber_sheet15_delta_equals_lift_q', 'all_from_fiber_mod15_equals_from_C', 'all_q3_sheet30_rule', 'all_to_fiber_mod15_equals_to_C', 'boundary', 'exact_deterministic_test_count', 'exact_deterministic_tests_first_50', 'from_fiber_sheet15_summary', 'from_fiber_sheet30_summary', 'input', 'interpretation', 'lift_q_summary', 'role_pair_summary', 'row_count', 'rows', 'station_role_summary', 'status']`
+  - records: `exact_deterministic_tests_first_50` count `50`
+    - sample_keys: `['ambiguous_first_10', 'ambiguous_group_count', 'deterministic', 'group_count', 'keys', 'value']`
+  - records: `from_fiber_sheet15_summary` count `1`
+    - sample_keys: `['C_delta_counts', 'count', 'from_fiber_sheet15', 'lift_q_counts', 'mod15_delta_counts', 'mod15_equals_C_delta_count', 'mod30_delta_counts', 'q3_sheet30_rule_count', 'sheet15_delta_counts', 'sheet15_equals_q_count', 'sheet30_delta_counts']`
+  - records: `from_fiber_sheet30_summary` count `1`
+    - sample_keys: `['C_delta_counts', 'count', 'from_fiber_sheet30', 'lift_q_counts', 'mod15_delta_counts', 'mod15_equals_C_delta_count', 'mod30_delta_counts', 'q3_sheet30_rule_count', 'sheet15_delta_counts', 'sheet15_equals_q_count', 'sheet30_delta_counts']`
+  - records: `lift_q_summary` count `2`
+    - sample_keys: `['C_delta_counts', 'count', 'lift_q', 'lift_q_counts', 'mod15_delta_counts', 'mod15_equals_C_delta_count', 'mod30_delta_counts', 'q3_sheet30_rule_count', 'sheet15_delta_counts', 'sheet15_equals_q_count', 'sheet30_delta_counts']`
+  - records: `role_pair_summary` count `3`
+    - sample_keys: `['C_delta_counts', 'count', 'lift_q_counts', 'mod15_delta_counts', 'mod15_equals_C_delta_count', 'mod30_delta_counts', 'q3_sheet30_rule_count', 'role_pair', 'sheet15_delta_counts', 'sheet15_equals_q_count', 'sheet30_delta_counts']`
+- `wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`
+  - score: `2`
+  - needle_hit_count: `164`
+  - top_keys: `['boundary', 'input', 'interpretation', 'reverse_partner_summary', 'row_count', 'shared_B_summary', 'station_summaries', 'status']`
+  - records: `reverse_partner_summary.law_scores` count `10`
+    - sample_keys: `['exact', 'law', 'match_count', 'matches_first_20', 'miss_count', 'misses_first_20', 'row_count']`
+  - records: `reverse_partner_summary.law_scores[0].matches_first_20` count `12`
+    - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+  - records: `reverse_partner_summary.law_scores[1].matches_first_20` count `12`
+    - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+  - records: `reverse_partner_summary.law_scores[2].misses_first_20` count `12`
+    - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+  - records: `reverse_partner_summary.rows` count `12`
+    - sample_keys: `['C_delta', 'from_A', 'from_B', 'from_C', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_slot']`
+- `wxyzti_role_class_invariant_audit_018.v1.json`
+  - score: `2`
+  - needle_hit_count: `325`
+  - top_keys: `['boundary', 'input', 'interpretation', 'reverse_partner_summary', 'role_pair_summaries', 'row_count', 'shared_B_summary', 'station_summaries', 'status']`
+  - records: `reverse_partner_summary.rows` count `12`
+    - sample_keys: `['C_delta', 'fiber_delta', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_fiber', 'to_slot']`
+  - records: `role_pair_summaries` count `3`
+    - sample_keys: `['boolean_counts', 'exact_false_flags', 'exact_true_flags', 'from_C_values', 'integer_C_delta_counts', 'lift_q_counts', 'name', 'role_pair_counts', 'row_count', 'rows', 'station_role_counts', 'to_C_values']`
+  - records: `role_pair_summaries[0].rows` count `8`
+    - sample_keys: `['C_delta', 'fiber_delta', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_fiber', 'to_slot']`
+  - records: `role_pair_summaries[1].rows` count `8`
+    - sample_keys: `['C_delta', 'fiber_delta', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_fiber', 'to_slot']`
+  - records: `role_pair_summaries[2].rows` count `8`
+    - sample_keys: `['C_delta', 'fiber_delta', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_fiber', 'to_slot']`
+- `wxyzti_same_sheet_wrap_carry_audit_012.v1.json`
+  - score: `2`
+  - needle_hit_count: `137`
+  - top_keys: `['all_predicted_fiber_delta_matches', 'all_predicted_lift_q_matches', 'all_same_sheet15', 'all_same_sheet30', 'boundary', 'input', 'integer_C_delta_counts', 'law', 'lift_q_counts', 'role_pair_summary', 'row_count', 'rows', 'station_role_summary', 'status', 'wrap_flag_counts']`
+  - records: `role_pair_summary` count `3`
+    - sample_keys: `['C_delta_mod15_counts', 'count', 'fiber_delta_counts', 'integer_C_delta_counts', 'lift_q_counts', 'predicted_delta_match_count', 'predicted_q_match_count', 'role_pair', 'same_sheet15_count', 'same_sheet30_count', 'wrap_flag_counts']`
+  - records: `rows` count `24`
+    - sample_keys: `['A_same', 'B_same', 'C_delta', 'C_wrap_flag', 'base_delta_mod15', 'features', 'fiber_delta', 'fiber_delta_from_fields', 'fiber_delta_matches_canonical', 'fiber_mod15_delta', 'fiber_mod15_delta_equals_C_delta', 'fiber_mod30_delta', 'fiber_sheet15_delta', 'fiber_sheet30_delta', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_fiber_mod15', 'from_fiber_mod15_equals_from_C', 'from_fiber_mod30', 'from_fiber_sheet15', 'from_fiber_sheet30', 'from_slot', 'integer_C_delta', 'lift_q', 'path', 'predicted_fiber_delta_matches', 'predicted_fiber_delta_same_sheet', 'predicted_lift_q_from_wrap']`
+  - records: `station_role_summary` count `6`
+    - sample_keys: `['C_delta_mod15_counts', 'count', 'fiber_delta_counts', 'integer_C_delta_counts', 'lift_q_counts', 'predicted_delta_match_count', 'predicted_q_match_count', 'same_sheet15_count', 'same_sheet30_count', 'station_role', 'wrap_flag_counts']`
+- `wxyzti_sharedB_invariant_search_020.v1.json`
+  - score: `2`
+  - needle_hit_count: `95`
+  - top_keys: `['boundary', 'global_constant_delta_count', 'global_constant_deltas_first_30', 'global_invariant_count', 'global_invariants_first_30', 'input', 'interpretation', 'role_results', 'sharedB_row_count', 'status']`
+  - records: `global_constant_deltas_first_30` count `14`
+    - sample_keys: `['coeffs', 'constant_delta', 'expr', 'row_count']`
+  - records: `global_invariants_first_30` count `14`
+    - sample_keys: `['coeffs', 'expr', 'row_count']`
+  - records: `role_results.IW.constant_deltas_first_30` count `14`
+    - sample_keys: `['coeffs', 'constant_delta', 'expr', 'row_count']`
+  - records: `role_results.IW.invariants_first_30` count `14`
+    - sample_keys: `['coeffs', 'expr', 'row_count']`
+  - records: `role_results.IW.rows` count `4`
+    - sample_keys: `['delta_ABC', 'from_ABC', 'to_ABC']`
+- `wxyzti_sharedB_residual_law_search_017.v1.json`
+  - score: `2`
+  - needle_hit_count: `57`
+  - top_keys: `['boundary', 'input', 'interpretation', 'role_results', 'sharedB_named_laws_first_20', 'sharedB_row_count', 'source_side_roles_with_exact_law', 'station_role_counts', 'status']`
+  - records: `role_results` count `3`
+    - sample_keys: `['named_laws_first_20', 'row_count', 'rows', 'source_side_exact_law_count', 'source_side_laws_first_20', 'station_role', 'with_target_side_exact_law_count', 'with_target_side_laws_first_20']`
+  - records: `role_results[0].named_laws_first_20` count `20`
+    - sample_keys: `['exact', 'law', 'match_count', 'row_count']`
+  - records: `role_results[0].rows` count `4`
+    - sample_keys: `['C_delta', 'from_A', 'from_B', 'from_C', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_slot']`
+  - records: `role_results[0].source_side_laws_first_20` count `6`
+    - sample_keys: `['coeffs', 'const', 'expr', 'nonzero_coeff_count', 'row_count', 'term_count', 'terms', 'uses_target_side']`
+  - records: `role_results[1].named_laws_first_20` count `20`
+    - sample_keys: `['exact', 'law', 'match_count', 'row_count']`
+- `wxyzti_shared_reverse_pair_coupling_audit_021.v1.json`
+  - score: `2`
+  - needle_hit_count: `93`
+  - top_keys: `['bad_bucket_count', 'bad_buckets', 'boundary', 'exact_true_flag_count', 'exact_true_flags', 'flag_counts', 'input', 'interpretation', 'pair_count', 'pair_records', 'partial_flags', 'reverse_role_counts', 'shared_role_counts', 'status']`
+  - records: `pair_records` count `12`
+    - sample_keys: `['flags', 'key', 'reverse_partner_row', 'reverse_role', 'shared_B_row', 'shared_role']`
+
+## Record lists
+
+- file=`gap_a_wxyzti_role_block_selector_checkpoint_006c.v1.json`, path=`core_result.channel_order`, count=`3`
+  - sample_keys: `['from', 'role_pair', 'to']`
+- file=`gap_a_wxyzti_role_block_selector_checkpoint_006c.v1.json`, path=`selector_chain`, count=`3`
+  - sample_keys: `['result', 'source_artifact', 'step']`
+- file=`wxyzti_allowed_pair_rule_search_013.v1.json`, path=`exact_base_only_first_80`, count=`80`
+  - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'max_group_size', 'row_count', 'row_identity_like', 'target', 'uses_derived_feature']`
+- file=`wxyzti_allowed_pair_rule_search_013.v1.json`, path=`low_group_exact_base_first_80`, count=`80`
+  - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'max_group_size', 'row_count', 'row_identity_like', 'target', 'uses_derived_feature']`
+- file=`wxyzti_allowed_pair_rule_search_013.v1.json`, path=`non_row_exact_base_first_80`, count=`80`
+  - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'max_group_size', 'row_count', 'row_identity_like', 'target', 'uses_derived_feature']`
+- file=`wxyzti_allowed_pair_rule_search_013.v1.json`, path=`source_summary_by_role_pair_from_C`, count=`11`
+  - sample_keys: `['from_C', 'role_pair', 'row_count', 'to_C_count', 'to_C_values']`
+- file=`wxyzti_allowed_pair_rule_search_013.v1.json`, path=`tests_of_interest`, count=`12`
+  - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'max_group_size', 'row_count', 'target']`
+- file=`wxyzti_ambiguous_source_split_audit_014.v1.json`, path=`ambiguous_station_sources`, count=`2`
+  - sample_keys: `['from_C', 'minimal_splitters_to_to_C', 'row_count', 'rows', 'station_role', 'to_C_values']`
+- file=`wxyzti_ambiguous_source_split_audit_014.v1.json`, path=`ambiguous_station_sources[0].minimal_splitters_to_to_C`, count=`9`
+  - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'target']`
+- file=`wxyzti_ambiguous_source_split_audit_014.v1.json`, path=`ambiguous_station_sources[0].rows`, count=`2`
+  - sample_keys: `['C_delta', 'C_wrap_flag', 'fiber_delta', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_fiber', 'to_slot']`
+- file=`wxyzti_ambiguous_source_split_audit_014.v1.json`, path=`ambiguous_station_sources[1].minimal_splitters_to_to_C`, count=`7`
+  - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'target']`
+- file=`wxyzti_ambiguous_source_split_audit_014.v1.json`, path=`ambiguous_station_sources[1].rows`, count=`2`
+  - sample_keys: `['C_delta', 'C_wrap_flag', 'fiber_delta', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_fiber', 'to_slot']`
+- file=`wxyzti_ambiguous_source_split_audit_014.v1.json`, path=`base_tests`, count=`6`
+  - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'target']`
+- file=`wxyzti_ambiguous_source_split_audit_014.v1.json`, path=`focus_groups`, count=`1`
+  - sample_keys: `['C_delta_counts', 'from_A_counts', 'from_B_counts', 'group_keys', 'group_values', 'integer_C_delta_counts', 'lift_q_counts', 'minimal_splitters_to_integer_C_delta', 'minimal_splitters_to_to_C', 'name', 'row_count', 'rows', 'station_role_counts', 'to_A_counts', 'to_B_counts', 'to_C_values']`
+- file=`wxyzti_ambiguous_source_split_audit_014.v1.json`, path=`focus_groups[0].minimal_splitters_to_integer_C_delta`, count=`3`
+  - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'target']`
+- file=`wxyzti_ambiguous_source_split_audit_014.v1.json`, path=`focus_groups[0].minimal_splitters_to_to_C`, count=`4`
+  - sample_keys: `['ambiguous_group_count', 'ambiguous_groups_first_10', 'deterministic', 'group_count', 'group_size_counts', 'keys', 'target']`
+- file=`wxyzti_ambiguous_source_split_audit_014.v1.json`, path=`focus_groups[0].rows`, count=`4`
+  - sample_keys: `['C_delta', 'C_wrap_flag', 'fiber_delta', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_fiber', 'to_slot']`
+- file=`wxyzti_answer_pair_candidate_universe_audit_022.v1.json`, path=`accepted_strict_pairs`, count=`12`
+  - sample_keys: `['expected', 'flags', 'pair_id', 'reverse_partner_row', 'reverse_role', 'role_pair', 'shared_B_row', 'shared_role']`
+- file=`wxyzti_answer_pair_candidate_universe_audit_022.v1.json`, path=`rejected_strict_pairs_first_30`, count=`30`
+  - sample_keys: `['expected', 'flags', 'pair_id', 'reverse_partner_row', 'reverse_role', 'role_pair', 'shared_B_row', 'shared_role']`
+- file=`wxyzti_answer_pair_candidate_universe_audit_022.v1.json`, path=`selector_scores`, count=`12`
+  - sample_keys: `['accepted_count', 'candidate_count', 'exact', 'expected_count', 'false_positive_count', 'false_positive_ids_first_20', 'miss_count', 'miss_ids_first_20', 'selector']`
+- file=`wxyzti_g30_shadow_sheet_audit_011.v1.json`, path=`exact_deterministic_tests_first_50`, count=`50`
+  - sample_keys: `['ambiguous_first_10', 'ambiguous_group_count', 'deterministic', 'group_count', 'keys', 'value']`
+- file=`wxyzti_g30_shadow_sheet_audit_011.v1.json`, path=`from_fiber_sheet15_summary`, count=`1`
+  - sample_keys: `['C_delta_counts', 'count', 'from_fiber_sheet15', 'lift_q_counts', 'mod15_delta_counts', 'mod15_equals_C_delta_count', 'mod30_delta_counts', 'q3_sheet30_rule_count', 'sheet15_delta_counts', 'sheet15_equals_q_count', 'sheet30_delta_counts']`
+- file=`wxyzti_g30_shadow_sheet_audit_011.v1.json`, path=`from_fiber_sheet30_summary`, count=`1`
+  - sample_keys: `['C_delta_counts', 'count', 'from_fiber_sheet30', 'lift_q_counts', 'mod15_delta_counts', 'mod15_equals_C_delta_count', 'mod30_delta_counts', 'q3_sheet30_rule_count', 'sheet15_delta_counts', 'sheet15_equals_q_count', 'sheet30_delta_counts']`
+- file=`wxyzti_g30_shadow_sheet_audit_011.v1.json`, path=`lift_q_summary`, count=`2`
+  - sample_keys: `['C_delta_counts', 'count', 'lift_q', 'lift_q_counts', 'mod15_delta_counts', 'mod15_equals_C_delta_count', 'mod30_delta_counts', 'q3_sheet30_rule_count', 'sheet15_delta_counts', 'sheet15_equals_q_count', 'sheet30_delta_counts']`
+- file=`wxyzti_g30_shadow_sheet_audit_011.v1.json`, path=`role_pair_summary`, count=`3`
+  - sample_keys: `['C_delta_counts', 'count', 'lift_q_counts', 'mod15_delta_counts', 'mod15_equals_C_delta_count', 'mod30_delta_counts', 'q3_sheet30_rule_count', 'role_pair', 'sheet15_delta_counts', 'sheet15_equals_q_count', 'sheet30_delta_counts']`
+- file=`wxyzti_g30_shadow_sheet_audit_011.v1.json`, path=`rows`, count=`24`
+  - sample_keys: `['A_same', 'B_same', 'C_delta', 'base_delta_mod15', 'features', 'fiber_delta', 'fiber_delta_from_fields', 'fiber_delta_matches_canonical', 'fiber_mod15_delta', 'fiber_mod15_delta_equals_C_delta', 'fiber_mod30_delta', 'fiber_sheet15_delta', 'fiber_sheet30_delta', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_fiber_mod15', 'from_fiber_mod15_equals_from_C', 'from_fiber_mod30', 'from_fiber_sheet15', 'from_fiber_sheet30', 'from_slot', 'lift_q', 'path', 'q3_implies_sheet30_flip', 'role_class', 'role_pair', 'sheet15_delta_equals_lift_q', 'slot_delta', 'slot_same', 'source', 'station_role', 'to_A', 'to_B', 'to_C', 'to_fiber', 'to_fiber_mod15', 'to_fiber_mod15_equals_to_C', 'to_fiber_mod30']`
+- file=`wxyzti_g30_shadow_sheet_audit_011.v1.json`, path=`station_role_summary`, count=`6`
+  - sample_keys: `['C_delta_counts', 'count', 'lift_q_counts', 'mod15_delta_counts', 'mod15_equals_C_delta_count', 'mod30_delta_counts', 'q3_sheet30_rule_count', 'sheet15_delta_counts', 'sheet15_equals_q_count', 'sheet30_delta_counts', 'station_role']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`reverse_partner_summary.law_scores`, count=`10`
+  - sample_keys: `['exact', 'law', 'match_count', 'matches_first_20', 'miss_count', 'misses_first_20', 'row_count']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`reverse_partner_summary.law_scores[0].matches_first_20`, count=`12`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`reverse_partner_summary.law_scores[1].matches_first_20`, count=`12`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`reverse_partner_summary.law_scores[2].misses_first_20`, count=`12`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`reverse_partner_summary.rows`, count=`12`
+  - sample_keys: `['C_delta', 'from_A', 'from_B', 'from_C', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_slot']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`shared_B_summary.law_scores`, count=`10`
+  - sample_keys: `['exact', 'law', 'match_count', 'matches_first_20', 'miss_count', 'misses_first_20', 'row_count']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`shared_B_summary.law_scores[0].matches_first_20`, count=`2`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`shared_B_summary.law_scores[0].misses_first_20`, count=`10`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`shared_B_summary.law_scores[1].matches_first_20`, count=`2`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`shared_B_summary.law_scores[1].misses_first_20`, count=`10`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`shared_B_summary.law_scores[2].matches_first_20`, count=`1`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`shared_B_summary.law_scores[2].misses_first_20`, count=`11`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`shared_B_summary.rows`, count=`12`
+  - sample_keys: `['C_delta', 'from_A', 'from_B', 'from_C', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_slot']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries`, count=`6`
+  - sample_keys: `['from_B_values', 'from_C_values', 'from_slot_values', 'law_scores', 'name', 'row_count', 'rows', 'station_role_counts', 'to_C_values']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[0].law_scores`, count=`10`
+  - sample_keys: `['exact', 'law', 'match_count', 'matches_first_20', 'miss_count', 'misses_first_20', 'row_count']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[0].law_scores[0].matches_first_20`, count=`2`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[0].law_scores[0].misses_first_20`, count=`2`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[0].law_scores[1].matches_first_20`, count=`2`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[0].law_scores[1].misses_first_20`, count=`2`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[0].law_scores[2].matches_first_20`, count=`1`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[0].law_scores[2].misses_first_20`, count=`3`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[0].rows`, count=`4`
+  - sample_keys: `['C_delta', 'from_A', 'from_B', 'from_C', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_slot']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[1].law_scores`, count=`10`
+  - sample_keys: `['exact', 'law', 'match_count', 'matches_first_20', 'miss_count', 'misses_first_20', 'row_count']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[1].law_scores[0].matches_first_20`, count=`4`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[1].law_scores[1].matches_first_20`, count=`4`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[1].law_scores[2].misses_first_20`, count=`4`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[1].rows`, count=`4`
+  - sample_keys: `['C_delta', 'from_A', 'from_B', 'from_C', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_slot']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[2].law_scores`, count=`10`
+  - sample_keys: `['exact', 'law', 'match_count', 'matches_first_20', 'miss_count', 'misses_first_20', 'row_count']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[2].law_scores[0].matches_first_20`, count=`4`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[2].law_scores[1].matches_first_20`, count=`4`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[2].law_scores[2].misses_first_20`, count=`4`
+  - sample_keys: `['from_A', 'from_B', 'from_C', 'from_slot', 'pred', 'station_role', 'to_C']`
+- file=`wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json`, path=`station_summaries[2].rows`, count=`4`
+  - sample_keys: `['C_delta', 'from_A', 'from_B', 'from_C', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_slot']`
+- file=`wxyzti_role_class_invariant_audit_018.v1.json`, path=`reverse_partner_summary.rows`, count=`12`
+  - sample_keys: `['C_delta', 'fiber_delta', 'from_A', 'from_B', 'from_C', 'from_fiber', 'from_slot', 'integer_C_delta', 'lift_q', 'role_class', 'role_pair', 'station_role', 'to_A', 'to_B', 'to_C', 'to_fiber', 'to_slot']`
+
+## Reading
+
+This inventory checks whether the copied Project 18 source cache contains richer station provenance fields such as address_pair_source, columns, station keys, or BAC/column endpoint records. If promising files are thin or derived, the next step is to import the upstream raw WXYZTI station artifact from Project 18 or the source lab rather than continuing relation searches on thin audits.
+
+## Boundary
+
+This is a schema inventory only. It does not test a generator and does not close Gap A.
