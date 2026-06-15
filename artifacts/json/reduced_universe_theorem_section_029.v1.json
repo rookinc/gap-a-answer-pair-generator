@@ -1,0 +1,36 @@
+{
+  "actual_selected": [
+    1,
+    6,
+    8,
+    15
+  ],
+  "audit_id": "029",
+  "false_positives": [],
+  "hypotheses": {
+    "H1_reduced_universe_is_4_by_4": true,
+    "H2_native_shell_labels_derived": true,
+    "H3_c_rank_unambiguous": true,
+    "H4_anchor_rank_unambiguous": true,
+    "H5_027_target_rank_selector_exact": true
+  },
+  "input_028": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/reduced_universe_shell_rank_theorem_028.v1.json",
+  "main_tex_path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/paper/main.tex",
+  "main_update": {
+    "input_already_present": false,
+    "input_inserted": true,
+    "main_tex_found": true,
+    "message": "input inserted"
+  },
+  "misses": [],
+  "predicted_selected": [
+    1,
+    6,
+    8,
+    15
+  ],
+  "section_path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/paper/sections/07_reduced_universe_shell_rank_selector.tex",
+  "section_summary": "Wrote manuscript section for the reduced-universe shell-rank selector theorem. The section states the bounded theorem, cites the 026/027/028 verification chain, interprets the result as radial phase-lock, and preserves the boundary that Gap A is not closed.",
+  "status": "reduced_universe_theorem_section_written",
+  "theorem_pass_from_028": true
+}

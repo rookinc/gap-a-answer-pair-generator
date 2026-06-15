@@ -1,0 +1,228 @@
+#!/usr/bin/env python3
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+IN_028 = ROOT / "artifacts/json/reduced_universe_shell_rank_theorem_028.v1.json"
+
+SECTION = ROOT / "paper/sections/07_reduced_universe_shell_rank_selector.tex"
+MAIN_TEX = ROOT / "paper/main.tex"
+
+OUT_JSON = ROOT / "artifacts/json/reduced_universe_theorem_section_029.v1.json"
+OUT_NOTE = ROOT / "notes/reduced_universe_theorem_section_029.md"
+
+INPUT_LINE = r"\input{sections/07_reduced_universe_shell_rank_selector}"
+
+
+def load_json(path):
+    with path.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def insert_input_line(main_path):
+    if not main_path.exists():
+        return {
+            "main_tex_found": False,
+            "input_inserted": False,
+            "input_already_present": False,
+            "message": "paper/main.tex not found",
+        }
+
+    text = main_path.read_text(encoding="utf-8")
+
+    if INPUT_LINE in text:
+        return {
+            "main_tex_found": True,
+            "input_inserted": False,
+            "input_already_present": True,
+            "message": "input already present",
+        }
+
+    insertion_markers = [
+        r"\input{sections/08_",
+        r"\input{sections/07_",
+        r"\input{sections/06_",
+        r"\section{Boundary",
+        r"\section{Limitations",
+        r"\section{Discussion",
+        r"\section{Conclusion",
+        r"\appendix",
+        r"\bibliography",
+        r"\printbibliography",
+        r"\end{document}",
+    ]
+
+    lines = text.splitlines()
+    insert_at = None
+
+    for marker in insertion_markers:
+        for i, line in enumerate(lines):
+            if marker in line:
+                insert_at = i
+                break
+        if insert_at is not None:
+            break
+
+    if insert_at is None:
+        lines.append("")
+        lines.append(INPUT_LINE)
+    else:
+        if insert_at > 0 and lines[insert_at - 1].strip():
+            lines.insert(insert_at, "")
+            insert_at += 1
+        lines.insert(insert_at, INPUT_LINE)
+
+    main_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    return {
+        "main_tex_found": True,
+        "input_inserted": True,
+        "input_already_present": False,
+        "message": "input inserted",
+    }
+
+
+def main():
+    data = load_json(IN_028)
+
+    theorem_pass = bool(data.get("theorem_pass"))
+    conclusion = data.get("conclusion", {})
+    hypotheses = data.get("hypotheses", {})
+
+    actual_selected = conclusion.get("actual_selected", [])
+    predicted_selected = conclusion.get("predicted_selected", [])
+    false_positives = conclusion.get("false_positives", [])
+    misses = conclusion.get("misses", [])
+
+    section_text = r"""
+\section{Reduced-Universe Shell-Rank Selector}
+\label{sec:reduced-universe-shell-rank-selector}
+
+The preceding audits isolate the remaining shared\_B selection problem to a finite reduced universe.  The result is deliberately bounded.  It does not derive the full role-labeled shared\_B edge universe from first principles.  It proves an exact selector after the universe has already been reduced to the four observed C-cycles crossed with the four observed twisted anchor-cycles.
+
+\paragraph{Reduced-universe theorem.}
+In the 16-candidate shared\_B reduced universe formed by crossing the four observed C-cycles with the four twisted anchor-cycles, define the C shell by the native C-branch marker \(C=5\).  Define the anchor shell by the native branch anchor \([8,18]\).  Rank C-cycles inside each shell by ascending C entry, equivalently by the \(XY.from\_C\) value.  Rank anchor-cycles inside each shell by ascending \(anchor\_sum\_mod15\).  Then the selector
+\[
+    \mathrm{same\ shell} \;\wedge\; \mathrm{same\ rank}
+\]
+accepts exactly the four observed shared\_B cycles.
+
+\paragraph{Verification.}
+The theorem is verified by artifact 028.  The reduced universe has 16 candidates arranged as a \(4 \times 4\) matrix.  The actual selected candidates are
+\[
+    [1,6,8,15].
+\]
+The native shell-rank selector predicts
+\[
+    [1,6,8,15],
+\]
+with no false positives and no misses.
+
+The five hypotheses checked in the artifact are:
+
+\begin{enumerate}
+\item the reduced universe is a \(4 \times 4\) C-cycle by anchor-cycle universe;
+\item the native shell labels are derived;
+\item the C-rank rule is unambiguous;
+\item the anchor-rank rule is unambiguous;
+\item the 027 target shell-rank selector is exact.
+\end{enumerate}
+
+All five checks pass.
+
+\paragraph{Proof sketch.}
+Artifact 026 derives the shell labels.  On the C side, the branch marker is the repeated XY-to-IW C-junction \(C=5\), giving ordinary C rows \([0,1]\) and branch C rows \([2,3]\).  On the anchor side, the branch marker is the repeated column-motion branch anchor \([8,18]\), giving branch anchor columns \([0,3]\) and ordinary anchor columns \([1,2]\).
+
+Artifact 027 derives the ranks inside those shells.  C rows are ranked by ascending C entry:
+\[
+    ordinary: 0 < 1,\qquad branch: 2 < 3.
+\]
+Anchor columns are ranked by ascending \(anchor\_sum\_mod15\):
+\[
+    branch: 0 < 3,\qquad ordinary: 1 < 2.
+\]
+Combining the native shell labels with these native ranks gives the four accepted cells
+\[
+    (0,1),\ (1,2),\ (2,0),\ (3,3),
+\]
+which are exactly candidates \(1,6,8,15\).
+
+\paragraph{Interpretation.}
+The selector is not a scalar threshold.  It is a radial phase-lock: C-cycle shell phase must match anchor-cycle shell phase.  In the matrix representation the selected permutation is
+\[
+    [1,2,0,3],
+\]
+with cycle structure \((0\ 1\ 2)(3)\) and order 3.  This matches the geometric reading of a three-phase rotation with one fixed branch shell.
+
+\paragraph{Boundary.}
+This result does not close Gap A.  The theorem proves the selector inside the reduced 16-candidate universe.  The upstream problem remains: derive the full role-labeled shared\_B edge universe, or equivalently derive the reduced 16-candidate universe itself, from native provenance rather than from observed C-cycle and anchor-cycle support.
+""".strip() + "\n"
+
+    SECTION.parent.mkdir(parents=True, exist_ok=True)
+    SECTION.write_text(section_text, encoding="utf-8")
+
+    main_update = insert_input_line(MAIN_TEX)
+
+    result = {
+        "status": "reduced_universe_theorem_section_written",
+        "audit_id": "029",
+        "input_028": str(IN_028),
+        "section_path": str(SECTION),
+        "main_tex_path": str(MAIN_TEX),
+        "main_update": main_update,
+        "theorem_pass_from_028": theorem_pass,
+        "actual_selected": actual_selected,
+        "predicted_selected": predicted_selected,
+        "false_positives": false_positives,
+        "misses": misses,
+        "hypotheses": hypotheses,
+        "section_summary": (
+            "Wrote manuscript section for the reduced-universe shell-rank selector theorem. "
+            "The section states the bounded theorem, cites the 026/027/028 verification chain, "
+            "interprets the result as radial phase-lock, and preserves the boundary that Gap A "
+            "is not closed."
+        ),
+    }
+
+    OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    OUT_NOTE.parent.mkdir(parents=True, exist_ok=True)
+
+    OUT_JSON.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+    note_lines = []
+    note_lines.append("# Reduced-universe theorem section 029")
+    note_lines.append("")
+    note_lines.append("Status: " + result["status"])
+    note_lines.append("")
+    note_lines.append("## Written files")
+    note_lines.append("")
+    note_lines.append("- section_path: `" + str(SECTION) + "`")
+    note_lines.append("- main_tex_path: `" + str(MAIN_TEX) + "`")
+    note_lines.append("- main_update: `" + str(main_update) + "`")
+    note_lines.append("")
+    note_lines.append("## Source checkpoint")
+    note_lines.append("")
+    note_lines.append("- theorem_pass_from_028: `" + str(theorem_pass) + "`")
+    note_lines.append("- actual_selected: `" + str(actual_selected) + "`")
+    note_lines.append("- predicted_selected: `" + str(predicted_selected) + "`")
+    note_lines.append("- false_positives: `" + str(false_positives) + "`")
+    note_lines.append("- misses: `" + str(misses) + "`")
+    note_lines.append("")
+    note_lines.append("## Reading")
+    note_lines.append("")
+    note_lines.append(result["section_summary"])
+    note_lines.append("")
+
+    OUT_NOTE.write_text("\n".join(note_lines), encoding="utf-8")
+
+    print("wrote", SECTION)
+    print("wrote", OUT_JSON)
+    print("wrote", OUT_NOTE)
+    print("status", result["status"])
+    print("theorem_pass_from_028", theorem_pass)
+    print("main_update", main_update)
+
+
+if __name__ == "__main__":
+    main()
