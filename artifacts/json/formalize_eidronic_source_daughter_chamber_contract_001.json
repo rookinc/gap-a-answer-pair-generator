@@ -1,0 +1,110 @@
+{
+  "artifact": "formalize_eidronic_source_daughter_chamber_contract_001",
+  "contract_pass": true,
+  "verdict": "eidronic_source_daughter_chamber_contract_formalized",
+  "keeper": "Time separates the daughter from her mother. Provenance keeps them related. The chamber makes the daughter thinkable.",
+  "definitions": {
+    "eidron": "A bounded distinction that persists sufficiently for the claim that it is to become thinkable and receiptable.",
+    "mother_or_source": "The prior Eidron, carrier state, or generative boundary from which a daughter Eidron arises.",
+    "daughter": "A newly distinguished Eidron that is not identical to its mother while retaining the mother as provenance.",
+    "quotient_chamber": "A bounded comparison surface that exposes an admissible description of a larger carrier without exhausting it.",
+    "CIK": "Cosmic Interpretive Knot, a bounded classification chamber for Eidrons that receive and interpret cosmic traces.",
+    "lower_carrier": "The continuing state beneath quotient-visible samples that preserves orientation, history, and transition continuity.",
+    "quartz_socket_t": "The user-declared input socket through which quartz scales successive measurement occasions.",
+    "output_socket_I": "The user-declared output socket through which a quotient-visible daughter state becomes receiptable."
+  },
+  "classification_contract": {
+    "statement": "eidron_scott in [CIK] = true",
+    "meaning": "Scott is admissibly describable within the Cosmic Interpretive Knot chamber.",
+    "total_identity_claim": false,
+    "CIK_exhausts_eidron_scott": false
+  },
+  "source_daughter_contract": {
+    "source_and_daughter_distinct": "I_next != I_source",
+    "source_retained_as_provenance": "source(I_next) = I_source",
+    "carrier_update": "c_next = T_t(c_source, transition)",
+    "quotient_projection": "I_next = M(c_next, chamber)",
+    "quartz_role": "Quartz scales and addresses measurement occasions only.",
+    "admission_role": "The chamber grammar decides whether a sampled distinction is admitted as a daughter Eidron."
+  },
+  "finite_proof_obligations": [
+    {
+      "id": "PO1_distinction",
+      "statement": "The daughter output is distinguishable from its source.",
+      "formal": "I_next != I_source"
+    },
+    {
+      "id": "PO2_provenance",
+      "statement": "The daughter retains a receiptable source relation.",
+      "formal": "source(I_next) = I_source"
+    },
+    {
+      "id": "PO3_carrier_update",
+      "statement": "A declared transition law determines the next lower-carrier state.",
+      "formal": "c_next = T_t(c_source, transition)"
+    },
+    {
+      "id": "PO4_projection",
+      "statement": "The output is a bounded quotient projection of the updated lower carrier.",
+      "formal": "I_next = M(c_next, chamber)"
+    },
+    {
+      "id": "PO5_seed_independence",
+      "statement": "Closed-path comparison is independent of the arbitrary held initial seed.",
+      "formal": "closure_residue(seed_a) = closure_residue(seed_b)"
+    },
+    {
+      "id": "PO6_native_row_admission",
+      "statement": "Any claimed native realization must replay an exact x_sigma row under the derived carrier law.",
+      "formal": "M(c_next, chamber) in x_sigma"
+    }
+  ],
+  "known_supporting_results": {
+    "state_count": 24,
+    "transition_count": 28,
+    "component_sizes": [
+      12,
+      6,
+      6
+    ],
+    "tree_edge_count": 21,
+    "non_tree_edge_count": 7,
+    "held_seed_reaches_all_states": true,
+    "binary_closure_defects_seed_invariant": true,
+    "simple_affine_sheet_rules_failed": true,
+    "simple_shared_stroke_rules_failed": true,
+    "simple_seeded_z4_rules_failed": true,
+    "simple_quartz_phased_two_register_rules_failed": true
+  },
+  "open_derivation": {
+    "target": "Derive T_t and M from bounded native provenance such that all proof obligations pass.",
+    "unresolved_bridge": "(source state, lower carrier, t) -> updated carrier -> I",
+    "recommended_next": "search_eidronic_source_daughter_carrier_law_001"
+  },
+  "eidron_theorem_admitted": false,
+  "source_daughter_law_admitted": false,
+  "lower_carrier_law_admitted": false,
+  "quartz_clock_rule_admitted": false,
+  "feedback_unit_admitted": false,
+  "transport_feedback_rule_admitted": false,
+  "native_signed_lift_identification_proven": false,
+  "cocycle_admitted": false,
+  "holonomy_class_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Definition and proof-obligation contract only.",
+    "The t and I orientation is user-declared for this fork.",
+    "Choice of sockets does not itself prove a native path law.",
+    "CIK is a bounded classification chamber, not a total identity.",
+    "Quartz supplies scaled timing and measurement address only.",
+    "No lower-carrier update or projection law is derived here.",
+    "No Eidron theorem, native generator, physics, force, or Gap A closure claim."
+  ]
+}
