@@ -1,0 +1,1462 @@
+{
+  "artifact": "derive_centered_transition_closure_frame_001",
+  "derivation_pass": true,
+  "verdict": "centered_affine_transition_closure_frame_derived",
+  "keeper": "The affine chamber closes exactly. Any winding must live in structure the centroid does not erase.",
+  "scope": "centroid_centered_transition_and_fundamental_cycle_frame",
+  "state_count": 24,
+  "transition_count": 28,
+  "component_count": 3,
+  "component_sizes": [
+    12,
+    6,
+    6
+  ],
+  "coordinate_dimension": 4,
+  "affine_centroid": [
+    "23/4",
+    "23/4",
+    "23/4",
+    "23/4"
+  ],
+  "centered_state_rank": 4,
+  "transition_span_rank": 4,
+  "distinct_transition_vector_count": 28,
+  "fundamental_cycle_count": 6,
+  "all_fundamental_cycles_affine_close": true,
+  "nontrivial_role_hook_cycle_count": 2,
+  "centered_states": [
+    {
+      "node_id": 0,
+      "law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "centered": [
+        "-23/4",
+        "-23/4",
+        "-15/4",
+        "-3/4"
+      ]
+    },
+    {
+      "node_id": 1,
+      "law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "centered": [
+        "-23/4",
+        "-3/4",
+        "-3/4",
+        "-23/4"
+      ]
+    },
+    {
+      "node_id": 2,
+      "law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "centered": [
+        "-19/4",
+        "-19/4",
+        "17/4",
+        "29/4"
+      ]
+    },
+    {
+      "node_id": 3,
+      "law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "centered": [
+        "-19/4",
+        "29/4",
+        "29/4",
+        "-19/4"
+      ]
+    },
+    {
+      "node_id": 4,
+      "law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "centered": [
+        "-15/4",
+        "-23/4",
+        "-23/4",
+        "-15/4"
+      ]
+    },
+    {
+      "node_id": 5,
+      "law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "centered": [
+        "-15/4",
+        "-15/4",
+        "-7/4",
+        "-3/4"
+      ]
+    },
+    {
+      "node_id": 6,
+      "law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "centered": [
+        "-15/4",
+        "-15/4",
+        "-3/4",
+        "-23/4"
+      ]
+    },
+    {
+      "node_id": 7,
+      "law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "centered": [
+        "-15/4",
+        "-15/4",
+        "33/4",
+        "21/4"
+      ]
+    },
+    {
+      "node_id": 8,
+      "law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "centered": [
+        "-15/4",
+        "-3/4",
+        "-3/4",
+        "-15/4"
+      ]
+    },
+    {
+      "node_id": 9,
+      "law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "centered": [
+        "-15/4",
+        "21/4",
+        "21/4",
+        "-15/4"
+      ]
+    },
+    {
+      "node_id": 10,
+      "law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "centered": [
+        "-7/4",
+        "-15/4",
+        "-15/4",
+        "-7/4"
+      ]
+    },
+    {
+      "node_id": 11,
+      "law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "centered": [
+        "-7/4",
+        "-7/4",
+        "-3/4",
+        "-15/4"
+      ]
+    },
+    {
+      "node_id": 12,
+      "law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "centered": [
+        "-3/4",
+        "-15/4",
+        "-15/4",
+        "-3/4"
+      ]
+    },
+    {
+      "node_id": 13,
+      "law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "centered": [
+        "-3/4",
+        "-7/4",
+        "-7/4",
+        "-3/4"
+      ]
+    },
+    {
+      "node_id": 14,
+      "law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "centered": [
+        "-3/4",
+        "-3/4",
+        "-23/4",
+        "-15/4"
+      ]
+    },
+    {
+      "node_id": 15,
+      "law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "centered": [
+        "-3/4",
+        "-3/4",
+        "-15/4",
+        "-7/4"
+      ]
+    },
+    {
+      "node_id": 16,
+      "law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "centered": [
+        "17/4",
+        "-19/4",
+        "-19/4",
+        "17/4"
+      ]
+    },
+    {
+      "node_id": 17,
+      "law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "centered": [
+        "17/4",
+        "17/4",
+        "29/4",
+        "-19/4"
+      ]
+    },
+    {
+      "node_id": 18,
+      "law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "centered": [
+        "21/4",
+        "21/4",
+        "-15/4",
+        "33/4"
+      ]
+    },
+    {
+      "node_id": 19,
+      "law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "centered": [
+        "21/4",
+        "33/4",
+        "33/4",
+        "21/4"
+      ]
+    },
+    {
+      "node_id": 20,
+      "law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "centered": [
+        "29/4",
+        "17/4",
+        "17/4",
+        "29/4"
+      ]
+    },
+    {
+      "node_id": 21,
+      "law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "centered": [
+        "29/4",
+        "29/4",
+        "-19/4",
+        "17/4"
+      ]
+    },
+    {
+      "node_id": 22,
+      "law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "centered": [
+        "33/4",
+        "-15/4",
+        "-15/4",
+        "33/4"
+      ]
+    },
+    {
+      "node_id": 23,
+      "law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "centered": [
+        "33/4",
+        "33/4",
+        "21/4",
+        "-15/4"
+      ]
+    }
+  ],
+  "transition_vectors": [
+    {
+      "source": 0,
+      "target": 1,
+      "delta": [
+        0,
+        5,
+        3,
+        -5
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "delta": [
+        5,
+        0,
+        -5,
+        2
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "delta": [
+        0,
+        12,
+        3,
+        -12
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "delta": [
+        12,
+        0,
+        -12,
+        9
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "delta": [
+        -2,
+        0,
+        2,
+        3
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "delta": [
+        0,
+        0,
+        1,
+        -5
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "delta": [
+        0,
+        3,
+        1,
+        -3
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "delta": [
+        0,
+        -2,
+        -5,
+        2
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "delta": [
+        0,
+        9,
+        -3,
+        -9
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 8,
+      "target": 12,
+      "delta": [
+        3,
+        -3,
+        -3,
+        3
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 8,
+      "target": 15,
+      "delta": [
+        3,
+        0,
+        -3,
+        2
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 9,
+      "target": 18,
+      "delta": [
+        9,
+        0,
+        -9,
+        12
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 10,
+      "target": 5,
+      "delta": [
+        -2,
+        0,
+        2,
+        1
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 11,
+      "target": 10,
+      "delta": [
+        0,
+        -2,
+        -3,
+        2
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 12,
+      "target": 6,
+      "delta": [
+        -3,
+        0,
+        3,
+        -5
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 12,
+      "target": 8,
+      "delta": [
+        -3,
+        3,
+        3,
+        -3
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 13,
+      "target": 11,
+      "delta": [
+        -1,
+        0,
+        1,
+        -3
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 14,
+      "target": 12,
+      "delta": [
+        0,
+        -3,
+        2,
+        3
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "delta": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "role_hook_change": 0
+    },
+    {
+      "source": 15,
+      "target": 13,
+      "delta": [
+        0,
+        -1,
+        2,
+        1
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 16,
+      "target": 2,
+      "delta": [
+        -9,
+        0,
+        9,
+        3
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 17,
+      "target": 16,
+      "delta": [
+        0,
+        -9,
+        -12,
+        9
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 18,
+      "target": 19,
+      "delta": [
+        0,
+        3,
+        12,
+        -3
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 19,
+      "target": 23,
+      "delta": [
+        3,
+        0,
+        -3,
+        -9
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 20,
+      "target": 17,
+      "delta": [
+        -3,
+        0,
+        3,
+        -12
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 21,
+      "target": 20,
+      "delta": [
+        0,
+        -3,
+        9,
+        3
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 22,
+      "target": 7,
+      "delta": [
+        -12,
+        0,
+        12,
+        -3
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 23,
+      "target": 22,
+      "delta": [
+        0,
+        -12,
+        -9,
+        12
+      ],
+      "role_hook_change": 1
+    }
+  ],
+  "transition_vector_multiplicities": [
+    {
+      "delta": [
+        -12,
+        0,
+        12,
+        -3
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        -9,
+        0,
+        9,
+        3
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        -3,
+        0,
+        3,
+        -12
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        -3,
+        0,
+        3,
+        -5
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        -3,
+        3,
+        3,
+        -3
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        -2,
+        0,
+        2,
+        1
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        -2,
+        0,
+        2,
+        3
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        -1,
+        0,
+        1,
+        -3
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        -12,
+        -9,
+        12
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        -9,
+        -12,
+        9
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        -3,
+        2,
+        3
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        -3,
+        9,
+        3
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        -2,
+        -5,
+        2
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        -2,
+        -3,
+        2
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        -1,
+        2,
+        1
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        0,
+        1,
+        -5
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        3,
+        1,
+        -3
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        3,
+        12,
+        -3
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        5,
+        3,
+        -5
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        9,
+        -3,
+        -9
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        0,
+        12,
+        3,
+        -12
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        3,
+        -3,
+        -3,
+        3
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        3,
+        0,
+        -3,
+        -9
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        3,
+        0,
+        -3,
+        2
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        5,
+        0,
+        -5,
+        2
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        9,
+        0,
+        -9,
+        12
+      ],
+      "count": 1
+    },
+    {
+      "delta": [
+        12,
+        0,
+        -12,
+        9
+      ],
+      "count": 1
+    }
+  ],
+  "fundamental_cycles": [
+    {
+      "closing_edge": [
+        5,
+        8
+      ],
+      "cycle_steps": [
+        [
+          5,
+          8
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          5
+        ]
+      ],
+      "cycle_length": 8,
+      "affine_delta_sum": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_closes_exactly": true,
+      "role_hook_change_xor": 0,
+      "hook_edge_trace": [
+        [
+          5,
+          8,
+          1
+        ],
+        [
+          8,
+          12,
+          1
+        ],
+        [
+          12,
+          14,
+          1
+        ],
+        [
+          14,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          4,
+          1
+        ],
+        [
+          4,
+          6,
+          1
+        ],
+        [
+          6,
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "closing_edge": [
+        8,
+        15
+      ],
+      "cycle_steps": [
+        [
+          8,
+          15
+        ],
+        [
+          15,
+          14
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          12,
+          8
+        ]
+      ],
+      "cycle_length": 4,
+      "affine_delta_sum": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_closes_exactly": true,
+      "role_hook_change_xor": 1,
+      "hook_edge_trace": [
+        [
+          8,
+          15,
+          1
+        ],
+        [
+          15,
+          14,
+          0
+        ],
+        [
+          14,
+          12,
+          1
+        ],
+        [
+          12,
+          8,
+          1
+        ]
+      ]
+    },
+    {
+      "closing_edge": [
+        11,
+        10
+      ],
+      "cycle_steps": [
+        [
+          11,
+          10
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          13,
+          11
+        ]
+      ],
+      "cycle_length": 10,
+      "affine_delta_sum": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_closes_exactly": true,
+      "role_hook_change_xor": 1,
+      "hook_edge_trace": [
+        [
+          11,
+          10,
+          1
+        ],
+        [
+          10,
+          5,
+          1
+        ],
+        [
+          5,
+          6,
+          1
+        ],
+        [
+          6,
+          4,
+          1
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          14,
+          1
+        ],
+        [
+          14,
+          15,
+          0
+        ],
+        [
+          15,
+          13,
+          1
+        ],
+        [
+          13,
+          11,
+          1
+        ]
+      ]
+    },
+    {
+      "closing_edge": [
+        12,
+        6
+      ],
+      "cycle_steps": [
+        [
+          12,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          14,
+          12
+        ]
+      ],
+      "cycle_length": 6,
+      "affine_delta_sum": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_closes_exactly": true,
+      "role_hook_change_xor": 0,
+      "hook_edge_trace": [
+        [
+          12,
+          6,
+          1
+        ],
+        [
+          6,
+          4,
+          1
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          14,
+          1
+        ],
+        [
+          14,
+          12,
+          1
+        ]
+      ]
+    },
+    {
+      "closing_edge": [
+        19,
+        23
+      ],
+      "cycle_steps": [
+        [
+          19,
+          23
+        ],
+        [
+          23,
+          22
+        ],
+        [
+          22,
+          7
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          18,
+          19
+        ]
+      ],
+      "cycle_length": 6,
+      "affine_delta_sum": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_closes_exactly": true,
+      "role_hook_change_xor": 0,
+      "hook_edge_trace": [
+        [
+          19,
+          23,
+          1
+        ],
+        [
+          23,
+          22,
+          1
+        ],
+        [
+          22,
+          7,
+          1
+        ],
+        [
+          7,
+          9,
+          1
+        ],
+        [
+          9,
+          18,
+          1
+        ],
+        [
+          18,
+          19,
+          1
+        ]
+      ]
+    },
+    {
+      "closing_edge": [
+        20,
+        17
+      ],
+      "cycle_steps": [
+        [
+          20,
+          17
+        ],
+        [
+          17,
+          16
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          21,
+          20
+        ]
+      ],
+      "cycle_length": 6,
+      "affine_delta_sum": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "affine_closes_exactly": true,
+      "role_hook_change_xor": 0,
+      "hook_edge_trace": [
+        [
+          20,
+          17,
+          1
+        ],
+        [
+          17,
+          16,
+          1
+        ],
+        [
+          16,
+          2,
+          1
+        ],
+        [
+          2,
+          3,
+          1
+        ],
+        [
+          3,
+          21,
+          1
+        ],
+        [
+          21,
+          20,
+          1
+        ]
+      ]
+    }
+  ],
+  "derived_statements": [
+    "The affine centroid gives one translation-normalized origin.",
+    "Centered transition vectors equal raw source-to-target differences.",
+    "The centered state and transition spans are computed over the rationals.",
+    "Every fundamental cycle has exact zero affine displacement.",
+    "Any nonzero winding candidate cannot be read from ordinary affine displacement alone.",
+    "The role-hook cycle residue may remain nontrivial even when affine displacement closes."
+  ],
+  "affine_centroid_anchor_admitted": true,
+  "centered_transition_frame_derived": true,
+  "affine_cycle_closure_derived": true,
+  "native_torus_embedding_admitted": false,
+  "toroidal_axis_admitted": false,
+  "winding_number_admitted": false,
+  "role_hook_feedback_unit_admitted": false,
+  "lower_carrier_law_admitted": false,
+  "eidron_theorem_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "general_relativity_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Exact affine-centering and cycle-closure derivation only.",
+    "Zero affine cycle displacement does not establish zero lifted winding.",
+    "Role-hook residue is reported but not admitted as a physical or native holonomy.",
+    "No torus embedding, axis, metric, curvature, GR, physics, force, or Gap A closure claim."
+  ],
+  "recommended_next": "separate_affine_closure_from_lifted_cycle_residue_001"
+}
