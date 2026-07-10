@@ -1,0 +1,1541 @@
+{
+  "artifact": "derive_eidronic_source_daughter_carrier_domain_001",
+  "derivation_pass": true,
+  "verdict": "partial_native_eidronic_carrier_domain_derived",
+  "keeper": "The carrier must exist before its motion can be derived.",
+  "scope": "native_x_sigma_eidronic_carrier_domain_derivation",
+  "contract_source": "artifacts/json/formalize_eidronic_source_daughter_chamber_contract_001.json",
+  "node_count": 24,
+  "transition_count": 28,
+  "carrier_state_definition": {
+    "state": "(q_t, q_I, local_t, local_I, kind, columns)",
+    "q_t_role": "lower-carrier sheet exposed at declared input socket t",
+    "q_I_role": "lower-carrier sheet exposed at declared output socket I",
+    "native_admission": "exact x_sigma row match"
+  },
+  "best_orientation": "direct",
+  "best_supported_node_count": 3,
+  "best_supported_transition_count": 0,
+  "best_distinct_daughter_possible_count": 0,
+  "full_native_carrier_domain_derived": false,
+  "orientation_results": [
+    {
+      "orientation": "direct",
+      "supported_node_count": 3,
+      "unsupported_node_count": 21,
+      "supported_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unsupported_node_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        22
+      ],
+      "unique_domain_node_count": 0,
+      "multi_domain_node_count": 3,
+      "max_candidate_count": 2,
+      "supported_transition_count": 0,
+      "distinct_daughter_possible_count": 0,
+      "provenance_pair_count": 0,
+      "node_domains": [
+        {
+          "node_id": 0,
+          "law_key": [
+            0,
+            0,
+            2,
+            5
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 1,
+          "law_key": [
+            0,
+            5,
+            5,
+            0
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 2,
+          "law_key": [
+            1,
+            1,
+            10,
+            13
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 3,
+          "law_key": [
+            1,
+            13,
+            13,
+            1
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 4,
+          "law_key": [
+            2,
+            0,
+            0,
+            2
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 5,
+          "law_key": [
+            2,
+            2,
+            4,
+            5
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 6,
+          "law_key": [
+            2,
+            2,
+            5,
+            0
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 7,
+          "law_key": [
+            2,
+            2,
+            14,
+            11
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 8,
+          "law_key": [
+            2,
+            5,
+            5,
+            2
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 9,
+          "law_key": [
+            2,
+            11,
+            11,
+            2
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 10,
+          "law_key": [
+            4,
+            2,
+            2,
+            4
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 11,
+          "law_key": [
+            4,
+            4,
+            5,
+            2
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 12,
+          "law_key": [
+            5,
+            2,
+            2,
+            5
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 13,
+          "law_key": [
+            5,
+            4,
+            4,
+            5
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 14,
+          "law_key": [
+            5,
+            5,
+            0,
+            2
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 15,
+          "law_key": [
+            5,
+            5,
+            2,
+            4
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 16,
+          "law_key": [
+            10,
+            1,
+            1,
+            10
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 17,
+          "law_key": [
+            10,
+            10,
+            13,
+            1
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 18,
+          "law_key": [
+            11,
+            11,
+            2,
+            14
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 2,
+          "carrier_candidates": [
+            {
+              "q_t": 1,
+              "q_I": 3,
+              "local_t": 17,
+              "local_I": 59,
+              "kind": "internal_thalion_copy",
+              "row_match_count": 1,
+              "columns": []
+            },
+            {
+              "q_t": 2,
+              "q_I": 2,
+              "local_t": 32,
+              "local_I": 44,
+              "kind": "internal_thalion_copy",
+              "row_match_count": 1,
+              "columns": []
+            }
+          ]
+        },
+        {
+          "node_id": 19,
+          "law_key": [
+            11,
+            14,
+            14,
+            11
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 20,
+          "law_key": [
+            13,
+            10,
+            10,
+            13
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 21,
+          "law_key": [
+            13,
+            13,
+            1,
+            10
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 2,
+          "carrier_candidates": [
+            {
+              "q_t": 1,
+              "q_I": 3,
+              "local_t": 16,
+              "local_I": 55,
+              "kind": "internal_thalion_copy",
+              "row_match_count": 1,
+              "columns": []
+            },
+            {
+              "q_t": 2,
+              "q_I": 2,
+              "local_t": 31,
+              "local_I": 40,
+              "kind": "internal_thalion_copy",
+              "row_match_count": 1,
+              "columns": []
+            }
+          ]
+        },
+        {
+          "node_id": 22,
+          "law_key": [
+            14,
+            2,
+            2,
+            14
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 23,
+          "law_key": [
+            14,
+            14,
+            11,
+            2
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 2,
+          "carrier_candidates": [
+            {
+              "q_t": 0,
+              "q_I": 1,
+              "local_t": 11,
+              "local_I": 17,
+              "kind": "internal_thalion_copy",
+              "row_match_count": 1,
+              "columns": []
+            },
+            {
+              "q_t": 2,
+              "q_I": 3,
+              "local_t": 41,
+              "local_I": 47,
+              "kind": "internal_thalion_copy",
+              "row_match_count": 1,
+              "columns": []
+            }
+          ]
+        }
+      ],
+      "transition_domains": [
+        {
+          "source": 0,
+          "target": 1,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 1,
+          "target": 14,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 2,
+          "target": 3,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 3,
+          "target": 21,
+          "source_supported": false,
+          "target_supported": true,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 2,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 4,
+          "target": 0,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 5,
+          "target": 6,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 5,
+          "target": 8,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 6,
+          "target": 4,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 7,
+          "target": 9,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 8,
+          "target": 12,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 9,
+          "target": 18,
+          "source_supported": false,
+          "target_supported": true,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 2,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 10,
+          "target": 5,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 11,
+          "target": 10,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 12,
+          "target": 6,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 12,
+          "target": 8,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 13,
+          "target": 11,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 14,
+          "target": 12,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 14,
+          "target": 15,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 15,
+          "target": 13,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 17,
+          "target": 16,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 18,
+          "target": 19,
+          "source_supported": true,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 2,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 19,
+          "target": 23,
+          "source_supported": false,
+          "target_supported": true,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 2,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 20,
+          "target": 17,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 21,
+          "target": 20,
+          "source_supported": true,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 2,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 23,
+          "target": 22,
+          "source_supported": true,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 2,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "supported_node_count": 3,
+      "unsupported_node_count": 21,
+      "supported_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unsupported_node_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "unique_domain_node_count": 2,
+      "multi_domain_node_count": 1,
+      "max_candidate_count": 2,
+      "supported_transition_count": 0,
+      "distinct_daughter_possible_count": 0,
+      "provenance_pair_count": 0,
+      "node_domains": [
+        {
+          "node_id": 0,
+          "law_key": [
+            0,
+            0,
+            2,
+            5
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 1,
+          "law_key": [
+            0,
+            5,
+            5,
+            0
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 2,
+          "law_key": [
+            1,
+            1,
+            10,
+            13
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 3,
+          "law_key": [
+            1,
+            13,
+            13,
+            1
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 4,
+          "law_key": [
+            2,
+            0,
+            0,
+            2
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 5,
+          "law_key": [
+            2,
+            2,
+            4,
+            5
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 1,
+          "carrier_candidates": [
+            {
+              "q_t": 2,
+              "q_I": 1,
+              "local_t": 34,
+              "local_I": 20,
+              "kind": "internal_thalion_copy",
+              "row_match_count": 1,
+              "columns": []
+            }
+          ]
+        },
+        {
+          "node_id": 6,
+          "law_key": [
+            2,
+            2,
+            5,
+            0
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 7,
+          "law_key": [
+            2,
+            2,
+            14,
+            11
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 8,
+          "law_key": [
+            2,
+            5,
+            5,
+            2
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 9,
+          "law_key": [
+            2,
+            11,
+            11,
+            2
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 10,
+          "law_key": [
+            4,
+            2,
+            2,
+            4
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 11,
+          "law_key": [
+            4,
+            4,
+            5,
+            2
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 12,
+          "law_key": [
+            5,
+            2,
+            2,
+            5
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 13,
+          "law_key": [
+            5,
+            4,
+            4,
+            5
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 14,
+          "law_key": [
+            5,
+            5,
+            0,
+            2
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 1,
+          "carrier_candidates": [
+            {
+              "q_t": 3,
+              "q_I": 0,
+              "local_t": 45,
+              "local_I": 2,
+              "kind": "internal_thalion_copy",
+              "row_match_count": 1,
+              "columns": []
+            }
+          ]
+        },
+        {
+          "node_id": 15,
+          "law_key": [
+            5,
+            5,
+            2,
+            4
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 16,
+          "law_key": [
+            10,
+            1,
+            1,
+            10
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 17,
+          "law_key": [
+            10,
+            10,
+            13,
+            1
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 2,
+          "carrier_candidates": [
+            {
+              "q_t": 2,
+              "q_I": 2,
+              "local_t": 43,
+              "local_I": 31,
+              "kind": "internal_thalion_copy",
+              "row_match_count": 1,
+              "columns": []
+            },
+            {
+              "q_t": 3,
+              "q_I": 1,
+              "local_t": 58,
+              "local_I": 16,
+              "kind": "internal_thalion_copy",
+              "row_match_count": 1,
+              "columns": []
+            }
+          ]
+        },
+        {
+          "node_id": 18,
+          "law_key": [
+            11,
+            11,
+            2,
+            14
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 19,
+          "law_key": [
+            11,
+            14,
+            14,
+            11
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 20,
+          "law_key": [
+            13,
+            10,
+            10,
+            13
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 21,
+          "law_key": [
+            13,
+            13,
+            1,
+            10
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 22,
+          "law_key": [
+            14,
+            2,
+            2,
+            14
+          ],
+          "kind": "external_signed_carrier",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        },
+        {
+          "node_id": 23,
+          "law_key": [
+            14,
+            14,
+            11,
+            2
+          ],
+          "kind": "internal_thalion_copy",
+          "candidate_count": 0,
+          "carrier_candidates": []
+        }
+      ],
+      "transition_domains": [
+        {
+          "source": 0,
+          "target": 1,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 1,
+          "target": 14,
+          "source_supported": false,
+          "target_supported": true,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 1,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 2,
+          "target": 3,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 3,
+          "target": 21,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 4,
+          "target": 0,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 5,
+          "target": 6,
+          "source_supported": true,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 1,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 5,
+          "target": 8,
+          "source_supported": true,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 1,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 6,
+          "target": 4,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 7,
+          "target": 9,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 8,
+          "target": 12,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 9,
+          "target": 18,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 10,
+          "target": 5,
+          "source_supported": false,
+          "target_supported": true,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 1,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 11,
+          "target": 10,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 12,
+          "target": 6,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 12,
+          "target": 8,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 13,
+          "target": 11,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 14,
+          "target": 12,
+          "source_supported": true,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 1,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 14,
+          "target": 15,
+          "source_supported": true,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 1,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 15,
+          "target": 13,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 17,
+          "target": 16,
+          "source_supported": true,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 2,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 18,
+          "target": 19,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 19,
+          "target": 23,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 20,
+          "target": 17,
+          "source_supported": false,
+          "target_supported": true,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 2,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 21,
+          "target": 20,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        },
+        {
+          "source": 23,
+          "target": 22,
+          "source_supported": false,
+          "target_supported": false,
+          "both_supported": false,
+          "source_candidate_count": 0,
+          "daughter_candidate_count": 0,
+          "carrier_pair_count": 0,
+          "distinct_daughter_pair_count": 0,
+          "distinct_daughter_possible": false,
+          "sample_distinct_pairs": []
+        }
+      ]
+    }
+  ],
+  "proof_obligation_status": {
+    "PO1_distinction_domain_possible": false,
+    "PO2_provenance_relation_enumerated": false,
+    "PO3_carrier_update_derived": false,
+    "PO4_projection_domain_derived": true,
+    "PO5_seed_independence_reused_from_prior_audit": true,
+    "PO6_native_row_domain_exact": true
+  },
+  "eidron_theorem_admitted": false,
+  "source_daughter_law_admitted": false,
+  "lower_carrier_domain_admitted": false,
+  "lower_carrier_update_law_admitted": false,
+  "quartz_clock_rule_admitted": false,
+  "native_signed_lift_identification_proven": false,
+  "cocycle_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Exact native carrier-domain derivation only.",
+    "The t and I socket orientation remains user-declared.",
+    "Every carrier candidate is backed by an exact x_sigma row.",
+    "No carrier update law is inferred from domain membership.",
+    "No stochastic, quartz, cocycle, physics, or force law is derived.",
+    "No Eidron theorem or Gap A closure claim."
+  ],
+  "recommended_next": "inspect_eidronic_carrier_domain_obstruction_001"
+}
