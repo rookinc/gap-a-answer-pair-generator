@@ -1,0 +1,174 @@
+{
+  "artifact_kind": "remaining_gate_plan",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "plan_ledger_only": true,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "checks": {
+    "ab_assignment_law_candidate_admitted": true,
+    "admission_audit_pass": true,
+    "all_remaining_gates_closed": true,
+    "candidate_derive_pass": true,
+    "chirality_candidate_admitted": true,
+    "immediate_next_is_leakage": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "observed_row_candidate_admitted": true,
+    "remaining_gate_count_5": true,
+    "status_pass_true": true
+  },
+  "created_utc": "2026-07-10T14:44:33+00:00",
+  "gate_plan": [
+    {
+      "current_status": "closed",
+      "failure_receipt": "slot_coupled_chirality_candidate_demoted_to_observed_row_residue",
+      "gate_id": "G1_leakage_closure_gate",
+      "goal": "Close answer-label leakage beyond observed rows.",
+      "recommended_artifact": "audit_slot_coupled_chirality_candidate_leakage_closure_001",
+      "required_tests": [
+        "construct non-realized candidate universe using law features only",
+        "test whether slot/C law predicts A/B without role_class, label, shared_B, reverse_partner, accepted/exact fields",
+        "run shuffle/null audits against target A/B assignments",
+        "verify no downstream answer labels are required"
+      ],
+      "success_receipt": "answer_label_leakage_closed_for_slot_coupled_chirality_candidate",
+      "why_next": "The candidate is admitted only because no leakage was detected on observed rows. Leakage is explicitly not closed."
+    },
+    {
+      "current_status": "closed",
+      "failure_receipt": "observed_row_only_surface_boundary_confirmed",
+      "gate_id": "G2_universal_ab_law_gate",
+      "goal": "Generalize from observed rows to a universal or bounded-domain A/B law.",
+      "recommended_artifact": "derive_bounded_domain_slot_coupled_ab_law_001",
+      "required_tests": [
+        "define the domain where from_slot, to_slot, from_C, to_C are valid source inputs",
+        "enumerate all admissible slot/C keys in that domain",
+        "show generated A/B outputs match observed rows and reject invalid rows",
+        "state whether the law is universal, domain-bounded, or observed-row-only"
+      ],
+      "success_receipt": "bounded_domain_ab_assignment_law_candidate",
+      "why_next": "Observed-row exactness does not prove the law beyond the observed row universe."
+    },
+    {
+      "current_status": "closed",
+      "failure_receipt": "chirality_reading_remains_interpretive",
+      "gate_id": "G3_full_chirality_gate",
+      "goal": "Tie the slot/C hand to native WXYZTI chamber anatomy.",
+      "recommended_artifact": "map_slot_c_hand_to_wxyzti_chamber_anatomy_001",
+      "required_tests": [
+        "map slot/C hand signatures to WXYZTI chamber roles",
+        "respect user-declared orientation t=input and I=output without promoting it to theorem",
+        "separate WXYZ side faces from TI polar path/null socket",
+        "test whether hand signatures are stable under permissible orientation relabelings"
+      ],
+      "success_receipt": "wxyzti_chirality_candidate_receipt",
+      "why_next": "The current chirality reading is strong but still candidate-level. It needs a chamber-anatomy source account."
+    },
+    {
+      "current_status": "closed",
+      "failure_receipt": "shared_b_universe_still_missing",
+      "gate_id": "G4_shared_b_universe_gate",
+      "goal": "Derive full role-labeled shared_B universe without using answer labels as source.",
+      "recommended_artifact": "derive_shared_b_universe_from_slot_c_chirality_candidate_001",
+      "required_tests": [
+        "generate shared_B candidates from slot/C A/B law plus source fields",
+        "bind station_role and role_pair without role_class leakage",
+        "recover shared_B/reverse_partner split as output rather than input",
+        "compare generated universe to observed accepted universe"
+      ],
+      "success_receipt": "full_role_labeled_shared_b_candidate_derivation",
+      "why_next": "A/B surface alone does not produce the full role-labeled shared_B universe."
+    },
+    {
+      "current_status": "closed",
+      "failure_receipt": "gap_a_boundary_remains_open",
+      "gate_id": "G5_gap_a_closure_gate",
+      "goal": "Only consider Gap A closure after all prior gates produce receipts.",
+      "recommended_artifact": "pause_or_admit_gap_a_closure_after_chirality_receipts_001",
+      "required_tests": [
+        "verify G1 through G4 receipts exist and pass",
+        "audit whether source law is admitted",
+        "audit whether native generator is admitted",
+        "audit whether Gap A closes without adding hidden assumptions"
+      ],
+      "success_receipt": "gap_a_closure_candidate_audit",
+      "why_next": "Gap A closure requires source law, leakage closure, bounded A/B law, chirality account, and shared_B universe derivation."
+    }
+  ],
+  "id": "derive_chirality_candidate_remaining_gate_plan_001",
+  "immediate_next": {
+    "allowed_inputs_first_pass": [
+      "from_slot",
+      "to_slot",
+      "from_C",
+      "to_C",
+      "station_role",
+      "role_pair"
+    ],
+    "artifact": "audit_slot_coupled_chirality_candidate_leakage_closure_001",
+    "forbidden_inputs_first_pass": [
+      "role_class",
+      "label",
+      "shared_B",
+      "reverse_partner",
+      "accepted_candidate_indices",
+      "false_positive_candidate_indices",
+      "miss_candidate_indices",
+      "exact",
+      "accepted_count",
+      "candidate_index"
+    ],
+    "gate_id": "G1_leakage_closure_gate",
+    "reason": "Do not generalize or promote chirality until leakage is closed or a stronger boundary is recorded."
+  },
+  "input_artifacts": {
+    "admission_audit": "artifacts/json/admission_audit_slot_coupled_chirality_ab_assignment_law_candidate_001.json",
+    "candidate": "artifacts/json/derive_slot_coupled_chirality_ab_assignment_law_candidate_001.json",
+    "status": "artifacts/json/record_gap_a_chirality_ab_candidate_admission_status_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/admission_audit_slot_coupled_chirality_ab_assignment_law_candidate_001.json": "42bb7624110ca35ae4b7e9661d86f49bb6ee26f5386ad4ab2999d4983339cfc8",
+    "artifacts/json/derive_slot_coupled_chirality_ab_assignment_law_candidate_001.json": "a93996c5e4879be80bd6c7e0d0e12dd8a7a5198e04647d7721a798a27c36a11a",
+    "artifacts/json/record_gap_a_chirality_ab_candidate_admission_status_001.json": "81898cafa40d2f67d2fcf32ea89dadc37778622e9132e25b0e5148207441f694"
+  },
+  "keeper_line": "The candidate is admitted at the surface; the remaining gates decide whether it becomes law.",
+  "next_gate": "audit_slot_coupled_chirality_candidate_leakage_closure_001",
+  "status": "CHIRALITY_CANDIDATE_REMAINING_GATE_PLAN_001_DERIVED",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "check_count": 20,
+    "failed_count": 0,
+    "frontier_status": "remaining_gate_plan_ready_for_leakage_closure_audit",
+    "full_chirality_admitted": false,
+    "gap_a_closure": false,
+    "immediate_next_artifact": "audit_slot_coupled_chirality_candidate_leakage_closure_001",
+    "immediate_next_gate": "G1_leakage_closure_gate",
+    "native_generator_admitted": false,
+    "observed_row_chirality_ab_candidate_admitted": true,
+    "passed_count": 20,
+    "plan_pass": true,
+    "recommended_next": "audit_slot_coupled_chirality_candidate_leakage_closure_001",
+    "remaining_gate_count": 5,
+    "source_law_admitted": false,
+    "universal_ab_assignment_law_admitted": false
+  }
+}
