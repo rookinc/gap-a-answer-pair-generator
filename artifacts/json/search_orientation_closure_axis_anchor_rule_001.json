@@ -1,0 +1,238 @@
+{
+  "artifact_kind": "residue_aware_axis_anchor_search",
+  "boundary": {
+    "force_claim": false,
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "geometry_claim": false,
+    "native_axis_anchor_rule_admitted": false,
+    "native_generator_admitted": false,
+    "orientation_closure_axis_anchor_candidate_recorded": true,
+    "orientation_closure_axis_anchor_rule_promoted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "residue_aware_axis_anchor_search_only": true,
+    "source_law_admitted": false,
+    "unique_native_g15_embedding_proven": false
+  },
+  "checks": {
+    "all_single_field_value_signatures_equal": true,
+    "channel_anchor_candidate_prior": true,
+    "field_anchor_test_pass": true,
+    "label_free_field_anchor_found_false": true,
+    "native_axis_anchor_rule_admitted_false": true,
+    "no_force": true,
+    "no_full_theorem": true,
+    "no_gap_a_closure": true,
+    "no_geometry_claim": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_unique_native_g15_embedding_proof": true,
+    "order_anchor_candidate_prior": true,
+    "order_hook_present": true,
+    "orientation_closure_axis_anchor_candidate_recorded": true,
+    "orientation_closure_axis_anchor_rule_promoted_false": true,
+    "packet_row_count_48": true,
+    "residue_hook_present_false": true,
+    "source_only_extract_pass": true,
+    "uniqueness_test_pass": true,
+    "value_anchor_candidate_false_prior": true
+  },
+  "created_utc": "2026-07-10T18:35:16+00:00",
+  "id": "search_orientation_closure_axis_anchor_rule_001",
+  "input_artifacts": {
+    "field_anchor_invariants": "artifacts/json/test_slot_c_proxy_embedding_field_anchor_invariants_001.json",
+    "order_channel_axis_anchor": "artifacts/json/test_slot_c_proxy_embedding_order_channel_axis_anchors_001.json",
+    "source_only_packets": "artifacts/json/extract_source_only_slot_c_row_packets_001.json",
+    "uniqueness_probe": "artifacts/json/test_slot_c_proxy_embedding_uniqueness_against_native_g15_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/extract_source_only_slot_c_row_packets_001.json": "80deb83bd070e8b7f2a4d86c98bac34d6d527235e7890aa726c3fb38443e87d4",
+    "artifacts/json/test_slot_c_proxy_embedding_field_anchor_invariants_001.json": "74061338cd702f6b18819cf9e8898d137c83c715cbb37e459a010a726817bbda",
+    "artifacts/json/test_slot_c_proxy_embedding_order_channel_axis_anchors_001.json": "75228016f2f6f531fb0d56d1159540fceddbebe76f1773a32e80616d4ce22f61",
+    "artifacts/json/test_slot_c_proxy_embedding_uniqueness_against_native_g15_001.json": "f37c736a8d6cadaa1a84244bdc0db0c40b511ca0233606d74c321b60efefbe48"
+  },
+  "keeper_line": "The values are symmetric. The axis is not a value. The axis is a closure memory.",
+  "next_gate": "search_native_chain_order_axis_rule_001",
+  "orientation_closure_result": {
+    "all_single_field_value_signatures_equal": true,
+    "axis_candidate_rules": [
+      {
+        "axis": "from_to",
+        "candidate_rule": "from_* fields precede to_* fields in directed source-packet order",
+        "id": "R1_from_to_order_axis",
+        "promoted": false,
+        "uses": [
+          "source_packet_order",
+          "ordered_transport_direction"
+        ],
+        "why_not": "order candidate recorded but not yet tested as a native invariant"
+      },
+      {
+        "axis": "slot_C",
+        "candidate_rule": "slot fields and C fields are separated by channel or closure role, not by value profile",
+        "id": "R2_slot_c_kind_axis",
+        "promoted": false,
+        "uses": [
+          "channel_strings",
+          "closure_role"
+        ],
+        "why_not": "channel candidate recorded but not yet exact"
+      },
+      {
+        "axis": "closure_residue",
+        "candidate_rule": "WXYZTI closed-walk residue or residue-like parity breaks unlabeled coordinate symmetry",
+        "id": "R3_orientation_residue_axis",
+        "promoted": false,
+        "uses": [
+          "WXYZTI_cycle",
+          "diad_coupler_partition",
+          "closed_walk_residue"
+        ],
+        "why_not": "no machine-readable lifted signs for these slot/C packets in this repo artifact set"
+      }
+    ],
+    "channel_hook_present": true,
+    "couplers": [
+      "XY",
+      "ZT",
+      "IW"
+    ],
+    "cycle": [
+      "W",
+      "X",
+      "Y",
+      "Z",
+      "T",
+      "I"
+    ],
+    "diads": [
+      "WX",
+      "YZ",
+      "TI"
+    ],
+    "field_names": [
+      "from_slot",
+      "to_slot",
+      "from_C",
+      "to_C"
+    ],
+    "interpretation": "Value signatures do not anchor the axes. Source-packet order and channel/support hooks are present as candidate axis anchors. A true orientation-closure residue rule remains blocked until lifted signs or residue-like packet data are machine-readable in this Project 21 context.",
+    "native_axis_anchor_rule_admitted": false,
+    "order_hook_present": true,
+    "orientation_closure_axis_anchor_candidate_recorded": true,
+    "orientation_closure_axis_anchor_rule_promoted": false,
+    "oriented_edges": [
+      "WX",
+      "XY",
+      "YZ",
+      "ZT",
+      "TI",
+      "IW"
+    ],
+    "packet_row_count": 48,
+    "residue_hook_present": false,
+    "role_like_hook_count": 48,
+    "role_like_top_20": [
+      [
+        "role_pair=TI/XY",
+        8
+      ],
+      [
+        "role_pair=IW/YZ",
+        8
+      ],
+      [
+        "role_pair=WX/ZT",
+        8
+      ],
+      [
+        "station_role=XY",
+        4
+      ],
+      [
+        "station_role=TI",
+        4
+      ],
+      [
+        "station_role=IW",
+        4
+      ],
+      [
+        "station_role=WX",
+        4
+      ],
+      [
+        "station_role=ZT",
+        4
+      ],
+      [
+        "station_role=YZ",
+        4
+      ]
+    ],
+    "search_family": "orientation_closure_axis_anchor_from_order_channel_and_residue_hooks",
+    "support_hook_count": 96,
+    "support_source_top_20": [
+      [
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        48
+      ],
+      [
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+        24
+      ],
+      [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        24
+      ]
+    ]
+  },
+  "status": "ORIENTATION_CLOSURE_AXIS_ANCHOR_RULE_001_CANDIDATE_RECORDED_RULE_NOT_PROMOTED",
+  "summary": {
+    "all_single_field_value_signatures_equal": true,
+    "channel_hook_present": true,
+    "check_count": 23,
+    "failed_count": 0,
+    "frontier_status": "orientation_closure_axis_candidate_recorded_lifted_residue_data_needed",
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "native_axis_anchor_rule_admitted": false,
+    "native_generator_admitted": false,
+    "order_hook_present": true,
+    "orientation_closure_axis_anchor_candidate_recorded": true,
+    "orientation_closure_axis_anchor_rule_promoted": false,
+    "packet_row_count": 48,
+    "passed_count": 23,
+    "proof_claim": false,
+    "recommended_next": "search_native_chain_order_axis_rule_001",
+    "residue_hook_present": false,
+    "search_pass": true,
+    "source_law_admitted": false,
+    "unique_native_g15_embedding_proven": false
+  },
+  "unresolved": [
+    {
+      "detail": "Find or construct machine-readable lifted signs or residue-like packet data for slot/C packets.",
+      "id": "U1_lifted_sign_data",
+      "status": "open"
+    },
+    {
+      "detail": "Test whether native-chain packet order exactly distinguishes from/to and slot/C axes.",
+      "id": "U2_exact_order_rule",
+      "status": "open"
+    },
+    {
+      "detail": "Test whether role-pair or channel support exactly breaks coordinate-permutation symmetry.",
+      "id": "U3_exact_channel_rule",
+      "status": "open"
+    },
+    {
+      "detail": "Do not promote any axis anchor to source law without independent birth-order and leakage closure.",
+      "id": "U4_source_law_boundary",
+      "status": "open"
+    }
+  ]
+}
