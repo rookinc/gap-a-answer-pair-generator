@@ -1,0 +1,128 @@
+{
+  "artifact": "derive_project21_g900_source_successor_g60_target_contract_001",
+  "contract_pass": true,
+  "verdict": "project21_g900_source_successor_g60_target_bridge_contract_derived",
+  "keeper": "G900 selects the carrier packet. G60 supplies the true opposite. The fork decides whether the opposite can be received.",
+  "scope": "project21_source_packet_to_g900_successor_to_g60_antipodal_target_contract",
+  "source_artifacts": {
+    "project21_functional": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/derive_lifted_residue_functional_on_directed_cycle_space_001.json",
+    "native_comparison": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/audit_lifted_residue_functional_against_native_signed_lift_001.json",
+    "g900_successor": "/data/data/com.termux/files/home/dev/cori/aletheos.ai/public_html/labs/g900_observatory/artifacts/json/g900_return_cell_packet_successor_rule_scout_003.v1.json",
+    "g60_antipode": "/data/data/com.termux/files/home/dev/cori/aletheos.ai/public_html/labs/g900_observatory/artifacts/json/g900_g60_true_antipode_sheet_wrap_probe_001.v1.json",
+    "g900_selector": "/data/data/com.termux/files/home/dev/cori/aletheos.ai/public_html/labs/g900_observatory/artifacts/json/g900_transport_selector_coupling_law_audit_024.v1.json"
+  },
+  "known_inputs": {
+    "project21_state_count": 24,
+    "project21_transition_count": 28,
+    "project21_cycle_space_dimension": 7,
+    "project21_functional_rank": 1,
+    "project21_kernel_dimension": 6,
+    "g900_example_source_packet_size": 4,
+    "g900_example_target_packet_size": 4,
+    "g60_vertex_count": 60,
+    "g60_edge_count": 120,
+    "g60_antipode_pair_count": 30
+  },
+  "bridge_schema": {
+    "project21_source_packet": "P_21",
+    "g900_successor_rule": "R_G900",
+    "g60_target_packet": "Q_60",
+    "g60_true_antipode": "alpha_60",
+    "fork_context": "F",
+    "supported_antipodal_target": "Q_60_star",
+    "formal_chain": "P_21 --R_G900--> Q_60 --alpha_60,F--> Q_60_star",
+    "residue_comparison": "rho_21(cycle) compared with support parity of Q_60 versus Q_60_star"
+  },
+  "role_contracts": {
+    "P_21": "A bounded Project 21 source packet derived from native state, transition, and cycle provenance.",
+    "R_G900": "A finite carrier-incidence successor rule that selects an existing target packet without hand-picking.",
+    "Q_60": "A target packet whose members resolve to existing G60 carrier states or edges.",
+    "alpha_60": "The unique distance-6 antipode involution on G60.",
+    "F": "The fork or chamber context that determines whether the antipodal counterpart is support-visible."
+  },
+  "proof_obligations": [
+    {
+      "id": "B1_project21_packet",
+      "statement": "Derive P_21 from Project 21 provenance without using answer labels or downstream native targets.",
+      "status": "open"
+    },
+    {
+      "id": "B2_g900_successor",
+      "statement": "Derive a deterministic R_G900 that selects Q_60 from P_21 over existing carrier incidence.",
+      "status": "open"
+    },
+    {
+      "id": "B3_g60_resolution",
+      "statement": "Resolve every selected Q_60 member to a native G60 state or edge.",
+      "status": "open"
+    },
+    {
+      "id": "B4_antipodal_support",
+      "statement": "Apply alpha_60 and derive the fork context that admits or rejects the antipodal counterpart.",
+      "status": "open"
+    },
+    {
+      "id": "B5_residue_preservation",
+      "statement": "Show that the resulting binary support class agrees with rho_21 on the full seven-dimensional Project 21 cycle space.",
+      "status": "open"
+    },
+    {
+      "id": "B6_native_projection",
+      "statement": "Only after B1-B5, test projection through G30 and G15 against the imported native signing.",
+      "status": "open"
+    }
+  ],
+  "negative_constraints": [
+    "Co-visibility of packet components is not accepted as a coupling law.",
+    "The local+30 rule is not accepted as the universal native G60 antipode.",
+    "A direct Project21-to-G15 edge identity is not assumed.",
+    "An abstract rank-one functional match is not treated as native signed-lift identification."
+  ],
+  "checks": {
+    "project21_functional_derived": true,
+    "project21_cycle_dimension_is_7": true,
+    "project21_functional_rank_is_1": true,
+    "native_comparison_passed": true,
+    "native_identity_remains_open": true,
+    "g900_successor_candidate_found": true,
+    "g900_source_packet_has_four_rows": true,
+    "g900_target_packet_has_four_rows": true,
+    "g900_successor_rule_present": true,
+    "g60_antipode_probe_passed": true,
+    "g60_true_antipode_supported_with_fork": true,
+    "g900_exact_selector_absent": true,
+    "contract_derived": true
+  },
+  "bridge_contract_admitted": true,
+  "project21_source_packet_derived": false,
+  "g900_successor_rule_derived_for_project21": false,
+  "g60_target_packet_derived": false,
+  "g60_antipodal_support_law_derived": false,
+  "residue_preservation_proven": false,
+  "g30_projection_derived": false,
+  "g15_projection_derived": false,
+  "native_signed_lift_identification_proven": false,
+  "coupling_law_admitted": false,
+  "new_permission_channel_admitted": false,
+  "new_information_transport_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "general_relativity_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "body_mutation": false,
+  "boundary": [
+    "Bridge-schema derivation only.",
+    "The existing G900 successor rule is an example, not yet a Project 21 rule.",
+    "The true G60 antipode is retained; local+30 is not substituted.",
+    "Fork support remains contextual and must be derived.",
+    "Co-visibility is not coupling.",
+    "No channel or information-transport admission.",
+    "No G30 or G15 projection is claimed.",
+    "No native signed-lift identification, theorem, GR, physics, force, body mutation, or Gap A closure claim."
+  ],
+  "recommended_next": "construct_project21_source_packet_for_g900_successor_search_001"
+}
