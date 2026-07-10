@@ -1,0 +1,933 @@
+{
+  "artifact_kind": "slot_coupled_chirality_ab_assignment_law_candidate",
+  "boundary": {
+    "ab_assignment_law_admitted": false,
+    "answer_label_leakage_closed": false,
+    "candidate_law_only": true,
+    "chirality_admitted": false,
+    "chirality_candidate_only": true,
+    "force_claim": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem": false
+  },
+  "checks": {
+    "candidate_only": true,
+    "hand_signature_counts_nonempty": true,
+    "hypotheses_derive_pass": true,
+    "key_conflict_count_zero": true,
+    "key_map_count_24": true,
+    "law_candidate_present": true,
+    "leakage_audit_pass": true,
+    "leakage_not_detected_not_closed": true,
+    "loaded_source_count_at_least_2": true,
+    "no_ab_assignment_law_admission": true,
+    "no_answer_label_leakage_closure": true,
+    "no_chirality_admission": true,
+    "no_force": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "row_count_positive": true,
+    "slot_test_best_features_match": true,
+    "slot_test_exact": true
+  },
+  "created_utc": "2026-07-10T14:37:24+00:00",
+  "hand_signature_counts": {
+    "0/1->9/0": 7,
+    "0/10->4/0": 7,
+    "0/12->13/0": 4,
+    "0/12->6/0": 7,
+    "0/12->8/0": 7,
+    "0/2->13/0": 7,
+    "0/2->2/0": 7,
+    "0/3->2/0": 4,
+    "0/3->6/0": 7,
+    "0/3->9/0": 7,
+    "0/6->11/0": 7,
+    "0/9->7/0": 7,
+    "12/3->0/12": 20,
+    "13/2->0/13": 10,
+    "14/1->0/14": 7,
+    "3/12->0/3": 20,
+    "5/10->0/5": 7,
+    "6/9->0/6": 7,
+    "9/6->0/9": 7
+  },
+  "id": "derive_slot_coupled_chirality_ab_assignment_law_candidate_001",
+  "input_artifacts": {
+    "hypotheses": "artifacts/json/derive_ab_assignment_candidate_field_hypotheses_001.json",
+    "leakage_audit": "artifacts/json/audit_slot_coupled_ab_assignment_for_answer_label_leakage_001.json",
+    "slot_test": "artifacts/json/test_slot_coupled_ab_assignment_hypothesis_001.json",
+    "source_files": [
+      "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+      "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+      "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+    ]
+  },
+  "input_sha256": {
+    "artifacts/json/audit_slot_coupled_ab_assignment_for_answer_label_leakage_001.json": "a848d2cd306c71357f9b36d57814f719ef7638db36cbac1e8032bf4dd91c0110",
+    "artifacts/json/derive_ab_assignment_candidate_field_hypotheses_001.json": "00f9fb9be90c5313b4cda802e682c6cb6d051b7823ad074af0b12efade96d407",
+    "artifacts/json/test_slot_coupled_ab_assignment_hypothesis_001.json": "6784e67d937b0ab9862cdfad99dd161be8a161c925d447a9c7c4784644f88215",
+    "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json": "8a8e50eab152313720ec68a3cc15b576bb90efdf187ad0c28fe8b96e9c4faa55",
+    "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json": "0ab5c174680c0d4226156bce38f815322bbf40e769d9415d88a41703daebd83e",
+    "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json": "4a77cbd5b0cf631fdbba27c1eb3c04d6d8c593f2f0dbab6eb70bfff98419f78f"
+  },
+  "interpretation": {
+    "apparatus_reading": "from_slot and to_slot provide apparatus motion, while from_C and to_C provide the orientation socket. The A/B side-face transition is handed by that apparatus surface.",
+    "leakage_boundary": "No leakage was detected on observed rows, but answer-label leakage is not closed. This remains a law candidate, not an admitted A/B assignment law.",
+    "why_chirality_like": "The law surface determines A/B behavior from a directed slot motion and C endpoint motion, without using answer-label fields. This has the form of a handed transition rather than a flat selector."
+  },
+  "keeper_line": "A/B is not chosen by the answer. A/B is handed by the apparatus.",
+  "key_conflict_count": 0,
+  "key_map": [
+    {
+      "ab_delta_pair": [
+        9,
+        0
+      ],
+      "hand_signature": "0/3->9/0",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "shared_B"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "TI/XY",
+      "sample_station_role": "XY",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        0,
+        5
+      ],
+      "hand_signature": "5/10->0/5",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "reverse_partner"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "IW/YZ",
+      "sample_station_role": "YZ",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        2,
+        0
+      ],
+      "hand_signature": "0/3->2/0",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "shared_B"
+      ],
+      "row_count": 4,
+      "sample_role_pair": "WX/ZT",
+      "sample_station_role": "ZT",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        0,
+        12
+      ],
+      "hand_signature": "12/3->0/12",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "reverse_partner"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "TI/XY",
+      "sample_station_role": "TI",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        0,
+        13
+      ],
+      "hand_signature": "13/2->0/13",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "reverse_partner"
+      ],
+      "row_count": 5,
+      "sample_role_pair": "WX/ZT",
+      "sample_station_role": "WX",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        9,
+        0
+      ],
+      "hand_signature": "0/1->9/0",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "shared_B"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "TI/XY",
+      "sample_station_role": "XY",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        4,
+        0
+      ],
+      "hand_signature": "0/10->4/0",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "shared_B"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "IW/YZ",
+      "sample_station_role": "IW",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        13,
+        0
+      ],
+      "hand_signature": "0/12->13/0",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "shared_B"
+      ],
+      "row_count": 4,
+      "sample_role_pair": "WX/ZT",
+      "sample_station_role": "ZT",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        0,
+        3
+      ],
+      "hand_signature": "3/12->0/3",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "reverse_partner"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "IW/YZ",
+      "sample_station_role": "YZ",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        0,
+        9
+      ],
+      "hand_signature": "9/6->0/9",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "reverse_partner"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "TI/XY",
+      "sample_station_role": "TI",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        0,
+        13
+      ],
+      "hand_signature": "13/2->0/13",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "reverse_partner"
+      ],
+      "row_count": 5,
+      "sample_role_pair": "WX/ZT",
+      "sample_station_role": "WX",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        8,
+        0
+      ],
+      "hand_signature": "0/12->8/0",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "shared_B"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "IW/YZ",
+      "sample_station_role": "IW",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        0,
+        12
+      ],
+      "hand_signature": "12/3->0/12",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "reverse_partner"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "TI/XY",
+      "sample_station_role": "TI",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        0,
+        14
+      ],
+      "hand_signature": "14/1->0/14",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "reverse_partner"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "TI/XY",
+      "sample_station_role": "TI",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        2,
+        0
+      ],
+      "hand_signature": "0/2->2/0",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "shared_B"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "WX/ZT",
+      "sample_station_role": "ZT",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        13,
+        0
+      ],
+      "hand_signature": "0/2->13/0",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "shared_B"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "WX/ZT",
+      "sample_station_role": "ZT",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        0,
+        6
+      ],
+      "hand_signature": "6/9->0/6",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "reverse_partner"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "IW/YZ",
+      "sample_station_role": "YZ",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        6,
+        0
+      ],
+      "hand_signature": "0/3->6/0",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "shared_B"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "TI/XY",
+      "sample_station_role": "XY",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        6,
+        0
+      ],
+      "hand_signature": "0/12->6/0",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "shared_B"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "IW/YZ",
+      "sample_station_role": "IW",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        0,
+        3
+      ],
+      "hand_signature": "3/12->0/3",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "reverse_partner"
+      ],
+      "row_count": 6,
+      "sample_role_pair": "WX/ZT",
+      "sample_station_role": "WX",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        0,
+        12
+      ],
+      "hand_signature": "12/3->0/12",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "reverse_partner"
+      ],
+      "row_count": 6,
+      "sample_role_pair": "WX/ZT",
+      "sample_station_role": "WX",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        7,
+        0
+      ],
+      "hand_signature": "0/9->7/0",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "shared_B"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "IW/YZ",
+      "sample_station_role": "IW",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        0,
+        3
+      ],
+      "hand_signature": "3/12->0/3",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "reverse_partner"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "IW/YZ",
+      "sample_station_role": "YZ",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    },
+    {
+      "ab_delta_pair": [
+        11,
+        0
+      ],
+      "hand_signature": "0/6->11/0",
+      "hand_signature_variant_count": 1,
+      "law_key_from_slot_to_slot_from_C_to_C": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "role_classes_seen_for_evaluation_only": [
+        "shared_B"
+      ],
+      "row_count": 7,
+      "sample_role_pair": "TI/XY",
+      "sample_station_role": "XY",
+      "source_count": 3,
+      "source_set": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "target_variant_count": 1
+    }
+  ],
+  "key_map_count": 24,
+  "law_candidate": {
+    "ab_assignment_law_admitted": false,
+    "candidate_formula_form": {
+      "handed_signature": "slot_delta_mod15 / c_delta_mod15 -> a_delta_mod15 / b_delta_mod15",
+      "inputs": [
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "outputs": [
+        "from_A",
+        "from_B",
+        "to_A",
+        "to_B",
+        "ab_delta_pair"
+      ]
+    },
+    "chirality_admitted": false,
+    "chirality_reading": "Slot motion plus C endpoint motion hands the A/B side-face transition.",
+    "law_surface": "from_slot, to_slot, from_C, to_C -> from_A, from_B, to_A, to_B and ab_delta_pair",
+    "name": "slot_coupled_chirality_ab_assignment_law_candidate",
+    "plain_statement": "A/B assignment is the visible side-face outcome of a slot/C chirality rule.",
+    "source_law_admitted": false,
+    "status": "candidate_only"
+  },
+  "next_gate": "negative_test_slot_coupled_chirality_ab_law_candidate_001",
+  "row_count": 156,
+  "slot_c_to_ab_counts_top": [
+    {
+      "a_delta": 0,
+      "b_delta": 3,
+      "c_delta": 12,
+      "count": 20,
+      "slot_delta": 3
+    },
+    {
+      "a_delta": 0,
+      "b_delta": 12,
+      "c_delta": 3,
+      "count": 20,
+      "slot_delta": 12
+    },
+    {
+      "a_delta": 0,
+      "b_delta": 13,
+      "c_delta": 2,
+      "count": 10,
+      "slot_delta": 13
+    },
+    {
+      "a_delta": 7,
+      "b_delta": 0,
+      "c_delta": 9,
+      "count": 7,
+      "slot_delta": 0
+    },
+    {
+      "a_delta": 6,
+      "b_delta": 0,
+      "c_delta": 12,
+      "count": 7,
+      "slot_delta": 0
+    },
+    {
+      "a_delta": 4,
+      "b_delta": 0,
+      "c_delta": 10,
+      "count": 7,
+      "slot_delta": 0
+    },
+    {
+      "a_delta": 8,
+      "b_delta": 0,
+      "c_delta": 12,
+      "count": 7,
+      "slot_delta": 0
+    },
+    {
+      "a_delta": 0,
+      "b_delta": 6,
+      "c_delta": 9,
+      "count": 7,
+      "slot_delta": 6
+    },
+    {
+      "a_delta": 0,
+      "b_delta": 5,
+      "c_delta": 10,
+      "count": 7,
+      "slot_delta": 5
+    },
+    {
+      "a_delta": 0,
+      "b_delta": 14,
+      "c_delta": 1,
+      "count": 7,
+      "slot_delta": 14
+    },
+    {
+      "a_delta": 0,
+      "b_delta": 9,
+      "c_delta": 6,
+      "count": 7,
+      "slot_delta": 9
+    },
+    {
+      "a_delta": 9,
+      "b_delta": 0,
+      "c_delta": 3,
+      "count": 7,
+      "slot_delta": 0
+    },
+    {
+      "a_delta": 9,
+      "b_delta": 0,
+      "c_delta": 1,
+      "count": 7,
+      "slot_delta": 0
+    },
+    {
+      "a_delta": 11,
+      "b_delta": 0,
+      "c_delta": 6,
+      "count": 7,
+      "slot_delta": 0
+    },
+    {
+      "a_delta": 6,
+      "b_delta": 0,
+      "c_delta": 3,
+      "count": 7,
+      "slot_delta": 0
+    },
+    {
+      "a_delta": 2,
+      "b_delta": 0,
+      "c_delta": 2,
+      "count": 7,
+      "slot_delta": 0
+    },
+    {
+      "a_delta": 13,
+      "b_delta": 0,
+      "c_delta": 2,
+      "count": 7,
+      "slot_delta": 0
+    },
+    {
+      "a_delta": 2,
+      "b_delta": 0,
+      "c_delta": 3,
+      "count": 4,
+      "slot_delta": 0
+    },
+    {
+      "a_delta": 13,
+      "b_delta": 0,
+      "c_delta": 12,
+      "count": 4,
+      "slot_delta": 0
+    }
+  ],
+  "source_counts": {
+    "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json": 84,
+    "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json": 48,
+    "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json": 24
+  },
+  "status": "SLOT_COUPLED_CHIRALITY_AB_ASSIGNMENT_LAW_CANDIDATE_001_DERIVED",
+  "summary": {
+    "ab_assignment_law_admitted": false,
+    "answer_label_leakage_closed": false,
+    "candidate_name": "slot_coupled_chirality_ab_assignment_law_candidate",
+    "check_count": 23,
+    "chirality_admitted": false,
+    "derive_pass": true,
+    "failed_count": 0,
+    "frontier_status": "slot_coupled_chirality_law_candidate_ready_for_negative_tests",
+    "full_role_labeled_shared_b_derived": false,
+    "gap_a_closure": false,
+    "hand_signature_count": 19,
+    "key_conflict_count": 0,
+    "key_map_count": 24,
+    "law_surface": "from_slot, to_slot, from_C, to_C -> from_A, from_B, to_A, to_B and ab_delta_pair",
+    "loaded_source_count": 3,
+    "native_generator_admitted": false,
+    "passed_count": 23,
+    "recommended_next": "negative_test_slot_coupled_chirality_ab_law_candidate_001",
+    "row_count": 156,
+    "source_law_admitted": false
+  }
+}
