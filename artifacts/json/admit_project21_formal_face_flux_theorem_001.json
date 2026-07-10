@@ -1,0 +1,70 @@
+{
+  "artifact": "admit_project21_formal_face_flux_theorem_001",
+  "audit_pass": true,
+  "verdict": "project21_formal_face_flux_theorem_admitted",
+  "theorem_symbol": "E_FF21",
+  "theorem_statement": "Let f be a paper-defined dodecahedral formal face with cyclic slot register Z5 and closed boundary class T(f). For the admitted Project 21 continuation carrier, if retreat and all admissible tangential continuations in T(f) are closed while continuation remains admitted, then the surviving continuation belongs to one transverse face-crossing class N(f). This transverse class preserves the common Eidronic continuation filament. The crossing receipt retains the independent endpoint-polarity and FV/VF word-order bits, giving four chamber realizations of the same passage. Thus a formal face converts closed tangential possibility into admitted transverse information passage with finite chamber memory.",
+  "formal_face_register": {
+    "carrier": "paper-defined dodecahedral chamber face",
+    "slot_set": "Z5",
+    "face_successor": "F(k)=k+1 mod 5",
+    "closure_order": 5,
+    "boundary_status": "closed cyclic incidence boundary"
+  },
+  "tangential_transition_class": {
+    "name": "T(f)",
+    "meaning": "admissible transitions remaining within the face boundary register"
+  },
+  "transverse_transition_class": {
+    "name": "N(f)",
+    "meaning": "admissible transitions crossing the formal face into the continuation chamber",
+    "metric_normal_claim": false
+  },
+  "crossing_receipt": {
+    "endpoint_polarity": "within axis",
+    "word_order": "FV versus VF class axis",
+    "state_space": "Z2 x Z2",
+    "receipt_count": 4
+  },
+  "checks": {
+    "eidronic_continuity_theorem_admitted": true,
+    "petrie_endpoint_word_theorem_admitted": true,
+    "formal_face_register_defined": true,
+    "tangential_class_defined": true,
+    "transverse_class_defined_without_metric_claim": true,
+    "closed_tangential_alternatives_declared_as_hypothesis": true,
+    "continuation_remains_admitted_declared_as_hypothesis": true,
+    "common_filament_preserved": true,
+    "four_state_receipt_preserved": true,
+    "boundary_audit_completed": true
+  },
+  "formal_face_flux_theorem_admitted": true,
+  "closed_tangent_to_transverse_passage_admitted": true,
+  "common_filament_preservation_admitted": true,
+  "four_state_crossing_receipt_admitted": true,
+  "information_flux_term_admitted": true,
+  "information_flux_definition": "admitted transverse relational-state passage through a formal face",
+  "face_memory_definition": "endpoint polarity x FV/VF word-order receipt",
+  "unique_metric_normal_vector_derived": false,
+  "euclidean_orthogonality_derived": false,
+  "face_chirality_theorem_admitted": false,
+  "petrie_parity_shadow_admitted": false,
+  "four_chambers_per_edge_theorem_admitted": false,
+  "literal_534_honeycomb_claim": false,
+  "higgs_analogue_claim": false,
+  "higgs_mechanism_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "gap_a_closure": false,
+  "boundary": [
+    "Finite Project 21 formal-face transport theorem only.",
+    "The formal face is a cyclic incidence object, not a physical membrane.",
+    "T(f) and N(f) are combinatorial transition classes.",
+    "Transverse does not yet mean metric perpendicular.",
+    "Tangential closure and continued admission are explicit theorem hypotheses.",
+    "The four-state receipt is endpoint polarity x FV/VF word order.",
+    "Information flux means structured relational-state passage through the finite carrier.",
+    "No Euclidean normal vector, physical flux, face-chirality theorem, Petrie-parity shadow, literal {5,3,4}, Higgs mechanism, physics, force, or Gap A closure claim."
+  ],
+  "recommended_next": "record_project21_formal_face_flux_theorem_checkpoint_001"
+}
