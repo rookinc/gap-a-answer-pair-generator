@@ -1,0 +1,137 @@
+{
+  "artifact": "ablate_support_sources_replay_channel_axis_candidates_001",
+  "audit_pass": true,
+  "keeper": "The microphone heard a filename, not an answer. Remove the cable and test whether the channel still speaks.",
+  "scope": "support_sources_ablation_and_channel_candidate_replay",
+  "row_path": "source_packet_index",
+  "ablated_row_path": "source_packet_index",
+  "row_count": 48,
+  "prior_support_sources_hit_count": 48,
+  "support_sources_removed": true,
+  "support_sources_before": {
+    "row_count": 48,
+    "group_count": 2,
+    "missing_value_count": 0,
+    "classified_row_count": 0,
+    "pure_group_count": 0,
+    "mixed_group_count": 0,
+    "correct_row_count": 0,
+    "exact_partition_replay": false,
+    "field_names": {
+      "support_sources": 48
+    },
+    "groups": [
+      {
+        "value": "('source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json', 'source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json')",
+        "member_count": 24,
+        "label_counts": {},
+        "predicted_label": null,
+        "pure": true
+      },
+      {
+        "value": "('source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json', 'source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json')",
+        "member_count": 24,
+        "label_counts": {},
+        "predicted_label": null,
+        "pure": true
+      }
+    ]
+  },
+  "support_sources_after": {
+    "row_count": 48,
+    "group_count": 0,
+    "missing_value_count": 48,
+    "classified_row_count": 0,
+    "pure_group_count": 0,
+    "mixed_group_count": 0,
+    "correct_row_count": 0,
+    "exact_partition_replay": false,
+    "field_names": {},
+    "groups": []
+  },
+  "role_hooks_before": {
+    "row_count": 48,
+    "group_count": 0,
+    "missing_value_count": 48,
+    "classified_row_count": 0,
+    "pure_group_count": 0,
+    "mixed_group_count": 0,
+    "correct_row_count": 0,
+    "exact_partition_replay": false,
+    "field_names": {},
+    "groups": []
+  },
+  "role_hooks_after": {
+    "row_count": 48,
+    "group_count": 0,
+    "missing_value_count": 48,
+    "classified_row_count": 0,
+    "pure_group_count": 0,
+    "mixed_group_count": 0,
+    "correct_row_count": 0,
+    "exact_partition_replay": false,
+    "field_names": {},
+    "groups": []
+  },
+  "native_before": {
+    "row_count": 48,
+    "group_count": 0,
+    "missing_value_count": 48,
+    "classified_row_count": 0,
+    "pure_group_count": 0,
+    "mixed_group_count": 0,
+    "correct_row_count": 0,
+    "exact_partition_replay": false,
+    "field_names": {},
+    "groups": []
+  },
+  "native_after": {
+    "row_count": 48,
+    "group_count": 0,
+    "missing_value_count": 48,
+    "classified_row_count": 0,
+    "pure_group_count": 0,
+    "mixed_group_count": 0,
+    "correct_row_count": 0,
+    "exact_partition_replay": false,
+    "field_names": {},
+    "groups": []
+  },
+  "independent_exact_channel_candidates": [],
+  "channel_survives_without_support_sources": false,
+  "support_sources_functionally_required": true,
+  "forbidden_answer_filename_is_functional_dependency": false,
+  "feedback_unit_candidate": null,
+  "feedback_unit_status": "no_support_independent_feedback_unit_found",
+  "interpretation": [
+    "support_sources is removed from the replay packet.",
+    "Surviving exact candidates are independent of that field.",
+    "A surviving role hook may be treated as a candidate unit of feedback.",
+    "Candidate feedback is not yet a source law or native generator."
+  ],
+  "channel_axis_rule_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "unique_native_g15_embedding_proven": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Support-sources ablation replay only.",
+    "A surviving candidate may identify a feedback unit candidate.",
+    "No channel-axis rule admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No unique native G15 embedding proof.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "search_support_independent_channel_feedback_unit_001"
+}
