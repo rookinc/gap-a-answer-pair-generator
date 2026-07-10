@@ -1,0 +1,211 @@
+{
+  "artifact_kind": "theorem_candidate_audit",
+  "audit_criteria": [
+    {
+      "criterion": "G15 centroid definition exists.",
+      "id": "C1_centroid_defined",
+      "pass": true
+    },
+    {
+      "criterion": "Slot/C local-I points are embedded in a common coordinate proxy.",
+      "id": "C2_embedding_exists",
+      "pass": true
+    },
+    {
+      "criterion": "Local-t normalization smoke test passed with zero centroid linearity error.",
+      "id": "C3_local_t_smoke_pass",
+      "pass": true
+    },
+    {
+      "criterion": "Register partition counts are stable and sum to 6561.",
+      "id": "C4_register_partition_exists",
+      "pass": true
+    },
+    {
+      "criterion": "Direction-limit theorem is not promoted before direction-limit test.",
+      "id": "C5_direction_limit_not_ready",
+      "pass": true
+    },
+    {
+      "criterion": "No full theorem is admitted by this audit.",
+      "id": "C6_no_full_theorem_admission",
+      "pass": true
+    }
+  ],
+  "audit_decision": {
+    "failed_criteria_count": 0,
+    "failed_criteria_ids": [],
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "not_promoted_candidate_count": 1,
+    "passed_criteria_count": 6,
+    "promoted_candidate_count": 3,
+    "proof_claim": false,
+    "theorem_candidate_status": "bounded_theorem_candidates_promoted_full_theorem_paused"
+  },
+  "boundary": {
+    "bounded_theorem_candidates_promoted": true,
+    "force_claim": false,
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem_candidate_audit_only": true
+  },
+  "checks": {
+    "all_criteria_pass": true,
+    "candidate_count_4": true,
+    "centroid_definition_pass": true,
+    "criteria_count_6": true,
+    "embedding_pass": true,
+    "full_theorem_admitted_false": true,
+    "gap_a_closure_false": true,
+    "local_t_test_pass": true,
+    "next_requirement_count_4": true,
+    "no_force": true,
+    "no_full_theorem": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "not_promoted_count_1": true,
+    "promoted_count_3": true,
+    "proof_claim_false": true,
+    "register_pass": true,
+    "theorem_path_pass": true
+  },
+  "created_utc": "2026-07-10T18:12:57+00:00",
+  "id": "audit_centroid_normalized_local_i_theorem_candidate_001",
+  "input_artifacts": {
+    "g15_centroid_definition": "artifacts/json/define_g15_centroid_for_local_i_register_001.json",
+    "local_i_embedding": "artifacts/json/embed_slot_c_local_i_points_in_g15_coordinates_001.json",
+    "local_t_normalization_test": "artifacts/json/test_local_t_extension_normalization_on_slot_c_register_001.json",
+    "superposition_register": "artifacts/json/record_slot_c_superposition_register_candidate_001.json",
+    "theorem_path": "artifacts/json/derive_centroid_normalized_local_i_theorem_path_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/define_g15_centroid_for_local_i_register_001.json": "6c65e59c23cd271e39b28b1056d5421d22bac501e7d6fca6ffda831e625b45b5",
+    "artifacts/json/derive_centroid_normalized_local_i_theorem_path_001.json": "a5910764f51262f523c274256ee038b7bbfdf03de83ce9f79cd5498da5e5aeea",
+    "artifacts/json/embed_slot_c_local_i_points_in_g15_coordinates_001.json": "352163d86f016d837f5dd496549dcb3d90b6f6cc28dd14869823cc3561771854",
+    "artifacts/json/record_slot_c_superposition_register_candidate_001.json": "22c6d510c68f775ea30d79971d87434bff58e3bf1b84b05fb9ba99ec8ae0ecac",
+    "artifacts/json/test_local_t_extension_normalization_on_slot_c_register_001.json": "11997ef2e1477568c35d433cfb4935ddd4fbaf3231afd2d3c6e402b7f03f696c"
+  },
+  "keeper_line": "We can promote the path to theorem candidates before we promote the theorem.",
+  "next_gate": "test_full_register_local_t_normalization_001",
+  "next_requirements": [
+    {
+      "id": "R1_full_6561_local_t_test",
+      "recommended_artifact": "test_full_register_local_t_normalization_001",
+      "requirement": "Run local-t normalization over all 6561 local-I points, not just the compact first-80 sample."
+    },
+    {
+      "id": "R2_direction_limit_test",
+      "recommended_artifact": "test_centroid_normalized_direction_limit_on_slot_c_register_001",
+      "requirement": "Define finite direction data and test direction-limit behavior."
+    },
+    {
+      "id": "R3_native_g15_embedding_check",
+      "recommended_artifact": "compare_slot_c_proxy_embedding_to_native_g15_001",
+      "requirement": "Compare slot/C numeric proxy with a native G15 quotient embedding."
+    },
+    {
+      "id": "R4_formal_theorem_statement",
+      "recommended_artifact": "write_centroid_normalized_local_i_theorem_candidate_001",
+      "requirement": "Write formal theorem-candidate statement after R1-R3."
+    }
+  ],
+  "status": "CENTROID_NORMALIZED_LOCAL_I_THEOREM_CANDIDATE_001_BOUNDED_PROMOTION",
+  "summary": {
+    "audit_pass": true,
+    "check_count": 21,
+    "failed_count": 0,
+    "frontier_status": "bounded_theorem_candidates_promoted_full_theorem_paused",
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "not_promoted_candidate_count": 1,
+    "not_promoted_candidates": [
+      "TC4_direction_limit"
+    ],
+    "passed_count": 21,
+    "promoted_candidate_count": 3,
+    "promoted_candidates": [
+      "TC1_local_t_centroid_normalization",
+      "TC2_g15_local_i_comparability",
+      "TC3_slot_c_register_partition"
+    ],
+    "proof_claim": false,
+    "recommended_next": "test_full_register_local_t_normalization_001",
+    "theorem_candidate_status": "bounded_theorem_candidates_promoted_full_theorem_paused"
+  },
+  "theorem_candidates": [
+    {
+      "candidate_promoted": true,
+      "claim": "In the slot/C numeric proxy embedding, local-t extension has affine centroid behavior under centroid normalization.",
+      "evidence": [
+        "G15 centroid definition recorded",
+        "slot/C local-I points embedded as 4D proxy vectors",
+        "local-t normalization smoke test passed with centroid_linearity_max_error=0.0"
+      ],
+      "id": "TC1_local_t_centroid_normalization",
+      "missing_for_theorem": [
+        "full 6561-register test",
+        "native G15 embedding comparison",
+        "formal proof text"
+      ],
+      "scope": "first-80 sample smoke test over slot/C numeric proxy",
+      "theorem_admitted": false
+    },
+    {
+      "candidate_promoted": true,
+      "claim": "The slot/C local-I points are comparable after G15-centroid normalization in the numeric proxy frame.",
+      "evidence": [
+        "6561 local-I points embedded",
+        "G15 centroid computed over all candidates",
+        "status centroids computed for observed, proxy-invalid, and hard-absence classes"
+      ],
+      "id": "TC2_g15_local_i_comparability",
+      "missing_for_theorem": [
+        "native G15 quotient embedding check",
+        "metric or affine comparison boundary"
+      ],
+      "scope": "all 6561 candidates in slot/C numeric proxy",
+      "theorem_admitted": false
+    },
+    {
+      "candidate_promoted": true,
+      "claim": "The slot/C register partitions into observed_receipted, proxy_invalid, and hard_absence_gate_absent under the admitted gate candidates.",
+      "evidence": [
+        "superposition register recorded",
+        "transition rule candidate recorded",
+        "counts sum to 6561"
+      ],
+      "id": "TC3_slot_c_register_partition",
+      "missing_for_theorem": [
+        "source construction rule",
+        "birth order proof",
+        "answer-label leakage closure"
+      ],
+      "scope": "current Project 21 slot/C register and admitted gate candidates",
+      "theorem_admitted": false
+    },
+    {
+      "candidate_promoted": false,
+      "claim": "A direction-limit theorem holds for the centroid-normalized local-I register.",
+      "evidence": [
+        "triangle limit theorem template exists externally",
+        "local-t smoke test supports affine centroid behavior"
+      ],
+      "id": "TC4_direction_limit",
+      "missing_for_theorem": [
+        "finite direction data definition",
+        "full-register direction-limit test",
+        "native embedding or quotient coordinate map"
+      ],
+      "scope": "not promoted",
+      "theorem_admitted": false
+    }
+  ]
+}
