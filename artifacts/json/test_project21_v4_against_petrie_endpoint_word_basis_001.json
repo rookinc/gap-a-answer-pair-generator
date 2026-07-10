@@ -1,0 +1,123 @@
+{
+  "artifact": "test_project21_v4_against_petrie_endpoint_word_basis_001",
+  "audit_pass": true,
+  "verdict": "exact_petrie_endpoint_word_v4_basis_match_with_axis_swap_ambiguity",
+  "project21_bit_basis": {
+    "transport_0": [
+      0,
+      0
+    ],
+    "transport_1": [
+      1,
+      0
+    ],
+    "transport_2": [
+      0,
+      1
+    ],
+    "transport_3": [
+      1,
+      1
+    ]
+  },
+  "native_transition_rows": [
+    5,
+    6,
+    14,
+    15
+  ],
+  "native_square": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "native_square_axes": [
+    "source_slot_axis",
+    "target_delta_parity_xor"
+  ],
+  "expected_generator_permutations": {
+    "within_flip": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "class_flip": [
+      2,
+      3,
+      0,
+      1
+    ],
+    "product_flip": [
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  "candidate_petrie_basis_mappings": [
+    {
+      "assignment": {
+        "endpoint_polarity": "within",
+        "word_order_FV_VF": "class"
+      },
+      "endpoint_generator_present": true,
+      "word_order_generator_present": true,
+      "product_generator_present": true,
+      "exact_v4_basis_match": true
+    },
+    {
+      "assignment": {
+        "endpoint_polarity": "class",
+        "word_order_FV_VF": "within"
+      },
+      "endpoint_generator_present": true,
+      "word_order_generator_present": true,
+      "product_generator_present": true,
+      "exact_v4_basis_match": true
+    }
+  ],
+  "passing_mapping_count": 2,
+  "unique_mapping": null,
+  "abstract_petrie_endpoint_word_basis_match": true,
+  "indexed_petrie_provenance_mapping_derived": false,
+  "endpoint_polarity_axis_admitted": false,
+  "FV_VF_word_order_axis_admitted": false,
+  "petrie_parity_shadow_admitted": false,
+  "face_chirality_axis_derived": false,
+  "four_chambers_per_edge_theorem_admitted": false,
+  "literal_534_honeycomb_claim": false,
+  "higgs_analogue_claim": false,
+  "physics_claim": false,
+  "gap_a_closure": false,
+  "checks": {
+    "project21_exact_v4_present": true,
+    "native_rows_form_full_binary_square": true,
+    "within_flip_generator_present": true,
+    "class_flip_generator_present": true,
+    "product_flip_generator_present": true,
+    "both_axis_assignments_tested": true,
+    "audit_completed": true
+  },
+  "boundary": [
+    "Finite algebraic basis-correspondence audit only.",
+    "The Petrie candidate basis is endpoint polarity times FV/VF word order.",
+    "An abstract V4 basis match does not establish indexed native provenance.",
+    "Axis-swap ambiguity is preserved unless one assignment is uniquely selected.",
+    "No face-chirality theorem, Petrie-parity identification, literal {5,3,4}, Higgs mechanism, physics, or Gap A closure claim."
+  ],
+  "recommended_next": "resolve_project21_petrie_endpoint_word_axis_assignment_001"
+}
