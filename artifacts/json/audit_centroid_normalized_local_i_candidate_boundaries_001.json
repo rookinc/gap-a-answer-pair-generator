@@ -1,0 +1,216 @@
+{
+  "allowed_claims": [
+    {
+      "allowed": true,
+      "claim": "A centroid-normalized local-I theorem candidate has been written.",
+      "id": "A1_theorem_candidate_written",
+      "required_phrase": "theorem candidate"
+    },
+    {
+      "allowed": true,
+      "claim": "The result is bounded to the slot/C numeric proxy coordinate frame.",
+      "id": "A2_slot_c_proxy_frame",
+      "required_phrase": "slot/C numeric proxy"
+    },
+    {
+      "allowed": true,
+      "claim": "Full-register local-t centroid normalization passes over 6561 regenerated points.",
+      "id": "A3_local_t_full_register",
+      "required_phrase": "full-register local-t normalization"
+    },
+    {
+      "allowed": true,
+      "claim": "Direction-limit behavior passes as a proxy/tolerance result.",
+      "id": "A4_direction_limit_proxy",
+      "required_phrase": "direction-limit proxy"
+    },
+    {
+      "allowed": true,
+      "claim": "Proxy coordinates agree with native-chain key coordinates.",
+      "id": "A5_key_coordinate_agreement",
+      "required_phrase": "key-coordinate agreement"
+    }
+  ],
+  "artifact_kind": "theorem_candidate_boundary_audit",
+  "boundary_decision": {
+    "boundary_status": "candidate_boundary_locked",
+    "next_allowed_work": [
+      "prove_or_falsify_unique_native_g15_embedding",
+      "separate_affine_from_metric_claims",
+      "draft_manuscript_boundary_section",
+      "return_to_source_law_birth_order_and_leakage_closure"
+    ],
+    "promotion_allowed": "formal theorem-candidate only",
+    "promotion_forbidden": [
+      "full theorem",
+      "proof",
+      "Gap A closure",
+      "source law",
+      "native generator",
+      "unique native G15 embedding",
+      "metric geometry",
+      "physics",
+      "force"
+    ]
+  },
+  "checks": {
+    "all_forbidden_current_values_false": true,
+    "allowed_claim_count_5": true,
+    "boundary_status_locked": true,
+    "candidate_audit_pass": true,
+    "compare_pass": true,
+    "direction_limit_proxy_pass": true,
+    "forbidden_claim_count_9": true,
+    "full_register_normalization_pass": true,
+    "no_force": true,
+    "no_full_theorem": true,
+    "no_gap_a_closure": true,
+    "no_metric_geometry_claim": true,
+    "no_native_g15_uniqueness": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "proxy_native_key_coordinate_agreement": true,
+    "safe_language_count_10": false,
+    "safe_language_count_10_boundary_note": true,
+    "safe_language_count_actual": 11,
+    "safe_language_count_matches_actual": true,
+    "theorem_candidate_status_written_not_admitted": true,
+    "theorem_candidate_write_pass": true,
+    "unsafe_language_count_10": true,
+    "unsafe_language_count_actual": 10,
+    "unsafe_language_count_matches_actual": true
+  },
+  "created_utc": "2026-07-10T18:22:46+00:00",
+  "forbidden_claims": [
+    {
+      "claim": "This is a full theorem.",
+      "current_value": false,
+      "forbidden": true,
+      "id": "F1_full_theorem"
+    },
+    {
+      "claim": "This is a proof.",
+      "current_value": false,
+      "forbidden": true,
+      "id": "F2_proof"
+    },
+    {
+      "claim": "This closes Gap A.",
+      "current_value": false,
+      "forbidden": true,
+      "id": "F3_gap_a_closure"
+    },
+    {
+      "claim": "This admits a native generator.",
+      "current_value": false,
+      "forbidden": true,
+      "id": "F4_native_generator"
+    },
+    {
+      "claim": "This admits a source law.",
+      "current_value": false,
+      "forbidden": true,
+      "id": "F5_source_law"
+    },
+    {
+      "claim": "This proves the unique native G15 embedding.",
+      "current_value": false,
+      "forbidden": true,
+      "id": "F6_unique_native_g15"
+    },
+    {
+      "claim": "This admits metric geometry.",
+      "current_value": false,
+      "forbidden": true,
+      "id": "F7_metric_geometry"
+    },
+    {
+      "claim": "This is a physics claim.",
+      "current_value": false,
+      "forbidden": true,
+      "id": "F8_physics"
+    },
+    {
+      "claim": "This is a force claim.",
+      "current_value": false,
+      "forbidden": true,
+      "id": "F9_force"
+    }
+  ],
+  "id": "audit_centroid_normalized_local_i_candidate_boundaries_001",
+  "input_artifacts": {
+    "candidate_audit": "artifacts/json/audit_centroid_normalized_local_i_theorem_candidate_001.json",
+    "direction_limit_test": "artifacts/json/test_centroid_normalized_direction_limit_on_slot_c_register_001.json",
+    "full_register_local_t_test": "artifacts/json/test_full_register_local_t_normalization_001.json",
+    "proxy_native_comparison": "artifacts/json/compare_slot_c_proxy_embedding_to_native_g15_001.json",
+    "theorem_candidate": "artifacts/json/write_centroid_normalized_local_i_theorem_candidate_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_centroid_normalized_local_i_theorem_candidate_001.json": "156f6b06aba3c670e6acc922109b9761b01e5aa9fa1be8fc68a4a88e6aa17570",
+    "artifacts/json/compare_slot_c_proxy_embedding_to_native_g15_001.json": "169fbba8bd83f9b64426ca3f14ef73c450a78ad0a0f3fcb4fab279969417e5ac",
+    "artifacts/json/test_centroid_normalized_direction_limit_on_slot_c_register_001.json": "277ed5d9d77b4044bfd3c67e4d4061a14059ee578438b5ff2c75b7d55f0db724",
+    "artifacts/json/test_full_register_local_t_normalization_001.json": "0c443f77be5a6c11b81d599afc63acea5fa2d0b8731db9ae46b17b5a40dd1f22",
+    "artifacts/json/write_centroid_normalized_local_i_theorem_candidate_001.json": "3be27f52efd607f633b040e8913f76b65e13f9805394853af47f84ea7483ac72"
+  },
+  "keeper_line": "A candidate becomes useful when its boundary is as clear as its claim.",
+  "next_gate": "choose_next_path_native_embedding_or_source_law_or_manuscript",
+  "repair_note": {
+    "boundary_claims_changed": false,
+    "reason": "Initial boundary audit failed only because safe_language_count_10 was brittle against actual safe language list length.",
+    "repair_id": "repair_candidate_boundary_safe_language_count_001",
+    "repair_utc": "2026-07-10T18:24:13+00:00",
+    "safe_language_count_actual": 11,
+    "unsafe_language_count_actual": 10
+  },
+  "safe_language": [
+    "theorem candidate",
+    "formal candidate statement",
+    "slot/C numeric proxy",
+    "native-chain key-coordinate agreement",
+    "bounded comparison frame",
+    "proxy direction-limit result",
+    "full theorem paused",
+    "uniqueness open",
+    "metric status open",
+    "source law not admitted",
+    "Gap A not closed"
+  ],
+  "status": "CENTROID_NORMALIZED_LOCAL_I_CANDIDATE_BOUNDARIES_001_LOCKED_COUNT_REPAIRED",
+  "summary": {
+    "allowed_claim_count": 5,
+    "boundary_audit_pass": true,
+    "boundary_status": "candidate_boundary_locked",
+    "check_count": 27,
+    "failed_count": 1,
+    "forbidden_claim_count": 9,
+    "force_claim": false,
+    "frontier_status": "candidate_boundary_locked_unique_native_embedding_and_source_law_open",
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "metric_geometry_claim": false,
+    "native_generator_admitted": false,
+    "passed_count": 24,
+    "physics_claim": false,
+    "promotion_allowed": "formal theorem-candidate only",
+    "proof_claim": false,
+    "recommended_next": "choose_next_path_native_embedding_or_source_law_or_manuscript",
+    "safe_language_count_actual": 11,
+    "source_law_admitted": false,
+    "unique_native_g15_embedding_proven": false,
+    "unsafe_language_count_actual": 10
+  },
+  "unsafe_language": [
+    "the theorem is proven",
+    "Gap A is closed",
+    "native generator admitted",
+    "source law admitted",
+    "unique native G15 embedding proven",
+    "metric geometry admitted",
+    "physics claim",
+    "force claim",
+    "all carriers",
+    "cosmic conclusion"
+  ]
+}
