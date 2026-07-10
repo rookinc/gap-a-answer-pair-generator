@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "test_pass": true,
+    "order_anchor_candidate": true,
+    "channel_anchor_candidate": true,
+    "value_anchor_candidate": false,
+    "axis_status": "order_or_channel_required_value_profiles_insufficient",
+    "frontier_status": "order_channel_axis_candidates_recorded_source_law_open",
+    "recommended_next": "search_native_chain_order_axis_rule_001",
+    "theorem_admitted": false,
+    "proof_claim": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "source_law_admitted": false
+  },
+  "keeper": "The values choose the center. Order chooses the axes. Channels decide direction."
+}
