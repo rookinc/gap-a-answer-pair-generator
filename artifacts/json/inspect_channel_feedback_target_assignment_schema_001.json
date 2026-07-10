@@ -1,0 +1,896 @@
+{
+  "artifact": "inspect_channel_feedback_target_assignment_schema_001",
+  "inspection_pass": true,
+  "keeper": "The feedback search refused a label that was not present. Now recover the actual assignment.",
+  "scope": "channel_feedback_target_assignment_schema_inspection",
+  "primary_packet_row_path": "$.source_packet_index",
+  "primary_packet_row_count": 48,
+  "primary_packet_row_schema": {
+    "row_count": 48,
+    "key_presence_counts": {
+      "law_key": 48,
+      "source_packet_id": 48,
+      "source_payload": 48,
+      "support_count": 48,
+      "support_paths_first_12": 48,
+      "support_sources": 48
+    },
+    "key_type_counts": {
+      "law_key": {
+        "list": 48
+      },
+      "source_packet_id": {
+        "str": 48
+      },
+      "source_payload": {
+        "dict": 48
+      },
+      "support_count": {
+        "int": 48
+      },
+      "support_paths_first_12": {
+        "list": 48
+      },
+      "support_sources": {
+        "list": 48
+      }
+    },
+    "sample_rows": [
+      {
+        "law_key": [
+          5,
+          4,
+          4,
+          5
+        ],
+        "source_packet_id": "047a1d03dfcdb1a61c9643810bcf8542d7cd015ef6037475626531ac73104eda",
+        "source_payload": {
+          "from_C": 4,
+          "from_slot": 5,
+          "to_C": 5,
+          "to_slot": 4
+        },
+        "support_count": 2,
+        "support_paths_first_12": [
+          {
+            "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+            "source_path": "rows[9].features"
+          },
+          {
+            "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+            "source_path": "edge_records[22]"
+          }
+        ],
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          14,
+          14,
+          11,
+          2
+        ],
+        "source_packet_id": "11b902203147d8ab24778704a34cc7fc67b67c0f76b46ce2f02dad1a908e9ccd",
+        "source_payload": {
+          "from_C": 11,
+          "from_slot": 14,
+          "to_C": 2,
+          "to_slot": 14
+        },
+        "support_count": 2,
+        "support_paths_first_12": [
+          {
+            "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+            "source_path": "rows[14].features"
+          },
+          {
+            "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+            "source_path": "edge_records[1]"
+          }
+        ],
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_packet_id": "258b0c2bd9c2d3874c736ffa471cee95d9d7eaaf826705122408b06edf99c759",
+        "source_payload": {
+          "from_C": 5,
+          "from_slot": 0,
+          "to_C": 0,
+          "to_slot": 5
+        },
+        "support_count": 2,
+        "support_paths_first_12": [
+          {
+            "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+            "source_path": "rows[6].features"
+          },
+          {
+            "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+            "source_path": "edge_records[14]"
+          }
+        ],
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          10,
+          10,
+          13,
+          1
+        ],
+        "source_packet_id": "2fc21e0b77c9625323cbc7dc622568fc515079c75574aae299a93c0ca252b317",
+        "source_payload": {
+          "C_delta": 3,
+          "from_C": 13,
+          "from_slot": 10,
+          "integer_C_delta": -12,
+          "role_pair": "TI/XY",
+          "station_role": "XY",
+          "to_C": 1,
+          "to_slot": 10
+        },
+        "support_count": 5,
+        "support_paths_first_12": [
+          {
+            "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+            "source_path": "rows[15]"
+          },
+          {
+            "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+            "source_path": "accepted_strict_pairs[7].shared_B_row"
+          },
+          {
+            "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+            "source_path": "rejected_strict_pairs_first_30[21].shared_B_row"
+          },
+          {
+            "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+            "source_path": "rejected_strict_pairs_first_30[22].shared_B_row"
+          },
+          {
+            "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+            "source_path": "rejected_strict_pairs_first_30[23].shared_B_row"
+          }
+        ],
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json"
+        ]
+      }
+    ]
+  },
+  "packet_row_list_candidates": [
+    {
+      "path": "$.source_packet_index",
+      "row_count": 48,
+      "key_union": [
+        "law_key",
+        "source_packet_id",
+        "source_payload",
+        "support_count",
+        "support_paths_first_12",
+        "support_sources"
+      ]
+    },
+    {
+      "path": "$.projected_packets_first_80",
+      "row_count": 80,
+      "key_union": [
+        "law_key",
+        "original_downstream_fields_present_for_audit",
+        "original_forbidden_fields_present_for_audit",
+        "projected_downstream_fields_present",
+        "projected_forbidden_fields_present",
+        "source_file",
+        "source_packet_id",
+        "source_path",
+        "source_payload"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[13].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[21].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[22].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[25].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[31].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[33].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[34].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[35].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[37].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[3].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[40].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[42].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[43].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[45].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[4].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[6].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[7].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    },
+    {
+      "path": "$.source_packet_index[9].support_paths_first_12",
+      "row_count": 5,
+      "key_union": [
+        "source_file",
+        "source_path"
+      ]
+    }
+  ],
+  "search_row_list_candidates": [],
+  "exact_48_row_lists": [
+    {
+      "path": "$.source_packet_index",
+      "row_count": 48,
+      "key_union": [
+        "law_key",
+        "source_packet_id",
+        "source_payload",
+        "support_count",
+        "support_paths_first_12",
+        "support_sources"
+      ]
+    }
+  ],
+  "exact_24_row_lists": [],
+  "packet_native_like_hits": [
+    {
+      "path": "$.summary.source_only_slot_c_row_packets_exist",
+      "value": true,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.source_packet_index",
+      "value_type": "list",
+      "length": 48,
+      "sample": [
+        {
+          "law_key": [
+            5,
+            4,
+            4,
+            5
+          ],
+          "source_packet_id": "047a1d03dfcdb1a61c9643810bcf8542d7cd015ef6037475626531ac73104eda",
+          "source_payload": {
+            "from_C": 4,
+            "from_slot": 5,
+            "to_C": 5,
+            "to_slot": 4
+          },
+          "support_count": 2,
+          "support_paths_first_12": [
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+              "source_path": "rows[9].features"
+            },
+            {
+              "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+              "source_path": "edge_records[22]"
+            }
+          ],
+          "support_sources": [
+            "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+            "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+          ]
+        },
+        {
+          "law_key": [
+            14,
+            14,
+            11,
+            2
+          ],
+          "source_packet_id": "11b902203147d8ab24778704a34cc7fc67b67c0f76b46ce2f02dad1a908e9ccd",
+          "source_payload": {
+            "from_C": 11,
+            "from_slot": 14,
+            "to_C": 2,
+            "to_slot": 14
+          },
+          "support_count": 2,
+          "support_paths_first_12": [
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+              "source_path": "rows[14].features"
+            },
+            {
+              "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+              "source_path": "edge_records[1]"
+            }
+          ],
+          "support_sources": [
+            "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+            "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+          ]
+        },
+        {
+          "law_key": [
+            0,
+            5,
+            5,
+            0
+          ],
+          "source_packet_id": "258b0c2bd9c2d3874c736ffa471cee95d9d7eaaf826705122408b06edf99c759",
+          "source_payload": {
+            "from_C": 5,
+            "from_slot": 0,
+            "to_C": 0,
+            "to_slot": 5
+          },
+          "support_count": 2,
+          "support_paths_first_12": [
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+              "source_path": "rows[6].features"
+            },
+            {
+              "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+              "source_path": "edge_records[14]"
+            }
+          ],
+          "support_sources": [
+            "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+            "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+          ]
+        },
+        {
+          "law_key": [
+            10,
+            10,
+            13,
+            1
+          ],
+          "source_packet_id": "2fc21e0b77c9625323cbc7dc622568fc515079c75574aae299a93c0ca252b317",
+          "source_payload": {
+            "C_delta": 3,
+            "from_C": 13,
+            "from_slot": 10,
+            "integer_C_delta": -12,
+            "role_pair": "TI/XY",
+            "station_role": "XY",
+            "to_C": 1,
+            "to_slot": 10
+          },
+          "support_count": 5,
+          "support_paths_first_12": [
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+              "source_path": "rows[15]"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "accepted_strict_pairs[7].shared_B_row"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "rejected_strict_pairs_first_30[21].shared_B_row"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "rejected_strict_pairs_first_30[22].shared_B_row"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "rejected_strict_pairs_first_30[23].shared_B_row"
+            }
+          ],
+          "support_sources": [
+            "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+            "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json"
+          ]
+        },
+        {
+          "law_key": [
+            2,
+            11,
+            11,
+            2
+          ],
+          "source_packet_id": "3240e40d1d763654f36fd25c172a694417fd102fbdb823d1bc04e3c22db03b5d",
+          "source_payload": {
+            "C_delta": 6,
+            "from_C": 11,
+            "from_slot": 2,
+            "integer_C_delta": -9,
+            "role_pair": "TI/XY",
+            "station_role": "TI",
+            "to_C": 2,
+            "to_slot": 11
+          },
+          "support_count": 5,
+          "support_paths_first_12": [
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+              "source_path": "rows[10]"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "accepted_strict_pairs[6].reverse_partner_row"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "rejected_strict_pairs_first_30[13].reverse_partner_row"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "rejected_strict_pairs_first_30[16].reverse_partner_row"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "rejected_strict_pairs_first_30[23].reverse_partner_row"
+            }
+          ],
+          "support_sources": [
+            "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+            "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json"
+          ]
+        },
+        {
+          "law_key": [
+            11,
+            14,
+            14,
+            11
+          ],
+          "source_packet_id": "33b1da503a1eabc33134a6235ae084c3f915040ac541766ccd2db1957ba447b1",
+          "source_payload": {
+            "from_C": 14,
+            "from_slot": 11,
+            "to_C": 11,
+            "to_slot": 14
+          },
+          "support_count": 2,
+          "support_paths_first_12": [
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+              "source_path": "rows[19].features"
+            },
+            {
+              "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+              "source_path": "edge_records[0]"
+            }
+          ],
+          "support_sources": [
+            "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+            "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+          ]
+        },
+        {
+          "law_key": [
+            1,
+            13,
+            13,
+            1
+          ],
+          "source_packet_id": "39ee1e4a9070034c01792c62d5b3253ca0a8ff9375e124b7696539025e60eb79",
+          "source_payload": {
+            "C_delta": 3,
+            "from_C": 13,
+            "from_slot": 1,
+            "integer_C_delta": -12,
+            "role_pair": "TI/XY",
+            "station_role": "TI",
+            "to_C": 1,
+            "to_slot": 13
+          },
+          "support_count": 5,
+          "support_paths_first_12": [
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+              "source_path": "rows[11]"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "accepted_strict_pairs[7].reverse_partner_row"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "rejected_strict_pairs_first_30[14].reverse_partner_row"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "rejected_strict_pairs_first_30[17].reverse_partner_row"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "rejected_strict_pairs_first_30[20].reverse_partner_row"
+            }
+          ],
+          "support_sources": [
+            "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+            "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json"
+          ]
+        },
+        {
+          "law_key": [
+            11,
+            11,
+            2,
+            14
+          ],
+          "source_packet_id": "3a2b2a4d8d09871a984aaf367eb2b2b86bb9221ac7d85803f0569dc20e697e7a",
+          "source_payload": {
+            "C_delta": 12,
+            "from_C": 2,
+            "from_slot": 11,
+            "integer_C_delta": 12,
+            "role_pair": "IW/YZ",
+            "station_role": "IW",
+            "to_C": 14,
+            "to_slot": 11
+          },
+          "support_count": 5,
+          "support_paths_first_12": [
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+              "source_path": "rows[1]"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "accepted_strict_pairs[1].shared_B_row"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "rejected_strict_pairs_first_30[3].shared_B_row"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "rejected_strict_pairs_first_30[4].shared_B_row"
+            },
+            {
+              "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+              "source_path": "rejected_strict_pairs_first_30[5].shared_B_row"
+            }
+          ],
+          "support_sources": [
+            "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+            "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "$.input_sha256.source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+      "value": "4a77cbd5b0cf631fdbba27c1eb3c04d6d8c593f2f0dbab6eb70bfff98419f78f",
+      "value_type": "str"
+    },
+    {
+      "path": "$.checks.source_only_packets_exist",
+      "value": true,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.checks.projected_packet_count_positive",
+      "value": true,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.checks.no_native_generator_admission",
+      "value": true,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.boundary.native_generator_admitted",
+      "value": false,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.birth_order_implication.source_only_slot_c_row_packets_exist",
+      "value": true,
+      "value_type": "bool"
+    }
+  ],
+  "search_native_like_hits": [
+    {
+      "path": "$.summary.unique_native_g15_embedding_proven",
+      "value": false,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.summary.non_native_row_count",
+      "value": 24,
+      "value_type": "int"
+    },
+    {
+      "path": "$.summary.native_row_count",
+      "value": 24,
+      "value_type": "int"
+    },
+    {
+      "path": "$.summary.native_generator_admitted",
+      "value": false,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.summary.exact_channel_axis_found",
+      "value": true,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.summary.channel_axis_rule_admitted",
+      "value": false,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.summary.channel_axis_candidates[2]",
+      "value": "native",
+      "value_type": "str"
+    },
+    {
+      "path": "$.result.channel_profiles.native.exact_bucket_count",
+      "value": 2,
+      "value_type": "int"
+    },
+    {
+      "path": "$.result.channel_profiles.native.bucket_count",
+      "value": 2,
+      "value_type": "int"
+    },
+    {
+      "path": "$.boundary.unique_native_g15_embedding_proven",
+      "value": false,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.boundary.native_generator_admitted",
+      "value": false,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.boundary.channel_axis_search_only",
+      "value": true,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.boundary.channel_axis_rule_admitted",
+      "value": false,
+      "value_type": "bool"
+    }
+  ],
+  "candidate_records": [
+    {
+      "path": "$.summary",
+      "keys": [
+        "channel_axis_candidates",
+        "channel_axis_rule_admitted",
+        "channel_axis_status",
+        "exact_channel_axis_candidate_count",
+        "exact_channel_axis_found",
+        "full_theorem_admitted",
+        "gap_a_closure",
+        "native_generator_admitted",
+        "native_row_count",
+        "non_native_row_count",
+        "packet_row_count",
+        "proof_claim",
+        "recommended_next",
+        "search_pass",
+        "source_law_admitted",
+        "unique_native_g15_embedding_proven"
+      ],
+      "value": {
+        "channel_axis_candidates": [
+          "role_hooks",
+          "support_sources",
+          "native"
+        ],
+        "channel_axis_rule_admitted": false,
+        "channel_axis_status": "channel_axis_candidate_found_not_admitted",
+        "exact_channel_axis_candidate_count": 3,
+        "exact_channel_axis_found": true,
+        "full_theorem_admitted": false,
+        "gap_a_closure": false,
+        "native_generator_admitted": false,
+        "native_row_count": 24,
+        "non_native_row_count": 24,
+        "packet_row_count": 48,
+        "proof_claim": false,
+        "recommended_next": "audit_role_pair_channel_axis_candidate_for_leakage_001",
+        "search_pass": true,
+        "source_law_admitted": false,
+        "unique_native_g15_embedding_proven": false
+      }
+    }
+  ],
+  "likely_assignment_paths": [
+    {
+      "path": "$.summary.unique_native_g15_embedding_proven",
+      "value": false,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.summary.non_native_row_count",
+      "value": 24,
+      "value_type": "int"
+    },
+    {
+      "path": "$.summary.native_row_count",
+      "value": 24,
+      "value_type": "int"
+    },
+    {
+      "path": "$.summary.native_generator_admitted",
+      "value": false,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.result.channel_profiles.native.exact_bucket_count",
+      "value": 2,
+      "value_type": "int"
+    },
+    {
+      "path": "$.result.channel_profiles.native.bucket_count",
+      "value": 2,
+      "value_type": "int"
+    },
+    {
+      "path": "$.boundary.unique_native_g15_embedding_proven",
+      "value": false,
+      "value_type": "bool"
+    },
+    {
+      "path": "$.boundary.native_generator_admitted",
+      "value": false,
+      "value_type": "bool"
+    }
+  ],
+  "target_assignment_directly_in_packet_rows": false,
+  "assignment_status": "target_assignment_likely_external_to_packet_rows",
+  "prior_ablation_row_count": 48,
+  "channel_axis_rule_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "unique_native_g15_embedding_proven": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Target-assignment schema inspection only.",
+    "No feedback unit admitted.",
+    "No channel-axis rule admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No unique native G15 embedding proof.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "reconstruct_channel_feedback_target_assignment_001"
+}
