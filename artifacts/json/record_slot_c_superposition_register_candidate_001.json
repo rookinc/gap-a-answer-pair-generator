@@ -1,0 +1,176 @@
+{
+  "artifact_kind": "slot_c_superposition_register_candidate",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "register_candidate_only": true,
+    "source_law_admitted": false,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "checks": {
+    "answer_label_leakage_closed_false": true,
+    "audit_pass": true,
+    "birth_order_proven_false": true,
+    "candidate_key_count_6561": true,
+    "classification_pass": true,
+    "gap_a_closure_false": true,
+    "gate_candidates_admitted": true,
+    "hard_absence_gate_absent_5172": true,
+    "incidence_search_pass": true,
+    "lawful_status_count_3": true,
+    "native_chain_gate_candidate_admitted": true,
+    "native_chain_present_exact": true,
+    "native_search_pass": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "observed_receipted_24": true,
+    "proxy_invalid_1365": true,
+    "register_counts_sum": true,
+    "source_law_admitted_false": true,
+    "source_packet_gate_candidate_admitted": true,
+    "universe_derive_pass": true,
+    "unresolved_boundary_count_3": true
+  },
+  "created_utc": "2026-07-10T17:02:00+00:00",
+  "id": "record_slot_c_superposition_register_candidate_001",
+  "input_artifacts": {
+    "classification": "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json",
+    "hard_absence_candidate_audit": "artifacts/json/audit_hard_absence_source_rule_candidates_001.json",
+    "native_chain_gate_search": "artifacts/json/search_native_chain_hard_absence_gate_thin_001.json",
+    "non_observed_universe": "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json",
+    "source_packet_incidence_search": "artifacts/json/search_hard_absence_source_packet_incidence_rules_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_hard_absence_source_rule_candidates_001.json": "f68a1af35061f5b5152fe1cf7ddf82b02cadd43b6e540ef0b854ec8327dcbc79",
+    "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json": "343cc7328bfc48ab1e30b5cdd78e636936f3104f5129e951c8de8d0a80f81e0f",
+    "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json": "a0d053a39a16b1f134abdf6cdf1d3aa338a74231f603c5eb1e784ce269d02826",
+    "artifacts/json/search_hard_absence_source_packet_incidence_rules_001.json": "a16530a8fe46f6612d7c2e6ddf8f7ba592b374fd27be331f66b5daf9312ee774",
+    "artifacts/json/search_native_chain_hard_absence_gate_thin_001.json": "2762fe97a21e2a48444691018b32ce461fb77fe3e5482f889d372bd6c3ee48bc"
+  },
+  "keeper_line": "Superposition is not ignorance of law. It is ignorance within law.",
+  "lawful_statuses": [
+    {
+      "closure_state": "receipted_observed_candidate",
+      "count": 24,
+      "gate_condition": "source_packet_present=true and native_chain_present=true",
+      "lawful_selection_known": true,
+      "meaning": "Keys with source-packet and native-chain presence, admitted as observed-row receipts.",
+      "selected_future_known": false,
+      "status_id": "S1_observed_receipted"
+    },
+    {
+      "closure_state": "proxy_invalid_absence",
+      "count": 1365,
+      "gate_condition": "zero slot motion or zero C motion",
+      "lawful_selection_known": true,
+      "meaning": "Keys rejected by the tested zero-motion proxy.",
+      "selected_future_known": false,
+      "status_id": "S2_proxy_invalid"
+    },
+    {
+      "closure_state": "bounded_unresolved_absence",
+      "count": 5172,
+      "gate_condition": "source_packet_present=false and native_chain_present=false",
+      "lawful_selection_known": true,
+      "meaning": "Keys without source-packet/native-chain gate presence; source construction reason still unknown.",
+      "selected_future_known": false,
+      "status_id": "S3_hard_absence_gate_absent"
+    }
+  ],
+  "neighbor_query_layer": {
+    "closure": "pending_source_construction_rule",
+    "local_state": "unresolved_source_law",
+    "neighbor_query": "open",
+    "neighbors_queried": [
+      {
+        "admitted_gate": false,
+        "answer": "fingerprint_only",
+        "neighbor": "endpoint_motion"
+      },
+      {
+        "admitted_gate": true,
+        "answer": "gate_candidate",
+        "neighbor": "source_packet_incidence"
+      },
+      {
+        "admitted_gate": true,
+        "answer": "gate_candidate",
+        "neighbor": "role_pair_channel"
+      },
+      {
+        "admitted_gate": true,
+        "answer": "strongest_gate_candidate",
+        "neighbor": "native_chain_presence"
+      }
+    ],
+    "self_receipt": "insufficient_for_source_law"
+  },
+  "next_gate": "derive_slot_c_source_construction_rule_search_plan_001",
+  "register_axioms": [
+    "Superposition is not ignorance of law; it is ignorance within law.",
+    "The register does not know the future receipt, but it knows the lawful candidate statuses available from this boundary.",
+    "Unknown does not mean unbounded.",
+    "When the register does not know, it asks its neighbors.",
+    "A gate can be admitted before the generator is known."
+  ],
+  "register_counts": {
+    "candidate_key_count": 6561,
+    "hard_absence_gate_absent": 5172,
+    "observed_receipted": 24,
+    "proxy_invalid": 1365
+  },
+  "register_statement": "I do not know which future source law closes this boundary, but I know the lawful statuses available from this context.",
+  "status": "SLOT_C_SUPERPOSITION_REGISTER_CANDIDATE_001_RECORDED",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "candidate_key_count": 6561,
+    "check_count": 31,
+    "failed_count": 0,
+    "frontier_status": "slot_c_superposition_register_candidate_recorded_source_law_open",
+    "gap_a_closure": false,
+    "gate_candidates_admitted": true,
+    "hard_absence_gate_absent": 5172,
+    "lawful_status_count": 3,
+    "observed_receipted": 24,
+    "passed_count": 31,
+    "proxy_invalid": 1365,
+    "recommended_next": "derive_slot_c_source_construction_rule_search_plan_001",
+    "register_name": "slot_c_superposition_register_candidate",
+    "register_pass": true,
+    "source_law_admitted": false
+  },
+  "unresolved_boundaries": [
+    {
+      "detail": "No rule yet explains why source/native packets exist exactly where they do.",
+      "id": "U1_source_construction_rule",
+      "status": "open"
+    },
+    {
+      "detail": "Birth order is not proven by projection, trace, replay, or gate presence alone.",
+      "id": "U2_birth_order",
+      "status": "open"
+    },
+    {
+      "detail": "Gate candidates do not admit the native generator or close Gap A.",
+      "id": "U3_gap_a_generator",
+      "status": "open"
+    }
+  ]
+}
