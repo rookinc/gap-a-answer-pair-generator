@@ -1,0 +1,839 @@
+{
+  "agreement": {
+    "comparison_status": "proxy_embedding_agrees_with_native_chain_key_coordinates_not_unique_native_embedding",
+    "native_and_non_native_share_key_set": true,
+    "native_centroid_matches_observed_proxy_centroid": true,
+    "native_g15_embedding_admitted": false,
+    "native_key_set_matches_observed_proxy_key_set": true,
+    "proxy_law_key_coordinates_agree_with_source_packet_payloads": true,
+    "reason": "The slot/C proxy coordinates agree with source-packet law-key coordinates and native-chain gate keys, but this does not prove uniqueness or full native G15 quotient embedding."
+  },
+  "artifact_kind": "proxy_to_native_g15_embedding_comparison",
+  "boundary": {
+    "comparison_audit_only": true,
+    "force_claim": false,
+    "gap_a_closure": false,
+    "native_g15_embedding_admitted": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "proxy_agrees_with_native_chain_key_coordinates": true,
+    "source_law_admitted": false,
+    "theorem": false
+  },
+  "checks": {
+    "direction_limit_pass": true,
+    "embedding_pass": true,
+    "full_t_test_pass": true,
+    "mismatch_count_zero": true,
+    "native_centroid_matches_observed_proxy_centroid": true,
+    "native_chain_present_exact": true,
+    "native_distinct_key_count_24": true,
+    "native_equals_non_native_key_set": true,
+    "native_g15_embedding_admitted_false": true,
+    "native_gate_search_pass": true,
+    "native_packet_count_24": true,
+    "no_force": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem_admitted": true,
+    "non_native_centroid_matches_observed_proxy_centroid": true,
+    "non_native_distinct_key_count_24": true,
+    "non_native_packet_count_24": true,
+    "packet_row_count_48": true,
+    "source_only_extract_pass": true,
+    "supports_T2": true
+  },
+  "compare_result": {
+    "comparison_scope": "source_packet_law_key_coordinates_vs_slot_c_numeric_proxy",
+    "law_key_payload_key_mismatch_count": 0,
+    "mismatch_rows_first_12": [],
+    "native_centroid_matches_observed_proxy_centroid": true,
+    "native_distinct_key_count": 24,
+    "native_equals_non_native_key_set": true,
+    "native_packet_centroid": [
+      5.75,
+      5.75,
+      5.75,
+      5.75
+    ],
+    "native_packet_count": 24,
+    "non_native_centroid_matches_observed_proxy_centroid": true,
+    "non_native_distinct_key_count": 24,
+    "non_native_packet_centroid": [
+      5.75,
+      5.75,
+      5.75,
+      5.75
+    ],
+    "non_native_packet_count": 24,
+    "observed_centroid_proxy": [
+      5.75,
+      5.75,
+      5.75,
+      5.75
+    ],
+    "packet_row_count": 48,
+    "packet_rows_first_40": [
+      {
+        "is_native": true,
+        "law_key": [
+          5,
+          4,
+          4,
+          5
+        ],
+        "payload_key": [
+          5,
+          4,
+          4,
+          5
+        ],
+        "source_packet_id": "047a1d03dfcdb1a61c9643810bcf8542d7cd015ef6037475626531ac73104eda",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          14,
+          14,
+          11,
+          2
+        ],
+        "payload_key": [
+          14,
+          14,
+          11,
+          2
+        ],
+        "source_packet_id": "11b902203147d8ab24778704a34cc7fc67b67c0f76b46ce2f02dad1a908e9ccd",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "payload_key": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_packet_id": "258b0c2bd9c2d3874c736ffa471cee95d9d7eaaf826705122408b06edf99c759",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          10,
+          10,
+          13,
+          1
+        ],
+        "payload_key": [
+          10,
+          10,
+          13,
+          1
+        ],
+        "source_packet_id": "2fc21e0b77c9625323cbc7dc622568fc515079c75574aae299a93c0ca252b317",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          2,
+          11,
+          11,
+          2
+        ],
+        "payload_key": [
+          2,
+          11,
+          11,
+          2
+        ],
+        "source_packet_id": "3240e40d1d763654f36fd25c172a694417fd102fbdb823d1bc04e3c22db03b5d",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          11,
+          14,
+          14,
+          11
+        ],
+        "payload_key": [
+          11,
+          14,
+          14,
+          11
+        ],
+        "source_packet_id": "33b1da503a1eabc33134a6235ae084c3f915040ac541766ccd2db1957ba447b1",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          1,
+          13,
+          13,
+          1
+        ],
+        "payload_key": [
+          1,
+          13,
+          13,
+          1
+        ],
+        "source_packet_id": "39ee1e4a9070034c01792c62d5b3253ca0a8ff9375e124b7696539025e60eb79",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          11,
+          11,
+          2,
+          14
+        ],
+        "payload_key": [
+          11,
+          11,
+          2,
+          14
+        ],
+        "source_packet_id": "3a2b2a4d8d09871a984aaf367eb2b2b86bb9221ac7d85803f0569dc20e697e7a",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          0,
+          0,
+          2,
+          5
+        ],
+        "payload_key": [
+          0,
+          0,
+          2,
+          5
+        ],
+        "source_packet_id": "3ab43b9f22ab640a3d9eced63706ebb34ce6e37717255dc6742198d21b52483c",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          5,
+          4,
+          4,
+          5
+        ],
+        "payload_key": [
+          5,
+          4,
+          4,
+          5
+        ],
+        "source_packet_id": "413c91ecd6b1e07d1b8c5231d9a7cec96d9f4b07a5fdf484cde50d65854b72ac",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          2,
+          2,
+          4,
+          5
+        ],
+        "payload_key": [
+          2,
+          2,
+          4,
+          5
+        ],
+        "source_packet_id": "4518f2256a78b1b9794a75b7385e0442acafce8434f744e7ab99f3090f8da22a",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          13,
+          10,
+          10,
+          13
+        ],
+        "payload_key": [
+          13,
+          10,
+          10,
+          13
+        ],
+        "source_packet_id": "4c1229f0c905f568feafc4dfd9af05cff8475114c9d5ac2a8c19adc222540ca2",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          2,
+          0,
+          0,
+          2
+        ],
+        "payload_key": [
+          2,
+          0,
+          0,
+          2
+        ],
+        "source_packet_id": "4ccbbd8bded01c624ca28603b5dc21379768418b566094ab0d8d2811d8f44a40",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          14,
+          14,
+          11,
+          2
+        ],
+        "payload_key": [
+          14,
+          14,
+          11,
+          2
+        ],
+        "source_packet_id": "4fb22e3dafb8723d19103c17dc7f56487bee3f077f93562f19c43a10ca986def",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          4,
+          2,
+          2,
+          4
+        ],
+        "payload_key": [
+          4,
+          2,
+          2,
+          4
+        ],
+        "source_packet_id": "52699fabd1de4da962e2d9ff51b141ba1fb3067d95426c3abf39adebcb542afd",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          11,
+          14,
+          14,
+          11
+        ],
+        "payload_key": [
+          11,
+          14,
+          14,
+          11
+        ],
+        "source_packet_id": "54fecfe71519458397c324d2bc1223dfefc3e90b2d5ca0f0852e77bf2443948a",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          13,
+          10,
+          10,
+          13
+        ],
+        "payload_key": [
+          13,
+          10,
+          10,
+          13
+        ],
+        "source_packet_id": "5852173a01e28ee20987864be264c7b4f418cfe0d1360c1b089269ce56b77996",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          10,
+          10,
+          13,
+          1
+        ],
+        "payload_key": [
+          10,
+          10,
+          13,
+          1
+        ],
+        "source_packet_id": "5d237b1886a85405406a1b5f6f4322e2d5fe06f73313f8fcfdffce84fef3bccc",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          2,
+          0,
+          0,
+          2
+        ],
+        "payload_key": [
+          2,
+          0,
+          0,
+          2
+        ],
+        "source_packet_id": "6679732239165138f98214eb735552ddc39573dc83e132f6be2df933a067cf76",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          1,
+          13,
+          13,
+          1
+        ],
+        "payload_key": [
+          1,
+          13,
+          13,
+          1
+        ],
+        "source_packet_id": "6e2f93785618eabce8703a9973044d9c6c16e7149fb9b40ba5aae9d88f7a6679",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          10,
+          1,
+          1,
+          10
+        ],
+        "payload_key": [
+          10,
+          1,
+          1,
+          10
+        ],
+        "source_packet_id": "7a242563562a6813563a83bf2c2d6725983c67e4e7926dd26d3447da2efd3c29",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          0,
+          0,
+          2,
+          5
+        ],
+        "payload_key": [
+          0,
+          0,
+          2,
+          5
+        ],
+        "source_packet_id": "7dea979aef55f2f72a201dbb955d3acd2fc73f6deed2b20c74302b58ae708cba",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          5,
+          5,
+          0,
+          2
+        ],
+        "payload_key": [
+          5,
+          5,
+          0,
+          2
+        ],
+        "source_packet_id": "7def625ee46ac5ad9813f4bd6da7d9eb4e88982645fc23b965d8612afa0f7bda",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          2,
+          2,
+          14,
+          11
+        ],
+        "payload_key": [
+          2,
+          2,
+          14,
+          11
+        ],
+        "source_packet_id": "8145b7705bef4fca26387e71228c0bbb938d3a71f21f8adf18ebd0f04231b009",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          11,
+          11,
+          2,
+          14
+        ],
+        "payload_key": [
+          11,
+          11,
+          2,
+          14
+        ],
+        "source_packet_id": "87f572ee41e86f7104762831b39a315e4a579802df72719b1ce8d257786f97c5",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          2,
+          2,
+          5,
+          0
+        ],
+        "payload_key": [
+          2,
+          2,
+          5,
+          0
+        ],
+        "source_packet_id": "92b24a7ebaa2922a59831aac8c3368aa728dd3ce064251aee486b6744de6259c",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          2,
+          2,
+          14,
+          11
+        ],
+        "payload_key": [
+          2,
+          2,
+          14,
+          11
+        ],
+        "source_packet_id": "93391fc28031d5071a4b6dc2962f44bc6d3e596c67c72b503fdabf4129dd13ed",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          4,
+          2,
+          2,
+          4
+        ],
+        "payload_key": [
+          4,
+          2,
+          2,
+          4
+        ],
+        "source_packet_id": "938bdd63c98acf1b962c7537c9b63333483ea52f9ef614426d1a1987f319ff58",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          1,
+          1,
+          10,
+          13
+        ],
+        "payload_key": [
+          1,
+          1,
+          10,
+          13
+        ],
+        "source_packet_id": "95c05a9b931ef473f1eca265113298f081e9980667cc00e80850553cbd37f14f",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          13,
+          13,
+          1,
+          10
+        ],
+        "payload_key": [
+          13,
+          13,
+          1,
+          10
+        ],
+        "source_packet_id": "9aba81e3dc22eaa1eb9a9512a60823f4d83fc12e1e7ff876f291b950735133d7",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          14,
+          2,
+          2,
+          14
+        ],
+        "payload_key": [
+          14,
+          2,
+          2,
+          14
+        ],
+        "source_packet_id": "a573f7231217737e26ae96a91db45c229b5dd87907ecf0877b4303eb7cd51eea",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          5,
+          2,
+          2,
+          5
+        ],
+        "payload_key": [
+          5,
+          2,
+          2,
+          5
+        ],
+        "source_packet_id": "a8c03b424ee2ea62498eca3ce28b380d1a7e9a10f75331c7db0581eb2f4757bc",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          2,
+          5,
+          5,
+          2
+        ],
+        "payload_key": [
+          2,
+          5,
+          5,
+          2
+        ],
+        "source_packet_id": "a942481ab679e5079db30fb2c888ca0c7718007c59b14af67615bfe256febea1",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          2,
+          2,
+          4,
+          5
+        ],
+        "payload_key": [
+          2,
+          2,
+          4,
+          5
+        ],
+        "source_packet_id": "aa676764ecf724f4cc491710036b6e9fce42482ac5914479e4c575fc5360eca6",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          10,
+          1,
+          1,
+          10
+        ],
+        "payload_key": [
+          10,
+          1,
+          1,
+          10
+        ],
+        "source_packet_id": "ad23ff96ab8c944a69bf2fc76cb3f100ae6ac9ac9131a5d58c5809c624c95cec",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          13,
+          13,
+          1,
+          10
+        ],
+        "payload_key": [
+          13,
+          13,
+          1,
+          10
+        ],
+        "source_packet_id": "af1e0167dce9e812d25ee85f73b390e9807d7090feccf315d90068da98dbc7ea",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          5,
+          2,
+          2,
+          5
+        ],
+        "payload_key": [
+          5,
+          2,
+          2,
+          5
+        ],
+        "source_packet_id": "b95a5f5f4669d825c77759363d5136252fe6c56fe3916025f1a33c4e3e032629",
+        "support_source_count": 2
+      },
+      {
+        "is_native": false,
+        "law_key": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "payload_key": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_packet_id": "b9d62c6a3faabecc6244dc64e2ee799ca88670df49e7c98470e15ee2ad287993",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          5,
+          5,
+          2,
+          4
+        ],
+        "payload_key": [
+          5,
+          5,
+          2,
+          4
+        ],
+        "source_packet_id": "bab021408a85d12648bacaeca51fd10003a70ad31840e5ac4b69607c703e742f",
+        "support_source_count": 2
+      },
+      {
+        "is_native": true,
+        "law_key": [
+          5,
+          5,
+          0,
+          2
+        ],
+        "payload_key": [
+          5,
+          5,
+          0,
+          2
+        ],
+        "source_packet_id": "bae84f34c36885c1cf7f4c0981f40624b991f71a1e90e76f8d48359155a163f3",
+        "support_source_count": 2
+      }
+    ],
+    "proxy_centroid_all_candidates": [
+      6.666666666667,
+      6.666666666667,
+      6.666666666667,
+      6.666666666667
+    ],
+    "source_packet_distinct_key_count": 24
+  },
+  "created_utc": "2026-07-10T18:19:00+00:00",
+  "id": "compare_slot_c_proxy_embedding_to_native_g15_001",
+  "input_artifacts": {
+    "direction_limit_test": "artifacts/json/test_centroid_normalized_direction_limit_on_slot_c_register_001.json",
+    "full_register_local_t_test": "artifacts/json/test_full_register_local_t_normalization_001.json",
+    "local_i_embedding": "artifacts/json/embed_slot_c_local_i_points_in_g15_coordinates_001.json",
+    "native_chain_gate_search": "artifacts/json/search_native_chain_hard_absence_gate_thin_001.json",
+    "source_only_packets": "artifacts/json/extract_source_only_slot_c_row_packets_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/embed_slot_c_local_i_points_in_g15_coordinates_001.json": "352163d86f016d837f5dd496549dcb3d90b6f6cc28dd14869823cc3561771854",
+    "artifacts/json/extract_source_only_slot_c_row_packets_001.json": "80deb83bd070e8b7f2a4d86c98bac34d6d527235e7890aa726c3fb38443e87d4",
+    "artifacts/json/search_native_chain_hard_absence_gate_thin_001.json": "2762fe97a21e2a48444691018b32ce461fb77fe3e5482f889d372bd6c3ee48bc",
+    "artifacts/json/test_centroid_normalized_direction_limit_on_slot_c_register_001.json": "277ed5d9d77b4044bfd3c67e4d4061a14059ee578438b5ff2c75b7d55f0db724",
+    "artifacts/json/test_full_register_local_t_normalization_001.json": "0c443f77be5a6c11b81d599afc63acea5fa2d0b8731db9ae46b17b5a40dd1f22"
+  },
+  "keeper_line": "Agreement is a bridge. Uniqueness is the theorem gate.",
+  "next_gate": "write_centroid_normalized_local_i_theorem_candidate_001",
+  "status": "SLOT_C_PROXY_EMBEDDING_NATIVE_G15_COMPARISON_001_AGREES_BOUNDED",
+  "summary": {
+    "check_count": 24,
+    "compare_pass": true,
+    "failed_count": 0,
+    "frontier_status": "proxy_native_key_coordinate_agreement_ready_for_formal_theorem_candidate",
+    "gap_a_closure": false,
+    "law_key_payload_key_mismatch_count": 0,
+    "native_centroid": [
+      5.75,
+      5.75,
+      5.75,
+      5.75
+    ],
+    "native_centroid_matches_observed_proxy_centroid": true,
+    "native_distinct_key_count": 24,
+    "native_equals_non_native_key_set": true,
+    "native_g15_embedding_admitted": false,
+    "native_packet_count": 24,
+    "non_native_distinct_key_count": 24,
+    "non_native_packet_count": 24,
+    "observed_centroid_proxy": [
+      5.75,
+      5.75,
+      5.75,
+      5.75
+    ],
+    "packet_row_count": 48,
+    "passed_count": 24,
+    "proof_claim": false,
+    "proxy_embedding_agrees_with_native_chain_key_coordinates": true,
+    "recommended_next": "write_centroid_normalized_local_i_theorem_candidate_001",
+    "theorem_admitted": false
+  },
+  "unresolved": [
+    {
+      "detail": "Need to prove the slot/C numeric proxy is the native or unique G15 quotient embedding, not merely agreement on law-key coordinates.",
+      "id": "U1_unique_native_embedding",
+      "status": "open"
+    },
+    {
+      "detail": "Metric readings remain proxy-level until native coordinate structure is admitted.",
+      "id": "U2_metric_admission",
+      "status": "open"
+    },
+    {
+      "detail": "Formal theorem-candidate statement can now be drafted with this boundary.",
+      "id": "U3_formal_theorem_text",
+      "status": "open"
+    }
+  ]
+}
