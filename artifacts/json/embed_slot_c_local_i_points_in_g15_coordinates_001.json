@@ -1,0 +1,1951 @@
+{
+  "artifact_kind": "local_i_coordinate_embedding_candidate",
+  "boundary": {
+    "embedding_candidate_only": true,
+    "force_claim": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "slot_c_numeric_proxy": true,
+    "source_law_admitted": false,
+    "theorem": false
+  },
+  "checks": {
+    "centroid_definition_pass": true,
+    "centroid_dimension_4": true,
+    "coordinate_dimension_4": true,
+    "hard_absence_5172": true,
+    "no_force": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem_admitted": true,
+    "normalized_samples_present": true,
+    "observed_count_24": true,
+    "point_count_6561": true,
+    "proxy_invalid_1365": true,
+    "register_pass": true,
+    "source_only_extract_pass": true,
+    "status_count_3": true,
+    "theorem_path_pass": true,
+    "universe_derive_pass": true
+  },
+  "created_utc": "2026-07-10T18:09:08+00:00",
+  "embedding_definition": {
+    "centroid_domain": "all 6561 slot/C candidate keys",
+    "centroid_formula": "C_G15 = (1/N) sum_i v_i",
+    "coordinate_space": "affine numeric proxy over observed slot/C value domain inside mod15 labels",
+    "coordinate_vector": [
+      "from_slot",
+      "to_slot",
+      "from_C",
+      "to_C"
+    ],
+    "embedding_name": "slot_c_key_as_g15_coordinate_proxy",
+    "limitation": "This embeds slot/C keys as numeric coordinate proxies. It does not yet prove this is the unique or native G15 embedding.",
+    "normalized_formula": "I_i_norm = v_i - C_G15",
+    "status": "embedding_candidate_not_theorem"
+  },
+  "embedding_result": {
+    "c_value_count": 9,
+    "c_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "coordinate_dimension": 4,
+    "g15_centroid_all_candidates": [
+      6.666666666667,
+      6.666666666667,
+      6.666666666667,
+      6.666666666667
+    ],
+    "local_i_point_count": 6561,
+    "normalized_samples_first_80": [
+      {
+        "candidate_key": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "local_i_id": "slot_c_0_0_0_0",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -6.666666666667,
+          -6.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "local_i_id": "slot_c_0_0_0_1",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -6.666666666667,
+          -5.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "local_i_id": "slot_c_0_0_0_2",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -6.666666666667,
+          -4.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          0,
+          4
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          0,
+          4
+        ],
+        "local_i_id": "slot_c_0_0_0_4",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -6.666666666667,
+          -2.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          0,
+          5
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          0,
+          5
+        ],
+        "local_i_id": "slot_c_0_0_0_5",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -6.666666666667,
+          -1.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          0,
+          10
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          0,
+          10
+        ],
+        "local_i_id": "slot_c_0_0_0_10",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -6.666666666667,
+          3.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          0,
+          11
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          0,
+          11
+        ],
+        "local_i_id": "slot_c_0_0_0_11",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -6.666666666667,
+          4.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          0,
+          13
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          0,
+          13
+        ],
+        "local_i_id": "slot_c_0_0_0_13",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -6.666666666667,
+          6.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          0,
+          14
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          0,
+          14
+        ],
+        "local_i_id": "slot_c_0_0_0_14",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -6.666666666667,
+          7.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "local_i_id": "slot_c_0_0_1_0",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -5.666666666667,
+          -6.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "local_i_id": "slot_c_0_0_1_1",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -5.666666666667,
+          -5.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "local_i_id": "slot_c_0_0_1_2",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -5.666666666667,
+          -4.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          1,
+          4
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          1,
+          4
+        ],
+        "local_i_id": "slot_c_0_0_1_4",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -5.666666666667,
+          -2.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          1,
+          5
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          1,
+          5
+        ],
+        "local_i_id": "slot_c_0_0_1_5",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -5.666666666667,
+          -1.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          1,
+          10
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          1,
+          10
+        ],
+        "local_i_id": "slot_c_0_0_1_10",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -5.666666666667,
+          3.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          1,
+          11
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          1,
+          11
+        ],
+        "local_i_id": "slot_c_0_0_1_11",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -5.666666666667,
+          4.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          1,
+          13
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          1,
+          13
+        ],
+        "local_i_id": "slot_c_0_0_1_13",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -5.666666666667,
+          6.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          1,
+          14
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          1,
+          14
+        ],
+        "local_i_id": "slot_c_0_0_1_14",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -5.666666666667,
+          7.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "local_i_id": "slot_c_0_0_2_0",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -4.666666666667,
+          -6.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          2,
+          1
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          2,
+          1
+        ],
+        "local_i_id": "slot_c_0_0_2_1",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -4.666666666667,
+          -5.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "local_i_id": "slot_c_0_0_2_2",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -4.666666666667,
+          -4.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          2,
+          4
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          2,
+          4
+        ],
+        "local_i_id": "slot_c_0_0_2_4",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -4.666666666667,
+          -2.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          2,
+          5
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          2,
+          5
+        ],
+        "local_i_id": "slot_c_0_0_2_5",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -4.666666666667,
+          -1.666666666667
+        ],
+        "status": "observed_receipted"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          2,
+          10
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          2,
+          10
+        ],
+        "local_i_id": "slot_c_0_0_2_10",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -4.666666666667,
+          3.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          2,
+          11
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          2,
+          11
+        ],
+        "local_i_id": "slot_c_0_0_2_11",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -4.666666666667,
+          4.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          2,
+          13
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          2,
+          13
+        ],
+        "local_i_id": "slot_c_0_0_2_13",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -4.666666666667,
+          6.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          2,
+          14
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          2,
+          14
+        ],
+        "local_i_id": "slot_c_0_0_2_14",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -4.666666666667,
+          7.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "local_i_id": "slot_c_0_0_4_0",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -2.666666666667,
+          -6.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          4,
+          1
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          4,
+          1
+        ],
+        "local_i_id": "slot_c_0_0_4_1",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -2.666666666667,
+          -5.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          4,
+          2
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          4,
+          2
+        ],
+        "local_i_id": "slot_c_0_0_4_2",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -2.666666666667,
+          -4.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          4,
+          4
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          4,
+          4
+        ],
+        "local_i_id": "slot_c_0_0_4_4",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -2.666666666667,
+          -2.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          4,
+          5
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          4,
+          5
+        ],
+        "local_i_id": "slot_c_0_0_4_5",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -2.666666666667,
+          -1.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          4,
+          10
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          4,
+          10
+        ],
+        "local_i_id": "slot_c_0_0_4_10",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -2.666666666667,
+          3.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          4,
+          11
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          4,
+          11
+        ],
+        "local_i_id": "slot_c_0_0_4_11",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -2.666666666667,
+          4.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          4,
+          13
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          4,
+          13
+        ],
+        "local_i_id": "slot_c_0_0_4_13",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -2.666666666667,
+          6.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          4,
+          14
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          4,
+          14
+        ],
+        "local_i_id": "slot_c_0_0_4_14",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -2.666666666667,
+          7.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "local_i_id": "slot_c_0_0_5_0",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -1.666666666667,
+          -6.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "local_i_id": "slot_c_0_0_5_1",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -1.666666666667,
+          -5.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          5,
+          2
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          5,
+          2
+        ],
+        "local_i_id": "slot_c_0_0_5_2",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -1.666666666667,
+          -4.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          5,
+          4
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          5,
+          4
+        ],
+        "local_i_id": "slot_c_0_0_5_4",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -1.666666666667,
+          -2.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          5,
+          5
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          5,
+          5
+        ],
+        "local_i_id": "slot_c_0_0_5_5",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -1.666666666667,
+          -1.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          5,
+          10
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          5,
+          10
+        ],
+        "local_i_id": "slot_c_0_0_5_10",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -1.666666666667,
+          3.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          5,
+          11
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          5,
+          11
+        ],
+        "local_i_id": "slot_c_0_0_5_11",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -1.666666666667,
+          4.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          5,
+          13
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          5,
+          13
+        ],
+        "local_i_id": "slot_c_0_0_5_13",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -1.666666666667,
+          6.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          5,
+          14
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          5,
+          14
+        ],
+        "local_i_id": "slot_c_0_0_5_14",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          -1.666666666667,
+          7.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          10,
+          0
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          10,
+          0
+        ],
+        "local_i_id": "slot_c_0_0_10_0",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          3.333333333333,
+          -6.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          10,
+          1
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          10,
+          1
+        ],
+        "local_i_id": "slot_c_0_0_10_1",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          3.333333333333,
+          -5.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          10,
+          2
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          10,
+          2
+        ],
+        "local_i_id": "slot_c_0_0_10_2",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          3.333333333333,
+          -4.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          10,
+          4
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          10,
+          4
+        ],
+        "local_i_id": "slot_c_0_0_10_4",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          3.333333333333,
+          -2.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          10,
+          5
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          10,
+          5
+        ],
+        "local_i_id": "slot_c_0_0_10_5",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          3.333333333333,
+          -1.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          10,
+          10
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          10,
+          10
+        ],
+        "local_i_id": "slot_c_0_0_10_10",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          3.333333333333,
+          3.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          10,
+          11
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          10,
+          11
+        ],
+        "local_i_id": "slot_c_0_0_10_11",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          3.333333333333,
+          4.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          10,
+          13
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          10,
+          13
+        ],
+        "local_i_id": "slot_c_0_0_10_13",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          3.333333333333,
+          6.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          10,
+          14
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          10,
+          14
+        ],
+        "local_i_id": "slot_c_0_0_10_14",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          3.333333333333,
+          7.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          11,
+          0
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          11,
+          0
+        ],
+        "local_i_id": "slot_c_0_0_11_0",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          4.333333333333,
+          -6.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          11,
+          1
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          11,
+          1
+        ],
+        "local_i_id": "slot_c_0_0_11_1",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          4.333333333333,
+          -5.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          11,
+          2
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          11,
+          2
+        ],
+        "local_i_id": "slot_c_0_0_11_2",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          4.333333333333,
+          -4.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          11,
+          4
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          11,
+          4
+        ],
+        "local_i_id": "slot_c_0_0_11_4",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          4.333333333333,
+          -2.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          11,
+          5
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          11,
+          5
+        ],
+        "local_i_id": "slot_c_0_0_11_5",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          4.333333333333,
+          -1.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          11,
+          10
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          11,
+          10
+        ],
+        "local_i_id": "slot_c_0_0_11_10",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          4.333333333333,
+          3.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          11,
+          11
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          11,
+          11
+        ],
+        "local_i_id": "slot_c_0_0_11_11",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          4.333333333333,
+          4.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          11,
+          13
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          11,
+          13
+        ],
+        "local_i_id": "slot_c_0_0_11_13",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          4.333333333333,
+          6.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          11,
+          14
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          11,
+          14
+        ],
+        "local_i_id": "slot_c_0_0_11_14",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          4.333333333333,
+          7.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          13,
+          0
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          13,
+          0
+        ],
+        "local_i_id": "slot_c_0_0_13_0",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          6.333333333333,
+          -6.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          13,
+          1
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          13,
+          1
+        ],
+        "local_i_id": "slot_c_0_0_13_1",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          6.333333333333,
+          -5.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          13,
+          2
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          13,
+          2
+        ],
+        "local_i_id": "slot_c_0_0_13_2",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          6.333333333333,
+          -4.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          13,
+          4
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          13,
+          4
+        ],
+        "local_i_id": "slot_c_0_0_13_4",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          6.333333333333,
+          -2.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          13,
+          5
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          13,
+          5
+        ],
+        "local_i_id": "slot_c_0_0_13_5",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          6.333333333333,
+          -1.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          13,
+          10
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          13,
+          10
+        ],
+        "local_i_id": "slot_c_0_0_13_10",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          6.333333333333,
+          3.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          13,
+          11
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          13,
+          11
+        ],
+        "local_i_id": "slot_c_0_0_13_11",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          6.333333333333,
+          4.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          13,
+          13
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          13,
+          13
+        ],
+        "local_i_id": "slot_c_0_0_13_13",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          6.333333333333,
+          6.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          13,
+          14
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          13,
+          14
+        ],
+        "local_i_id": "slot_c_0_0_13_14",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          6.333333333333,
+          7.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          14,
+          0
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          14,
+          0
+        ],
+        "local_i_id": "slot_c_0_0_14_0",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          7.333333333333,
+          -6.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          14,
+          1
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          14,
+          1
+        ],
+        "local_i_id": "slot_c_0_0_14_1",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          7.333333333333,
+          -5.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          14,
+          2
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          14,
+          2
+        ],
+        "local_i_id": "slot_c_0_0_14_2",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          7.333333333333,
+          -4.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          14,
+          4
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          14,
+          4
+        ],
+        "local_i_id": "slot_c_0_0_14_4",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          7.333333333333,
+          -2.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          14,
+          5
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          14,
+          5
+        ],
+        "local_i_id": "slot_c_0_0_14_5",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          7.333333333333,
+          -1.666666666667
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          14,
+          10
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          14,
+          10
+        ],
+        "local_i_id": "slot_c_0_0_14_10",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          7.333333333333,
+          3.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          14,
+          11
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          14,
+          11
+        ],
+        "local_i_id": "slot_c_0_0_14_11",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          7.333333333333,
+          4.333333333333
+        ],
+        "status": "proxy_invalid"
+      },
+      {
+        "candidate_key": [
+          0,
+          0,
+          14,
+          13
+        ],
+        "g15_coordinate_vector": [
+          0,
+          0,
+          14,
+          13
+        ],
+        "local_i_id": "slot_c_0_0_14_13",
+        "normalized_local_i_vector": [
+          -6.666666666667,
+          -6.666666666667,
+          7.333333333333,
+          6.333333333333
+        ],
+        "status": "proxy_invalid"
+      }
+    ],
+    "slot_value_count": 9,
+    "slot_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "status_centroids": {
+      "hard_absence_gate_absent": [
+        6.66879350348,
+        6.66879350348,
+        6.66879350348,
+        6.66879350348
+      ],
+      "observed_receipted": [
+        5.75,
+        5.75,
+        5.75,
+        5.75
+      ],
+      "proxy_invalid": [
+        6.674725274725,
+        6.674725274725,
+        6.674725274725,
+        6.674725274725
+      ]
+    },
+    "status_counts": {
+      "hard_absence_gate_absent": 5172,
+      "observed_receipted": 24,
+      "proxy_invalid": 1365
+    },
+    "status_norms": {
+      "hard_absence_gate_absent": {
+        "count": 5172,
+        "max_squared_distance_from_global_centroid": 196.444444444444,
+        "mean_squared_distance_from_global_centroid": 103.135086362465,
+        "min_squared_distance_from_global_centroid": 19.777777777778
+      },
+      "observed_receipted": {
+        "count": 24,
+        "max_squared_distance_from_global_centroid": 151.111111111111,
+        "mean_squared_distance_from_global_centroid": 92.777777777778,
+        "min_squared_distance_from_global_centroid": 19.777777777778
+      },
+      "proxy_invalid": {
+        "count": 1365,
+        "max_squared_distance_from_global_centroid": 215.111111111111,
+        "mean_squared_distance_from_global_centroid": 103.201953601954,
+        "min_squared_distance_from_global_centroid": 11.111111111111
+      }
+    }
+  },
+  "id": "embed_slot_c_local_i_points_in_g15_coordinates_001",
+  "input_artifacts": {
+    "g15_centroid_definition": "artifacts/json/define_g15_centroid_for_local_i_register_001.json",
+    "non_observed_universe": "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json",
+    "source_only_packets": "artifacts/json/extract_source_only_slot_c_row_packets_001.json",
+    "superposition_register": "artifacts/json/record_slot_c_superposition_register_candidate_001.json",
+    "theorem_path": "artifacts/json/derive_centroid_normalized_local_i_theorem_path_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/define_g15_centroid_for_local_i_register_001.json": "6c65e59c23cd271e39b28b1056d5421d22bac501e7d6fca6ffda831e625b45b5",
+    "artifacts/json/derive_centroid_normalized_local_i_theorem_path_001.json": "a5910764f51262f523c274256ee038b7bbfdf03de83ce9f79cd5498da5e5aeea",
+    "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json": "a0d053a39a16b1f134abdf6cdf1d3aa338a74231f603c5eb1e784ce269d02826",
+    "artifacts/json/extract_source_only_slot_c_row_packets_001.json": "80deb83bd070e8b7f2a4d86c98bac34d6d527235e7890aa726c3fb38443e87d4",
+    "artifacts/json/record_slot_c_superposition_register_candidate_001.json": "22c6d510c68f775ea30d79971d87434bff58e3bf1b84b05fb9ba99ec8ae0ecac"
+  },
+  "keeper_line": "The centroid does not choose the I. It gives every I a common frame.",
+  "next_gate": "test_local_t_extension_normalization_on_slot_c_register_001",
+  "status": "SLOT_C_LOCAL_I_POINTS_G15_COORDINATE_EMBEDDING_001_RECORDED",
+  "summary": {
+    "check_count": 20,
+    "coordinate_dimension": 4,
+    "embed_pass": true,
+    "embedding_name": "slot_c_key_as_g15_coordinate_proxy",
+    "failed_count": 0,
+    "frontier_status": "slot_c_local_i_embedding_ready_for_local_t_normalization_test",
+    "g15_centroid_all_candidates": [
+      6.666666666667,
+      6.666666666667,
+      6.666666666667,
+      6.666666666667
+    ],
+    "gap_a_closure": false,
+    "hard_absence_gate_absent": 5172,
+    "local_i_point_count": 6561,
+    "observed_receipted": 24,
+    "passed_count": 20,
+    "proof_claim": false,
+    "proxy_invalid": 1365,
+    "recommended_next": "test_local_t_extension_normalization_on_slot_c_register_001",
+    "theorem_admitted": false
+  },
+  "unresolved": [
+    {
+      "detail": "Need to test whether this slot/C numeric proxy agrees with a native G15 quotient embedding.",
+      "id": "U1_native_embedding",
+      "status": "open"
+    },
+    {
+      "detail": "This run uses all 6561 candidates for the centroid; other admitted domains remain possible.",
+      "id": "U2_domain_choice",
+      "status": "default_all_candidates_used"
+    },
+    {
+      "detail": "Squared distances are diagnostic over the numeric proxy, not yet admitted as native metric facts.",
+      "id": "U3_metric_status",
+      "status": "proxy_metric_only"
+    }
+  ]
+}
