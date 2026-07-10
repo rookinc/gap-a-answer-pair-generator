@@ -1,0 +1,69 @@
+{
+  "artifact": "admit_affine_centroid_as_toroid_anchor_001",
+  "admission_pass": true,
+  "verdict": "affine_centroid_admitted_as_only_current_toroid_anchor",
+  "keeper": "We do not yet know the torus. We know where its chamber balances.",
+  "scope": "affine_centroid_anchor_contract",
+  "source_artifact": "artifacts/json/derive_eidronic_source_daughter_carrier_domain_001.json",
+  "state_count": 24,
+  "transition_count": 28,
+  "anchor_definition": {
+    "centroid": "c_X = (1/|X|) * sum_i x_i",
+    "centered_state": "y_i = x_i - c_X",
+    "centered_transition": "Delta_ij = y_j - y_i = x_j - x_i"
+  },
+  "admitted_claims": [
+    "The affine centroid is a canonical translation-normalized anchor for the finite chamber.",
+    "Every chamber state may be represented relative to the affine centroid.",
+    "Transition differences are invariant under translation of the full chamber.",
+    "Source and daughter states may be compared in the centered affine frame.",
+    "The centroid may serve as the provisional anchor for later toroidal closure tests."
+  ],
+  "not_admitted": [
+    "A native torus embedding.",
+    "A toroidal axis.",
+    "Meridian or longitude coordinates.",
+    "A native winding number.",
+    "A metric radius.",
+    "A unique x_sigma embedding.",
+    "A lower-carrier update law.",
+    "A geometry, physics, force, or Planck-scale claim.",
+    "Gap A closure."
+  ],
+  "proof_obligation_retune": {
+    "PO1_distinction": "compare y_source and y_daughter",
+    "PO2_provenance": "retain directed source-to-daughter transition",
+    "PO3_carrier_update": "open",
+    "PO4_projection": "centered affine projection admitted",
+    "PO5_seed_independence": "retained from prior binary closure audit",
+    "PO6_native_row_admission": "open"
+  },
+  "next_derivation_frame": [
+    "affine centroid",
+    "centered chamber states",
+    "centered transition vectors",
+    "candidate closure residues",
+    "candidate toroidal winding only if independently derived"
+  ],
+  "affine_centroid_anchor_admitted": true,
+  "native_torus_embedding_admitted": false,
+  "toroidal_axis_admitted": false,
+  "winding_number_admitted": false,
+  "lower_carrier_law_admitted": false,
+  "eidron_theorem_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Affine normalization contract only.",
+    "The centroid is admitted as the only current anchor.",
+    "The centroid does not establish a torus embedding.",
+    "Centered transition vectors are translation invariant.",
+    "No axis, winding, metric, carrier law, theorem, physics, force, or Gap A closure claim."
+  ],
+  "recommended_next": "derive_centered_transition_closure_frame_001"
+}
