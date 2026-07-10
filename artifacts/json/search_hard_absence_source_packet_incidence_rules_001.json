@@ -1,0 +1,1334 @@
+{
+  "artifact_kind": "hard_absence_source_packet_incidence_rule_search",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "source_packet_incidence_search_only": true,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "checks": {
+    "answer_label_leakage_closed_false": true,
+    "birth_order_proven_false": true,
+    "classify_pass": true,
+    "endpoint_recommended_this": true,
+    "endpoint_search_pass": true,
+    "feature_test_count_positive": true,
+    "hard_absence_count_5172": true,
+    "no_answer_eval_fields_in_features": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "observed_count_24": true,
+    "plan_pass": true,
+    "proxy_invalid_count_1365": true,
+    "source_only_extract_pass": true,
+    "source_packet_law_key_count_24": true,
+    "source_rule_admitted_false": true,
+    "universe_derive_pass": true
+  },
+  "created_utc": "2026-07-10T16:47:50+00:00",
+  "features_tested": [
+    "source_packet_present",
+    "packet_support_count",
+    "source_count",
+    "has_native_chain_support",
+    "has_project18_012_support",
+    "has_project18_022_support",
+    "packet_count_for_law_key",
+    "role_pair_signature",
+    "station_role_signature",
+    "slot_delta_mod15",
+    "c_delta_mod15",
+    "slot_delta_eq_c_delta"
+  ],
+  "id": "search_hard_absence_source_packet_incidence_rules_001",
+  "incidence_result": {
+    "best_by_leak_first_20": [
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "source_packet_present"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "source_count"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "has_native_chain_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "has_project18_012_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "has_project18_022_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "packet_count_for_law_key"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 21,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "role_pair_signature"
+        ],
+        "group_count": 4,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 3,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 20,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "packet_support_count"
+        ],
+        "group_count": 5,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 4,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 18,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "station_role_signature"
+        ],
+        "group_count": 7,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 6,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_packet_present",
+          "source_count"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_packet_present",
+          "has_native_chain_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_packet_present",
+          "has_project18_012_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_packet_present",
+          "has_project18_022_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_packet_present",
+          "packet_count_for_law_key"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_count",
+          "has_native_chain_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_count",
+          "has_project18_012_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_count",
+          "has_project18_022_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_count",
+          "packet_count_for_law_key"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "has_native_chain_support",
+          "has_project18_012_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "has_native_chain_support",
+          "has_project18_022_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      }
+    ],
+    "compressed_exact_hit_count": 223,
+    "exact_hit_count": 291,
+    "exact_hits_first_20": [
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "source_packet_present"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "source_count"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "has_native_chain_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "has_project18_012_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "has_project18_022_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "packet_count_for_law_key"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_packet_present",
+          "source_count"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_packet_present",
+          "has_native_chain_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_packet_present",
+          "has_project18_012_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_packet_present",
+          "has_project18_022_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_packet_present",
+          "packet_count_for_law_key"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_count",
+          "has_native_chain_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_count",
+          "has_project18_012_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_count",
+          "has_project18_022_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "source_count",
+          "packet_count_for_law_key"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "has_native_chain_support",
+          "has_project18_012_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "has_native_chain_support",
+          "has_project18_022_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "has_native_chain_support",
+          "packet_count_for_law_key"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "has_project18_012_support",
+          "has_project18_022_support"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "has_project18_012_support",
+          "packet_count_for_law_key"
+        ],
+        "group_count": 2,
+        "hard_absence_total": 5172,
+        "identity_like": false,
+        "observed_total": 24,
+        "selected_bucket_count": 1,
+        "selected_hard_absence_count": 0,
+        "selected_observed_count": 24
+      }
+    ],
+    "feature_count": 12,
+    "feature_test_count": 298,
+    "hard_absence_count": 5172,
+    "non_identity_exact_hit_count": 223,
+    "observed_count": 24,
+    "packet_info_first_40": [
+      {
+        "law_key": [
+          0,
+          0,
+          2,
+          5
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "3ab43b9f22ab640a3d9eced63706ebb34ce6e37717255dc6742198d21b52483c",
+          "7dea979aef55f2f72a201dbb955d3acd2fc73f6deed2b20c74302b58ae708cba"
+        ],
+        "role_pair_signature": "TI/XY",
+        "station_role_signature": "XY",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "258b0c2bd9c2d3874c736ffa471cee95d9d7eaaf826705122408b06edf99c759",
+          "b9d62c6a3faabecc6244dc64e2ee799ca88670df49e7c98470e15ee2ad287993"
+        ],
+        "role_pair_signature": "IW/YZ",
+        "station_role_signature": "YZ",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          1,
+          1,
+          10,
+          13
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "95c05a9b931ef473f1eca265113298f081e9980667cc00e80850553cbd37f14f",
+          "efdcaba8df0120faebd9268e9721744f4b349c4d8913141d87b138c07b8c46df"
+        ],
+        "role_pair_signature": "WX/ZT",
+        "station_role_signature": "ZT",
+        "support_count": 4,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          1,
+          13,
+          13,
+          1
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "39ee1e4a9070034c01792c62d5b3253ca0a8ff9375e124b7696539025e60eb79",
+          "6e2f93785618eabce8703a9973044d9c6c16e7149fb9b40ba5aae9d88f7a6679"
+        ],
+        "role_pair_signature": "TI/XY",
+        "station_role_signature": "TI",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          2,
+          0,
+          0,
+          2
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "4ccbbd8bded01c624ca28603b5dc21379768418b566094ab0d8d2811d8f44a40",
+          "6679732239165138f98214eb735552ddc39573dc83e132f6be2df933a067cf76"
+        ],
+        "role_pair_signature": "WX/ZT",
+        "station_role_signature": "WX",
+        "support_count": 5,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          2,
+          2,
+          4,
+          5
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "4518f2256a78b1b9794a75b7385e0442acafce8434f744e7ab99f3090f8da22a",
+          "aa676764ecf724f4cc491710036b6e9fce42482ac5914479e4c575fc5360eca6"
+        ],
+        "role_pair_signature": "TI/XY",
+        "station_role_signature": "XY",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          2,
+          2,
+          5,
+          0
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "92b24a7ebaa2922a59831aac8c3368aa728dd3ce064251aee486b6744de6259c",
+          "d6aaf2840f856d5a21b87df4a902a83b3e23c0644ea24fd1a10a631a7e161225"
+        ],
+        "role_pair_signature": "IW/YZ",
+        "station_role_signature": "IW",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          2,
+          2,
+          14,
+          11
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "8145b7705bef4fca26387e71228c0bbb938d3a71f21f8adf18ebd0f04231b009",
+          "93391fc28031d5071a4b6dc2962f44bc6d3e596c67c72b503fdabf4129dd13ed"
+        ],
+        "role_pair_signature": "WX/ZT",
+        "station_role_signature": "ZT",
+        "support_count": 4,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          2,
+          5,
+          5,
+          2
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "a942481ab679e5079db30fb2c888ca0c7718007c59b14af67615bfe256febea1",
+          "e1890e12c2e73abe9f1c01c83637ebb7682e1b3b075d30dac02735d24a431e3b"
+        ],
+        "role_pair_signature": "IW/YZ",
+        "station_role_signature": "YZ",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          2,
+          11,
+          11,
+          2
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "3240e40d1d763654f36fd25c172a694417fd102fbdb823d1bc04e3c22db03b5d",
+          "f639d963c3903af3c8202395f9f9a96c76ec18484af296f729f798e9301dd30e"
+        ],
+        "role_pair_signature": "TI/XY",
+        "station_role_signature": "TI",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          4,
+          2,
+          2,
+          4
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "52699fabd1de4da962e2d9ff51b141ba1fb3067d95426c3abf39adebcb542afd",
+          "938bdd63c98acf1b962c7537c9b63333483ea52f9ef614426d1a1987f319ff58"
+        ],
+        "role_pair_signature": "WX/ZT",
+        "station_role_signature": "WX",
+        "support_count": 5,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          4,
+          4,
+          5,
+          2
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "da3117ac86e56a0e703b53d6263310f5c3aabdc2f28ffc9900cbeb69c853cc86",
+          "f469de3189491341c2dd62219c07f9fa8c1ab79ed00cb1a5306c9ef35ed4cdc7"
+        ],
+        "role_pair_signature": "IW/YZ",
+        "station_role_signature": "IW",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          5,
+          2,
+          2,
+          5
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "a8c03b424ee2ea62498eca3ce28b380d1a7e9a10f75331c7db0581eb2f4757bc",
+          "b95a5f5f4669d825c77759363d5136252fe6c56fe3916025f1a33c4e3e032629"
+        ],
+        "role_pair_signature": "TI/XY",
+        "station_role_signature": "TI",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          5,
+          4,
+          4,
+          5
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "047a1d03dfcdb1a61c9643810bcf8542d7cd015ef6037475626531ac73104eda",
+          "413c91ecd6b1e07d1b8c5231d9a7cec96d9f4b07a5fdf484cde50d65854b72ac"
+        ],
+        "role_pair_signature": "TI/XY",
+        "station_role_signature": "TI",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          5,
+          5,
+          0,
+          2
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "7def625ee46ac5ad9813f4bd6da7d9eb4e88982645fc23b965d8612afa0f7bda",
+          "bae84f34c36885c1cf7f4c0981f40624b991f71a1e90e76f8d48359155a163f3"
+        ],
+        "role_pair_signature": "WX/ZT",
+        "station_role_signature": "ZT",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          5,
+          5,
+          2,
+          4
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "bab021408a85d12648bacaeca51fd10003a70ad31840e5ac4b69607c703e742f",
+          "f1d868a79dc2440bda36e8dd9c5ad322743328204e7bccd90bb9db527381acd1"
+        ],
+        "role_pair_signature": "WX/ZT",
+        "station_role_signature": "ZT",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          10,
+          1,
+          1,
+          10
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "7a242563562a6813563a83bf2c2d6725983c67e4e7926dd26d3447da2efd3c29",
+          "ad23ff96ab8c944a69bf2fc76cb3f100ae6ac9ac9131a5d58c5809c624c95cec"
+        ],
+        "role_pair_signature": "IW/YZ",
+        "station_role_signature": "YZ",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          10,
+          10,
+          13,
+          1
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "2fc21e0b77c9625323cbc7dc622568fc515079c75574aae299a93c0ca252b317",
+          "5d237b1886a85405406a1b5f6f4322e2d5fe06f73313f8fcfdffce84fef3bccc"
+        ],
+        "role_pair_signature": "TI/XY",
+        "station_role_signature": "XY",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          11,
+          11,
+          2,
+          14
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "3a2b2a4d8d09871a984aaf367eb2b2b86bb9221ac7d85803f0569dc20e697e7a",
+          "87f572ee41e86f7104762831b39a315e4a579802df72719b1ce8d257786f97c5"
+        ],
+        "role_pair_signature": "IW/YZ",
+        "station_role_signature": "IW",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          11,
+          14,
+          14,
+          11
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "33b1da503a1eabc33134a6235ae084c3f915040ac541766ccd2db1957ba447b1",
+          "54fecfe71519458397c324d2bc1223dfefc3e90b2d5ca0f0852e77bf2443948a"
+        ],
+        "role_pair_signature": "WX/ZT",
+        "station_role_signature": "WX",
+        "support_count": 6,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          13,
+          10,
+          10,
+          13
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "4c1229f0c905f568feafc4dfd9af05cff8475114c9d5ac2a8c19adc222540ca2",
+          "5852173a01e28ee20987864be264c7b4f418cfe0d1360c1b089269ce56b77996"
+        ],
+        "role_pair_signature": "WX/ZT",
+        "station_role_signature": "WX",
+        "support_count": 6,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          13,
+          13,
+          1,
+          10
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "9aba81e3dc22eaa1eb9a9512a60823f4d83fc12e1e7ff876f291b950735133d7",
+          "af1e0167dce9e812d25ee85f73b390e9807d7090feccf315d90068da98dbc7ea"
+        ],
+        "role_pair_signature": "IW/YZ",
+        "station_role_signature": "IW",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          14,
+          2,
+          2,
+          14
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "a573f7231217737e26ae96a91db45c229b5dd87907ecf0877b4303eb7cd51eea",
+          "cfe06ddb40c51b634659310e5d67bc296be28d901673ad0a7ea75d5fc5616bd7"
+        ],
+        "role_pair_signature": "IW/YZ",
+        "station_role_signature": "YZ",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      },
+      {
+        "law_key": [
+          14,
+          14,
+          11,
+          2
+        ],
+        "packet_count": 2,
+        "packet_ids": [
+          "11b902203147d8ab24778704a34cc7fc67b67c0f76b46ce2f02dad1a908e9ccd",
+          "4fb22e3dafb8723d19103c17dc7f56487bee3f077f93562f19c43a10ca986def"
+        ],
+        "role_pair_signature": "TI/XY",
+        "station_role_signature": "XY",
+        "support_count": 7,
+        "support_sources": [
+          "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+        ]
+      }
+    ],
+    "proxy_invalid_count": 1365,
+    "source_packet_law_key_count": 24
+  },
+  "incidence_status": "source_packet_incidence_gate_candidate_found_not_admitted",
+  "input_artifacts": {
+    "classification": "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json",
+    "endpoint_search": "artifacts/json/search_hard_absence_endpoint_motion_rules_001.json",
+    "hard_absence_search_plan": "artifacts/json/derive_hard_absence_source_rule_search_plan_001.json",
+    "non_observed_universe": "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json",
+    "source_only_packets": "artifacts/json/extract_source_only_slot_c_row_packets_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json": "343cc7328bfc48ab1e30b5cdd78e636936f3104f5129e951c8de8d0a80f81e0f",
+    "artifacts/json/derive_hard_absence_source_rule_search_plan_001.json": "0a45a4fe43e8dac14450c61fc5864ed1bd38727022f9cb804ef3ca32f7d0851c",
+    "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json": "a0d053a39a16b1f134abdf6cdf1d3aa338a74231f603c5eb1e784ce269d02826",
+    "artifacts/json/extract_source_only_slot_c_row_packets_001.json": "80deb83bd070e8b7f2a4d86c98bac34d6d527235e7890aa726c3fb38443e87d4",
+    "artifacts/json/search_hard_absence_endpoint_motion_rules_001.json": "5edf1b4691acfff7b0163bc7d22d491fef9ade61c255c3066599de25893ddab2"
+  },
+  "keeper_line": "Packet incidence can gate the observed surface; admission still needs source construction.",
+  "next_gate": "search_hard_absence_role_pair_channel_rules_001",
+  "search_scope": {
+    "answer_or_eval_fields_used": false,
+    "feature_subset_size_max": 3,
+    "feature_subset_size_min": 1,
+    "proxy_invalid_keys_excluded_from_rule_target": true,
+    "target": "observed_vs_hard_absence"
+  },
+  "status": "HARD_ABSENCE_SOURCE_PACKET_INCIDENCE_RULE_SEARCH_001_RECORDED",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "check_count": 26,
+    "compressed_exact_hit_count": 223,
+    "exact_hit_count": 291,
+    "failed_count": 0,
+    "feature_count": 12,
+    "feature_test_count": 298,
+    "frontier_status": "source_packet_incidence_gate_candidate_found_not_admitted",
+    "gap_a_closure": false,
+    "hard_absence_count": 5172,
+    "incidence_status": "source_packet_incidence_gate_candidate_found_not_admitted",
+    "non_identity_exact_hit_count": 223,
+    "observed_count": 24,
+    "passed_count": 26,
+    "proxy_invalid_count": 1365,
+    "recommended_next": "search_hard_absence_role_pair_channel_rules_001",
+    "search_pass": true,
+    "source_packet_law_key_count": 24,
+    "source_rule_admitted": false
+  }
+}
