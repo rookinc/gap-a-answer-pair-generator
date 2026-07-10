@@ -1,0 +1,151 @@
+{
+  "artifact_kind": "slot_c_superposition_register_transition_rule_candidate",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "fixed_self_fluid_other_vocabulary_only": true,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "geometry_claim": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem": false,
+    "transition_rule_candidate_only": true,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "candidate_strength": {
+    "birth_exact_hit_count": 865,
+    "native_packet_birth_candidate": "native_packet_birth_rule_candidate_found_not_admitted",
+    "screw_engagement_candidate": "screw_engagement_constraint_candidate_found_not_admitted",
+    "screw_exact_hit_count": 227,
+    "wxyz_exact_hit_count": 896,
+    "wxyz_side_face_candidate": "wxyz_side_face_constraint_candidate_found_not_admitted"
+  },
+  "checks": {
+    "answer_label_leakage_closed_false": true,
+    "birth_candidate_found": true,
+    "birth_order_proven_false": true,
+    "birth_search_pass": true,
+    "candidate_key_count_6561": true,
+    "gap_a_closure_false": true,
+    "hard_absence_5172": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_geometry_claim": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "observed_24": true,
+    "pal_record_pass": true,
+    "proxy_invalid_1365": true,
+    "register_pass": true,
+    "screw_candidate_found": true,
+    "screw_derive_pass": true,
+    "source_law_admitted_false": true,
+    "state_count_4": true,
+    "wxyz_candidate_found": true,
+    "wxyz_search_pass": true
+  },
+  "created_utc": "2026-07-10T17:26:36+00:00",
+  "id": "derive_slot_c_superposition_register_transition_rule_001",
+  "input_artifacts": {
+    "native_packet_birth_search": "artifacts/json/search_native_packet_birth_rule_for_slot_c_001.json",
+    "palindromic_receipt_candidate": "artifacts/json/record_wxyztitzyxw_palindromic_receipt_candidate_001.json",
+    "screw_engagement_candidates": "artifacts/json/derive_screw_engagement_constraint_candidates_001.json",
+    "superposition_register": "artifacts/json/record_slot_c_superposition_register_candidate_001.json",
+    "wxyz_side_face_constraint": "artifacts/json/search_wxyz_side_face_constraint_rule_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/derive_screw_engagement_constraint_candidates_001.json": "f784cacab83835258a04198e821f363faef78b6f080036f73985b32731925cf1",
+    "artifacts/json/record_slot_c_superposition_register_candidate_001.json": "22c6d510c68f775ea30d79971d87434bff58e3bf1b84b05fb9ba99ec8ae0ecac",
+    "artifacts/json/record_wxyztitzyxw_palindromic_receipt_candidate_001.json": "454b3fe6f3a5297e439906fe6ae844d0e4d59cd0973392145cb10101503e5ffd",
+    "artifacts/json/search_native_packet_birth_rule_for_slot_c_001.json": "3356f32c22f821d06793d6fa24dcdd8c9e9dcb9e53f83b3c039e85aab79d9395",
+    "artifacts/json/search_wxyz_side_face_constraint_rule_001.json": "67bc0c19b7ff155ce3efb28f22de85b2a2540dc09696513bd761ea14392a99c1"
+  },
+  "keeper_line": "I am fixed. The other is fluid. The receipt is born where fixed self survives fluid relation.",
+  "next_gate": "audit_slot_c_source_construction_rule_candidates_001",
+  "not_promoted": {
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "reason": "The transition rule organizes admitted gate candidates and register statuses, but it still does not derive the construction rule that creates fixed pre-role native packets.",
+    "source_law_admitted": false
+  },
+  "status": "SLOT_C_SUPERPOSITION_REGISTER_TRANSITION_RULE_001_DERIVED",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "candidate_key_count": 6561,
+    "check_count": 29,
+    "derive_pass": true,
+    "failed_count": 0,
+    "frontier_status": "transition_rule_candidate_recorded_source_construction_still_open",
+    "gap_a_closure": false,
+    "hard_absence_gate_absent": 5172,
+    "observed_receipted": 24,
+    "passed_count": 29,
+    "proxy_invalid": 1365,
+    "recommended_next": "audit_slot_c_source_construction_rule_candidates_001",
+    "source_law_admitted": false,
+    "state_count": 4,
+    "transition_rule_candidate_recorded": true
+  },
+  "transition_rule_candidate": {
+    "candidate_vocabulary_only": true,
+    "fixed_self_fluid_other": {
+      "fixed_self": "pre-role native packet / none-none source packet",
+      "fluid_other": "station_role and role_pair side-face reporting",
+      "transition_reading": "Self remains fixed enough to receive a native packet; other remains fluid enough to report relation through side faces."
+    },
+    "palindromic_receipt": {
+      "envelope": "360-180-360",
+      "reading": "A path becomes a receipt when it can return through its own mirror.",
+      "shape": "WXYZTITZYXW"
+    },
+    "rule_name": "slot_c_superposition_register_transition_rule_candidate",
+    "statement": "Fixed pre-role self enters as native packet; fluid role-facing other reports relation; unresolved candidates remain bounded until source construction closes the gate.",
+    "states": [
+      {
+        "count": 6561,
+        "meaning": "A slot/C candidate exists in the 6561-key register before status assignment.",
+        "state_id": "S0_abstract_candidate",
+        "transition_out": [
+          "S1_observed_receipted",
+          "S2_proxy_invalid",
+          "S3_hard_absence_gate_absent"
+        ]
+      },
+      {
+        "closure_state": "receipted_observed_candidate",
+        "count": 24,
+        "meaning": "Fixed pre-role self has native/source packet presence and can be reported by fluid side-face relation.",
+        "state_id": "S1_observed_receipted",
+        "transition_condition": "fixed_pre_role_self=true and native_chain_present=true and source_packet_present=true"
+      },
+      {
+        "closure_state": "proxy_invalid_absence",
+        "count": 1365,
+        "meaning": "Candidate fails the zero-motion proxy and does not meaningfully enter screw engagement.",
+        "state_id": "S2_proxy_invalid",
+        "transition_condition": "zero slot motion or zero C motion"
+      },
+      {
+        "closure_state": "bounded_unresolved_absence",
+        "count": 5172,
+        "meaning": "Candidate is not proxy-invalid but lacks native/source packet gate presence.",
+        "state_id": "S3_hard_absence_gate_absent",
+        "transition_condition": "native_chain_present=false and source_packet_present=false"
+      }
+    ]
+  }
+}
