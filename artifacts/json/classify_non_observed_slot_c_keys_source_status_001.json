@@ -1,0 +1,2886 @@
+{
+  "artifact_kind": "non_observed_slot_c_key_source_status_classification",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "classification_proxy_audit_only": true,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "checks": {
+    "answer_label_leakage_closed_false": true,
+    "birth_order_proven_false": true,
+    "candidate_key_count_matches_universe": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "non_observed_key_count_matches_universe": true,
+    "non_observed_not_fully_rejected": true,
+    "observed_key_count_24": true,
+    "source_invalid_proxy_count_positive": true,
+    "source_law_admitted_false": true,
+    "source_only_extract_pass": true,
+    "source_unknown_count_positive": true,
+    "trace_pass": true,
+    "universe_derive_pass": true
+  },
+  "classification_result": {
+    "candidate_key_count": 6561,
+    "classification_rule": "observed keys are receipted; non-observed keys with zero slot motion or zero C motion are proxy-invalid; all other non-observed keys remain source-unknown",
+    "non_observed_key_count": 6537,
+    "observed_key_count": 24,
+    "reason_counts": {
+      "not_observed_no_source_rejection_rule": 5172,
+      "zero_c_motion": 729,
+      "zero_slot_motion": 729
+    },
+    "samples_by_status": {
+      "observed": [
+        {
+          "law_key": [
+            0,
+            0,
+            2,
+            5
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            0,
+            5,
+            5,
+            0
+          ],
+          "reasons": [],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            1,
+            1,
+            10,
+            13
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            1,
+            13,
+            13,
+            1
+          ],
+          "reasons": [],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            2,
+            0,
+            0,
+            2
+          ],
+          "reasons": [],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            2,
+            2,
+            4,
+            5
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            2,
+            2,
+            5,
+            0
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            2,
+            2,
+            14,
+            11
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            2,
+            5,
+            5,
+            2
+          ],
+          "reasons": [],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            2,
+            11,
+            11,
+            2
+          ],
+          "reasons": [],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            4,
+            2,
+            2,
+            4
+          ],
+          "reasons": [],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            4,
+            4,
+            5,
+            2
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            5,
+            2,
+            2,
+            5
+          ],
+          "reasons": [],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            5,
+            4,
+            4,
+            5
+          ],
+          "reasons": [],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            5,
+            5,
+            0,
+            2
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            5,
+            5,
+            2,
+            4
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            10,
+            1,
+            1,
+            10
+          ],
+          "reasons": [],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            10,
+            10,
+            13,
+            1
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            11,
+            11,
+            2,
+            14
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            11,
+            14,
+            14,
+            11
+          ],
+          "reasons": [],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            13,
+            10,
+            10,
+            13
+          ],
+          "reasons": [],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            13,
+            13,
+            1,
+            10
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            14,
+            2,
+            2,
+            14
+          ],
+          "reasons": [],
+          "source_status": "observed"
+        },
+        {
+          "law_key": [
+            14,
+            14,
+            11,
+            2
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "observed"
+        }
+      ],
+      "source_invalid_by_zero_motion_proxy": [
+        {
+          "law_key": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "reasons": [
+            "zero_slot_motion",
+            "zero_c_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            0,
+            4
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            0,
+            10
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            0,
+            11
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            0,
+            13
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            0,
+            14
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "reasons": [
+            "zero_slot_motion",
+            "zero_c_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            1,
+            4
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            1,
+            5
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            1,
+            10
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            1,
+            11
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            1,
+            13
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            1,
+            14
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            2,
+            0
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "reasons": [
+            "zero_slot_motion",
+            "zero_c_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            2,
+            4
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            2,
+            10
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        },
+        {
+          "law_key": [
+            0,
+            0,
+            2,
+            11
+          ],
+          "reasons": [
+            "zero_slot_motion"
+          ],
+          "source_status": "source_invalid_by_zero_motion_proxy"
+        }
+      ],
+      "source_unknown_non_observed": [
+        {
+          "law_key": [
+            0,
+            1,
+            0,
+            1
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            0,
+            2
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            0,
+            4
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            0,
+            5
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            0,
+            10
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            0,
+            11
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            0,
+            13
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            0,
+            14
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            1,
+            0
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            1,
+            4
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            1,
+            5
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            1,
+            10
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            1,
+            11
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            1,
+            13
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            1,
+            14
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            2,
+            0
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            2,
+            5
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            2,
+            10
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            2,
+            11
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            2,
+            13
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        },
+        {
+          "law_key": [
+            0,
+            1,
+            2,
+            14
+          ],
+          "reasons": [
+            "not_observed_no_source_rejection_rule"
+          ],
+          "source_status": "source_unknown_non_observed"
+        }
+      ]
+    },
+    "source_invalid_proxy_count": 1365,
+    "source_unknown_count": 5172,
+    "status_counts": {
+      "observed": 24,
+      "source_invalid_by_zero_motion_proxy": 1365,
+      "source_unknown_non_observed": 5172
+    }
+  },
+  "classifications_first_160": [
+    {
+      "law_key": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "reasons": [
+        "zero_slot_motion",
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        0,
+        4
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        0,
+        5
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        0,
+        10
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        0,
+        11
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        0,
+        13
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        0,
+        14
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "reasons": [
+        "zero_slot_motion",
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        1,
+        4
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        1,
+        5
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        1,
+        10
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        1,
+        11
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        1,
+        13
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        1,
+        14
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        2,
+        1
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "reasons": [
+        "zero_slot_motion",
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        2,
+        4
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "observed"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        2,
+        10
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        2,
+        11
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        2,
+        13
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        2,
+        14
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        4,
+        0
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        4,
+        1
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        4,
+        2
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        4,
+        4
+      ],
+      "reasons": [
+        "zero_slot_motion",
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        4,
+        5
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        4,
+        10
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        4,
+        11
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        4,
+        13
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        4,
+        14
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        5,
+        0
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        5,
+        1
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        5,
+        2
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        5,
+        4
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        5,
+        5
+      ],
+      "reasons": [
+        "zero_slot_motion",
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        5,
+        10
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        5,
+        11
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        5,
+        13
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        5,
+        14
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        10,
+        0
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        10,
+        1
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        10,
+        2
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        10,
+        4
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        10,
+        5
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        10,
+        10
+      ],
+      "reasons": [
+        "zero_slot_motion",
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        10,
+        11
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        10,
+        13
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        10,
+        14
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        11,
+        0
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        11,
+        1
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        11,
+        2
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        11,
+        4
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        11,
+        5
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        11,
+        10
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        11,
+        11
+      ],
+      "reasons": [
+        "zero_slot_motion",
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        11,
+        13
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        11,
+        14
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        13,
+        0
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        13,
+        1
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        13,
+        2
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        13,
+        4
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        13,
+        5
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        13,
+        10
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        13,
+        11
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        13,
+        13
+      ],
+      "reasons": [
+        "zero_slot_motion",
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        13,
+        14
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        14,
+        0
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        14,
+        1
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        14,
+        2
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        14,
+        4
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        14,
+        5
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        14,
+        10
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        14,
+        11
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        14,
+        13
+      ],
+      "reasons": [
+        "zero_slot_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        0,
+        14,
+        14
+      ],
+      "reasons": [
+        "zero_slot_motion",
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "reasons": [
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        0,
+        2
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        0,
+        4
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        0,
+        5
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        0,
+        10
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        0,
+        11
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        0,
+        13
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        0,
+        14
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "reasons": [
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        1,
+        4
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        1,
+        5
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        1,
+        10
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        1,
+        11
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        1,
+        13
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        1,
+        14
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        2,
+        0
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        2,
+        2
+      ],
+      "reasons": [
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        2,
+        10
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        2,
+        11
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        2,
+        13
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        2,
+        14
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        4,
+        0
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        4,
+        1
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        4,
+        2
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        4,
+        4
+      ],
+      "reasons": [
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        4,
+        10
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        4,
+        11
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        4,
+        13
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        4,
+        14
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        5,
+        0
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        5,
+        1
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        5,
+        2
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        5,
+        4
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        5,
+        5
+      ],
+      "reasons": [
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        5,
+        10
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        5,
+        11
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        5,
+        13
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        5,
+        14
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        10,
+        0
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        10,
+        1
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        10,
+        2
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        10,
+        4
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        10,
+        5
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        10,
+        10
+      ],
+      "reasons": [
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        10,
+        11
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        10,
+        13
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        10,
+        14
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        11,
+        0
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        11,
+        1
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        11,
+        2
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        11,
+        4
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        11,
+        5
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        11,
+        10
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        11,
+        11
+      ],
+      "reasons": [
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        11,
+        13
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        11,
+        14
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        13,
+        0
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        13,
+        1
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        13,
+        2
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        13,
+        4
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        13,
+        5
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        13,
+        10
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        13,
+        11
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        13,
+        13
+      ],
+      "reasons": [
+        "zero_c_motion"
+      ],
+      "source_status": "source_invalid_by_zero_motion_proxy"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        13,
+        14
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        14,
+        0
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        14,
+        1
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        14,
+        2
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        14,
+        4
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        14,
+        5
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        14,
+        10
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    },
+    {
+      "law_key": [
+        0,
+        1,
+        14,
+        11
+      ],
+      "reasons": [
+        "not_observed_no_source_rejection_rule"
+      ],
+      "source_status": "source_unknown_non_observed"
+    }
+  ],
+  "created_utc": "2026-07-10T15:13:57+00:00",
+  "id": "classify_non_observed_slot_c_keys_source_status_001",
+  "input_artifacts": {
+    "non_observed_universe": "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json",
+    "source_only_packets": "artifacts/json/extract_source_only_slot_c_row_packets_001.json",
+    "trace": "artifacts/json/trace_slot_c_source_packet_to_answer_rows_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json": "a0d053a39a16b1f134abdf6cdf1d3aa338a74231f603c5eb1e784ce269d02826",
+    "artifacts/json/extract_source_only_slot_c_row_packets_001.json": "80deb83bd070e8b7f2a4d86c98bac34d6d527235e7890aa726c3fb38443e87d4",
+    "artifacts/json/trace_slot_c_source_packet_to_answer_rows_001.json": "65cc01f74d4513aac359d5c54b51c3da511ba33d4e1a2ce34a55ebd506eae214"
+  },
+  "keeper_line": "A proxy can mark the easy absences; the hard absences still need a source rule.",
+  "next_gate": "replay_slot_c_ab_surface_from_source_only_packets_001",
+  "source_status_implication": {
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "non_observed_keys_classified_by_tested_proxy": true,
+    "non_observed_keys_fully_rejected_by_source_rule": false,
+    "reason": "The zero-motion proxy separates part of the non-observed universe, but most non-observed keys remain source-unknown. A native source rejection rule is still missing.",
+    "source_invalid_proxy_count": 1365,
+    "source_law_admitted": false,
+    "source_unknown_non_observed_count": 5172
+  },
+  "status": "NON_OBSERVED_SLOT_C_KEYS_SOURCE_STATUS_001_CLASSIFIED_PROXY_INCOMPLETE",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "candidate_key_count": 6561,
+    "check_count": 23,
+    "classify_pass": true,
+    "failed_count": 0,
+    "frontier_status": "non_observed_keys_partly_classified_source_rejection_rule_missing",
+    "gap_a_closure": false,
+    "non_observed_key_count": 6537,
+    "non_observed_keys_classified_by_tested_proxy": true,
+    "non_observed_keys_fully_rejected_by_source_rule": false,
+    "observed_key_count": 24,
+    "passed_count": 23,
+    "recommended_next": "replay_slot_c_ab_surface_from_source_only_packets_001",
+    "source_invalid_proxy_count": 1365,
+    "source_law_admitted": false,
+    "source_unknown_count": 5172
+  }
+}
