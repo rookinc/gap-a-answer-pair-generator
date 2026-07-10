@@ -1,0 +1,565 @@
+{
+  "artifact": "audit_role_hook_change_feedback_candidate_against_native_signed_lift_001",
+  "audit_pass": true,
+  "verdict": "native_signed_lift_table_not_found_in_project21_imported_json_surface",
+  "keeper": "The voice is source-side now. Next ask whether it is the native lift speaking.",
+  "scope": "strict_role_hook_change_to_native_signed_lift_comparison_readiness_audit",
+  "observed_transition_count": 28,
+  "role_hook_edge_one_count": 27,
+  "candidate_json_file_count": 8,
+  "sign_table_candidate_count": 0,
+  "native_30_edge_sign_table_count": 0,
+  "native_signed_lift_table_found": false,
+  "explicit_mapping_record_count": 0,
+  "explicit_transition_to_native_map_found": false,
+  "comparison_completed": false,
+  "exact_edge_bit_agreement": false,
+  "cycle_residue_agreement": false,
+  "comparison_status": "native_signed_lift_table_not_found_in_project21_imported_json_surface",
+  "candidate_files": [
+    "artifacts/json/compare_slot_c_proxy_embedding_to_native_g15_001.json",
+    "artifacts/json/define_g15_centroid_for_local_i_register_001.json",
+    "artifacts/json/embed_slot_c_local_i_points_in_g15_coordinates_001.json",
+    "artifacts/json/test_slot_c_proxy_embedding_uniqueness_against_native_g15_001.json",
+    "source/project18_native_chain/json/c_transition_delta_lift_decomposition_001.v1.json",
+    "source/project18_native_chain/json/from_c_lift_partition_native_context_001.v1.json",
+    "source/project18_native_chain/json/from_c_lift_q_overlay_delta_formula_001.v1.json",
+    "source/project18_native_chain/json/lift_q_context_rules_001.v1.json"
+  ],
+  "sign_table_candidates": [],
+  "native_30_edge_sign_tables": [],
+  "mapping_candidates": [],
+  "role_hook_transition_edges": [
+    {
+      "source": 0,
+      "target": 1,
+      "source_law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "target_law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "source_law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "target_law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "source_law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "target_law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "source_law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "target_law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "source_law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "target_law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "source_law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "target_law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "source_law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "target_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "source_law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "target_law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "source_law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "target_law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 8,
+      "target": 12,
+      "source_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "target_law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 8,
+      "target": 15,
+      "source_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "target_law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 9,
+      "target": 18,
+      "source_law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "target_law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 10,
+      "target": 5,
+      "source_law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "target_law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 11,
+      "target": 10,
+      "source_law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "target_law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 12,
+      "target": 6,
+      "source_law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "target_law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 12,
+      "target": 8,
+      "source_law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "target_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 13,
+      "target": 11,
+      "source_law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "target_law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 14,
+      "target": 12,
+      "source_law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "target_law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "source_law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "target_law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "role_hook_change": 0
+    },
+    {
+      "source": 15,
+      "target": 13,
+      "source_law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "target_law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 16,
+      "target": 2,
+      "source_law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "target_law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 17,
+      "target": 16,
+      "source_law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "target_law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 18,
+      "target": 19,
+      "source_law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "target_law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 19,
+      "target": 23,
+      "source_law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "target_law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 20,
+      "target": 17,
+      "source_law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "target_law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 21,
+      "target": 20,
+      "source_law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "target_law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 22,
+      "target": 7,
+      "source_law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "target_law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "role_hook_change": 1
+    },
+    {
+      "source": 23,
+      "target": 22,
+      "source_law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "target_law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "role_hook_change": 1
+    }
+  ],
+  "comparison_rows": [],
+  "checks": {
+    "transition_count_is_28": true,
+    "role_hook_provenance_audit_pass": true,
+    "role_hook_reconstruction_exact": true,
+    "switching_audit_pass": true,
+    "role_hook_cycle_signature_is_0000101": true,
+    "candidate_file_scan_completed": true,
+    "mapping_scan_completed": true
+  },
+  "interpretation": [
+    "The role-hook bit is already source-side, exact, and switching-invariant on the observed transition graph.",
+    "Signed-lift identity requires both a native 30-edge cocycle table and an independently defined map from Project 21 transition edges to native G15 edges.",
+    "No map may be selected using desired cocycle values.",
+    "Absent an explicit map, numerical or residue similarity cannot establish signed-lift identity."
+  ],
+  "feedback_unit_candidate_found": true,
+  "feedback_unit_admitted": false,
+  "transport_feedback_rule_admitted": false,
+  "cocycle_candidate_found": true,
+  "native_signed_lift_identification_proven": false,
+  "cocycle_admitted": false,
+  "holonomy_class_admitted": false,
+  "channel_axis_rule_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "unique_native_g15_embedding_proven": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Strict signed-lift comparison readiness audit only.",
+    "Observed Project 21 transition graph only.",
+    "No mapping may use target cocycle values.",
+    "No feedback unit admission.",
+    "No transport-feedback rule admission.",
+    "No native signed-lift identification.",
+    "No native cocycle admission.",
+    "No holonomy-class admission.",
+    "No upstairs/downstairs identification.",
+    "No channel-axis rule admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No unique native G15 embedding proof.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "import_native_g15_signed_lift_receipt_001"
+}
