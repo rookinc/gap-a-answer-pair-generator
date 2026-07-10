@@ -1,0 +1,157 @@
+{
+  "artifact_kind": "answer_label_leakage_closure_audit",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "leakage_closure_audit_only": true,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "checks": {
+    "admission_audit_pass": true,
+    "answer_label_leakage_closed_false": true,
+    "closure_decision_pause": true,
+    "criteria_count_7": true,
+    "failed_criteria_count_3": true,
+    "immediate_next_is_leakage": true,
+    "leakage_audit_pass": true,
+    "missing_receipt_count_4": true,
+    "negative_test_pass": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "observed_row_candidate_admitted": true,
+    "passed_criteria_count_4": true,
+    "plan_pass": true,
+    "status_pass": true
+  },
+  "closure_criteria": [
+    {
+      "criterion": "Observed-row slot/C chirality A/B candidate is admitted.",
+      "id": "C1_observed_row_candidate_admitted",
+      "pass": true
+    },
+    {
+      "criterion": "No answer-label leakage was detected on observed rows.",
+      "id": "C2_observed_row_no_leakage_detected",
+      "pass": true
+    },
+    {
+      "criterion": "The candidate survived first negative tests.",
+      "id": "C3_negative_tests_survived",
+      "pass": true
+    },
+    {
+      "criterion": "The law surface excludes answer-label and selector-result fields.",
+      "id": "C4_forbidden_inputs_excluded",
+      "pass": true
+    },
+    {
+      "criterion": "A non-observed or non-realized candidate universe has been generated and tested using the slot/C law surface.",
+      "id": "C5_non_observed_candidate_universe_tested",
+      "pass": false
+    },
+    {
+      "criterion": "The slot/C keys are proven to exist as source-construction fields before answer labels, accepted rows, or target grouping.",
+      "id": "C6_source_before_answer_proven",
+      "pass": false
+    },
+    {
+      "criterion": "Answer-label leakage is closed beyond the observed row universe.",
+      "id": "C7_leakage_closed_beyond_observed_rows",
+      "pass": false
+    }
+  ],
+  "closure_decision": {
+    "answer_label_leakage_closed": false,
+    "decision": "pause_do_not_close_answer_label_leakage",
+    "failed_criteria_count": 3,
+    "failed_criteria_ids": [
+      "C5_non_observed_candidate_universe_tested",
+      "C6_source_before_answer_proven",
+      "C7_leakage_closed_beyond_observed_rows"
+    ],
+    "passed_criteria_count": 4
+  },
+  "created_utc": "2026-07-10T14:59:06+00:00",
+  "id": "audit_slot_coupled_chirality_candidate_leakage_closure_001",
+  "input_artifacts": {
+    "admission_audit": "artifacts/json/admission_audit_slot_coupled_chirality_ab_assignment_law_candidate_001.json",
+    "leakage_audit": "artifacts/json/audit_slot_coupled_ab_assignment_for_answer_label_leakage_001.json",
+    "negative_test": "artifacts/json/negative_test_slot_coupled_chirality_ab_law_candidate_001.json",
+    "remaining_gate_plan": "artifacts/json/derive_chirality_candidate_remaining_gate_plan_001.json",
+    "status": "artifacts/json/record_gap_a_chirality_ab_candidate_admission_status_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/admission_audit_slot_coupled_chirality_ab_assignment_law_candidate_001.json": "42bb7624110ca35ae4b7e9661d86f49bb6ee26f5386ad4ab2999d4983339cfc8",
+    "artifacts/json/audit_slot_coupled_ab_assignment_for_answer_label_leakage_001.json": "a848d2cd306c71357f9b36d57814f719ef7638db36cbac1e8032bf4dd91c0110",
+    "artifacts/json/derive_chirality_candidate_remaining_gate_plan_001.json": "351ec41baaf5365aafb45b9d2c459a48b472cffc6e2424788c430e4a588c8338",
+    "artifacts/json/negative_test_slot_coupled_chirality_ab_law_candidate_001.json": "c5744f0981451f62aca39b4d92fc6267d28a87c2bb1442ba4a0d6aa3b7a1362d",
+    "artifacts/json/record_gap_a_chirality_ab_candidate_admission_status_001.json": "81898cafa40d2f67d2fcf32ea89dadc37778622e9132e25b0e5148207441f694"
+  },
+  "keeper_line": "Observed-row exactness is a receipt, not a closure.",
+  "missing_receipts": [
+    {
+      "id": "M1_non_observed_universe",
+      "needed": "Generate a non-observed candidate universe keyed only by from_slot, to_slot, from_C, and to_C.",
+      "why": "Observed-row exactness cannot close leakage if the candidate universe is already filtered by realized answers."
+    },
+    {
+      "id": "M2_source_provenance",
+      "needed": "Prove slot/C keys are source-construction fields upstream of role_class, label, shared_B, reverse_partner, accepted/exact, and target grouping.",
+      "why": "The key surface looks source-like, but source provenance must be receipted."
+    },
+    {
+      "id": "M3_negative_universe_result",
+      "needed": "Show that the slot/C law rejects or separates invalid/non-realized keys without answer labels.",
+      "why": "A true leakage closure must test failure cases, not only observed successes."
+    },
+    {
+      "id": "M4_bounded_domain_statement",
+      "needed": "Declare the exact domain where the slot/C chirality candidate is allowed to operate.",
+      "why": "Without a bounded domain, the law cannot be generalized beyond observed rows."
+    }
+  ],
+  "next_gate": "derive_non_observed_slot_c_chirality_candidate_universe_001",
+  "status": "SLOT_COUPLED_CHIRALITY_CANDIDATE_LEAKAGE_CLOSURE_001_PAUSED",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "audit_pass": true,
+    "check_count": 23,
+    "closure_decision": "pause_do_not_close_answer_label_leakage",
+    "criteria_count": 7,
+    "failed_count": 0,
+    "failed_criteria_count": 3,
+    "failed_criteria_ids": [
+      "C5_non_observed_candidate_universe_tested",
+      "C6_source_before_answer_proven",
+      "C7_leakage_closed_beyond_observed_rows"
+    ],
+    "frontier_status": "leakage_closure_paused_missing_non_observed_universe_and_source_provenance",
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derived": false,
+    "gap_a_closure": false,
+    "missing_receipt_count": 4,
+    "native_generator_admitted": false,
+    "observed_row_chirality_ab_candidate_admitted": true,
+    "passed_count": 23,
+    "passed_criteria_count": 4,
+    "recommended_next": "derive_non_observed_slot_c_chirality_candidate_universe_001",
+    "source_law_admitted": false,
+    "universal_ab_assignment_law_admitted": false
+  }
+}
