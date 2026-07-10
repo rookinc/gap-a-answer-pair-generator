@@ -1,0 +1,1198 @@
+{
+  "artifact": "trace_project21_transitions_through_30_column_g15_register_001",
+  "trace_pass": true,
+  "verdict": "30_column_g15_register_not_recovered_from_named_sources",
+  "keeper": "The flat map failed because the edge may live in the column register, not in the coordinate projection.",
+  "scope": "project21_transition_to_30_column_g15_register_trace",
+  "node_count": 24,
+  "transition_count": 28,
+  "named_source_count": 3,
+  "existing_source_count": 3,
+  "source_schema": [
+    {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/source/kernel_payload/g15_slot_edges.csv",
+      "exists": true,
+      "record_count": 30,
+      "keys": [
+        "slot_u",
+        "slot_v"
+      ]
+    },
+    {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/source/kernel_payload/x_sigma_edges.csv",
+      "exists": true,
+      "record_count": 3600,
+      "keys": [
+        "kind",
+        "u_local",
+        "u_slot",
+        "u_vertex",
+        "v_local",
+        "v_slot",
+        "v_vertex"
+      ]
+    },
+    {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/11-thalean-unification/lifts/g15_candidate_cocycle_edges.json",
+      "exists": true,
+      "record_count": 30,
+      "keys": [
+        "endpoints",
+        "id"
+      ]
+    }
+  ],
+  "guide_scan": [
+    {
+      "path": "/data/data/com.termux/files/home/tmp/upstream_gap_a_projection_row_supports_to_source_columns_001.py",
+      "exists": true,
+      "hits": [
+        {
+          "line": 18,
+          "text": "\"column_edge_map\": art / \"gap_a_column_edge_witness_map_001.v1.json\","
+        },
+        {
+          "line": 27,
+          "text": "out_json = art / \"gap_a_projection_row_supports_upstreamed_to_source_columns_001.v1.json\""
+        },
+        {
+          "line": 28,
+          "text": "out_md = notes / \"gap_a_projection_row_supports_upstreamed_to_source_columns_001.md\""
+        },
+        {
+          "line": 83,
+          "text": "colmap = loaded[\"column_edge_map\"]"
+        },
+        {
+          "line": 89,
+          "text": "slot_edges = g900.get(\"slot_edges_g15_line_petersen\", [])"
+        },
+        {
+          "line": 103,
+          "text": "int(r[\"column\"]): r"
+        },
+        {
+          "line": 104,
+          "text": "for r in gmap.get(\"column_records\", [])"
+        },
+        {
+          "line": 108,
+          "text": "int(r[\"column\"]): r"
+        },
+        {
+          "line": 109,
+          "text": "for r in colmap.get(\"column_records\", [])"
+        },
+        {
+          "line": 112,
+          "text": "source_column_records = []"
+        },
+        {
+          "line": 122,
+          "text": "\"column\": c,"
+        },
+        {
+          "line": 123,
+          "text": "\"canonical_edge\": colmap_rec.get(\"canonical_edge\"),"
+        },
+        {
+          "line": 124,
+          "text": "\"canonical_cocycle_value\": colmap_rec.get(\"canonical_cocycle_value\"),"
+        },
+        {
+          "line": 133,
+          "text": "\"petersen_edge_a\": get_law_pair(law0, \"petersen_edge_a\"),"
+        },
+        {
+          "line": 134,
+          "text": "\"petersen_edge_b\": get_law_pair(law0, \"petersen_edge_b\"),"
+        },
+        {
+          "line": 135,
+          "text": "\"shared_petersen_vertex\": get_law_int(law0, \"shared_petersen_vertex\"),"
+        },
+        {
+          "line": 145,
+          "text": "\"petersen_edge_a\": get_law_pair(law1, \"petersen_edge_a\"),"
+        },
+        {
+          "line": 146,
+          "text": "\"petersen_edge_b\": get_law_pair(law1, \"petersen_edge_b\"),"
+        },
+        {
+          "line": 147,
+          "text": "\"shared_petersen_vertex\": get_law_int(law1, \"shared_petersen_vertex\"),"
+        },
+        {
+          "line": 159,
+          "text": "rec[\"has_complete_source_column_record\"] = ("
+        },
+        {
+          "line": 166,
+          "text": "source_column_records.append(rec)"
+        },
+        {
+          "line": 168,
+          "text": "source_col_by_id = {r[\"column\"]: r for r in source_column_records}"
+        },
+        {
+          "line": 174,
+          "text": "cols = sorted_unique(row.get(\"columns\", []))"
+        },
+        {
+          "line": 176,
+          "text": "missing_columns = [c for c in cols if c not in source_col_by_id]"
+        },
+        {
+          "line": 177,
+          "text": "incomplete_columns = ["
+        },
+        {
+          "line": 178,
+          "text": "r[\"column\"] for r in source_records"
+        },
+        {
+          "line": 179,
+          "text": "if not r[\"has_complete_source_column_record\"]"
+        },
+        {
+          "line": 182,
+          "text": "all_columns_source_available = len(missing_columns) == 0 and len(incomplete_columns) == 0"
+        },
+        {
+          "line": 188,
+          "text": "\"columns\": cols,"
+        },
+        {
+          "line": 192,
+          "text": "\"source_column_count\": len(source_records),"
+        }
+      ]
+    },
+    {
+      "path": "/data/data/com.termux/files/home/tmp/test_gap_a_wxyzti_cycle_generator_from_30_columns_001.py",
+      "exists": true,
+      "hits": [
+        {
+          "line": 17,
+          "text": "\"column_edge_map\": art / \"gap_a_column_edge_witness_map_001.v1.json\","
+        },
+        {
+          "line": 26,
+          "text": "out_json = art / \"gap_a_wxyzti_cycle_generator_from_30_columns_test_001.v1.json\""
+        },
+        {
+          "line": 27,
+          "text": "out_md = notes / \"gap_a_wxyzti_cycle_generator_from_30_columns_test_001.md\""
+        },
+        {
+          "line": 96,
+          "text": "colmap = loaded[\"column_edge_map\"]"
+        },
+        {
+          "line": 108,
+          "text": "\"target_columns\": sorted_unique(r[\"columns\"]),"
+        },
+        {
+          "line": 109,
+          "text": "\"target_column_edges\": r.get(\"column_edges\", []),"
+        },
+        {
+          "line": 115,
+          "text": "# Source 30-column data."
+        },
+        {
+          "line": 119,
+          "text": "slot_edges = g900.get(\"slot_edges_g15_line_petersen\", [])"
+        },
+        {
+          "line": 132,
+          "text": "column_source_records = []"
+        },
+        {
+          "line": 133,
+          "text": "for cr in colmap[\"column_records\"]:"
+        },
+        {
+          "line": 134,
+          "text": "c = int(cr[\"column\"])"
+        },
+        {
+          "line": 154,
+          "text": "\"column\": c,"
+        },
+        {
+          "line": 155,
+          "text": "\"canonical_edge\": cr.get(\"canonical_edge\"),"
+        },
+        {
+          "line": 156,
+          "text": "\"canonical_cocycle_value\": cr.get(\"canonical_cocycle_value\"),"
+        },
+        {
+          "line": 162,
+          "text": "\"law0_petersen_edge_a\": law_pair(law0, \"petersen_edge_a\"),"
+        },
+        {
+          "line": 163,
+          "text": "\"law0_petersen_edge_b\": law_pair(law0, \"petersen_edge_b\"),"
+        },
+        {
+          "line": 164,
+          "text": "\"law0_shared_petersen_vertex\": law_int(law0, \"shared_petersen_vertex\"),"
+        },
+        {
+          "line": 170,
+          "text": "\"law1_petersen_edge_a\": law_pair(law1, \"petersen_edge_a\"),"
+        },
+        {
+          "line": 171,
+          "text": "\"law1_petersen_edge_b\": law_pair(law1, \"petersen_edge_b\"),"
+        },
+        {
+          "line": 172,
+          "text": "\"law1_shared_petersen_vertex\": law_int(law1, \"shared_petersen_vertex\"),"
+        },
+        {
+          "line": 175,
+          "text": "column_source_records.append(record)"
+        },
+        {
+          "line": 177,
+          "text": "col_by_id = {r[\"column\"]: r for r in column_source_records}"
+        },
+        {
+          "line": 185,
+          "text": "target = tr[\"target_columns\"]"
+        },
+        {
+          "line": 195,
+          "text": "\"target_columns\": target,"
+        },
+        {
+          "line": 196,
+          "text": "\"generated_columns\": got,"
+        },
+        {
+          "line": 219,
+          "text": "\"column_index_mod6_role\","
+        },
+        {
+          "line": 220,
+          "text": "\"Select columns where column_index mod 6 equals role_index.\","
+        },
+        {
+          "line": 221,
+          "text": "lambda tr: [r[\"column\"] for r in column_source_records if r[\"column\"] % 6 == tr[\"role_index\"]]"
+        },
+        {
+          "line": 225,
+          "text": "\"column_index_block_singleton\","
+        },
+        {
+          "line": 226,
+          "text": "\"Select the singleton source column 6*cycle + role_index.\","
+        }
+      ]
+    },
+    {
+      "path": "/data/data/com.termux/files/home/tmp/infer_gap_a_row_grouping_rule_from_source_column_records_001.py",
+      "exists": true,
+      "hits": [
+        {
+          "line": 12,
+          "text": "\"upstreamed_supports\": art / \"gap_a_projection_row_supports_upstreamed_to_source_columns_001.v1.json\","
+        },
+        {
+          "line": 14,
+          "text": "\"cycle_generator_test\": art / \"gap_a_wxyzti_cycle_generator_from_30_columns_test_001.v1.json\","
+        },
+        {
+          "line": 18,
+          "text": "out_json = art / \"gap_a_row_grouping_rule_from_source_column_records_inference_001.v1.json\""
+        },
+        {
+          "line": 19,
+          "text": "out_md = notes / \"gap_a_row_grouping_rule_from_source_column_records_inference_001.md\""
+        },
+        {
+          "line": 62,
+          "text": "\"derived_column_identity\": 2,"
+        },
+        {
+          "line": 63,
+          "text": "\"column_lookup\": 3,"
+        },
+        {
+          "line": 72,
+          "text": "for k in [\"source_native\", \"source_witness\", \"derived_column_identity\", \"column_lookup\"]:"
+        },
+        {
+          "line": 89,
+          "text": "def flatten_column_features(rec):"
+        },
+        {
+          "line": 92,
+          "text": "c = rec.get(\"column\")"
+        },
+        {
+          "line": 93,
+          "text": "add_feature(out, \"column\", c, \"column_lookup\")"
+        },
+        {
+          "line": 95,
+          "text": "add_feature(out, \"canonical_edge\", rec.get(\"canonical_edge\"), \"derived_column_identity\")"
+        },
+        {
+          "line": 96,
+          "text": "add_feature(out, \"canonical_cocycle_value\", rec.get(\"canonical_cocycle_value\"), \"derived_column_identity\")"
+        },
+        {
+          "line": 131,
+          "text": "for edge_key in [\"petersen_edge_a\", \"petersen_edge_b\"]:"
+        },
+        {
+          "line": 142,
+          "text": "add_feature(out, prefix + \".shared_petersen_vertex\", law.get(\"shared_petersen_vertex\"), \"source_native\")"
+        },
+        {
+          "line": 143,
+          "text": "if law.get(\"shared_petersen_vertex\") is not None:"
+        },
+        {
+          "line": 144,
+          "text": "add_feature(out, prefix + \".shared_petersen_vertex_mod6\", int(law.get(\"shared_petersen_vertex\")) % 6, \"source_native\")"
+        },
+        {
+          "line": 161,
+          "text": "source_column_records = up[\"source_column_records\"]"
+        },
+        {
+          "line": 164,
+          "text": "# Build atom supports over 30 columns."
+        },
+        {
+          "line": 166,
+          "text": "for rec in source_column_records:"
+        },
+        {
+          "line": 167,
+          "text": "c = int(rec[\"column\"])"
+        },
+        {
+          "line": 168,
+          "text": "for f in flatten_column_features(rec):"
+        },
+        {
+          "line": 186,
+          "text": "# Primary atoms exclude the pure column lookup feature."
+        },
+        {
+          "line": 187,
+          "text": "primary_atoms = [a for a in atoms if a[\"class\"] != \"column_lookup\"]"
+        },
+        {
+          "line": 226,
+          "text": "target = sorted_unique(row.get(\"columns\", []))"
+        },
+        {
+          "line": 256,
+          "text": "\"atom\": \"column == \" + keyval(c),"
+        },
+        {
+          "line": 257,
+          "text": "\"class\": \"column_lookup\","
+        },
+        {
+          "line": 268,
+          "text": "\"target_columns\": target,"
+        },
+        {
+          "line": 298,
+          "text": "rows_requiring_column_lookup = sorted([r[\"row_ordinal\"] for r in row_inferences if r[\"selected_dnf_class\"] == \"column_lookup\"])"
+        },
+        {
+          "line": 308,
+          "text": "\"columns\": sorted_unique(row[\"columns\"]),"
+        },
+        {
+          "line": 313,
+          "text": "supports = [tuple(r[\"columns\"]) for r in rows]"
+        }
+      ]
+    },
+    {
+      "path": "/data/data/com.termux/files/home/tmp/attempt_gap_a_uniform_g900_row_lift_001.py",
+      "exists": true,
+      "hits": [
+        {
+          "line": 54,
+          "text": "for key in [\"g15_edge\", \"edge\", \"petersen_edge\", \"petersen_edge_pair\"]:"
+        },
+        {
+          "line": 59,
+          "text": "a = law.get(\"petersen_edge_a\")"
+        },
+        {
+          "line": 60,
+          "text": "b = law.get(\"petersen_edge_b\")"
+        },
+        {
+          "line": 72,
+          "text": "\"petersen_edge_a\","
+        },
+        {
+          "line": 73,
+          "text": "\"petersen_edge_b\","
+        },
+        {
+          "line": 76,
+          "text": "\"shared_petersen_vertex\","
+        },
+        {
+          "line": 96,
+          "text": "\"shared_petersen_vertex\","
+        },
+        {
+          "line": 134,
+          "text": "shared_vertices.append(e.get(\"shared_petersen_vertex\"))"
+        },
+        {
+          "line": 151,
+          "text": "\"shared_petersen_vertex_hist\": hist(shared_vertices),"
+        },
+        {
+          "line": 200,
+          "text": "columns = rr.get(\"columns\") or []"
+        },
+        {
+          "line": 208,
+          "text": "column_laws = []"
+        },
+        {
+          "line": 212,
+          "text": "for col in columns:"
+        },
+        {
+          "line": 215,
+          "text": "column_laws.append({"
+        },
+        {
+          "line": 216,
+          "text": "\"column\": col,"
+        },
+        {
+          "line": 228,
+          "text": "\"column\": col,"
+        },
+        {
+          "line": 238,
+          "text": "\"law_label_sequence\": [x[\"law\"].get(\"label\") for x in column_laws if x.get(\"law\")],"
+        },
+        {
+          "line": 241,
+          "text": "for x in column_laws if x.get(\"law\")"
+        },
+        {
+          "line": 244,
+          "text": "x[\"law\"].get(\"shared_petersen_vertex\")"
+        },
+        {
+          "line": 245,
+          "text": "for x in column_laws if x.get(\"law\")"
+        },
+        {
+          "line": 249,
+          "text": "for x in column_laws if x.get(\"law\")"
+        },
+        {
+          "line": 251,
+          "text": "\"law_pair_sequence\": [x.get(\"law_pair\") for x in column_laws],"
+        },
+        {
+          "line": 257,
+          "text": "for law in column_laws:"
+        },
+        {
+          "line": 259,
+          "text": "for key in [\"sector_a\", \"sector_b\", \"shift_mod60\", \"shift_mod_60\", \"shared_petersen_vertex\"]:"
+        },
+        {
+          "line": 268,
+          "text": "\"columns\": columns,"
+        },
+        {
+          "line": 269,
+          "text": "\"column_laws\": column_laws,"
+        },
+        {
+          "line": 278,
+          "text": "\"columns\": columns,"
+        },
+        {
+          "line": 285,
+          "text": "\"shared_petersen_vertex_hist\": lift_summary[\"shared_petersen_vertex_hist\"],"
+        },
+        {
+          "line": 299,
+          "text": "\"columns\": columns,"
+        },
+        {
+          "line": 325,
+          "text": "\"shared_petersen_vertex_hist\": json.dumps(cl[\"lift_summary\"][\"shared_petersen_vertex_hist\"], sort_keys=True),"
+        },
+        {
+          "line": 338,
+          "text": "\"shared_petersen_vertex_hist\","
+        }
+      ]
+    }
+  ],
+  "column_record_count": 0,
+  "distinct_column_count": 0,
+  "mapped_node_count": 0,
+  "ambiguous_node_count": 0,
+  "full_node_map_found": false,
+  "mapped_transition_count": 0,
+  "full_transition_map_found": false,
+  "node_rows": [
+    {
+      "node_id": 0,
+      "law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 1,
+      "law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 2,
+      "law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 3,
+      "law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 4,
+      "law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 5,
+      "law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 6,
+      "law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 7,
+      "law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 8,
+      "law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 9,
+      "law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 10,
+      "law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 11,
+      "law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 12,
+      "law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 13,
+      "law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 14,
+      "law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 15,
+      "law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 16,
+      "law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 17,
+      "law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 18,
+      "law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 19,
+      "law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 20,
+      "law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 21,
+      "law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 22,
+      "law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    },
+    {
+      "node_id": 23,
+      "law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "packet_member_count": 2,
+      "candidate_columns": [],
+      "candidate_g15_edges": [],
+      "unique_edge_map": false,
+      "ambiguous_edge_map": false
+    }
+  ],
+  "transition_map_rows": [
+    {
+      "source": 0,
+      "target": 1,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 8,
+      "target": 12,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 8,
+      "target": 15,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 9,
+      "target": 18,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 10,
+      "target": 5,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 11,
+      "target": 10,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 12,
+      "target": 6,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 12,
+      "target": 8,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 13,
+      "target": 11,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 14,
+      "target": 12,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 15,
+      "target": 13,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 16,
+      "target": 2,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 17,
+      "target": 16,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 18,
+      "target": 19,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 19,
+      "target": 23,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 20,
+      "target": 17,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 21,
+      "target": 20,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 22,
+      "target": 7,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    },
+    {
+      "source": 23,
+      "target": 22,
+      "source_g15_edge": null,
+      "target_g15_edge": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "native_cocycle_value_sealed": true
+    }
+  ],
+  "role_hook_bits_used_for_mapping": false,
+  "native_cocycle_values_used_for_mapping": false,
+  "canonical_cocycle_values_sealed": true,
+  "comparison_completed": false,
+  "exact_edge_bit_agreement": false,
+  "cycle_residue_agreement": false,
+  "feedback_unit_admitted": false,
+  "transport_feedback_rule_admitted": false,
+  "native_signed_lift_identification_proven": false,
+  "cocycle_admitted": false,
+  "holonomy_class_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "checks": {
+    "transition_search_pass": true,
+    "node_count_is_24": true,
+    "transition_count_is_28": true,
+    "source_scan_completed": true,
+    "guide_scan_completed": true,
+    "role_hook_bits_not_used_for_mapping": true,
+    "native_cocycle_values_not_used_for_mapping": true
+  },
+  "boundary": [
+    "Thirty-column G15 register trace only.",
+    "Role-hook-change bits excluded from map construction.",
+    "Canonical cocycle values remain sealed.",
+    "No bit comparison completed.",
+    "No feedback unit admission.",
+    "No transport-feedback rule admission.",
+    "No native signed-lift identification.",
+    "No cocycle admission.",
+    "No holonomy-class admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "inspect_g15_register_source_schemas_001"
+}
