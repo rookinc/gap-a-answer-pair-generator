@@ -1,0 +1,158 @@
+{
+  "artifact_kind": "formal_theorem_candidate_statement",
+  "boundaries": {
+    "force_claim": false,
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "metric_status_admitted": false,
+    "native_chain_key_coordinate_agreement_recorded": true,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "slot_c_numeric_proxy_only": true,
+    "source_law_admitted": false,
+    "unique_native_g15_embedding_proven": false
+  },
+  "checks": {
+    "audit_pass": true,
+    "compare_pass": true,
+    "direction_limit_proxy_pass": true,
+    "embedding_pass": true,
+    "full_register_normalization_pass": true,
+    "full_t_test_pass": true,
+    "full_theorem_admitted_false": true,
+    "gap_a_closure_false": true,
+    "local_i_point_count_6561": true,
+    "no_force": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_source_law_admission": true,
+    "proof_claim_false": true,
+    "proxy_native_coordinate_agreement": true,
+    "supports_T2": true,
+    "theorem_candidate_written": true,
+    "unique_native_g15_embedding_proven_false": true
+  },
+  "created_utc": "2026-07-10T18:20:46+00:00",
+  "evidence": [
+    {
+      "artifact": "artifacts/json/embed_slot_c_local_i_points_in_g15_coordinates_001.json",
+      "id": "E1_embedding",
+      "load_bearing": true,
+      "result": "6561 slot/C local-I points embedded in 4D proxy coordinates"
+    },
+    {
+      "artifact": "artifacts/json/test_full_register_local_t_normalization_001.json",
+      "id": "E2_full_local_t",
+      "load_bearing": true,
+      "result": "full-register local-t normalization pass with centroid_linearity_max_error=0.0"
+    },
+    {
+      "artifact": "artifacts/json/test_centroid_normalized_direction_limit_on_slot_c_register_001.json",
+      "id": "E3_direction_limit",
+      "load_bearing": true,
+      "result": "direction-limit proxy pass within tolerance"
+    },
+    {
+      "artifact": "artifacts/json/compare_slot_c_proxy_embedding_to_native_g15_001.json",
+      "id": "E4_proxy_native_comparison",
+      "load_bearing": true,
+      "result": "proxy coordinates agree with native-chain law-key coordinates; observed/native centroid matches"
+    },
+    {
+      "artifact": "artifacts/json/audit_centroid_normalized_local_i_theorem_candidate_001.json",
+      "id": "E5_candidate_audit",
+      "load_bearing": true,
+      "result": "bounded theorem candidates promoted; full theorem paused"
+    }
+  ],
+  "id": "write_centroid_normalized_local_i_theorem_candidate_001",
+  "input_artifacts": {
+    "direction_limit_test": "artifacts/json/test_centroid_normalized_direction_limit_on_slot_c_register_001.json",
+    "full_register_local_t_test": "artifacts/json/test_full_register_local_t_normalization_001.json",
+    "local_i_embedding": "artifacts/json/embed_slot_c_local_i_points_in_g15_coordinates_001.json",
+    "proxy_native_comparison": "artifacts/json/compare_slot_c_proxy_embedding_to_native_g15_001.json",
+    "theorem_candidate_audit": "artifacts/json/audit_centroid_normalized_local_i_theorem_candidate_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_centroid_normalized_local_i_theorem_candidate_001.json": "156f6b06aba3c670e6acc922109b9761b01e5aa9fa1be8fc68a4a88e6aa17570",
+    "artifacts/json/compare_slot_c_proxy_embedding_to_native_g15_001.json": "169fbba8bd83f9b64426ca3f14ef73c450a78ad0a0f3fcb4fab279969417e5ac",
+    "artifacts/json/embed_slot_c_local_i_points_in_g15_coordinates_001.json": "352163d86f016d837f5dd496549dcb3d90b6f6cc28dd14869823cc3561771854",
+    "artifacts/json/test_centroid_normalized_direction_limit_on_slot_c_register_001.json": "277ed5d9d77b4044bfd3c67e4d4061a14059ee578438b5ff2c75b7d55f0db724",
+    "artifacts/json/test_full_register_local_t_normalization_001.json": "0c443f77be5a6c11b81d599afc63acea5fa2d0b8731db9ae46b17b5a40dd1f22"
+  },
+  "keeper_line": "The theorem candidate can speak, but it cannot outrun its boundary.",
+  "next_gate": "audit_centroid_normalized_local_i_candidate_boundaries_001",
+  "required_next": [
+    {
+      "id": "N1_uniqueness_gate",
+      "task": "Prove or falsify whether slot/C proxy coordinates are the unique native G15 quotient embedding for this register."
+    },
+    {
+      "id": "N2_metric_gate",
+      "task": "Separate affine comparison facts from metric/geometric claims."
+    },
+    {
+      "id": "N3_source_law_gate",
+      "task": "Do not use this theorem candidate as a source law or Gap A closure without independent birth-order and leakage closure."
+    }
+  ],
+  "status": "CENTROID_NORMALIZED_LOCAL_I_THEOREM_CANDIDATE_001_WRITTEN_BOUNDED",
+  "summary": {
+    "check_count": 18,
+    "evidence_count": 5,
+    "failed_count": 0,
+    "frontier_status": "formal_theorem_candidate_written_unique_native_embedding_and_metric_status_open",
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "passed_count": 18,
+    "proof_claim": false,
+    "recommended_next": "audit_centroid_normalized_local_i_candidate_boundaries_001",
+    "source_law_admitted": false,
+    "supported_track_count": 4,
+    "supported_tracks": [
+      "T1_local_t_centroid_normalization",
+      "T2_direction_limit_proxy",
+      "T3_g15_local_i_comparability_proxy",
+      "T4_slot_c_register_partition"
+    ],
+    "theorem_candidate_status": "theorem_candidate_written_not_admitted",
+    "unique_native_g15_embedding_proven": false,
+    "write_pass": true
+  },
+  "theorem_candidate": {
+    "formal_candidate_statement": [
+      "Let R be the 6561-point slot/C candidate register.",
+      "Let x in R be represented by the proxy coordinate vector p(x) = (from_slot, to_slot, from_C, to_C).",
+      "Let C be the arithmetic centroid of all p(x) over R.",
+      "For each x, define d(x) = p(x) - C.",
+      "For local parameter t, define p_t(x) = p(x) + t d(x).",
+      "Then the full-register centroid of p_t is C for tested t values.",
+      "The centered scaled expression (p_t(x) - C) / t obeys the finite proxy direction formula recorded in the direction-limit audit.",
+      "The native-chain observed packet layer has law-key coordinates matching the same slot/C proxy coordinate form.",
+      "Therefore centroid normalization gives a common local-I comparison frame for the slot/C register, bounded to proxy coordinate status."
+    ],
+    "informal_statement": "In the Project 21 slot/C register, if each local-I candidate is represented by the 4-coordinate proxy vector (from_slot, to_slot, from_C, to_C), then the full 6561-point candidate register has a stable centroid, local-t extension is centroid-accountable, and the centroid-normalized scaled direction has an exact finite proxy limit up to floating tolerance. On the observed native-chain packet layer, the proxy law-key coordinates agree with the native-chain key coordinates and share the observed centroid.",
+    "name": "Centroid-normalized local-I theorem candidate for the slot/C register",
+    "not_admitted_as": [
+      "full theorem",
+      "proof",
+      "unique native G15 embedding",
+      "native generator",
+      "source law",
+      "Gap A closure",
+      "metric geometry theorem",
+      "physics claim",
+      "force claim"
+    ],
+    "short_name": "centroid_normalized_local_i_slot_c_candidate",
+    "status": "theorem_candidate_written_not_admitted",
+    "supported_tracks": [
+      "T1_local_t_centroid_normalization",
+      "T2_direction_limit_proxy",
+      "T3_g15_local_i_comparability_proxy",
+      "T4_slot_c_register_partition"
+    ]
+  }
+}
