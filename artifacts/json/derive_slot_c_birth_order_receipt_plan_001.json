@@ -1,0 +1,147 @@
+{
+  "artifact_kind": "slot_c_birth_order_receipt_plan",
+  "birth_order_targets": [
+    {
+      "failure_receipt": "slot_c_fields_only_exist_inside_answer_row_packets",
+      "method": "Build source-only projections of rows containing from_slot, to_slot, from_C, to_C, station_role, role_pair, and structural deltas, then verify no forbidden answer/evaluation fields remain.",
+      "question": "Can source fields be extracted into source-only row packets before answer/evaluation fields are attached?",
+      "recommended_artifact": "extract_source_only_slot_c_row_packets_001",
+      "success_receipt": "source_only_slot_c_row_packets_exist",
+      "target_id": "B1_row_packet_separation"
+    },
+    {
+      "failure_receipt": "birth_order_unresolved_after_projection",
+      "method": "Hash or key source-only packets, then join downstream answer/evaluation rows back to those hashes without using labels as construction inputs.",
+      "question": "Can an artifact trace the construction order from source packet to answer/evaluation packet?",
+      "recommended_artifact": "trace_slot_c_source_packet_to_answer_rows_001",
+      "success_receipt": "slot_c_source_packet_precedes_answer_packet",
+      "target_id": "B2_construction_order_trace"
+    },
+    {
+      "failure_receipt": "non_observed_slot_c_keys_remain_unknown_boundary",
+      "method": "Classify the 6537 non-observed keys as invalid, ungenerated, withheld, or unknown using only source-side constraints.",
+      "question": "Can non-observed slot/C keys receive a source-native status without answer labels?",
+      "recommended_artifact": "classify_non_observed_slot_c_keys_source_status_001",
+      "success_receipt": "non_observed_slot_c_keys_have_source_status",
+      "target_id": "B3_non_observed_key_status"
+    },
+    {
+      "failure_receipt": "slot_c_ab_surface_requires_answer_row_context",
+      "method": "Use source-only packet hashes as the index, replay the 24 observed keys, and check that A/B targets are downstream receipts rather than source inputs.",
+      "question": "Can the observed 24 slot/C keys be replayed from source-only packets and still recover the admitted A/B surface?",
+      "recommended_artifact": "replay_slot_c_ab_surface_from_source_only_packets_001",
+      "success_receipt": "slot_c_ab_surface_replayed_from_source_only_packets",
+      "target_id": "B4_label_independence_replay"
+    }
+  ],
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "plan_receipt_target_only": true,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "checks": {
+    "answer_label_leakage_closed_false": true,
+    "birth_order_target_count_4": true,
+    "immediate_next_is_source_only_extract": true,
+    "leakage_closure_paused": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "non_observed_universe_generated": true,
+    "ordered_plan_count_5": true,
+    "provenance_audit_pass": true,
+    "provenance_supported_not_proven": true,
+    "source_before_answer_not_proven": true,
+    "source_law_admitted_false": true,
+    "universe_derive_pass": true
+  },
+  "created_utc": "2026-07-10T15:08:17+00:00",
+  "id": "derive_slot_c_birth_order_receipt_plan_001",
+  "immediate_next": {
+    "allowed_source_fields": [
+      "from_slot",
+      "to_slot",
+      "from_C",
+      "to_C",
+      "station_role",
+      "role_pair",
+      "integer_C_delta",
+      "C_delta",
+      "from_A",
+      "from_B",
+      "to_A",
+      "to_B"
+    ],
+    "artifact": "extract_source_only_slot_c_row_packets_001",
+    "forbidden_answer_or_eval_fields": [
+      "role_class",
+      "label",
+      "shared_B",
+      "reverse_partner",
+      "accepted_candidate_indices",
+      "false_positive_candidate_indices",
+      "miss_candidate_indices",
+      "exact",
+      "accepted_count",
+      "candidate_index",
+      "false_positive",
+      "miss"
+    ],
+    "reason": "Before birth order can be proven, the row packets must be separated into source-only packets and downstream answer/evaluation packets."
+  },
+  "input_artifacts": {
+    "leakage_closure": "artifacts/json/audit_slot_coupled_chirality_candidate_leakage_closure_001.json",
+    "non_observed_universe": "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json",
+    "source_provenance_audit": "artifacts/json/audit_slot_c_keys_source_provenance_before_answer_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_slot_c_keys_source_provenance_before_answer_001.json": "de2c161f1fdda817276c17d33e0fdb3d5b25d9fec5415fe3f800e18df3331f68",
+    "artifacts/json/audit_slot_coupled_chirality_candidate_leakage_closure_001.json": "93cd2e696d70370f879c471bb8b6ce40d03abd12b33304c4f9642da8a6ae3935",
+    "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json": "a0d053a39a16b1f134abdf6cdf1d3aa338a74231f603c5eb1e784ce269d02826"
+  },
+  "keeper_line": "Birth order is not field presence. Birth order needs a receipt chain.",
+  "next_gate": "extract_source_only_slot_c_row_packets_001",
+  "ordered_plan": [
+    "extract_source_only_slot_c_row_packets_001",
+    "trace_slot_c_source_packet_to_answer_rows_001",
+    "classify_non_observed_slot_c_keys_source_status_001",
+    "replay_slot_c_ab_surface_from_source_only_packets_001",
+    "audit_slot_c_birth_order_receipts_for_leakage_closure_001"
+  ],
+  "status": "SLOT_C_BIRTH_ORDER_RECEIPT_PLAN_001_DERIVED",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "birth_order_target_count": 4,
+    "check_count": 22,
+    "failed_count": 0,
+    "frontier_status": "birth_order_receipt_plan_ready_for_source_only_projection",
+    "full_chirality_admitted": false,
+    "gap_a_closure": false,
+    "immediate_next": "extract_source_only_slot_c_row_packets_001",
+    "native_generator_admitted": false,
+    "ordered_plan_count": 5,
+    "passed_count": 22,
+    "plan_pass": true,
+    "recommended_next": "extract_source_only_slot_c_row_packets_001",
+    "source_before_answer_proven": false,
+    "source_law_admitted": false,
+    "universal_ab_assignment_law_admitted": false
+  }
+}
