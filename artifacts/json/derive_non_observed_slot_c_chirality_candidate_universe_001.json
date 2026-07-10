@@ -1,0 +1,1035 @@
+{
+  "artifact_kind": "non_observed_slot_c_candidate_universe",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "candidate_universe_derivation_only": true,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "candidate_universe": {
+    "candidate_key_count": 6561,
+    "construction": "cartesian_product_of_observed_slot_values_and_observed_c_values",
+    "invalid_reason_counts": {
+      "not_observed": 5172,
+      "observed": 12,
+      "zero_c_motion+not_observed": 648,
+      "zero_slot_motion+not_observed": 636,
+      "zero_slot_motion+observed": 12,
+      "zero_slot_motion+zero_c_motion+not_observed": 81
+    },
+    "non_observed_key_count": 6537,
+    "non_observed_key_samples_first_40": [
+      {
+        "law_key": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "reason": "zero_slot_motion+zero_c_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          0,
+          4
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          0,
+          5
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          0,
+          10
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          0,
+          11
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          0,
+          13
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          0,
+          14
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "reason": "zero_slot_motion+zero_c_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          1,
+          4
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          1,
+          5
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          1,
+          10
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          1,
+          11
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          1,
+          13
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          1,
+          14
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          2,
+          1
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "reason": "zero_slot_motion+zero_c_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          2,
+          4
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          2,
+          10
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          2,
+          11
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          2,
+          13
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          2,
+          14
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          4,
+          1
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          4,
+          2
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          4,
+          4
+        ],
+        "reason": "zero_slot_motion+zero_c_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          4,
+          5
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          4,
+          10
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          4,
+          11
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          4,
+          13
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          4,
+          14
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          5,
+          1
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          5,
+          2
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          5,
+          4
+        ],
+        "reason": "zero_slot_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      },
+      {
+        "law_key": [
+          0,
+          0,
+          5,
+          5
+        ],
+        "reason": "zero_slot_motion+zero_c_motion+not_observed",
+        "status": "non_observed_key_no_target_assigned"
+      }
+    ],
+    "observed_candidate_records_first_40": [
+      {
+        "ab_delta_pair": [
+          9,
+          0
+        ],
+        "hand_signature": "0/3->9/0",
+        "law_key": [
+          0,
+          0,
+          2,
+          5
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          1,
+          0,
+          10,
+          0
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          0,
+          5
+        ],
+        "hand_signature": "5/10->0/5",
+        "law_key": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          10,
+          0,
+          10,
+          5
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          2,
+          0
+        ],
+        "hand_signature": "0/3->2/0",
+        "law_key": [
+          1,
+          1,
+          10,
+          13
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          0,
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          0,
+          12
+        ],
+        "hand_signature": "12/3->0/12",
+        "law_key": [
+          1,
+          13,
+          13,
+          1
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          2,
+          1,
+          2,
+          13
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          0,
+          13
+        ],
+        "hand_signature": "13/2->0/13",
+        "law_key": [
+          2,
+          0,
+          0,
+          2
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          1,
+          2,
+          1,
+          0
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          9,
+          0
+        ],
+        "hand_signature": "0/1->9/0",
+        "law_key": [
+          2,
+          2,
+          4,
+          5
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          3,
+          2,
+          12,
+          2
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          4,
+          0
+        ],
+        "hand_signature": "0/10->4/0",
+        "law_key": [
+          2,
+          2,
+          5,
+          0
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          12,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          13,
+          0
+        ],
+        "hand_signature": "0/12->13/0",
+        "law_key": [
+          2,
+          2,
+          14,
+          11
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          3,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          0,
+          3
+        ],
+        "hand_signature": "3/12->0/3",
+        "law_key": [
+          2,
+          5,
+          5,
+          2
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          12,
+          2,
+          12,
+          5
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          0,
+          9
+        ],
+        "hand_signature": "9/6->0/9",
+        "law_key": [
+          2,
+          11,
+          11,
+          2
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          1,
+          2,
+          1,
+          11
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          0,
+          13
+        ],
+        "hand_signature": "13/2->0/13",
+        "law_key": [
+          4,
+          2,
+          2,
+          4
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          3,
+          4,
+          3,
+          2
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          8,
+          0
+        ],
+        "hand_signature": "0/12->8/0",
+        "law_key": [
+          4,
+          4,
+          5,
+          2
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          10,
+          4,
+          3,
+          4
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          0,
+          12
+        ],
+        "hand_signature": "12/3->0/12",
+        "law_key": [
+          5,
+          2,
+          2,
+          5
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          12,
+          5,
+          12,
+          2
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          0,
+          14
+        ],
+        "hand_signature": "14/1->0/14",
+        "law_key": [
+          5,
+          4,
+          4,
+          5
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          10,
+          5,
+          10,
+          4
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          2,
+          0
+        ],
+        "hand_signature": "0/2->2/0",
+        "law_key": [
+          5,
+          5,
+          0,
+          2
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          10,
+          5,
+          12,
+          5
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          13,
+          0
+        ],
+        "hand_signature": "0/2->13/0",
+        "law_key": [
+          5,
+          5,
+          2,
+          4
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          12,
+          5,
+          10,
+          5
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          0,
+          6
+        ],
+        "hand_signature": "6/9->0/6",
+        "law_key": [
+          10,
+          1,
+          1,
+          10
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          0,
+          10,
+          0,
+          1
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          6,
+          0
+        ],
+        "hand_signature": "0/3->6/0",
+        "law_key": [
+          10,
+          10,
+          13,
+          1
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          9,
+          10,
+          0,
+          10
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          6,
+          0
+        ],
+        "hand_signature": "0/12->6/0",
+        "law_key": [
+          11,
+          11,
+          2,
+          14
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          1,
+          11,
+          7,
+          11
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          0,
+          3
+        ],
+        "hand_signature": "3/12->0/3",
+        "law_key": [
+          11,
+          14,
+          14,
+          11
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          7,
+          11,
+          7,
+          14
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          0,
+          12
+        ],
+        "hand_signature": "12/3->0/12",
+        "law_key": [
+          13,
+          10,
+          10,
+          13
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          9,
+          13,
+          9,
+          10
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          7,
+          0
+        ],
+        "hand_signature": "0/9->7/0",
+        "law_key": [
+          13,
+          13,
+          1,
+          10
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          2,
+          13,
+          9,
+          13
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          0,
+          3
+        ],
+        "hand_signature": "3/12->0/3",
+        "law_key": [
+          14,
+          2,
+          2,
+          14
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          3,
+          14,
+          3,
+          2
+        ]
+      },
+      {
+        "ab_delta_pair": [
+          11,
+          0
+        ],
+        "hand_signature": "0/6->11/0",
+        "law_key": [
+          14,
+          14,
+          11,
+          2
+        ],
+        "status": "observed_key_with_target",
+        "target_quad": [
+          7,
+          14,
+          3,
+          14
+        ]
+      }
+    ],
+    "observed_key_count": 24,
+    "observed_key_ratio": 0.003657978966620942
+  },
+  "checks": {
+    "answer_label_leakage_closed_false": true,
+    "candidate_derive_pass": true,
+    "candidate_key_count_positive": true,
+    "domain_statement_declared": true,
+    "leakage_closure_paused": true,
+    "loaded_source_count_at_least_2": true,
+    "m1_non_observed_universe_generated": true,
+    "m4_bounded_domain_statement_declared": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "non_observed_key_count_positive": true,
+    "observed_key_conflict_zero": true,
+    "observed_rows_positive": true,
+    "source_provenance_not_proven": true,
+    "status_observed_row_candidate_admitted": true
+  },
+  "created_utc": "2026-07-10T15:04:47+00:00",
+  "domain_statement": {
+    "bounded_domain_claim": "The current law candidate is bounded to observed slot/C keys only.",
+    "c_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "candidate_key_count": 6561,
+    "domain_name": "observed_slot_c_key_domain",
+    "non_observed_key_count": 6537,
+    "observed_key_count": 24,
+    "slot_values": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      10,
+      11,
+      13,
+      14
+    ],
+    "universal_domain_claim": false,
+    "why": "Non-observed keys can be enumerated, but no source receipt yet assigns valid A/B outputs or rejection status to them."
+  },
+  "id": "derive_non_observed_slot_c_chirality_candidate_universe_001",
+  "input_artifacts": {
+    "candidate": "artifacts/json/derive_slot_coupled_chirality_ab_assignment_law_candidate_001.json",
+    "leakage_closure": "artifacts/json/audit_slot_coupled_chirality_candidate_leakage_closure_001.json",
+    "source_files": [
+      "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+      "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+      "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+    ],
+    "status": "artifacts/json/record_gap_a_chirality_ab_candidate_admission_status_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_slot_coupled_chirality_candidate_leakage_closure_001.json": "93cd2e696d70370f879c471bb8b6ce40d03abd12b33304c4f9642da8a6ae3935",
+    "artifacts/json/derive_slot_coupled_chirality_ab_assignment_law_candidate_001.json": "a93996c5e4879be80bd6c7e0d0e12dd8a7a5198e04647d7721a798a27c36a11a",
+    "artifacts/json/record_gap_a_chirality_ab_candidate_admission_status_001.json": "81898cafa40d2f67d2fcf32ea89dadc37778622e9132e25b0e5148207441f694",
+    "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json": "8a8e50eab152313720ec68a3cc15b576bb90efdf187ad0c28fe8b96e9c4faa55",
+    "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json": "0ab5c174680c0d4226156bce38f815322bbf40e769d9415d88a41703daebd83e",
+    "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json": "4a77cbd5b0cf631fdbba27c1eb3c04d6d8c593f2f0dbab6eb70bfff98419f78f"
+  },
+  "keeper_line": "The non-observed universe names the missing boundary; it does not close it.",
+  "leakage_closure_implication": {
+    "answer_label_leakage_closed": false,
+    "m1_non_observed_universe_generated": true,
+    "m2_source_provenance_proven": false,
+    "m3_negative_universe_result_available": true,
+    "m4_bounded_domain_statement_declared": true,
+    "reason": "A non-observed universe was generated and the bounded domain is now declared, but source provenance is still not proven and non-observed keys are not lawfully rejected by an upstream source rule."
+  },
+  "next_gate": "audit_slot_c_keys_source_provenance_before_answer_001",
+  "observed_source_counts": {
+    "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json": 84,
+    "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json": 48,
+    "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json": 24
+  },
+  "status": "NON_OBSERVED_SLOT_C_CHIRALITY_CANDIDATE_UNIVERSE_001_DERIVED",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "bounded_domain_declared": true,
+    "candidate_key_count": 6561,
+    "check_count": 24,
+    "derive_pass": true,
+    "failed_count": 0,
+    "frontier_status": "non_observed_universe_derived_source_provenance_still_missing",
+    "full_chirality_admitted": false,
+    "gap_a_closure": false,
+    "m1_non_observed_universe_generated": true,
+    "m2_source_provenance_proven": false,
+    "m3_negative_universe_result_available": true,
+    "m4_bounded_domain_statement_declared": true,
+    "native_generator_admitted": false,
+    "non_observed_key_count": 6537,
+    "observed_key_conflict_count": 0,
+    "observed_key_count": 24,
+    "observed_key_ratio": 0.003657978966620942,
+    "observed_row_count": 156,
+    "passed_count": 24,
+    "recommended_next": "audit_slot_c_keys_source_provenance_before_answer_001",
+    "source_law_admitted": false,
+    "universal_ab_assignment_law_admitted": false,
+    "universal_domain_claim": false
+  }
+}
