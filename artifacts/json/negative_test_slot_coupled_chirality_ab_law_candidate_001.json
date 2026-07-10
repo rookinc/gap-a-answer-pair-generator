@@ -1,0 +1,771 @@
+{
+  "artifact_kind": "negative_test_slot_coupled_chirality_ab_law_candidate",
+  "baseline": {
+    "law_key_to_ab_delta_pair": {
+      "conflict_group_count": 0,
+      "exact": true,
+      "example_conflicts": [],
+      "group_count": 24,
+      "row_count": 156
+    },
+    "law_key_to_hand_signature": {
+      "conflict_group_count": 0,
+      "exact": true,
+      "example_conflicts": [],
+      "group_count": 24,
+      "row_count": 156
+    },
+    "law_key_to_target_quad": {
+      "conflict_group_count": 0,
+      "exact": true,
+      "example_conflicts": [],
+      "group_count": 24,
+      "row_count": 156
+    }
+  },
+  "bijective_key_renaming_note": "Some decoy key permutations may remain exact because they are one-to-one renamings of a 24-key map. They do not refute or confirm chirality.",
+  "boundary": {
+    "ab_assignment_law_admitted": false,
+    "answer_label_leakage_closed": false,
+    "chirality_admitted": false,
+    "force_claim": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "negative_test_only": true,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem": false
+  },
+  "checks": {
+    "baseline_ab_exact": true,
+    "baseline_hand_signature_exact": true,
+    "baseline_target_quad_exact": true,
+    "candidate_conflict_zero": true,
+    "candidate_derive_pass": true,
+    "leakage_audit_pass": true,
+    "loaded_source_count_at_least_2": true,
+    "no_ab_assignment_law_admission": true,
+    "no_answer_label_leakage_closure": true,
+    "no_chirality_admission": true,
+    "no_force": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "nonbijective_decoy_breaks": true,
+    "row_count_positive": true,
+    "shuffled_target_breaks_ab": true,
+    "shuffled_target_breaks_quad": true
+  },
+  "created_utc": "2026-07-10T14:39:25+00:00",
+  "decoy_key_tests": [
+    {
+      "ab_delta_pair": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      },
+      "mode": "swap_slots",
+      "target_quad": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      }
+    },
+    {
+      "ab_delta_pair": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      },
+      "mode": "swap_c",
+      "target_quad": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      }
+    },
+    {
+      "ab_delta_pair": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      },
+      "mode": "swap_slot_with_c",
+      "target_quad": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      }
+    },
+    {
+      "ab_delta_pair": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      },
+      "mode": "reverse_all",
+      "target_quad": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      }
+    },
+    {
+      "ab_delta_pair": {
+        "conflict_group_count": 1,
+        "exact": false,
+        "example_conflicts": [
+          {
+            "key": "(2, 5, 2, 5)",
+            "target_counts": [
+              {
+                "count": 7,
+                "target": "(0, 3)"
+              },
+              {
+                "count": 7,
+                "target": "(0, 12)"
+              }
+            ]
+          }
+        ],
+        "group_count": 23,
+        "row_count": 156
+      },
+      "mode": "drop_direction_sort_pairs",
+      "target_quad": {
+        "conflict_group_count": 1,
+        "exact": false,
+        "example_conflicts": [
+          {
+            "key": "(2, 5, 2, 5)",
+            "target_counts": [
+              {
+                "count": 7,
+                "target": "(12, 2, 12, 5)"
+              },
+              {
+                "count": 7,
+                "target": "(12, 5, 12, 2)"
+              }
+            ]
+          }
+        ],
+        "group_count": 23,
+        "row_count": 156
+      }
+    }
+  ],
+  "id": "negative_test_slot_coupled_chirality_ab_law_candidate_001",
+  "input_artifacts": {
+    "candidate": "artifacts/json/derive_slot_coupled_chirality_ab_assignment_law_candidate_001.json",
+    "leakage_audit": "artifacts/json/audit_slot_coupled_ab_assignment_for_answer_label_leakage_001.json",
+    "source_files": [
+      "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+      "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+      "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+    ]
+  },
+  "input_sha256": {
+    "artifacts/json/audit_slot_coupled_ab_assignment_for_answer_label_leakage_001.json": "a848d2cd306c71357f9b36d57814f719ef7638db36cbac1e8032bf4dd91c0110",
+    "artifacts/json/derive_slot_coupled_chirality_ab_assignment_law_candidate_001.json": "a93996c5e4879be80bd6c7e0d0e12dd8a7a5198e04647d7721a798a27c36a11a",
+    "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json": "8a8e50eab152313720ec68a3cc15b576bb90efdf187ad0c28fe8b96e9c4faa55",
+    "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json": "0ab5c174680c0d4226156bce38f815322bbf40e769d9415d88a41703daebd83e",
+    "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json": "4a77cbd5b0cf631fdbba27c1eb3c04d6d8c593f2f0dbab6eb70bfff98419f78f"
+  },
+  "keeper_line": "A law surface must survive its own decoys before it can ask for admission.",
+  "negative_result": "candidate_survives_negative_tests_as_observed_row_law_surface_not_admitted",
+  "next_gate": "admission_audit_slot_coupled_chirality_ab_assignment_law_candidate_001",
+  "row_count": 156,
+  "shifted_key_tests": [
+    {
+      "ab_delta_pair": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      },
+      "shift": 1,
+      "target_quad": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      }
+    },
+    {
+      "ab_delta_pair": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      },
+      "shift": 2,
+      "target_quad": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      }
+    },
+    {
+      "ab_delta_pair": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      },
+      "shift": 3,
+      "target_quad": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      }
+    },
+    {
+      "ab_delta_pair": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      },
+      "shift": 4,
+      "target_quad": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      }
+    },
+    {
+      "ab_delta_pair": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      },
+      "shift": 5,
+      "target_quad": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      }
+    },
+    {
+      "ab_delta_pair": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      },
+      "shift": 6,
+      "target_quad": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      }
+    },
+    {
+      "ab_delta_pair": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      },
+      "shift": 7,
+      "target_quad": {
+        "conflict_group_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "group_count": 24,
+        "row_count": 156
+      }
+    }
+  ],
+  "shuffled_target": {
+    "law_key_to_ab_delta_pair": {
+      "conflict_group_count": 24,
+      "exact": false,
+      "example_conflicts": [
+        {
+          "key": "(13, 13, 1, 10)",
+          "target_counts": [
+            {
+              "count": 3,
+              "target": "(0, 3)"
+            },
+            {
+              "count": 2,
+              "target": "(2, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(7, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(13, 0)"
+            }
+          ]
+        },
+        {
+          "key": "(11, 11, 2, 14)",
+          "target_counts": [
+            {
+              "count": 3,
+              "target": "(11, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(2, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(0, 6)"
+            },
+            {
+              "count": 1,
+              "target": "(13, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(0, 3)"
+            }
+          ]
+        },
+        {
+          "key": "(2, 2, 5, 0)",
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(0, 6)"
+            },
+            {
+              "count": 2,
+              "target": "(6, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(13, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(11, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(0, 12)"
+            }
+          ]
+        },
+        {
+          "key": "(4, 4, 5, 2)",
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(0, 6)"
+            },
+            {
+              "count": 2,
+              "target": "(0, 12)"
+            },
+            {
+              "count": 1,
+              "target": "(9, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(6, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(2, 0)"
+            }
+          ]
+        },
+        {
+          "key": "(10, 1, 1, 10)",
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(0, 6)"
+            },
+            {
+              "count": 2,
+              "target": "(0, 3)"
+            },
+            {
+              "count": 1,
+              "target": "(7, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(11, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(6, 0)"
+            }
+          ]
+        },
+        {
+          "key": "(14, 2, 2, 14)",
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(9, 0)"
+            },
+            {
+              "count": 2,
+              "target": "(0, 3)"
+            },
+            {
+              "count": 2,
+              "target": "(6, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(13, 0)"
+            }
+          ]
+        },
+        {
+          "key": "(0, 5, 5, 0)",
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(9, 0)"
+            },
+            {
+              "count": 2,
+              "target": "(13, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(0, 3)"
+            },
+            {
+              "count": 1,
+              "target": "(11, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(0, 12)"
+            }
+          ]
+        },
+        {
+          "key": "(2, 5, 5, 2)",
+          "target_counts": [
+            {
+              "count": 3,
+              "target": "(9, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(0, 3)"
+            },
+            {
+              "count": 1,
+              "target": "(11, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(6, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(0, 12)"
+            }
+          ]
+        }
+      ],
+      "group_count": 24,
+      "row_count": 156
+    },
+    "law_key_to_target_quad": {
+      "conflict_group_count": 24,
+      "exact": false,
+      "example_conflicts": [
+        {
+          "key": "(13, 13, 1, 10)",
+          "target_counts": [
+            {
+              "count": 3,
+              "target": "(7, 11, 7, 14)"
+            },
+            {
+              "count": 2,
+              "target": "(0, 1, 2, 1)"
+            },
+            {
+              "count": 1,
+              "target": "(2, 13, 9, 13)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 5, 10, 5)"
+            }
+          ]
+        },
+        {
+          "key": "(11, 11, 2, 14)",
+          "target_counts": [
+            {
+              "count": 3,
+              "target": "(7, 14, 3, 14)"
+            },
+            {
+              "count": 1,
+              "target": "(0, 1, 2, 1)"
+            },
+            {
+              "count": 1,
+              "target": "(0, 10, 0, 1)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 2, 1, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 2, 12, 5)"
+            }
+          ]
+        },
+        {
+          "key": "(2, 2, 5, 0)",
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(0, 10, 0, 1)"
+            },
+            {
+              "count": 2,
+              "target": "(9, 10, 0, 10)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 2, 1, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(7, 14, 3, 14)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 5, 12, 2)"
+            }
+          ]
+        },
+        {
+          "key": "(4, 4, 5, 2)",
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(0, 10, 0, 1)"
+            },
+            {
+              "count": 2,
+              "target": "(9, 13, 9, 10)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 2, 12, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(9, 10, 0, 10)"
+            },
+            {
+              "count": 1,
+              "target": "(0, 1, 2, 1)"
+            }
+          ]
+        },
+        {
+          "key": "(10, 1, 1, 10)",
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(0, 10, 0, 1)"
+            },
+            {
+              "count": 1,
+              "target": "(2, 13, 9, 13)"
+            },
+            {
+              "count": 1,
+              "target": "(7, 11, 7, 14)"
+            },
+            {
+              "count": 1,
+              "target": "(7, 14, 3, 14)"
+            },
+            {
+              "count": 1,
+              "target": "(9, 10, 0, 10)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 2, 12, 5)"
+            }
+          ]
+        },
+        {
+          "key": "(14, 2, 2, 14)",
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(1, 0, 10, 0)"
+            },
+            {
+              "count": 2,
+              "target": "(9, 10, 0, 10)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 2, 1, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 14, 3, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 2, 12, 5)"
+            }
+          ]
+        },
+        {
+          "key": "(0, 5, 5, 0)",
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(1, 0, 10, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 2, 1, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(7, 11, 7, 14)"
+            },
+            {
+              "count": 1,
+              "target": "(7, 14, 3, 14)"
+            },
+            {
+              "count": 1,
+              "target": "(9, 13, 9, 10)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 5, 10, 5)"
+            }
+          ]
+        },
+        {
+          "key": "(2, 5, 5, 2)",
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(1, 0, 10, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 2, 12, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(7, 11, 7, 14)"
+            },
+            {
+              "count": 1,
+              "target": "(7, 14, 3, 14)"
+            },
+            {
+              "count": 1,
+              "target": "(9, 10, 0, 10)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 5, 12, 2)"
+            }
+          ]
+        }
+      ],
+      "group_count": 24,
+      "row_count": 156
+    }
+  },
+  "source_counts": {
+    "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json": 84,
+    "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json": 48,
+    "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json": 24
+  },
+  "status": "SLOT_COUPLED_CHIRALITY_AB_LAW_CANDIDATE_001_NEGATIVE_TEST_PASS",
+  "summary": {
+    "ab_assignment_law_admitted": false,
+    "answer_label_leakage_closed": false,
+    "baseline_ab_exact": true,
+    "baseline_hand_signature_exact": true,
+    "baseline_target_quad_exact": true,
+    "check_count": 22,
+    "chirality_admitted": false,
+    "failed_count": 0,
+    "frontier_status": "slot_coupled_chirality_candidate_survives_negative_tests_not_admitted",
+    "full_role_labeled_shared_b_derived": false,
+    "gap_a_closure": false,
+    "loaded_source_count": 3,
+    "native_generator_admitted": false,
+    "negative_result": "candidate_survives_negative_tests_as_observed_row_law_surface_not_admitted",
+    "nonbijective_decoy_breaks": true,
+    "passed_count": 22,
+    "recommended_next": "admission_audit_slot_coupled_chirality_ab_assignment_law_candidate_001",
+    "row_count": 156,
+    "shuffled_target_breaks_ab": true,
+    "shuffled_target_breaks_quad": true,
+    "source_law_admitted": false,
+    "test_pass": true
+  }
+}
