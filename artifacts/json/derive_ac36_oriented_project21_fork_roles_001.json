@@ -1,0 +1,171 @@
+{
+  "artifact": "derive_ac36_oriented_project21_fork_roles_001",
+  "derivation_pass": true,
+  "verdict": "ac36_oriented_project21_fork_roles_derived_under_declared_t_to_I_convention",
+  "keeper": "AC36 does not choose the fork from nowhere. Given t as input and I as output, the packet topology distinguishes continuation from the terminal alternative.",
+  "scope": "post_membership_ac36_orientation_of_project21_three_edge_knot",
+  "source_packet_id": "project21_closure_provenance_packet_001_P21",
+  "packet_edges": [
+    {
+      "edge_id": 5,
+      "source": 5,
+      "target": 6,
+      "role_hook_change": 1,
+      "nontrivial_basis_membership": [
+        1
+      ]
+    },
+    {
+      "edge_id": 6,
+      "source": 5,
+      "target": 8,
+      "role_hook_change": 1,
+      "nontrivial_basis_membership": []
+    },
+    {
+      "edge_id": 10,
+      "source": 8,
+      "target": 15,
+      "role_hook_change": 1,
+      "nontrivial_basis_membership": [
+        0
+      ]
+    }
+  ],
+  "packet_vertices": [
+    5,
+    6,
+    8,
+    15
+  ],
+  "declared_orientation": {
+    "input_socket": "t",
+    "output_socket": "I",
+    "status": "user_declared_for_this_fork",
+    "native_direction_theorem": false
+  },
+  "topology": {
+    "fork_node": 5,
+    "continuation_node": 8,
+    "terminal_nodes": [
+      6,
+      15
+    ],
+    "oriented_continuation_path": [
+      5,
+      8,
+      15
+    ],
+    "alternate_terminal_path": [
+      5,
+      6
+    ]
+  },
+  "role_assignment": {
+    "input_socket_t": {
+      "node": 5,
+      "basis": "user-declared input convention",
+      "native_direction_theorem": false
+    },
+    "source_junction": {
+      "node": 5,
+      "basis": "unique packet node with out-degree two"
+    },
+    "continuation_entry_edge": {
+      "edge_id": 6,
+      "edge": [
+        5,
+        8
+      ],
+      "basis": "unique fork branch whose target has one outgoing packet continuation"
+    },
+    "alternate_terminal_branch_edge": {
+      "edge_id": 5,
+      "edge": [
+        5,
+        6
+      ],
+      "basis": "unique fork branch whose target is terminal inside the packet"
+    },
+    "continuation_output_edge": {
+      "edge_id": 10,
+      "edge": [
+        8,
+        15
+      ],
+      "basis": "unique outgoing edge from the continuation node"
+    },
+    "output_socket_I": {
+      "node": 15,
+      "basis": "terminal reached through the unique continuation path under the user-declared t-to-I convention",
+      "native_direction_theorem": false
+    },
+    "alternate_terminal": {
+      "node": 6,
+      "basis": "terminal endpoint of the non-continuing fork branch"
+    }
+  },
+  "derived_role_summary": {
+    "source_facing_node": 5,
+    "continuation_entry_edge": [
+      5,
+      8
+    ],
+    "continuation_output_edge": [
+      8,
+      15
+    ],
+    "closure_facing_output_node": 15,
+    "alternate_terminal_branch_edge": [
+      5,
+      6
+    ],
+    "alternate_terminal_node": 6
+  },
+  "checks": {
+    "packet_is_canonical_three_edge_knot": true,
+    "ac36_membership_admitted": true,
+    "unique_fork_node_found": true,
+    "unique_continuation_node_found": true,
+    "declared_orientation_yields_expected_paths": true,
+    "all_packet_edges_receive_one_role": true,
+    "role_hook_change_preserved": true,
+    "rank_one_residue_structure_preserved": true,
+    "no_g900_address_data_used": true,
+    "derivation_completed": true
+  },
+  "ac36_membership_admitted": true,
+  "u_ac36_invoked_on_project21": true,
+  "fork_orientation_admitted": true,
+  "branch_continuation_assignment_admitted": true,
+  "orientation_is_conditional_on_user_declared_t_to_I": true,
+  "native_source_direction_derived": false,
+  "g900_demand_adapter_derived": false,
+  "g900_segment_role_derived": false,
+  "g900_slot_projection_derived": false,
+  "g900_limit_projection_derived": false,
+  "g900_anchor_projection_derived": false,
+  "g900_target_packet_derived": false,
+  "coupling_law_admitted": false,
+  "new_permission_channel_admitted": false,
+  "new_information_transport_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "new_theorem_claim": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "general_relativity_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "body_mutation": false,
+  "boundary": [
+    "Post-membership AC36 fork-orientation derivation only.",
+    "The t-to-I convention is user-declared and not independently derived.",
+    "Topology uniquely distinguishes the continuing branch from the terminal alternative under that convention.",
+    "Role assignment applies only to the three-edge Project 21 packet.",
+    "No G900 segment role, slot, limit, anchor, target, coupling, channel, or transport is derived.",
+    "No native source-direction theorem, geometry, GR, physics, force, body mutation, theorem extension, or Gap A closure claim."
+  ],
+  "recommended_next": "construct_ac36_oriented_project21_g900_demand_candidate_001"
+}
