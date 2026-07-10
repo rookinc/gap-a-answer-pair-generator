@@ -1,0 +1,2855 @@
+{
+  "artifact": "search_quartz_phased_two_register_stitch_memory_001",
+  "search_pass": true,
+  "verdict": "partial_quartz_phased_two_register_stitch_candidate_found",
+  "keeper": "Quartz supplies the beat. The two threads must still earn the lock.",
+  "node_count": 24,
+  "transition_count": 28,
+  "component_count": 3,
+  "quartz_phase_period": 4,
+  "phase_definition": "canonical directed tree depth modulo 4",
+  "tested_table_pair_count": 39366,
+  "exact_candidate_count": 0,
+  "exact_candidate_found": false,
+  "best_candidate": {
+    "orientation": "reverse",
+    "update_mode": "clock_only",
+    "top_phase_table": [
+      -1,
+      1,
+      -1,
+      1
+    ],
+    "bottom_phase_table": [
+      1,
+      -1,
+      1,
+      -1
+    ],
+    "component_seeds": [
+      {
+        "root": 0,
+        "top_seed": 3,
+        "bottom_seed": 0
+      },
+      {
+        "root": 2,
+        "top_seed": 2,
+        "bottom_seed": 2
+      },
+      {
+        "root": 7,
+        "top_seed": 0,
+        "bottom_seed": 0
+      }
+    ],
+    "matched_node_count": 3,
+    "matched_node_ids": [
+      5,
+      14,
+      17
+    ],
+    "unique_row_node_count": 3,
+    "external_column_count": 0,
+    "mapped_transition_count": 0,
+    "closure_defect_count": 0,
+    "closure_defects": []
+  },
+  "best_candidate_node_rows": [
+    {
+      "node_id": 0,
+      "law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "depth": 0,
+      "quartz_phase": 0,
+      "top_memory": 3,
+      "bottom_memory": 0,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 1,
+      "law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "depth": 1,
+      "quartz_phase": 1,
+      "top_memory": 2,
+      "bottom_memory": 1,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 2,
+      "law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "depth": 0,
+      "quartz_phase": 0,
+      "top_memory": 2,
+      "bottom_memory": 2,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 3,
+      "law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "depth": 1,
+      "quartz_phase": 1,
+      "top_memory": 1,
+      "bottom_memory": 3,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 4,
+      "law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "depth": 5,
+      "quartz_phase": 1,
+      "top_memory": 2,
+      "bottom_memory": 1,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 5,
+      "law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "depth": 7,
+      "quartz_phase": 3,
+      "top_memory": 2,
+      "bottom_memory": 1,
+      "match_count": 1,
+      "columns": []
+    },
+    {
+      "node_id": 6,
+      "law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "depth": 4,
+      "quartz_phase": 0,
+      "top_memory": 3,
+      "bottom_memory": 0,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 7,
+      "law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "depth": 0,
+      "quartz_phase": 0,
+      "top_memory": 0,
+      "bottom_memory": 0,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 8,
+      "law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "depth": 4,
+      "quartz_phase": 0,
+      "top_memory": 3,
+      "bottom_memory": 0,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 9,
+      "law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "depth": 1,
+      "quartz_phase": 1,
+      "top_memory": 3,
+      "bottom_memory": 1,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 10,
+      "law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "depth": 6,
+      "quartz_phase": 2,
+      "top_memory": 3,
+      "bottom_memory": 0,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 11,
+      "law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "depth": 5,
+      "quartz_phase": 1,
+      "top_memory": 2,
+      "bottom_memory": 1,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 12,
+      "law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "depth": 3,
+      "quartz_phase": 3,
+      "top_memory": 2,
+      "bottom_memory": 1,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 13,
+      "law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "depth": 4,
+      "quartz_phase": 0,
+      "top_memory": 3,
+      "bottom_memory": 0,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 14,
+      "law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "depth": 2,
+      "quartz_phase": 2,
+      "top_memory": 3,
+      "bottom_memory": 0,
+      "match_count": 1,
+      "columns": []
+    },
+    {
+      "node_id": 15,
+      "law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "depth": 3,
+      "quartz_phase": 3,
+      "top_memory": 2,
+      "bottom_memory": 1,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 16,
+      "law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "depth": 5,
+      "quartz_phase": 1,
+      "top_memory": 1,
+      "bottom_memory": 3,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 17,
+      "law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "depth": 4,
+      "quartz_phase": 0,
+      "top_memory": 2,
+      "bottom_memory": 2,
+      "match_count": 1,
+      "columns": []
+    },
+    {
+      "node_id": 18,
+      "law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "depth": 2,
+      "quartz_phase": 2,
+      "top_memory": 0,
+      "bottom_memory": 0,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 19,
+      "law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "depth": 3,
+      "quartz_phase": 3,
+      "top_memory": 3,
+      "bottom_memory": 1,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 20,
+      "law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "depth": 3,
+      "quartz_phase": 3,
+      "top_memory": 1,
+      "bottom_memory": 3,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 21,
+      "law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "depth": 2,
+      "quartz_phase": 2,
+      "top_memory": 2,
+      "bottom_memory": 2,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 22,
+      "law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "depth": 5,
+      "quartz_phase": 1,
+      "top_memory": 3,
+      "bottom_memory": 1,
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 23,
+      "law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "depth": 4,
+      "quartz_phase": 0,
+      "top_memory": 0,
+      "bottom_memory": 0,
+      "match_count": 0,
+      "columns": []
+    }
+  ],
+  "top_candidates": [
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 3,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 2
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 0,
+      "closure_defects": []
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "hook_gated",
+      "top_phase_table": [
+        1,
+        0,
+        -1,
+        -1
+      ],
+      "bottom_phase_table": [
+        -1,
+        0,
+        1,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 2,
+          "bottom_seed": 1
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 1,
+      "closure_defects": [
+        {
+          "source": 8,
+          "target": 15,
+          "top_defect": 3,
+          "bottom_defect": 1
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 3,
+          "bottom_seed": 2
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 5,
+          "target": 6,
+          "top_defect": 0,
+          "bottom_defect": 2
+        },
+        {
+          "source": 5,
+          "target": 8,
+          "top_defect": 0,
+          "bottom_defect": 2
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 3,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 2
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 8,
+          "target": 12,
+          "top_defect": 0,
+          "bottom_defect": 2
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "top_defect": 0,
+          "bottom_defect": 2
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        0,
+        0,
+        1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 3,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 2
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 8,
+          "target": 12,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "top_defect": 0,
+          "bottom_defect": 3
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        0,
+        0,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 3,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 2
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 8,
+          "target": 12,
+          "top_defect": 1,
+          "bottom_defect": 2
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "top_defect": 1,
+          "bottom_defect": 2
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        0,
+        0,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        0,
+        0,
+        1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 3,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 2
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 8,
+          "target": 12,
+          "top_defect": 1,
+          "bottom_defect": 3
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "top_defect": 1,
+          "bottom_defect": 3
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        0,
+        0,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 3,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 2
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 8,
+          "target": 12,
+          "top_defect": 1,
+          "bottom_defect": 0
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "top_defect": 1,
+          "bottom_defect": 0
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        -1,
+        1,
+        1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 3,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 2
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 8,
+          "target": 12,
+          "top_defect": 2,
+          "bottom_defect": 2
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "top_defect": 2,
+          "bottom_defect": 2
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        0,
+        0,
+        1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 3,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 2
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 8,
+          "target": 12,
+          "top_defect": 2,
+          "bottom_defect": 3
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "top_defect": 2,
+          "bottom_defect": 3
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 3,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 2
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 8,
+          "target": 12,
+          "top_defect": 2,
+          "bottom_defect": 0
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "top_defect": 2,
+          "bottom_defect": 0
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "bottom_phase_table": [
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 1,
+          "bottom_seed": 2
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 5,
+          "target": 6,
+          "top_defect": 2,
+          "bottom_defect": 2
+        },
+        {
+          "source": 5,
+          "target": 8,
+          "top_defect": 2,
+          "bottom_defect": 2
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        1,
+        1,
+        1,
+        -1
+      ],
+      "bottom_phase_table": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 1,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 2
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 5,
+          "target": 6,
+          "top_defect": 2,
+          "bottom_defect": 0
+        },
+        {
+          "source": 5,
+          "target": 8,
+          "top_defect": 2,
+          "bottom_defect": 0
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "hook_gated",
+      "top_phase_table": [
+        0,
+        1,
+        -1,
+        -1
+      ],
+      "bottom_phase_table": [
+        -1,
+        0,
+        1,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 2,
+          "bottom_seed": 1
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 8,
+          "target": 12,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "top_defect": 2,
+          "bottom_defect": 1
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "hook_gated",
+      "top_phase_table": [
+        0,
+        1,
+        -1,
+        -1
+      ],
+      "bottom_phase_table": [
+        0,
+        -1,
+        1,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 2,
+          "bottom_seed": 1
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 8,
+          "target": 12,
+          "top_defect": 3,
+          "bottom_defect": 1
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "top_defect": 2,
+          "bottom_defect": 2
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "hook_gated",
+      "top_phase_table": [
+        1,
+        0,
+        -1,
+        -1
+      ],
+      "bottom_phase_table": [
+        0,
+        -1,
+        1,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 2,
+          "bottom_seed": 1
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 2,
+      "closure_defects": [
+        {
+          "source": 8,
+          "target": 12,
+          "top_defect": 0,
+          "bottom_defect": 1
+        },
+        {
+          "source": 8,
+          "target": 15,
+          "top_defect": 3,
+          "bottom_defect": 2
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "bottom_phase_table": [
+        0,
+        1,
+        -1,
+        0
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 1
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 1
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 2,
+          "bottom_defect": 1
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 2,
+          "bottom_defect": 1
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 2,
+          "bottom_defect": 1
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "bottom_phase_table": [
+        1,
+        0,
+        0,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 1
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 1
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 2,
+          "bottom_defect": 1
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 2,
+          "bottom_defect": 1
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 2,
+          "bottom_defect": 1
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "bottom_phase_table": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 3
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 3,
+          "bottom_defect": 0
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "bottom_phase_table": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 3
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 3,
+          "bottom_defect": 0
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "bottom_phase_table": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 3
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 3,
+          "bottom_defect": 0
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 1,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 0,
+          "bottom_defect": 3
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        0,
+        -1,
+        1,
+        0
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 1,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 0,
+          "bottom_defect": 3
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        0,
+        -1,
+        1,
+        0
+      ],
+      "bottom_phase_table": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 3
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 3,
+          "bottom_defect": 0
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        0,
+        -1,
+        1,
+        0
+      ],
+      "bottom_phase_table": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 3
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 3,
+          "bottom_defect": 0
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        0,
+        -1,
+        1,
+        0
+      ],
+      "bottom_phase_table": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 3
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 3,
+          "bottom_defect": 0
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bottom_phase_table": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 1,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 0,
+          "bottom_defect": 3
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bottom_phase_table": [
+        0,
+        -1,
+        1,
+        0
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 1,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 0,
+          "bottom_defect": 3
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        0,
+        1,
+        -1,
+        0
+      ],
+      "bottom_phase_table": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 1
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 1
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 1,
+          "bottom_defect": 2
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 1,
+          "bottom_defect": 2
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 1,
+          "bottom_defect": 2
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        0,
+        1,
+        -1,
+        0
+      ],
+      "bottom_phase_table": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 1
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 1
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 1,
+          "bottom_defect": 2
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 1,
+          "bottom_defect": 2
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 1,
+          "bottom_defect": 2
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "bottom_phase_table": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 1,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 0,
+          "bottom_defect": 3
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      "bottom_phase_table": [
+        0,
+        -1,
+        1,
+        0
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 1,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 0,
+          "bottom_defect": 3
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        1,
+        0,
+        0,
+        -1
+      ],
+      "bottom_phase_table": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 1
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 1
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 1,
+          "bottom_defect": 2
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 1,
+          "bottom_defect": 2
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 1,
+          "bottom_defect": 2
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        1,
+        0,
+        0,
+        -1
+      ],
+      "bottom_phase_table": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 1
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 1
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 1,
+          "bottom_defect": 2
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 1,
+          "bottom_defect": 2
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 1,
+          "bottom_defect": 2
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "bottom_phase_table": [
+        0,
+        1,
+        -1,
+        0
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 1
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 1
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 2,
+          "bottom_defect": 1
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 2,
+          "bottom_defect": 1
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 2,
+          "bottom_defect": 1
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      "bottom_phase_table": [
+        1,
+        0,
+        0,
+        -1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 0,
+          "bottom_seed": 1
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 1
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 2,
+          "bottom_defect": 1
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 2,
+          "bottom_defect": 1
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 2,
+          "bottom_defect": 1
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "hook_gated",
+      "top_phase_table": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "bottom_phase_table": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 3
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 3,
+          "bottom_defect": 0
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 3,
+          "bottom_defect": 0
+        }
+      ]
+    },
+    {
+      "orientation": "direct",
+      "update_mode": "hook_gated",
+      "top_phase_table": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bottom_phase_table": [
+        -1,
+        0,
+        0,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 0,
+          "bottom_seed": 0
+        },
+        {
+          "root": 2,
+          "top_seed": 1,
+          "bottom_seed": 0
+        },
+        {
+          "root": 7,
+          "top_seed": 2,
+          "bottom_seed": 3
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        18,
+        21,
+        23
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 0,
+          "bottom_defect": 3
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 3,
+          "bottom_seed": 2
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 2
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 0,
+          "bottom_defect": 2
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 0,
+          "bottom_defect": 2
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 0,
+          "bottom_defect": 2
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "update_mode": "clock_only",
+      "top_phase_table": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "bottom_phase_table": [
+        0,
+        -1,
+        1,
+        0
+      ],
+      "component_seeds": [
+        {
+          "root": 0,
+          "top_seed": 3,
+          "bottom_seed": 1
+        },
+        {
+          "root": 2,
+          "top_seed": 2,
+          "bottom_seed": 2
+        },
+        {
+          "root": 7,
+          "top_seed": 0,
+          "bottom_seed": 0
+        }
+      ],
+      "matched_node_count": 3,
+      "matched_node_ids": [
+        5,
+        14,
+        17
+      ],
+      "unique_row_node_count": 3,
+      "external_column_count": 0,
+      "mapped_transition_count": 0,
+      "closure_defect_count": 3,
+      "closure_defects": [
+        {
+          "source": 4,
+          "target": 0,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 16,
+          "target": 2,
+          "top_defect": 0,
+          "bottom_defect": 3
+        },
+        {
+          "source": 22,
+          "target": 7,
+          "top_defect": 0,
+          "bottom_defect": 3
+        }
+      ]
+    }
+  ],
+  "quartz_role": "timing substrate only",
+  "role_hook_change_used": true,
+  "native_cocycle_values_used": false,
+  "planck_normalization_used": false,
+  "quartz_clock_rule_admitted": false,
+  "stroke_rule_admitted": false,
+  "stitch_rule_admitted": false,
+  "feedback_unit_admitted": false,
+  "native_signed_lift_identification_proven": false,
+  "cocycle_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Quartz-phased two-register recurrence search only.",
+    "Quartz supplies timing but no gate or event authority.",
+    "Top and bottom seeds optimized independently per component.",
+    "Updates restricted to -1, 0, +1 over four phases.",
+    "Role-hook-change used only as a tested gate.",
+    "Native cocycle values remain sealed.",
+    "No clock, stroke, stitch, feedback, theorem, physics, force, or Gap A admission."
+  ],
+  "recommended_next": "inspect_best_quartz_phased_two_register_stitch_residual_001"
+}
