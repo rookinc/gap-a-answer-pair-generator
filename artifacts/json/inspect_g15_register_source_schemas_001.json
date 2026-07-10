@@ -1,0 +1,1500 @@
+{
+  "artifact": "inspect_g15_register_source_schemas_001",
+  "inspection_pass": true,
+  "verdict": "project21_direct_slot_pairs_join_register_partially",
+  "keeper": "The register was present. We asked it for a column name when it was speaking in row order.",
+  "scope": "g15_register_schema_normalization_and_blind_slot_join",
+  "slot_register_row_count": 30,
+  "slot_register_unique_edge_count": 30,
+  "cocycle_record_count": 30,
+  "cocycle_unique_edge_count": 30,
+  "cocycle_endpoint_labels": [
+    "e0",
+    "e1",
+    "e10",
+    "e11",
+    "e12",
+    "e13",
+    "e14",
+    "e2",
+    "e3",
+    "e4",
+    "e5",
+    "e6",
+    "e7",
+    "e8",
+    "e9"
+  ],
+  "cocycle_endpoint_types": {
+    "str": 60
+  },
+  "cocycle_endpoints_numeric": false,
+  "symbolic_to_numeric_bridge_candidate_count": 0,
+  "symbolic_to_numeric_bridge_candidates": [],
+  "slot_cocycle_edge_match_tested": false,
+  "slot_and_cocycle_edge_sets_match": false,
+  "sigma_row_count": 3600,
+  "sigma_distinct_slot_pair_count": 45,
+  "all_slot_edges_have_sigma_rows": true,
+  "node_count": 24,
+  "direct_slot_unique_node_count": 2,
+  "c_pair_unique_node_count": 4,
+  "direct_full_node_map_found": false,
+  "mapped_transition_count": 0,
+  "direct_full_transition_map_found": false,
+  "slot_register": [
+    {
+      "column": 0,
+      "slot_edge": [
+        0,
+        1
+      ]
+    },
+    {
+      "column": 1,
+      "slot_edge": [
+        0,
+        4
+      ]
+    },
+    {
+      "column": 2,
+      "slot_edge": [
+        0,
+        5
+      ]
+    },
+    {
+      "column": 3,
+      "slot_edge": [
+        0,
+        6
+      ]
+    },
+    {
+      "column": 4,
+      "slot_edge": [
+        1,
+        2
+      ]
+    },
+    {
+      "column": 5,
+      "slot_edge": [
+        1,
+        6
+      ]
+    },
+    {
+      "column": 6,
+      "slot_edge": [
+        1,
+        7
+      ]
+    },
+    {
+      "column": 7,
+      "slot_edge": [
+        2,
+        3
+      ]
+    },
+    {
+      "column": 8,
+      "slot_edge": [
+        2,
+        7
+      ]
+    },
+    {
+      "column": 9,
+      "slot_edge": [
+        2,
+        8
+      ]
+    },
+    {
+      "column": 10,
+      "slot_edge": [
+        3,
+        4
+      ]
+    },
+    {
+      "column": 11,
+      "slot_edge": [
+        3,
+        8
+      ]
+    },
+    {
+      "column": 12,
+      "slot_edge": [
+        3,
+        9
+      ]
+    },
+    {
+      "column": 13,
+      "slot_edge": [
+        4,
+        5
+      ]
+    },
+    {
+      "column": 14,
+      "slot_edge": [
+        4,
+        9
+      ]
+    },
+    {
+      "column": 15,
+      "slot_edge": [
+        10,
+        5
+      ]
+    },
+    {
+      "column": 16,
+      "slot_edge": [
+        14,
+        5
+      ]
+    },
+    {
+      "column": 17,
+      "slot_edge": [
+        12,
+        6
+      ]
+    },
+    {
+      "column": 18,
+      "slot_edge": [
+        13,
+        6
+      ]
+    },
+    {
+      "column": 19,
+      "slot_edge": [
+        10,
+        7
+      ]
+    },
+    {
+      "column": 20,
+      "slot_edge": [
+        11,
+        7
+      ]
+    },
+    {
+      "column": 21,
+      "slot_edge": [
+        13,
+        8
+      ]
+    },
+    {
+      "column": 22,
+      "slot_edge": [
+        14,
+        8
+      ]
+    },
+    {
+      "column": 23,
+      "slot_edge": [
+        11,
+        9
+      ]
+    },
+    {
+      "column": 24,
+      "slot_edge": [
+        12,
+        9
+      ]
+    },
+    {
+      "column": 25,
+      "slot_edge": [
+        10,
+        11
+      ]
+    },
+    {
+      "column": 26,
+      "slot_edge": [
+        10,
+        14
+      ]
+    },
+    {
+      "column": 27,
+      "slot_edge": [
+        11,
+        12
+      ]
+    },
+    {
+      "column": 28,
+      "slot_edge": [
+        12,
+        13
+      ]
+    },
+    {
+      "column": 29,
+      "slot_edge": [
+        13,
+        14
+      ]
+    }
+  ],
+  "cocycle_register": [
+    {
+      "row_index": 0,
+      "id": "e0--e1",
+      "endpoints": [
+        "e0",
+        "e1"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 1,
+      "id": "e0--e2",
+      "endpoints": [
+        "e0",
+        "e2"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 2,
+      "id": "e0--e11",
+      "endpoints": [
+        "e0",
+        "e11"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 3,
+      "id": "e0--e14",
+      "endpoints": [
+        "e0",
+        "e14"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 4,
+      "id": "e1--e2",
+      "endpoints": [
+        "e1",
+        "e2"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 5,
+      "id": "e1--e8",
+      "endpoints": [
+        "e1",
+        "e8"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 6,
+      "id": "e1--e13",
+      "endpoints": [
+        "e1",
+        "e13"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 7,
+      "id": "e2--e5",
+      "endpoints": [
+        "e2",
+        "e5"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 8,
+      "id": "e2--e12",
+      "endpoints": [
+        "e12",
+        "e2"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 9,
+      "id": "e3--e4",
+      "endpoints": [
+        "e3",
+        "e4"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 10,
+      "id": "e3--e5",
+      "endpoints": [
+        "e3",
+        "e5"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 11,
+      "id": "e3--e10",
+      "endpoints": [
+        "e10",
+        "e3"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 12,
+      "id": "e3--e13",
+      "endpoints": [
+        "e13",
+        "e3"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 13,
+      "id": "e4--e5",
+      "endpoints": [
+        "e4",
+        "e5"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 14,
+      "id": "e4--e7",
+      "endpoints": [
+        "e4",
+        "e7"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 15,
+      "id": "e4--e14",
+      "endpoints": [
+        "e14",
+        "e4"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 16,
+      "id": "e5--e12",
+      "endpoints": [
+        "e12",
+        "e5"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 17,
+      "id": "e6--e7",
+      "endpoints": [
+        "e6",
+        "e7"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 18,
+      "id": "e6--e8",
+      "endpoints": [
+        "e6",
+        "e8"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 19,
+      "id": "e6--e9",
+      "endpoints": [
+        "e6",
+        "e9"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 20,
+      "id": "e6--e12",
+      "endpoints": [
+        "e12",
+        "e6"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 21,
+      "id": "e7--e8",
+      "endpoints": [
+        "e7",
+        "e8"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 22,
+      "id": "e7--e14",
+      "endpoints": [
+        "e14",
+        "e7"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 23,
+      "id": "e8--e13",
+      "endpoints": [
+        "e13",
+        "e8"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 24,
+      "id": "e9--e10",
+      "endpoints": [
+        "e10",
+        "e9"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 25,
+      "id": "e9--e11",
+      "endpoints": [
+        "e11",
+        "e9"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 26,
+      "id": "e9--e12",
+      "endpoints": [
+        "e12",
+        "e9"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 27,
+      "id": "e10--e11",
+      "endpoints": [
+        "e10",
+        "e11"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 28,
+      "id": "e10--e13",
+      "endpoints": [
+        "e10",
+        "e13"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    },
+    {
+      "row_index": 29,
+      "id": "e11--e14",
+      "endpoints": [
+        "e11",
+        "e14"
+      ],
+      "raw_keys": [
+        "endpoints",
+        "id"
+      ]
+    }
+  ],
+  "node_rows": [
+    {
+      "node_id": 0,
+      "law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "direct_slot_pair": [
+        0,
+        0
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        2,
+        5
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 120,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 1,
+      "law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "direct_slot_pair": [
+        0,
+        5
+      ],
+      "direct_slot_columns": [
+        2
+      ],
+      "direct_slot_unique": true,
+      "c_pair": [
+        0,
+        5
+      ],
+      "c_pair_columns": [
+        2
+      ],
+      "c_pair_unique": true,
+      "direct_slot_sigma_row_count": 60,
+      "c_pair_sigma_row_count": 60
+    },
+    {
+      "node_id": 2,
+      "law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "direct_slot_pair": [
+        1,
+        1
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        10,
+        13
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 120,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 3,
+      "law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "direct_slot_pair": [
+        1,
+        13
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        1,
+        13
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 0,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 4,
+      "law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "direct_slot_pair": [
+        0,
+        2
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        0,
+        2
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 0,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 5,
+      "law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "direct_slot_pair": [
+        2,
+        2
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        4,
+        5
+      ],
+      "c_pair_columns": [
+        13
+      ],
+      "c_pair_unique": true,
+      "direct_slot_sigma_row_count": 120,
+      "c_pair_sigma_row_count": 60
+    },
+    {
+      "node_id": 6,
+      "law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "direct_slot_pair": [
+        2,
+        2
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        0,
+        5
+      ],
+      "c_pair_columns": [
+        2
+      ],
+      "c_pair_unique": true,
+      "direct_slot_sigma_row_count": 120,
+      "c_pair_sigma_row_count": 60
+    },
+    {
+      "node_id": 7,
+      "law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "direct_slot_pair": [
+        2,
+        2
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        11,
+        14
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 120,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 8,
+      "law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "direct_slot_pair": [
+        2,
+        5
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        2,
+        5
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 0,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 9,
+      "law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "direct_slot_pair": [
+        11,
+        2
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        11,
+        2
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 0,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 10,
+      "law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "direct_slot_pair": [
+        2,
+        4
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        2,
+        4
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 0,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 11,
+      "law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "direct_slot_pair": [
+        4,
+        4
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        2,
+        5
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 120,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 12,
+      "law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "direct_slot_pair": [
+        2,
+        5
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        2,
+        5
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 0,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 13,
+      "law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "direct_slot_pair": [
+        4,
+        5
+      ],
+      "direct_slot_columns": [
+        13
+      ],
+      "direct_slot_unique": true,
+      "c_pair": [
+        4,
+        5
+      ],
+      "c_pair_columns": [
+        13
+      ],
+      "c_pair_unique": true,
+      "direct_slot_sigma_row_count": 60,
+      "c_pair_sigma_row_count": 60
+    },
+    {
+      "node_id": 14,
+      "law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "direct_slot_pair": [
+        5,
+        5
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        0,
+        2
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 120,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 15,
+      "law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "direct_slot_pair": [
+        5,
+        5
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        2,
+        4
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 120,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 16,
+      "law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "direct_slot_pair": [
+        1,
+        10
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        1,
+        10
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 0,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 17,
+      "law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "direct_slot_pair": [
+        10,
+        10
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        1,
+        13
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 120,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 18,
+      "law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "direct_slot_pair": [
+        11,
+        11
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        14,
+        2
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 120,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 19,
+      "law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "direct_slot_pair": [
+        11,
+        14
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        11,
+        14
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 0,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 20,
+      "law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "direct_slot_pair": [
+        10,
+        13
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        10,
+        13
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 0,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 21,
+      "law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "direct_slot_pair": [
+        13,
+        13
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        1,
+        10
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 120,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 22,
+      "law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "direct_slot_pair": [
+        14,
+        2
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        14,
+        2
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 0,
+      "c_pair_sigma_row_count": 0
+    },
+    {
+      "node_id": 23,
+      "law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "direct_slot_pair": [
+        14,
+        14
+      ],
+      "direct_slot_columns": [],
+      "direct_slot_unique": false,
+      "c_pair": [
+        11,
+        2
+      ],
+      "c_pair_columns": [],
+      "c_pair_unique": false,
+      "direct_slot_sigma_row_count": 120,
+      "c_pair_sigma_row_count": 0
+    }
+  ],
+  "transition_rows": [
+    {
+      "source": 0,
+      "target": 1,
+      "source_column": null,
+      "target_column": 2,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "source_column": 2,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 8,
+      "target": 12,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 8,
+      "target": 15,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 9,
+      "target": 18,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 10,
+      "target": 5,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 11,
+      "target": 10,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 12,
+      "target": 6,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 12,
+      "target": 8,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 13,
+      "target": 11,
+      "source_column": 13,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 14,
+      "target": 12,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 15,
+      "target": 13,
+      "source_column": null,
+      "target_column": 13,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 16,
+      "target": 2,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 17,
+      "target": 16,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 18,
+      "target": 19,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 19,
+      "target": 23,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 20,
+      "target": 17,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 21,
+      "target": 20,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 22,
+      "target": 7,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    },
+    {
+      "source": 23,
+      "target": 22,
+      "source_column": null,
+      "target_column": null,
+      "mapped": false,
+      "role_hook_change_sealed": true,
+      "cocycle_values_sealed": true
+    }
+  ],
+  "role_hook_bits_used_for_join": false,
+  "cocycle_values_used_for_join": false,
+  "cocycle_values_sealed": true,
+  "comparison_completed": false,
+  "exact_edge_bit_agreement": false,
+  "cycle_residue_agreement": false,
+  "feedback_unit_admitted": false,
+  "transport_feedback_rule_admitted": false,
+  "native_signed_lift_identification_proven": false,
+  "cocycle_admitted": false,
+  "holonomy_class_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "checks": {
+    "previous_trace_pass": true,
+    "node_count_is_24": true,
+    "transition_count_is_28": true,
+    "slot_register_row_count_is_30": true,
+    "slot_register_unique_edge_count_is_30": true,
+    "cocycle_record_count_is_30": true,
+    "cocycle_endpoint_schema_inspected": true,
+    "sigma_row_count_is_3600": true,
+    "all_slot_edges_have_sigma_rows": true,
+    "role_hook_bits_not_used": true,
+    "cocycle_values_not_used": true
+  },
+  "interpretation": [
+    "CSV row order is treated as the 30-column register index.",
+    "slot_u and slot_v define the native G15 edge for each column.",
+    "The cocycle edge file uses a separate endpoint alphabet when symbolic labels such as e0 are present.",
+    "Endpoint-set comparison is performed only when both registers use numeric labels or an explicit bridge exists.",
+    "No cocycle values or role-hook-change bits are used in the join.",
+    "A direct law-key slot-pair join is only a structural candidate."
+  ],
+  "boundary": [
+    "G15 register schema inspection only.",
+    "CSV row order used as candidate column index.",
+    "Role-hook-change bits excluded from join construction.",
+    "Cocycle values remain sealed.",
+    "No bit comparison completed.",
+    "No feedback unit admission.",
+    "No transport-feedback rule admission.",
+    "No native signed-lift identification.",
+    "No cocycle admission.",
+    "No holonomy-class admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "inspect_partial_direct_slot_column_join_001"
+}
