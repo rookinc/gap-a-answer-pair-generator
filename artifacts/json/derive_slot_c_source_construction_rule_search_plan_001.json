@@ -1,0 +1,240 @@
+{
+  "artifact_kind": "slot_c_source_construction_rule_search_plan",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "candidate_vocabulary_only": true,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "geometry_claim": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "search_plan_ledger_only": true,
+    "source_law_admitted": false,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "checks": {
+    "audit_pass": true,
+    "closure_requirement_count_4": true,
+    "gate_candidates_admitted": true,
+    "immediate_next_native_packet_birth": true,
+    "incidence_search_pass": true,
+    "native_gate_exact": true,
+    "native_search_pass": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_geometry_claim": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_requirements_currently_satisfied": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "ordered_plan_count_5": true,
+    "register_counts_valid": true,
+    "register_pass": true,
+    "role_pair_search_pass": true,
+    "search_target_count_4": true,
+    "source_law_not_admitted": true
+  },
+  "closure_requirements": [
+    {
+      "currently_satisfied": false,
+      "id": "R1_packet_birth_rule",
+      "requirement": "Derive a source-side rule for native/source packet birth."
+    },
+    {
+      "currently_satisfied": false,
+      "id": "R2_no_answer_inputs",
+      "requirement": "The rule uses no answer/evaluation fields."
+    },
+    {
+      "currently_satisfied": false,
+      "id": "R3_observed_retained_hard_absences_rejected",
+      "requirement": "The rule retains all 24 observed keys and rejects or withholds all 5172 hard absences."
+    },
+    {
+      "currently_satisfied": false,
+      "id": "R4_birth_order_receipt",
+      "requirement": "The rule provides construction birth-order support, not only gate presence."
+    }
+  ],
+  "created_utc": "2026-07-10T17:11:10+00:00",
+  "id": "derive_slot_c_source_construction_rule_search_plan_001",
+  "immediate_next": {
+    "artifact": "search_native_packet_birth_rule_for_slot_c_001",
+    "candidate_counts": {
+      "hard_absence_gate_absent": 5172,
+      "observed_receipted": 24,
+      "proxy_invalid": 1365
+    },
+    "reason": "Native-chain presence is the strongest admitted gate candidate, so search first for why native packets are born exactly where they are.",
+    "target": "explain source/native packet presence for 24 observed keys versus 5172 hard absences"
+  },
+  "input_artifacts": {
+    "hard_absence_candidate_audit": "artifacts/json/audit_hard_absence_source_rule_candidates_001.json",
+    "native_chain_gate_search": "artifacts/json/search_native_chain_hard_absence_gate_thin_001.json",
+    "role_pair_channel_search": "artifacts/json/search_hard_absence_role_pair_channel_rules_001.json",
+    "source_packet_incidence_search": "artifacts/json/search_hard_absence_source_packet_incidence_rules_001.json",
+    "superposition_register": "artifacts/json/record_slot_c_superposition_register_candidate_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_hard_absence_source_rule_candidates_001.json": "f68a1af35061f5b5152fe1cf7ddf82b02cadd43b6e540ef0b854ec8327dcbc79",
+    "artifacts/json/record_slot_c_superposition_register_candidate_001.json": "22c6d510c68f775ea30d79971d87434bff58e3bf1b84b05fb9ba99ec8ae0ecac",
+    "artifacts/json/search_hard_absence_role_pair_channel_rules_001.json": "9e4b1f8d52e03a55690e49fc74e7e9eb195a247aecd0da891f145d2d7871f54f",
+    "artifacts/json/search_hard_absence_source_packet_incidence_rules_001.json": "a16530a8fe46f6612d7c2e6ddf8f7ba592b374fd27be331f66b5daf9312ee774",
+    "artifacts/json/search_native_chain_hard_absence_gate_thin_001.json": "2762fe97a21e2a48444691018b32ce461fb77fe3e5482f889d372bd6c3ee48bc"
+  },
+  "keeper_line": "The source law is the screw engagement, not the face that later reports it.",
+  "mechanical_model": {
+    "candidate_vocabulary_only": true,
+    "forbidden_promotions": [
+      "not a physical screw",
+      "not a force claim",
+      "not a geometry theorem",
+      "not a native generator admission",
+      "not Gap A closure"
+    ],
+    "model_name": "slot_c_screw_engagement_candidate",
+    "statement": "The source law is the screw engagement, not the face that later reports it.",
+    "terms": {
+      "I": "forward receipt or indexed advance",
+      "T": "turn input or applied polar action",
+      "WXYZ": "side-face chamber constraints",
+      "hard_absence_gate_absent": "candidate exists in register but no lawful screw engagement is receipted",
+      "native_chain_present": "chamber-supported screw engagement is receipted",
+      "observed_receipted": "cube advances through an admitted I receipt",
+      "slot_C_key": "candidate screw-action state",
+      "source_packet_present": "screw engagement is receipted at source-packet level"
+    }
+  },
+  "next_gate": "search_native_packet_birth_rule_for_slot_c_001",
+  "ordered_plan": [
+    "search_native_packet_birth_rule_for_slot_c_001",
+    "derive_screw_engagement_constraint_candidates_001",
+    "search_wxyz_side_face_constraint_rule_001",
+    "derive_slot_c_superposition_register_transition_rule_001",
+    "audit_slot_c_source_construction_rule_candidates_001"
+  ],
+  "search_targets": [
+    {
+      "allowed_features": [
+        "native_chain_present",
+        "source_packet_present",
+        "slot/C motion",
+        "station_role",
+        "role_pair",
+        "source_packet_id",
+        "support_sources"
+      ],
+      "failure_receipt": "native_packet_birth_rule_missing",
+      "forbidden_features": [
+        "from_A",
+        "from_B",
+        "to_A",
+        "to_B",
+        "role_class",
+        "label",
+        "shared_B",
+        "reverse_partner",
+        "accepted/exact fields"
+      ],
+      "question": "What source-side construction creates native-chain packet presence for exactly the 24 observed slot/C keys?",
+      "recommended_artifact": "search_native_packet_birth_rule_for_slot_c_001",
+      "success_receipt": "native_packet_birth_rule_candidate",
+      "target_id": "SC1_native_packet_birth_rule"
+    },
+    {
+      "allowed_features": [
+        "T_turn_proxy",
+        "I_advance_proxy",
+        "slot_delta_mod15",
+        "c_delta_mod15",
+        "role_pair channel",
+        "station_role",
+        "native_chain_present"
+      ],
+      "failure_receipt": "screw_engagement_remains_interpretive",
+      "forbidden_features": [
+        "answer labels",
+        "A/B target as source input",
+        "shared_B or reverse_partner as source input",
+        "physics or force variables"
+      ],
+      "question": "Can T/I turn-advance vocabulary be operationalized as a source-side constraint over slot/C and role-pair channels?",
+      "recommended_artifact": "derive_screw_engagement_constraint_candidates_001",
+      "success_receipt": "screw_engagement_constraint_candidate",
+      "target_id": "SC2_screw_engagement_constraint_rule"
+    },
+    {
+      "allowed_features": [
+        "station_role",
+        "role_pair",
+        "WXYZ side-face grouping",
+        "TI polar path marker",
+        "slot/C motion",
+        "native_chain_present"
+      ],
+      "failure_receipt": "side_face_constraint_not_enough",
+      "forbidden_features": [
+        "role_class as source",
+        "label as source",
+        "shared_B as source",
+        "reverse_partner as source",
+        "accepted/exact fields"
+      ],
+      "question": "Do WXYZ side-face constraints explain why only some slot/C candidate states receive packet/native presence?",
+      "recommended_artifact": "search_wxyz_side_face_constraint_rule_001",
+      "success_receipt": "wxyz_side_face_constraint_candidate",
+      "target_id": "SC3_side_face_constraint_rule"
+    },
+    {
+      "allowed_features": [
+        "observed_receipted",
+        "proxy_invalid",
+        "hard_absence_gate_absent",
+        "native_chain_present",
+        "source_packet_present",
+        "zero motion proxy",
+        "source-packet absence"
+      ],
+      "failure_receipt": "register_statuses_remain_audit_level",
+      "forbidden_features": [
+        "answer labels",
+        "A/B target fields as source",
+        "selected future receipt as input"
+      ],
+      "question": "Can the three lawful register statuses be generated from source construction rather than assigned after audit?",
+      "recommended_artifact": "derive_slot_c_superposition_register_transition_rule_001",
+      "success_receipt": "superposition_register_transition_rule_candidate",
+      "target_id": "SC4_superposition_register_transition_rule"
+    }
+  ],
+  "status": "SLOT_C_SOURCE_CONSTRUCTION_RULE_SEARCH_PLAN_001_DERIVED",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "check_count": 26,
+    "failed_count": 0,
+    "frontier_status": "source_construction_rule_search_ready",
+    "gap_a_closure": false,
+    "gate_candidates_admitted": true,
+    "hard_absence_gate_absent": 5172,
+    "immediate_next": "search_native_packet_birth_rule_for_slot_c_001",
+    "observed_receipted": 24,
+    "ordered_plan_count": 5,
+    "passed_count": 26,
+    "plan_pass": true,
+    "proxy_invalid": 1365,
+    "recommended_next": "search_native_packet_birth_rule_for_slot_c_001",
+    "search_target_count": 4,
+    "source_law_admitted": false
+  }
+}
