@@ -1,0 +1,270 @@
+{
+  "artifact": "construct_project21_to_native_signed_lift_index_map_001",
+  "audit_pass": true,
+  "verdict": "no_four_row_native_table_available_for_direct_index_map",
+  "map_status": "native_reindexing_required",
+  "project21_transport_rows": [
+    {
+      "transport_index": 0,
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "scales": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "alternate_image_class": 0,
+      "within_bit": 0,
+      "class_bit": 0,
+      "product_bit": 0
+    },
+    {
+      "transport_index": 1,
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scales": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "alternate_image_class": 0,
+      "within_bit": 1,
+      "class_bit": 0,
+      "product_bit": 1
+    },
+    {
+      "transport_index": 2,
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "scales": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "alternate_image_class": 1,
+      "within_bit": 0,
+      "class_bit": 1,
+      "product_bit": 1
+    },
+    {
+      "transport_index": 3,
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "scales": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "alternate_image_class": 1,
+      "within_bit": 1,
+      "class_bit": 1,
+      "product_bit": 0
+    }
+  ],
+  "scanned_file_count": 5,
+  "scanned_files": [
+    "artifacts/json/import_native_g15_signed_lift_receipt_001.json",
+    "artifacts/json/audit_lifted_residue_functional_against_native_signed_lift_001.json",
+    "artifacts/json/audit_role_hook_change_feedback_candidate_against_native_signed_lift_001.json",
+    "artifacts/json/audit_longer_cycle_feedback_candidate_for_switching_invariance_001.json",
+    "artifacts/json/search_transition_level_channel_feedback_unit_001.json"
+  ],
+  "record_table_count": 10,
+  "four_row_table_count": 0,
+  "join_candidate_count": 0,
+  "explicit_map_candidate_count": 0,
+  "unique_explicit_map": null,
+  "four_row_tables": [],
+  "join_candidates": [],
+  "table_inventory": [
+    {
+      "file": "artifacts/json/import_native_g15_signed_lift_receipt_001.json",
+      "path": "$.edge_records",
+      "row_count": 30,
+      "keys": [
+        "cocycle_bit",
+        "edge",
+        "edge_index",
+        "lift_type",
+        "sign"
+      ]
+    },
+    {
+      "file": "artifacts/json/audit_lifted_residue_functional_against_native_signed_lift_001.json",
+      "path": "$.inspected_map_candidates",
+      "row_count": 1,
+      "keys": [
+        "appears_admitted",
+        "artifact"
+      ]
+    },
+    {
+      "file": "artifacts/json/audit_lifted_residue_functional_against_native_signed_lift_001.json",
+      "path": "$.native_basis_cycles",
+      "row_count": 16,
+      "keys": [
+        "basis_index",
+        "closing_edge",
+        "closing_edge_id",
+        "cycle_length",
+        "edge_ids",
+        "residue"
+      ]
+    },
+    {
+      "file": "artifacts/json/audit_role_hook_change_feedback_candidate_against_native_signed_lift_001.json",
+      "path": "$.role_hook_transition_edges",
+      "row_count": 28,
+      "keys": [
+        "role_hook_change",
+        "source",
+        "source_law_key",
+        "target",
+        "target_law_key"
+      ]
+    },
+    {
+      "file": "artifacts/json/audit_longer_cycle_feedback_candidate_for_switching_invariance_001.json",
+      "path": "$.feature_results",
+      "row_count": 14,
+      "keys": [
+        "both_cycle_residues_seen",
+        "cycle_residue_bitstring",
+        "cycle_residue_vector",
+        "edge_one_count",
+        "feature",
+        "nontrivial_cycle_residue",
+        "rotation_invariant",
+        "tested_gauge_count",
+        "tested_switching_invariant"
+      ]
+    },
+    {
+      "file": "artifacts/json/audit_longer_cycle_feedback_candidate_for_switching_invariance_001.json",
+      "path": "$.cohomology_signature_groups",
+      "row_count": 5,
+      "keys": [
+        "cycle_residue_bitstring",
+        "feature_count",
+        "features",
+        "trivial_on_tested_cycle_space"
+      ]
+    },
+    {
+      "file": "artifacts/json/audit_longer_cycle_feedback_candidate_for_switching_invariance_001.json",
+      "path": "$.cycle_basis_rows",
+      "row_count": 7,
+      "keys": [
+        "cycle",
+        "edge_mask",
+        "edges",
+        "length"
+      ]
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.feature_results",
+      "row_count": 14,
+      "keys": [
+        "closure_sensitive",
+        "cycle_count",
+        "cycle_parity_counts",
+        "edge_value_counts",
+        "feature",
+        "feedback_candidate",
+        "nonconstant_edge_bit"
+      ]
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.nodes",
+      "row_count": 24,
+      "keys": [
+        "law_key",
+        "node_id",
+        "packet_count",
+        "role_hooks"
+      ]
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions",
+      "row_count": 28,
+      "keys": [
+        "bits",
+        "source",
+        "source_law_key",
+        "target",
+        "target_law_key"
+      ]
+    }
+  ],
+  "project21_to_native_index_map_derived": false,
+  "native_sheet_cocycle_identification_derived": false,
+  "native_face_vertex_identification_derived": false,
+  "four_chambers_per_edge_theorem_admitted": false,
+  "literal_534_honeycomb_claim": false,
+  "physics_claim": false,
+  "gap_a_closure": false,
+  "checks": {
+    "klein_factorization_present": true,
+    "four_project21_transports_present": true,
+    "native_files_scanned": true,
+    "native_record_tables_inventoried": true,
+    "four_row_tables_tested": true,
+    "explicit_index_fields_tested": true,
+    "audit_completed": true
+  },
+  "boundary": [
+    "Finite native-index-map construction audit only.",
+    "Positional row order is not treated as provenance.",
+    "A map is derived only from an explicit shared transport or candidate index field.",
+    "No sheet, cocycle, face, or vertex name is assigned without a verified join.",
+    "No literal {5,3,4} honeycomb, four-chambers-per-edge theorem, physics, or Gap A closure claim."
+  ],
+  "recommended_next": "construct_project21_native_signed_lift_projection_rows_001"
+}
