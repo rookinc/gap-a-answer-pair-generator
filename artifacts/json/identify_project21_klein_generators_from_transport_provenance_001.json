@@ -1,0 +1,288 @@
+{
+  "artifact": "identify_project21_klein_generators_from_transport_provenance_001",
+  "audit_pass": true,
+  "verdict": "intrinsic_klein_generator_factorization_derived_native_dodecahedral_names_remain_open",
+  "interpretation": "The exact V4 action factors intrinsically into one within-class involution and two class-exchanging involutions. This names the two-bit chamber structure operationally, but does not yet identify either bit with face transport, vertex transport, sheet parity, or cocycle parity.",
+  "base_transport_index": 0,
+  "identity_element_index": 0,
+  "common_source_tangent": [
+    "0",
+    "3",
+    "1",
+    "-3"
+  ],
+  "common_output_tangent": [
+    "3",
+    "0",
+    "-3",
+    "2"
+  ],
+  "alternate_tangent": [
+    "0",
+    "0",
+    "1",
+    "-5"
+  ],
+  "alternate_images": [
+    [
+      "0",
+      "0",
+      "-5",
+      "2"
+    ],
+    [
+      "0",
+      "0",
+      "-5",
+      "2"
+    ],
+    [
+      "5",
+      "0",
+      "0",
+      "2"
+    ],
+    [
+      "5",
+      "0",
+      "0",
+      "2"
+    ]
+  ],
+  "alternate_image_class_by_transport": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "alternate_image_class_count": 2,
+  "generator_rows": [
+    {
+      "element_index": 1,
+      "matrix": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "transport_permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "transport_cycles": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "fixes_output_tangent": true,
+      "preserves_alternate_image_class": true,
+      "exchanges_alternate_image_class": false
+    },
+    {
+      "element_index": 2,
+      "matrix": [
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "transport_permutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "transport_cycles": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "fixes_output_tangent": true,
+      "preserves_alternate_image_class": false,
+      "exchanges_alternate_image_class": true
+    },
+    {
+      "element_index": 3,
+      "matrix": [
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "transport_permutation": [
+        3,
+        2,
+        1,
+        0
+      ],
+      "transport_cycles": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "fixes_output_tangent": true,
+      "preserves_alternate_image_class": false,
+      "exchanges_alternate_image_class": true
+    }
+  ],
+  "within_class_generator_count": 1,
+  "class_exchanging_generator_count": 2,
+  "intrinsic_two_bit_factorization_derived": true,
+  "native_keyword_inventory": {
+    "face_transport": [],
+    "vertex_transport": [],
+    "parallel": [
+      "21-gap-a-answer-pair-generator/source/project18_native_chain/json/g60_native_generator_input_bundle_001.v1.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/import_native_g15_signed_lift_receipt_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/audit_lifted_residue_functional_against_native_signed_lift_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/derive_project21_eidronic_parallel_tangent_continuity_theorem_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/audit_project21_eidronic_parallel_tangent_transport_equivalence_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/search_role_hook_transition_to_g15_edge_map_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/audit_project21_eidronic_parallel_tangent_continuity_theorem_boundary_001.json",
+      "19-thalean-gravity-finite-tests/artifacts/json/007_aletheos_source_probe.json"
+    ],
+    "crossed": [
+      "36-admissible-action-theory/artifacts/json/project36_family_level_invariant_boundary_001.json",
+      "36-admissible-action-theory/artifacts/json/project36_family_level_invariant_boundary_001_repair.json",
+      "36-admissible-action-theory/artifacts/json/project36_next_carrier_or_deepen_invariants_decision_001.json",
+      "36-admissible-action-theory/artifacts/json/find_native_wxyzti_receipt_source_001.json",
+      "28-role-phase-native-provenance/artifacts/json/cross_state_merged_group_inspection_008.v1.json",
+      "28-role-phase-native-provenance/artifacts/json/k23_forward_generator_minimality_assault_025.v1.json",
+      "24-native-local-cell-provenance/source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/triangle_frame_assignment_audit_006.v1.json",
+      "24-native-local-cell-provenance/source/upstream_station_provenance/21-gap-a-answer-pair-generator/artifacts/json/source_artifact_schema_inventory_009.v1.json"
+    ],
+    "cocycle": [
+      "21-gap-a-answer-pair-generator/artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/audit_longer_cycle_feedback_candidate_for_switching_invariance_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/audit_role_hook_change_feedback_candidate_against_native_signed_lift_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/import_native_g15_signed_lift_receipt_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/inspect_g15_register_source_schemas_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/inspect_x_sigma_coordinate_encoding_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/audit_x_sigma_radix60_and_kind_split_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/search_project21_c_to_x_sigma_local_residue_sheet_map_001.json"
+    ],
+    "sheet": [
+      "37-inflation-transform-inversion-bridge/artifacts/json/inflation_transform_inversion_bridge_001.v1.json",
+      "37-inflation-transform-inversion-bridge/artifacts/json/inflation_transform_inversion_feature_level_assault_004.v1.json",
+      "37-inflation-transform-inversion-bridge/artifacts/json/inflation_transform_inversion_feature_generation_assault_005.v1.json",
+      "37-inflation-transform-inversion-bridge/artifacts/json/inflation_transform_inversion_external_null_feature_set_006.v1.json",
+      "37-inflation-transform-inversion-bridge/artifacts/json/inflation_transform_inversion_external_null_feature_set_006b.v1.json",
+      "37-inflation-transform-inversion-bridge/artifacts/json/inflation_transform_inversion_commit_checkpoint_007.v1.json",
+      "37-inflation-transform-inversion-bridge/artifacts/json/inflation_transform_inversion_weak_like_signature_boundary_008.v1.json",
+      "36-admissible-action-theory/artifacts/json/find_native_wxyzti_receipt_source_001.json"
+    ],
+    "opposite_edge": [],
+    "role_hook": [
+      "21-gap-a-answer-pair-generator/artifacts/json/audit_role_pair_channel_axis_candidate_for_leakage_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/inspect_role_pair_channel_axis_forbidden_hits_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/ablate_support_sources_replay_channel_axis_candidates_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/audit_longer_cycle_feedback_candidate_for_switching_invariance_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/audit_role_hook_change_feedback_candidate_against_native_signed_lift_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/import_native_g15_signed_lift_receipt_001.json",
+      "21-gap-a-answer-pair-generator/artifacts/json/inspect_g15_register_source_schemas_001.json"
+    ]
+  },
+  "native_source_evidence_present": true,
+  "native_face_vertex_identification_derived": false,
+  "native_sheet_cocycle_identification_derived": false,
+  "four_chambers_per_edge_theorem_admitted": false,
+  "literal_534_honeycomb_claim": false,
+  "checks": {
+    "source_transport_family_ready": true,
+    "exact_v4_action_previously_found": true,
+    "four_transport_orbit_present": true,
+    "three_nontrivial_involutions_present": true,
+    "all_nontrivial_actions_fix_common_filament": true,
+    "alternate_images_split_two_by_two": true,
+    "intrinsic_generator_effects_classified": true,
+    "audit_completed": true
+  },
+  "physics_claim": false,
+  "gap_a_closure": false,
+  "boundary": [
+    "Finite Project 21 V4 generator-effect audit only.",
+    "The two-bit factorization is operationally derived from the four transports and their alternate-image classes.",
+    "No generator is identified with face transport, vertex transport, sheet parity, crossed lift, or cocycle parity without an explicit provenance map.",
+    "No literal {5,3,4} honeycomb or four-chambers-per-edge theorem is admitted.",
+    "No metric geometry, physics, force, or Gap A closure claim."
+  ],
+  "recommended_next": "trace_project21_klein_bits_to_signed_lift_and_face_vertex_sources_001"
+}
