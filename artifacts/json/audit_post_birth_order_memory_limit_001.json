@@ -1,0 +1,166 @@
+{
+  "artifact_kind": "post_birth_order_memory_limit_audit",
+  "audit_result": {
+    "apriori_birth_order_demand_rejected": true,
+    "birth_order_proven": false,
+    "full_origin_memory_claim_forbidden": true,
+    "interpretation": "The order-axis candidate should be treated as a possible post-birth witness of realized direction, not as a full memory of origin or source-law proof.",
+    "native_order_axis_rule_admitted": false,
+    "post_birth_order_direction_witness_allowed": true,
+    "post_birth_source_receipt_required": true,
+    "post_birth_source_receipt_status": "required_but_not_yet_established",
+    "source_law_admitted": false
+  },
+  "boundary": {
+    "birth_order_proven": false,
+    "force_claim": false,
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "geometry_claim": false,
+    "memory_limit_boundary_audit_only": true,
+    "native_generator_admitted": false,
+    "native_order_axis_rule_admitted": false,
+    "physics_claim": false,
+    "post_birth_order_direction_witness_allowed": true,
+    "post_birth_source_receipt_required": true,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "unique_native_g15_embedding_proven": false
+  },
+  "boundary_translation": {
+    "memory_limit_status": "direction_witness_possible_full_origin_memory_limited",
+    "old_phrase": "birth_order_proven",
+    "reason": "Birth order can be underdetermined a priori while still leaving a post-birth receipt.",
+    "receipt_status": "not_yet_receipted_as_source_side_birth_order",
+    "replacement_phrase": "post_birth_order_source_receipt"
+  },
+  "checks": {
+    "apriori_birth_order_demand_rejected": true,
+    "birth_order_unproven_prior": true,
+    "birth_trace_pass": true,
+    "exact_order_anchor_found": true,
+    "forbidden_promotion_count_10": true,
+    "full_origin_memory_claim_forbidden": true,
+    "leakage_audit_pass": true,
+    "leakage_clear": true,
+    "memory_limit_claim_count_4": true,
+    "native_order_axis_rule_admitted_false": true,
+    "no_force": true,
+    "no_full_theorem": true,
+    "no_gap_a_closure": true,
+    "no_geometry_claim": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_unique_native_g15_embedding_proof": true,
+    "order_axis_search_pass": true,
+    "orientation_search_pass": true,
+    "post_birth_order_direction_witness_allowed": true,
+    "post_birth_source_receipt_required": true,
+    "source_law_admitted_false": true,
+    "theorem_candidate_written": true
+  },
+  "created_utc": "2026-07-10T18:48:32+00:00",
+  "forbidden_promotions": [
+    "native_order_axis_rule_admitted",
+    "source_law_admitted",
+    "native_generator_admitted",
+    "unique_native_g15_embedding_proven",
+    "full_theorem_admitted",
+    "proof_claim",
+    "gap_a_closure",
+    "geometry_claim",
+    "physics_claim",
+    "force_claim"
+  ],
+  "id": "audit_post_birth_order_memory_limit_001",
+  "input_artifacts": {
+    "birth_order_provenance_trace": "artifacts/json/trace_native_chain_order_axis_birth_order_provenance_001.json",
+    "centroid_normalized_theorem_candidate": "artifacts/json/write_centroid_normalized_local_i_theorem_candidate_001.json",
+    "leakage_audit": "artifacts/json/audit_native_chain_order_axis_candidate_for_leakage_001.json",
+    "order_axis_search": "artifacts/json/search_native_chain_order_axis_rule_001.json",
+    "orientation_closure_axis_anchor_search": "artifacts/json/search_orientation_closure_axis_anchor_rule_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_native_chain_order_axis_candidate_for_leakage_001.json": "754fa2b1704725aacdd0851906b690cc4600e1e866a1c99ff9981c20d28e4dd9",
+    "artifacts/json/search_native_chain_order_axis_rule_001.json": "e03f857280f7e865b5f38dc0515356455d5b19ed86548020487b416b8ed9a99d",
+    "artifacts/json/search_orientation_closure_axis_anchor_rule_001.json": "e4b17e2ff0cc96f6f085f48fd0040df0a7ed098e30641808fb918f2a3ecbfe83",
+    "artifacts/json/trace_native_chain_order_axis_birth_order_provenance_001.json": "5da338c1cd0e60862b0d4fb32ce20724358f9bb6d1d74e4a6ecbf7d8bdef0737",
+    "artifacts/json/write_centroid_normalized_local_i_theorem_candidate_001.json": "3be27f52efd607f633b040e8913f76b65e13f9805394853af47f84ea7483ac72"
+  },
+  "keeper_line": "Birth order is a witness, not a womb. It remembers direction better than origin.",
+  "memory_limit_claims": [
+    {
+      "allowed": true,
+      "claim": "Post-birth order can witness realized axis direction or emergence order.",
+      "id": "M1_post_birth_order_can_witness_direction"
+    },
+    {
+      "allowed": true,
+      "claim": "Post-birth order does not by itself preserve full origin memory.",
+      "id": "M2_post_birth_order_does_not_preserve_full_origin"
+    },
+    {
+      "allowed": true,
+      "claim": "Centroid normalization can preserve direction-limit structure while forgetting initial-origin details.",
+      "id": "M3_centroid_normalization_memory_limit"
+    },
+    {
+      "allowed": true,
+      "claim": "Orientation closure can preserve residue memory while quotient-visible structure forgets lifted sign data.",
+      "id": "M4_closure_residue_memory_limit"
+    }
+  ],
+  "next_gate": "search_role_pair_channel_axis_rule_001",
+  "status": "POST_BIRTH_ORDER_MEMORY_LIMIT_001_LOCKED",
+  "summary": {
+    "apriori_birth_order_demand_rejected": true,
+    "audit_pass": true,
+    "birth_order_proven": false,
+    "check_count": 24,
+    "failed_count": 0,
+    "frontier_status": "post_birth_order_can_witness_direction_full_origin_memory_limited",
+    "full_origin_memory_claim_forbidden": true,
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "memory_limit_status": "direction_witness_possible_full_origin_memory_limited",
+    "native_generator_admitted": false,
+    "native_order_axis_rule_admitted": false,
+    "passed_count": 24,
+    "post_birth_order_direction_witness_allowed": true,
+    "post_birth_source_receipt_required": true,
+    "post_birth_source_receipt_status": "required_but_not_yet_established",
+    "proof_claim": false,
+    "recommended_next": "search_role_pair_channel_axis_rule_001",
+    "source_law_admitted": false,
+    "unique_native_g15_embedding_proven": false
+  },
+  "synthesis": {
+    "keeper": "Birth order is a witness, not a womb. It remembers direction better than origin.",
+    "orientation_closure_bridge": "Closed-walk residue can preserve closure memory even when quotient-visible geometry omits lifted sign data.",
+    "project21_bridge": "Order signatures may witness realized axis emergence, but they do not alone prove full origin, source law, or native generator.",
+    "triangle_paper_bridge": "An extended and centroid-normalized construction can witness direction while losing dependence on the initial triangle."
+  },
+  "unresolved": [
+    {
+      "detail": "Find a receipt showing that realized order points back to a source-side generation event.",
+      "id": "U1_post_birth_source_receipt",
+      "status": "open"
+    },
+    {
+      "detail": "Distinguish which origin data survives in order, centroid, channel, or closure residue and which data is lost.",
+      "id": "U2_memory_loss_profile",
+      "status": "open"
+    },
+    {
+      "detail": "Test role-pair/channel support as an axis witness if birth order remains underdetermined.",
+      "id": "U3_channel_axis",
+      "status": "open"
+    },
+    {
+      "detail": "Find lifted sign or residue-like packet data for true orientation-closure axis anchoring.",
+      "id": "U4_residue_axis",
+      "status": "open"
+    }
+  ]
+}
