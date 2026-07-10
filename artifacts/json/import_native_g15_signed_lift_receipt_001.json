@@ -1,0 +1,444 @@
+{
+  "artifact": "import_native_g15_signed_lift_receipt_001",
+  "audit_pass": true,
+  "verdict": "native_g15_signed_lift_receipt_imported",
+  "keeper": "The candidate is ready for comparison. The native ruler is now in the room.",
+  "scope": "native_g15_signed_lift_reference_receipt_import",
+  "source": {
+    "title": "Dodecahedral Transport, a Signed Lift, and a Cocycle on the Petersen Line Graph",
+    "author": "Scott Allen Cave",
+    "date": "March 2026",
+    "source_location": "Appendix A explicit edge table and Appendix B minimal cocycle support",
+    "transcription_mode": "manual_from_user_supplied_paper"
+  },
+  "conventions": {
+    "positive_sign": "parallel",
+    "negative_sign": "crossed",
+    "parallel_cocycle_bit": 0,
+    "crossed_cocycle_bit": 1
+  },
+  "vertex_count": 15,
+  "vertex_set": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "edge_count": 30,
+  "unique_edge_count": 30,
+  "sign_counts": {
+    "positive": 10,
+    "negative": 20
+  },
+  "lift_type_counts": {
+    "crossed": 20,
+    "parallel": 10
+  },
+  "cocycle_bit_counts": {
+    "zero": 10,
+    "one": 20
+  },
+  "edge_records": [
+    {
+      "edge_index": 0,
+      "edge": [
+        0,
+        1
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 1,
+      "edge": [
+        0,
+        4
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 2,
+      "edge": [
+        0,
+        5
+      ],
+      "sign": 1,
+      "lift_type": "parallel",
+      "cocycle_bit": 0
+    },
+    {
+      "edge_index": 3,
+      "edge": [
+        0,
+        8
+      ],
+      "sign": 1,
+      "lift_type": "parallel",
+      "cocycle_bit": 0
+    },
+    {
+      "edge_index": 4,
+      "edge": [
+        1,
+        2
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 5,
+      "edge": [
+        1,
+        8
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 6,
+      "edge": [
+        1,
+        11
+      ],
+      "sign": 1,
+      "lift_type": "parallel",
+      "cocycle_bit": 0
+    },
+    {
+      "edge_index": 7,
+      "edge": [
+        2,
+        3
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 8,
+      "edge": [
+        2,
+        11
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 9,
+      "edge": [
+        2,
+        13
+      ],
+      "sign": 1,
+      "lift_type": "parallel",
+      "cocycle_bit": 0
+    },
+    {
+      "edge_index": 10,
+      "edge": [
+        3,
+        4
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 11,
+      "edge": [
+        3,
+        13
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 12,
+      "edge": [
+        3,
+        14
+      ],
+      "sign": 1,
+      "lift_type": "parallel",
+      "cocycle_bit": 0
+    },
+    {
+      "edge_index": 13,
+      "edge": [
+        4,
+        5
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 14,
+      "edge": [
+        4,
+        14
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 15,
+      "edge": [
+        5,
+        6
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 16,
+      "edge": [
+        5,
+        12
+      ],
+      "sign": 1,
+      "lift_type": "parallel",
+      "cocycle_bit": 0
+    },
+    {
+      "edge_index": 17,
+      "edge": [
+        6,
+        7
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 18,
+      "edge": [
+        6,
+        12
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 19,
+      "edge": [
+        6,
+        13
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 20,
+      "edge": [
+        7,
+        8
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 21,
+      "edge": [
+        7,
+        9
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 22,
+      "edge": [
+        7,
+        13
+      ],
+      "sign": 1,
+      "lift_type": "parallel",
+      "cocycle_bit": 0
+    },
+    {
+      "edge_index": 23,
+      "edge": [
+        8,
+        9
+      ],
+      "sign": 1,
+      "lift_type": "parallel",
+      "cocycle_bit": 0
+    },
+    {
+      "edge_index": 24,
+      "edge": [
+        9,
+        10
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 25,
+      "edge": [
+        9,
+        14
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 26,
+      "edge": [
+        10,
+        11
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 27,
+      "edge": [
+        10,
+        12
+      ],
+      "sign": -1,
+      "lift_type": "crossed",
+      "cocycle_bit": 1
+    },
+    {
+      "edge_index": 28,
+      "edge": [
+        10,
+        14
+      ],
+      "sign": 1,
+      "lift_type": "parallel",
+      "cocycle_bit": 0
+    },
+    {
+      "edge_index": 29,
+      "edge": [
+        11,
+        12
+      ],
+      "sign": 1,
+      "lift_type": "parallel",
+      "cocycle_bit": 0
+    }
+  ],
+  "minimal_support_size": 6,
+  "minimal_support_edges": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      2,
+      13
+    ],
+    [
+      3,
+      13
+    ],
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      12
+    ]
+  ],
+  "checks": {
+    "edge_count_is_30": true,
+    "unique_edge_count_is_30": true,
+    "vertex_set_is_0_through_14": true,
+    "positive_sign_count_is_10": true,
+    "negative_sign_count_is_20": true,
+    "parallel_count_is_10": true,
+    "crossed_count_is_20": true,
+    "cocycle_zero_count_is_10": true,
+    "cocycle_one_count_is_20": true,
+    "minimal_support_size_is_6": true,
+    "minimal_support_edges_exist_in_base_table": true
+  },
+  "native_signed_lift_table_imported": true,
+  "native_signed_lift_reference_available": true,
+  "transition_to_native_edge_map_found": false,
+  "comparison_completed": false,
+  "exact_edge_bit_agreement": false,
+  "cycle_residue_agreement": false,
+  "feedback_unit_admitted": false,
+  "transport_feedback_rule_admitted": false,
+  "native_signed_lift_identification_proven": false,
+  "cocycle_admitted": false,
+  "holonomy_class_admitted": false,
+  "channel_axis_rule_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "unique_native_g15_embedding_proven": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "interpretation": [
+    "This artifact imports the native 30-edge G15 signed-lift reference table.",
+    "The table supplies a fixed crossed or parallel bit for each indexed G15 edge.",
+    "The imported table does not supply a map from the 28 Project 21 transition edges to G15 edges.",
+    "No signed-lift identity may be claimed until an independent transition-edge map is constructed."
+  ],
+  "boundary": [
+    "Native signed-lift reference import only.",
+    "Manual transcription from the user-supplied paper.",
+    "No Project 21 transition-edge map imported.",
+    "No comparison completed.",
+    "No feedback unit admission.",
+    "No transport-feedback rule admission.",
+    "No native signed-lift identification.",
+    "No native cocycle admission.",
+    "No holonomy-class admission.",
+    "No upstairs/downstairs identification.",
+    "No channel-axis rule admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No unique native G15 embedding proof.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "search_role_hook_transition_to_g15_edge_map_001"
+}
