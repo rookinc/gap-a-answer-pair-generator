@@ -1,0 +1,226 @@
+{
+  "artifact": "replay_project21_against_exact_project36_ac36_schema_001",
+  "audit_pass": true,
+  "verdict": "project21_three_edge_knot_admitted_to_ac36_by_exact_ten_field_schema_replay",
+  "keeper": "The knot entered AC36 through the whole ten-field gate.",
+  "scope": "exact_project36_ten_field_schema_replay_for_project21_knot",
+  "required_schema_fields": [
+    "declared_boundary_receipt_role",
+    "declared_diad_closure_role",
+    "declared_same_boundary_closure_test",
+    "declared_surviving_boundary_set",
+    "declared_triad_action_role",
+    "explicit_non_claim_boundary_set",
+    "finite_receipt_surface",
+    "morphism_or_translation_boundary",
+    "no_hidden_escalation",
+    "scanable_preservation_relation"
+  ],
+  "required_schema_field_count": 10,
+  "schema_replay": [
+    {
+      "field": "declared_boundary_receipt_role",
+      "pass": true,
+      "witness": "three explicit seed-invariant closure-defect edges"
+    },
+    {
+      "field": "declared_diad_closure_role",
+      "pass": true,
+      "witness": "nonzero rank-one functional partitions closed paths into two classes"
+    },
+    {
+      "field": "declared_same_boundary_closure_test",
+      "pass": true,
+      "witness": "held seeds 0 and 1 produce the same closure-defect edge set"
+    },
+    {
+      "field": "declared_surviving_boundary_set",
+      "pass": true,
+      "witness": [
+        "finite three-edge packet identity",
+        "directed source-target provenance",
+        "seed-invariant closure-defect support",
+        "rank-one binary cycle-residue partition",
+        "exact affine cycle closure",
+        "downstream-target independence",
+        "non-claim boundary preservation"
+      ]
+    },
+    {
+      "field": "declared_triad_action_role",
+      "pass": true,
+      "witness": "one source fork plus one continuation"
+    },
+    {
+      "field": "explicit_non_claim_boundary_set",
+      "pass": true,
+      "witness": [
+        "no all-carriers claim",
+        "no geometry claim",
+        "no general-relativity claim",
+        "no physics claim",
+        "no force claim",
+        "no channel admission",
+        "no information-transport admission",
+        "no body mutation",
+        "no native-generator claim",
+        "no Gap A closure claim"
+      ]
+    },
+    {
+      "field": "finite_receipt_surface",
+      "pass": true,
+      "witness": {
+        "packet_id": "project21_closure_provenance_packet_001_P21",
+        "edge_count": 3,
+        "edge_ids": [
+          5,
+          6,
+          10
+        ],
+        "edge_pairs": [
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            8,
+            15
+          ]
+        ]
+      }
+    },
+    {
+      "field": "morphism_or_translation_boundary",
+      "pass": true,
+      "witness": {
+        "affine_centroid": [
+          "23/4",
+          "23/4",
+          "23/4",
+          "23/4"
+        ],
+        "transition_span_rank": 4,
+        "all_affine_cycles_close": true
+      }
+    },
+    {
+      "field": "no_hidden_escalation",
+      "pass": true,
+      "witness": [
+        "candidate is not promoted by label or resemblance",
+        "co-visibility is not treated as coupling",
+        "orientation is not treated as role assignment",
+        "quartz timing is not treated as event authority",
+        "affine closure is not treated as geometry",
+        "binary residue is not treated as native cocycle",
+        "AC36 membership is not treated as fork selection",
+        "membership is not treated as G900 address projection",
+        "no channel or transport is admitted",
+        "no physics or Gap A closure is inferred"
+      ]
+    },
+    {
+      "field": "scanable_preservation_relation",
+      "pass": true,
+      "witness": [
+        {
+          "packet_row": 0,
+          "edge_id": 5,
+          "source": 5,
+          "target": 6,
+          "role_hook_change": 1,
+          "is_seed_closure_defect_edge": true,
+          "is_reciprocal_pair_edge": false,
+          "nontrivial_basis_membership": [
+            1
+          ]
+        },
+        {
+          "packet_row": 1,
+          "edge_id": 6,
+          "source": 5,
+          "target": 8,
+          "role_hook_change": 1,
+          "is_seed_closure_defect_edge": true,
+          "is_reciprocal_pair_edge": false,
+          "nontrivial_basis_membership": []
+        },
+        {
+          "packet_row": 2,
+          "edge_id": 10,
+          "source": 8,
+          "target": 15,
+          "role_hook_change": 1,
+          "is_seed_closure_defect_edge": true,
+          "is_reciprocal_pair_edge": false,
+          "nontrivial_basis_membership": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "all_schema_fields_pass": true,
+  "project36_theorem": {
+    "symbol": "U_AC36",
+    "scope": "AC36 only",
+    "predicate_scope": "six P_AC36 predicates only",
+    "proof_rule_admitted": true,
+    "theorem_admitted": true,
+    "boundary_pass": true
+  },
+  "prior_one_field_overclaim_superseded": true,
+  "ac36_membership_admitted": true,
+  "u_ac36_invoked_on_project21": true,
+  "u_ac36_scope": "AC36 only; six P_AC36 predicates only",
+  "declared_source_output_orientation_membership_field": false,
+  "carrier_id_membership_field": false,
+  "carrier_family_membership_field": false,
+  "source_output_orientation_status": "post-membership user-declared orientation gate",
+  "fork_orientation_admitted": false,
+  "branch_continuation_assignment_admitted": false,
+  "g900_demand_adapter_derived": false,
+  "g900_slot_projection_derived": false,
+  "g900_anchor_projection_derived": false,
+  "coupling_law_admitted": false,
+  "new_permission_channel_admitted": false,
+  "new_information_transport_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "new_theorem_claim": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "general_relativity_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "body_mutation": false,
+  "checks": {
+    "exact_project36_schema_recovered": true,
+    "required_schema_field_count_is_10": true,
+    "all_exact_schema_fields_pass": true,
+    "packet_construction_pass": true,
+    "functional_derivation_pass": true,
+    "seeded_closure_audit_pass": true,
+    "centered_frame_derivation_pass": true,
+    "project36_u_ac36_admitted": true,
+    "project36_theorem_boundary_pass": true,
+    "prior_one_field_overclaim_superseded": true,
+    "replay_completed": true
+  },
+  "boundary": [
+    "Exact ten-field AC36 schema replay only.",
+    "The one-field admission in commit 11ccf80 remains superseded.",
+    "U_AC36 is invoked only within AC36 and only for the six P_AC36 predicates.",
+    "Source-output orientation is a later gate and is not used for membership.",
+    "Carrier ID and carrier family are metadata, not membership predicates.",
+    "AC36 admission does not choose the Project 21 fork.",
+    "No branch assignment, G900 slot, limit, anchor, target, coupling, channel, transport, native generator, theorem extension, geometry, GR, physics, force, body mutation, or Gap A closure claim."
+  ],
+  "recommended_next": "derive_ac36_oriented_project21_fork_roles_001"
+}
