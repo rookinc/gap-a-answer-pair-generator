@@ -1,0 +1,70 @@
+{
+  "artifact": "trace_project21_klein_bits_to_signed_lift_and_face_vertex_sources_001",
+  "audit_pass": true,
+  "verdict": "no_exact_four_entry_native_source_match_for_klein_bits",
+  "interpretation": "The exact V4 factorization remains derived, but none of the scanned native artifacts exposes a directly comparable four-entry bit pattern.",
+  "klein_bits": {
+    "within_bit": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "class_bit": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "product_bit": [
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "scanned_file_count": 5,
+  "scanned_files": [
+    "artifacts/json/import_native_g15_signed_lift_receipt_001.json",
+    "artifacts/json/audit_lifted_residue_functional_against_native_signed_lift_001.json",
+    "artifacts/json/audit_role_hook_change_feedback_candidate_against_native_signed_lift_001.json",
+    "artifacts/json/audit_longer_cycle_feedback_candidate_for_switching_invariance_001.json",
+    "artifacts/json/search_transition_level_channel_feedback_unit_001.json"
+  ],
+  "four_entry_candidate_count": 0,
+  "exact_hit_count": 0,
+  "exact_hits": [],
+  "hit_counts_by_target": {
+    "within_bit": 0,
+    "class_bit": 0,
+    "product_bit": 0
+  },
+  "unique_source_hits": {},
+  "native_mapping_count": 0,
+  "exact_native_two_bit_mapping_derived": false,
+  "native_face_vertex_identification_derived": false,
+  "native_sheet_cocycle_identification_derived": false,
+  "four_chambers_per_edge_theorem_admitted": false,
+  "literal_534_honeycomb_claim": false,
+  "checks": {
+    "klein_factorization_source_present": true,
+    "class_bit_is_0011": true,
+    "within_bit_is_0101": true,
+    "product_bit_is_0110": true,
+    "candidate_files_scanned": true,
+    "four_entry_bit_arrays_extracted": true,
+    "direct_and_complement_matches_tested": true,
+    "audit_completed": true
+  },
+  "physics_claim": false,
+  "gap_a_closure": false,
+  "boundary": [
+    "Finite provenance-pattern audit only.",
+    "The Klein bit basis is within=0101, class=0011, product=0110.",
+    "Complements are treated as equivalent polarity choices.",
+    "Pattern equality alone is not a semantic provenance theorem.",
+    "Face and vertex transport are not named without an explicit source-index map.",
+    "No literal {5,3,4} honeycomb, four-chambers-per-edge theorem, metric geometry, physics, force, or Gap A closure claim."
+  ],
+  "recommended_next": "construct_project21_to_native_signed_lift_index_map_001"
+}
