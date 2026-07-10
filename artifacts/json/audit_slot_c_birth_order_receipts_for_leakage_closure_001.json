@@ -1,0 +1,194 @@
+{
+  "admitted_receipts": [
+    {
+      "detail": "Clean source-only slot/C packets exist as projections.",
+      "id": "R1_source_only_projection",
+      "source": "artifacts/json/extract_source_only_slot_c_row_packets_001.json",
+      "status": "admitted_receipt"
+    },
+    {
+      "detail": "Source-only packets trace to downstream answer/evaluation rows by packet hash.",
+      "id": "R2_packet_trace",
+      "source": "artifacts/json/trace_slot_c_source_packet_to_answer_rows_001.json",
+      "status": "admitted_receipt"
+    },
+    {
+      "detail": "Observed A/B surface replays from source-only packet hashes.",
+      "id": "R3_ab_replay",
+      "source": "artifacts/json/replay_slot_c_ab_surface_from_source_only_packets_001.json",
+      "status": "admitted_receipt"
+    },
+    {
+      "detail": "Zero-motion proxy marks 1365 non-observed keys; 5172 remain source-unknown.",
+      "id": "R4_partial_non_observed_classification",
+      "source": "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json",
+      "status": "admitted_receipt_bounded"
+    }
+  ],
+  "artifact_kind": "slot_c_birth_order_receipts_leakage_closure_audit",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "closing_audit_over_birth_order_receipt_chain": true,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "checks": {
+    "admitted_receipt_count_4": true,
+    "answer_label_leakage_closed_false": true,
+    "birth_order_proven_false": true,
+    "classify_pass": true,
+    "closure_decision_pause": true,
+    "criteria_count_7": true,
+    "decisive_obstruction_count_3": true,
+    "failed_criteria_count_3": true,
+    "hard_absences_still_unknown": true,
+    "leakage_closure_audit_pass": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "non_observed_not_fully_rejected": true,
+    "passed_criteria_count_4": true,
+    "provenance_audit_pass": true,
+    "replay_pass": true,
+    "source_law_admitted_false": true,
+    "source_only_extract_pass": true,
+    "trace_pass": true
+  },
+  "closure_criteria": [
+    {
+      "criterion": "Clean source-only slot/C packets exist with forbidden and downstream answer fields removed.",
+      "id": "L1_source_only_packets_clean",
+      "pass": true
+    },
+    {
+      "criterion": "Source-only packets trace back to downstream answer/evaluation rows by source-packet hash.",
+      "id": "L2_source_packets_trace_to_answer_rows",
+      "pass": true
+    },
+    {
+      "criterion": "The observed A/B surface replays from source-only packet hashes.",
+      "id": "L3_ab_surface_replays_from_source_only_packets",
+      "pass": true
+    },
+    {
+      "criterion": "Replay source payloads contain no answer or forbidden fields.",
+      "id": "L4_source_payload_excludes_answer_and_forbidden_fields",
+      "pass": true
+    },
+    {
+      "criterion": "All non-observed slot/C keys are rejected or withheld by a source-native rule.",
+      "id": "L5_non_observed_keys_fully_rejected_by_source_rule",
+      "pass": false
+    },
+    {
+      "criterion": "The hard non-observed absences are no longer source-unknown.",
+      "id": "L6_hard_absences_resolved",
+      "pass": false
+    },
+    {
+      "criterion": "The receipt chain proves construction birth order rather than projection and replay only.",
+      "id": "L7_birth_order_explicitly_proven",
+      "pass": false
+    }
+  ],
+  "closure_decision": {
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "decision": "pause_do_not_close_leakage_hard_absences_and_birth_order_unresolved",
+    "failed_criteria_count": 3,
+    "failed_criteria_ids": [
+      "L5_non_observed_keys_fully_rejected_by_source_rule",
+      "L6_hard_absences_resolved",
+      "L7_birth_order_explicitly_proven"
+    ],
+    "passed_criteria_count": 4,
+    "source_law_admitted": false
+  },
+  "created_utc": "2026-07-10T16:39:05+00:00",
+  "decisive_obstructions": [
+    {
+      "detail": "5172 non-observed slot/C keys remain source-unknown under the tested proxy classification.",
+      "id": "O1_hard_absences",
+      "source": "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json",
+      "status": "open"
+    },
+    {
+      "detail": "Projection, trace, and replay receipts are strong, but they do not prove construction order in the original generator.",
+      "id": "O2_birth_order",
+      "source": "artifacts/json/replay_slot_c_ab_surface_from_source_only_packets_001.json",
+      "status": "open"
+    },
+    {
+      "detail": "No native source rule has been admitted that rejects or withholds A/B assignment for every non-observed key.",
+      "id": "O3_source_rejection_rule",
+      "source": "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json",
+      "status": "open"
+    }
+  ],
+  "id": "audit_slot_c_birth_order_receipts_for_leakage_closure_001",
+  "input_artifacts": {
+    "classification": "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json",
+    "prior_leakage_closure": "artifacts/json/audit_slot_coupled_chirality_candidate_leakage_closure_001.json",
+    "replay": "artifacts/json/replay_slot_c_ab_surface_from_source_only_packets_001.json",
+    "source_only_packets": "artifacts/json/extract_source_only_slot_c_row_packets_001.json",
+    "source_provenance": "artifacts/json/audit_slot_c_keys_source_provenance_before_answer_001.json",
+    "trace": "artifacts/json/trace_slot_c_source_packet_to_answer_rows_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_slot_c_keys_source_provenance_before_answer_001.json": "de2c161f1fdda817276c17d33e0fdb3d5b25d9fec5415fe3f800e18df3331f68",
+    "artifacts/json/audit_slot_coupled_chirality_candidate_leakage_closure_001.json": "93cd2e696d70370f879c471bb8b6ce40d03abd12b33304c4f9642da8a6ae3935",
+    "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json": "343cc7328bfc48ab1e30b5cdd78e636936f3104f5129e951c8de8d0a80f81e0f",
+    "artifacts/json/extract_source_only_slot_c_row_packets_001.json": "80deb83bd070e8b7f2a4d86c98bac34d6d527235e7890aa726c3fb38443e87d4",
+    "artifacts/json/replay_slot_c_ab_surface_from_source_only_packets_001.json": "494d68e5d18e8b15e0ce1b505180d912f115ac7bc72a0c25ef22d01a7a80f3c6",
+    "artifacts/json/trace_slot_c_source_packet_to_answer_rows_001.json": "65cc01f74d4513aac359d5c54b51c3da511ba33d4e1a2ce34a55ebd506eae214"
+  },
+  "keeper_line": "Projection, trace, and replay make a chain. The hard absences decide whether the chain closes.",
+  "next_gate": "derive_hard_absence_source_rule_search_plan_001",
+  "status": "SLOT_C_BIRTH_ORDER_RECEIPTS_LEAKAGE_CLOSURE_001_PAUSED",
+  "summary": {
+    "admitted_receipt_count": 4,
+    "answer_label_leakage_closed": false,
+    "audit_pass": true,
+    "birth_order_proven": false,
+    "check_count": 28,
+    "closure_decision": "pause_do_not_close_leakage_hard_absences_and_birth_order_unresolved",
+    "criteria_count": 7,
+    "decisive_obstruction_count": 3,
+    "failed_count": 0,
+    "failed_criteria_count": 3,
+    "failed_criteria_ids": [
+      "L5_non_observed_keys_fully_rejected_by_source_rule",
+      "L6_hard_absences_resolved",
+      "L7_birth_order_explicitly_proven"
+    ],
+    "frontier_status": "birth_order_receipt_chain_strong_but_leakage_closure_paused",
+    "full_chirality_admitted": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "packet_unique_answer_count": 48,
+    "passed_count": 28,
+    "passed_criteria_count": 4,
+    "recommended_next": "derive_hard_absence_source_rule_search_plan_001",
+    "source_invalid_proxy_count": 1365,
+    "source_law_admitted": false,
+    "source_packet_count": 48,
+    "source_unknown_count": 5172,
+    "universal_ab_assignment_law_admitted": false
+  }
+}
