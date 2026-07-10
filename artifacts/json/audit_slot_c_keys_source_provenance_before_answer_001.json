@@ -1,0 +1,234 @@
+{
+  "artifact_kind": "slot_c_key_source_provenance_audit",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "source_provenance_audit_only": true,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "checks": {
+    "answer_label_leakage_closed_false": true,
+    "candidate_derive_pass": true,
+    "conflict_key_count_zero": true,
+    "distinct_law_key_count_24_or_more": true,
+    "failed_criteria_count_2": true,
+    "law_rows_positive": true,
+    "leakage_closure_paused": true,
+    "loaded_source_count_at_least_2": true,
+    "missing_receipt_count_3": true,
+    "native_chain_support_present": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "non_observed_universe_generated": true,
+    "passed_criteria_count_4": true,
+    "provenance_criteria_count_6": true,
+    "source_before_answer_proven_false": true,
+    "source_law_admitted_false": true,
+    "universe_derive_pass": true
+  },
+  "created_utc": "2026-07-10T15:06:58+00:00",
+  "id": "audit_slot_c_keys_source_provenance_before_answer_001",
+  "input_artifacts": {
+    "candidate": "artifacts/json/derive_slot_coupled_chirality_ab_assignment_law_candidate_001.json",
+    "leakage_closure": "artifacts/json/audit_slot_coupled_chirality_candidate_leakage_closure_001.json",
+    "non_observed_universe": "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json",
+    "source_files": [
+      "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+      "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+      "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+    ]
+  },
+  "input_sha256": {
+    "artifacts/json/audit_slot_coupled_chirality_candidate_leakage_closure_001.json": "93cd2e696d70370f879c471bb8b6ce40d03abd12b33304c4f9642da8a6ae3935",
+    "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json": "a0d053a39a16b1f134abdf6cdf1d3aa338a74231f603c5eb1e784ce269d02826",
+    "artifacts/json/derive_slot_coupled_chirality_ab_assignment_law_candidate_001.json": "a93996c5e4879be80bd6c7e0d0e12dd8a7a5198e04647d7721a798a27c36a11a",
+    "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json": "8a8e50eab152313720ec68a3cc15b576bb90efdf187ad0c28fe8b96e9c4faa55",
+    "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json": "0ab5c174680c0d4226156bce38f815322bbf40e769d9415d88a41703daebd83e",
+    "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json": "4a77cbd5b0cf631fdbba27c1eb3c04d6d8c593f2f0dbab6eb70bfff98419f78f"
+  },
+  "keeper_line": "The slot/C key has source support, but support is not yet birth order.",
+  "missing_receipts": [
+    {
+      "id": "R1_explicit_construction_order",
+      "needed": "An artifact showing slot/C keys are constructed before labels, accepted rows, or target grouping.",
+      "why": "Field presence and cross-source support do not prove temporal or logical provenance."
+    },
+    {
+      "id": "R2_non_observed_key_rejection_rule",
+      "needed": "A source-native rule rejecting or withholding A/B assignment for the 6537 non-observed keys.",
+      "why": "The universe is enumerated, but source status for non-observed keys is not yet lawful."
+    },
+    {
+      "id": "R3_label_independence_on_candidate_universe",
+      "needed": "A test showing candidate selection can proceed over the expanded universe without role_class, label, shared_B, reverse_partner, accepted/exact fields.",
+      "why": "Observed-row independence does not close expanded-universe leakage."
+    }
+  ],
+  "next_gate": "derive_slot_c_birth_order_receipt_plan_001",
+  "provenance_criteria": [
+    {
+      "criterion": "All slot/C law fields appear in source artifacts.",
+      "id": "P1_law_fields_present_in_source_artifacts",
+      "pass": true
+    },
+    {
+      "criterion": "The slot/C law keys are supported across multiple source artifacts.",
+      "id": "P2_law_keys_cross_source_supported",
+      "pass": true
+    },
+    {
+      "criterion": "The native-chain source file contains slot/C law keys.",
+      "id": "P3_native_chain_support_present",
+      "pass": true
+    },
+    {
+      "criterion": "The admitted law surface itself excludes answer labels and selector-result fields.",
+      "id": "P4_law_surface_excludes_forbidden_inputs",
+      "pass": true
+    },
+    {
+      "criterion": "A receipt explicitly proves slot/C keys are generated before answer labels, accepted rows, or target grouping.",
+      "id": "P5_source_before_answer_explicitly_proven",
+      "pass": false
+    },
+    {
+      "criterion": "A source rule proves why non-observed slot/C keys are invalid or unassigned.",
+      "id": "P6_non_observed_keys_source_status_proven",
+      "pass": false
+    }
+  ],
+  "provenance_decision": {
+    "answer_label_leakage_closed": false,
+    "failed_criteria_count": 2,
+    "failed_criteria_ids": [
+      "P5_source_before_answer_explicitly_proven",
+      "P6_non_observed_keys_source_status_proven"
+    ],
+    "passed_criteria_count": 4,
+    "provenance_status": "source_provenance_supported_but_not_proven_before_answer",
+    "source_before_answer_proven": false,
+    "source_law_admitted": false
+  },
+  "source_support": {
+    "conflict_key_count": 0,
+    "distinct_law_key_count": 24,
+    "law_keys_in_native_chain_count": 24,
+    "law_row_count": 156,
+    "law_target_row_count": 156,
+    "loaded_source_count": 3,
+    "source_file_summaries": [
+      {
+        "distinct_law_key_count": 24,
+        "exists": true,
+        "forbidden_cooccurrence_count": 48,
+        "law_row_count": 48,
+        "law_target_row_count": 48,
+        "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source_like_field_count": 489,
+        "source_like_field_hits": {
+          "C_delta": 24,
+          "from_A": 48,
+          "from_B": 48,
+          "from_C": 48,
+          "from_slot": 48,
+          "integer_C_delta": 24,
+          "role_pair": 27,
+          "station_role": 30,
+          "to_A": 48,
+          "to_B": 48,
+          "to_C": 48,
+          "to_slot": 48
+        }
+      },
+      {
+        "distinct_law_key_count": 24,
+        "exists": true,
+        "forbidden_cooccurrence_count": 84,
+        "law_row_count": 84,
+        "law_target_row_count": 84,
+        "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source_like_field_count": 1050,
+        "source_like_field_hits": {
+          "C_delta": 84,
+          "from_A": 84,
+          "from_B": 84,
+          "from_C": 84,
+          "from_slot": 84,
+          "integer_C_delta": 84,
+          "role_pair": 126,
+          "station_role": 84,
+          "to_A": 84,
+          "to_B": 84,
+          "to_C": 84,
+          "to_slot": 84
+        }
+      },
+      {
+        "distinct_law_key_count": 24,
+        "exists": true,
+        "forbidden_cooccurrence_count": 24,
+        "law_row_count": 24,
+        "law_target_row_count": 24,
+        "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+        "source_like_field_count": 192,
+        "source_like_field_hits": {
+          "from_A": 24,
+          "from_B": 24,
+          "from_C": 24,
+          "from_slot": 24,
+          "to_A": 24,
+          "to_B": 24,
+          "to_C": 24,
+          "to_slot": 24
+        }
+      }
+    ]
+  },
+  "status": "SLOT_C_KEY_SOURCE_PROVENANCE_BEFORE_ANSWER_001_SUPPORTED_NOT_PROVEN",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "audit_pass": true,
+    "check_count": 27,
+    "conflict_key_count": 0,
+    "criteria_count": 6,
+    "distinct_law_key_count": 24,
+    "failed_count": 0,
+    "failed_criteria_count": 2,
+    "failed_criteria_ids": [
+      "P5_source_before_answer_explicitly_proven",
+      "P6_non_observed_keys_source_status_proven"
+    ],
+    "frontier_status": "slot_c_source_support_present_birth_order_still_missing",
+    "full_chirality_admitted": false,
+    "gap_a_closure": false,
+    "law_keys_in_native_chain_count": 24,
+    "law_row_count": 156,
+    "law_target_row_count": 156,
+    "loaded_source_count": 3,
+    "native_generator_admitted": false,
+    "passed_count": 27,
+    "passed_criteria_count": 4,
+    "provenance_status": "source_provenance_supported_but_not_proven_before_answer",
+    "recommended_next": "derive_slot_c_birth_order_receipt_plan_001",
+    "source_before_answer_proven": false,
+    "source_law_admitted": false,
+    "universal_ab_assignment_law_admitted": false
+  }
+}
