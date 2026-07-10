@@ -1,0 +1,770 @@
+{
+  "artifact": "audit_longer_cycle_feedback_candidate_for_switching_invariance_001",
+  "audit_pass": true,
+  "verdict": "cycle_residue_candidates_are_switching_invariant_and_collapse_to_cohomology_signatures",
+  "keeper": "A point distinguishes. An edge relates. A path carries. A cycle answers.",
+  "scope": "longer_cycle_feedback_candidate_switching_and_cycle_space_invariance_audit",
+  "node_count": 24,
+  "edge_count": 28,
+  "component_count": 3,
+  "simple_cycle_count": 7,
+  "cycle_rank_expected": 7,
+  "cycle_matrix_rank": 7,
+  "cycle_basis_complete": true,
+  "tested_feature_count": 14,
+  "audited_feedback_candidate_count": 11,
+  "cohomology_signature_count": 5,
+  "nontrivial_candidate_class_count": 4,
+  "nontrivial_candidate_classes": [
+    "0000100",
+    "0000101",
+    "0001000",
+    "0001100"
+  ],
+  "all_candidate_rotation_invariant": true,
+  "all_candidate_tested_switching_invariant": true,
+  "leading_feedback_candidate": {
+    "feature": "role_hook_change",
+    "edge_one_count": 27,
+    "cycle_residue_vector": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "cycle_residue_bitstring": "0000101",
+    "nontrivial_cycle_residue": true,
+    "both_cycle_residues_seen": true,
+    "rotation_invariant": true,
+    "tested_switching_invariant": true,
+    "tested_gauge_count": 4
+  },
+  "feature_results": [
+    {
+      "feature": "role_hook_change",
+      "edge_one_count": 27,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "cycle_residue_bitstring": "0000101",
+      "nontrivial_cycle_residue": true,
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "source_c_wrap",
+      "edge_one_count": 11,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0000100",
+      "nontrivial_cycle_residue": true,
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "source_cross_equal_xor",
+      "edge_one_count": 0,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0000000",
+      "nontrivial_cycle_residue": false,
+      "both_cycle_residues_seen": false,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "source_delta_equal",
+      "edge_one_count": 0,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0000000",
+      "nontrivial_cycle_residue": false,
+      "both_cycle_residues_seen": false,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "source_delta_parity_xor",
+      "edge_one_count": 20,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0001000",
+      "nontrivial_cycle_residue": true,
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "source_slot_c_order_xor",
+      "edge_one_count": 19,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0001000",
+      "nontrivial_cycle_residue": true,
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "source_slot_wrap",
+      "edge_one_count": 8,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0001100",
+      "nontrivial_cycle_residue": true,
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "target_c_wrap",
+      "edge_one_count": 12,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0000100",
+      "nontrivial_cycle_residue": true,
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "target_delta_equal",
+      "edge_one_count": 0,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0000000",
+      "nontrivial_cycle_residue": false,
+      "both_cycle_residues_seen": false,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "target_delta_parity_xor",
+      "edge_one_count": 19,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0001000",
+      "nontrivial_cycle_residue": true,
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "target_slot_wrap",
+      "edge_one_count": 8,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0001100",
+      "nontrivial_cycle_residue": true,
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "transition_c_wrap",
+      "edge_one_count": 12,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0000100",
+      "nontrivial_cycle_residue": true,
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "transition_slot_wrap",
+      "edge_one_count": 8,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0001100",
+      "nontrivial_cycle_residue": true,
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    },
+    {
+      "feature": "transition_wrap_xor",
+      "edge_one_count": 20,
+      "cycle_residue_vector": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "cycle_residue_bitstring": "0001000",
+      "nontrivial_cycle_residue": true,
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "tested_switching_invariant": true,
+      "tested_gauge_count": 4
+    }
+  ],
+  "cohomology_signature_groups": [
+    {
+      "cycle_residue_bitstring": "0000000",
+      "feature_count": 3,
+      "features": [
+        "source_cross_equal_xor",
+        "source_delta_equal",
+        "target_delta_equal"
+      ],
+      "trivial_on_tested_cycle_space": true
+    },
+    {
+      "cycle_residue_bitstring": "0000100",
+      "feature_count": 3,
+      "features": [
+        "source_c_wrap",
+        "target_c_wrap",
+        "transition_c_wrap"
+      ],
+      "trivial_on_tested_cycle_space": false
+    },
+    {
+      "cycle_residue_bitstring": "0000101",
+      "feature_count": 1,
+      "features": [
+        "role_hook_change"
+      ],
+      "trivial_on_tested_cycle_space": false
+    },
+    {
+      "cycle_residue_bitstring": "0001000",
+      "feature_count": 4,
+      "features": [
+        "source_delta_parity_xor",
+        "source_slot_c_order_xor",
+        "target_delta_parity_xor",
+        "transition_wrap_xor"
+      ],
+      "trivial_on_tested_cycle_space": false
+    },
+    {
+      "cycle_residue_bitstring": "0001100",
+      "feature_count": 3,
+      "features": [
+        "source_slot_wrap",
+        "target_slot_wrap",
+        "transition_slot_wrap"
+      ],
+      "trivial_on_tested_cycle_space": false
+    }
+  ],
+  "cycle_basis_rows": [
+    {
+      "cycle": [
+        0,
+        1,
+        14,
+        12,
+        6,
+        4
+      ],
+      "length": 6,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "edge_mask": 147603
+    },
+    {
+      "cycle": [
+        2,
+        3,
+        21,
+        20,
+        17,
+        16
+      ],
+      "length": 6,
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          21,
+          20
+        ],
+        [
+          20,
+          17
+        ],
+        [
+          17,
+          16
+        ],
+        [
+          16,
+          2
+        ]
+      ],
+      "edge_mask": 53477388
+    },
+    {
+      "cycle": [
+        5,
+        8,
+        15,
+        13,
+        11,
+        10
+      ],
+      "length": 6,
+      "edges": [
+        [
+          5,
+          8
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          10,
+          5
+        ]
+      ],
+      "edge_mask": 603200
+    },
+    {
+      "cycle": [
+        7,
+        9,
+        18,
+        19,
+        23,
+        22
+      ],
+      "length": 6,
+      "edges": [
+        [
+          7,
+          9
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          23,
+          22
+        ],
+        [
+          22,
+          7
+        ]
+      ],
+      "edge_mask": 213911808
+    },
+    {
+      "cycle": [
+        0,
+        1,
+        14,
+        15,
+        13,
+        11,
+        10,
+        5,
+        6,
+        4
+      ],
+      "length": 10,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "edge_mask": 864435
+    },
+    {
+      "cycle": [
+        0,
+        1,
+        14,
+        12,
+        8,
+        15,
+        13,
+        11,
+        10,
+        5,
+        6,
+        4
+      ],
+      "length": 12,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          14,
+          12
+        ],
+        [
+          12,
+          8
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "edge_mask": 767155
+    },
+    {
+      "cycle": [
+        0,
+        1,
+        14,
+        15,
+        13,
+        11,
+        10,
+        5,
+        8,
+        12,
+        6,
+        4
+      ],
+      "length": 12,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          13
+        ],
+        [
+          13,
+          11
+        ],
+        [
+          11,
+          10
+        ],
+        [
+          10,
+          5
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          12,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "edge_mask": 881363
+    }
+  ],
+  "checks": {
+    "transition_search_pass": true,
+    "cycle_search_pass": true,
+    "edge_count_is_28": true,
+    "node_count_is_24": true,
+    "cycle_count_is_7": true,
+    "cycle_rank_expected_is_7": true,
+    "cycle_matrix_rank_is_7": true,
+    "cycle_basis_complete": true,
+    "candidate_count_is_11": true,
+    "all_candidates_rotation_invariant": true,
+    "all_candidates_tested_switching_invariant": true,
+    "nontrivial_candidate_class_exists": true,
+    "leading_candidate_present": true
+  },
+  "interpretation": [
+    "The seven directed cycles have GF(2) rank seven, matching E-V+C for the three cyclic components.",
+    "The recorded cycle residues therefore span the tested cycle space of the transition graph.",
+    "Adding a vertex switching term g(u)+g(v) leaves every closed-cycle XOR residue unchanged.",
+    "Several local feature names collapse to the same cycle-residue signature and are not independent classes.",
+    "Switching-invariant residue is candidate cohomological structure only; no native cocycle is admitted."
+  ],
+  "feedback_unit_admitted": false,
+  "transport_feedback_rule_admitted": false,
+  "cocycle_candidate_found": true,
+  "cocycle_admitted": false,
+  "holonomy_class_admitted": false,
+  "channel_axis_rule_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "unique_native_g15_embedding_proven": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Switching and cycle-space invariance audit only.",
+    "Observed transition graph only.",
+    "Tested feature family only.",
+    "No feedback unit admission.",
+    "No transport-feedback rule admission.",
+    "No native cocycle admission.",
+    "No holonomy-class admission.",
+    "No upstairs/downstairs identification.",
+    "No channel-axis rule admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No unique native G15 embedding proof.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "audit_role_hook_change_feedback_candidate_native_provenance_001"
+}
