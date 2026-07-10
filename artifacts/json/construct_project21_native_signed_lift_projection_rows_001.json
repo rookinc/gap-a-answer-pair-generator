@@ -1,0 +1,640 @@
+{
+  "artifact": "construct_project21_native_signed_lift_projection_rows_001",
+  "audit_pass": true,
+  "verdict": "four_projection_rows_constructed_native_fields_remain_unjoined",
+  "projection_row_count": 4,
+  "projection_rows": [
+    {
+      "transport_index": 0,
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "signs": [
+        1,
+        -1,
+        1,
+        1
+      ],
+      "scales": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "mapped_continuation_tangent": [
+        "3",
+        "0",
+        "-3",
+        "2"
+      ],
+      "mapped_alternate_tangent": [
+        "0",
+        "0",
+        "-5",
+        "2"
+      ],
+      "alternate_image_class": 0,
+      "within_bit": 0,
+      "class_bit": 0,
+      "product_bit": 0,
+      "native_edge": null,
+      "native_role": null,
+      "native_lift_sign": null,
+      "native_sheet_change_bit": null,
+      "native_cocycle_bit": null,
+      "native_role_hook_residue": null,
+      "native_provenance_path": null,
+      "native_mapping_status": "open"
+    },
+    {
+      "transport_index": 1,
+      "permutation": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "signs": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scales": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "mapped_continuation_tangent": [
+        "3",
+        "0",
+        "-3",
+        "2"
+      ],
+      "mapped_alternate_tangent": [
+        "0",
+        "0",
+        "-5",
+        "2"
+      ],
+      "alternate_image_class": 0,
+      "within_bit": 1,
+      "class_bit": 0,
+      "product_bit": 1,
+      "native_edge": null,
+      "native_role": null,
+      "native_lift_sign": null,
+      "native_sheet_change_bit": null,
+      "native_cocycle_bit": null,
+      "native_role_hook_residue": null,
+      "native_provenance_path": null,
+      "native_mapping_status": "open"
+    },
+    {
+      "transport_index": 2,
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      "scales": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "mapped_continuation_tangent": [
+        "3",
+        "0",
+        "-3",
+        "2"
+      ],
+      "mapped_alternate_tangent": [
+        "5",
+        "0",
+        "0",
+        "2"
+      ],
+      "alternate_image_class": 1,
+      "within_bit": 0,
+      "class_bit": 1,
+      "product_bit": 1,
+      "native_edge": null,
+      "native_role": null,
+      "native_lift_sign": null,
+      "native_sheet_change_bit": null,
+      "native_cocycle_bit": null,
+      "native_role_hook_residue": null,
+      "native_provenance_path": null,
+      "native_mapping_status": "open"
+    },
+    {
+      "transport_index": 3,
+      "permutation": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "signs": [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      "scales": [
+        "1",
+        "1",
+        "1",
+        "2"
+      ],
+      "mapped_continuation_tangent": [
+        "3",
+        "0",
+        "-3",
+        "2"
+      ],
+      "mapped_alternate_tangent": [
+        "5",
+        "0",
+        "0",
+        "2"
+      ],
+      "alternate_image_class": 1,
+      "within_bit": 1,
+      "class_bit": 1,
+      "product_bit": 0,
+      "native_edge": null,
+      "native_role": null,
+      "native_lift_sign": null,
+      "native_sheet_change_bit": null,
+      "native_cocycle_bit": null,
+      "native_role_hook_residue": null,
+      "native_provenance_path": null,
+      "native_mapping_status": "open"
+    }
+  ],
+  "native_candidate_record_count": 36,
+  "top_native_candidate_rows": [
+    {
+      "file": "artifacts/json/import_native_g15_signed_lift_receipt_001.json",
+      "path": "$.checks",
+      "score": 8,
+      "fields": {
+        "edge_count_is_30": true,
+        "unique_edge_count_is_30": true,
+        "positive_sign_count_is_10": true,
+        "negative_sign_count_is_20": true,
+        "parallel_count_is_10": true,
+        "crossed_count_is_20": true,
+        "cocycle_zero_count_is_10": true,
+        "cocycle_one_count_is_20": true,
+        "minimal_support_edges_exist_in_base_table": true
+      }
+    },
+    {
+      "file": "artifacts/json/import_native_g15_signed_lift_receipt_001.json",
+      "path": "$.conventions",
+      "score": 6,
+      "fields": {
+        "positive_sign": "parallel",
+        "negative_sign": "crossed",
+        "parallel_cocycle_bit": 0,
+        "crossed_cocycle_bit": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[0].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[10].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[11].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[12].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[13].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[14].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[15].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[16].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[17].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[18].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "role_hook_change": 0
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[19].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[1].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[20].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[21].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[22].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[23].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[24].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[25].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[26].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[27].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[2].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "path": "$.transitions[3].bits",
+      "score": 5,
+      "fields": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "role_hook_change": 1
+      }
+    }
+  ],
+  "explicit_transport_index_hit_count": 0,
+  "explicit_transport_index_hits": [],
+  "mapped_projection_row_count": 0,
+  "full_native_projection_map_derived": false,
+  "native_sheet_cocycle_identification_derived": false,
+  "native_face_vertex_identification_derived": false,
+  "four_chambers_per_edge_theorem_admitted": false,
+  "literal_534_honeycomb_claim": false,
+  "physics_claim": false,
+  "gap_a_closure": false,
+  "checks": {
+    "four_transport_rows_constructed": true,
+    "klein_bits_attached": true,
+    "native_candidate_rows_scanned": true,
+    "native_provenance_fields_inventory_built": true,
+    "null_native_fields_preserved_when_unjoined": true,
+    "audit_completed": true
+  },
+  "boundary": [
+    "Finite four-row native-facing projection construction only.",
+    "Project 21 transport and Klein-bit fields are explicit.",
+    "Native fields remain null unless an explicit transport index joins them.",
+    "Candidate native records are inventory evidence, not mappings.",
+    "No sheet, cocycle, face, vertex, literal {5,3,4}, physics, or Gap A closure claim."
+  ],
+  "recommended_next": "derive_project21_native_projection_join_keys_001"
+}
