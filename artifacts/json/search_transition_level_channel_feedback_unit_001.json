@@ -1,0 +1,1473 @@
+{
+  "artifact": "search_transition_level_channel_feedback_unit_001",
+  "search_pass": true,
+  "verdict": "no_transition_bit_with_nontrivial_cycle_residue_found",
+  "keeper": "A step carries one bit. A cycle tells us what the bit meant.",
+  "scope": "transition_level_feedback_bit_and_three_cycle_residue_search",
+  "packet_row_count": 48,
+  "unique_law_key_node_count": 24,
+  "duplicate_packet_count": 24,
+  "transition_count": 28,
+  "directed_three_cycle_count": 0,
+  "tested_bit_count": 14,
+  "feedback_candidate_count": 0,
+  "feedback_candidate_found": false,
+  "leading_feedback_candidate": null,
+  "feedback_candidates": [],
+  "feature_results": [
+    {
+      "feature": "role_hook_change",
+      "edge_value_counts": {
+        "1": 27,
+        "0": 1
+      },
+      "nonconstant_edge_bit": true,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "source_c_wrap",
+      "edge_value_counts": {
+        "0": 17,
+        "1": 11
+      },
+      "nonconstant_edge_bit": true,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "source_cross_equal_xor",
+      "edge_value_counts": {
+        "0": 28
+      },
+      "nonconstant_edge_bit": false,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "source_delta_equal",
+      "edge_value_counts": {
+        "0": 28
+      },
+      "nonconstant_edge_bit": false,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "source_delta_parity_xor",
+      "edge_value_counts": {
+        "1": 20,
+        "0": 8
+      },
+      "nonconstant_edge_bit": true,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "source_slot_c_order_xor",
+      "edge_value_counts": {
+        "0": 9,
+        "1": 19
+      },
+      "nonconstant_edge_bit": true,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "source_slot_wrap",
+      "edge_value_counts": {
+        "0": 20,
+        "1": 8
+      },
+      "nonconstant_edge_bit": true,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "target_c_wrap",
+      "edge_value_counts": {
+        "1": 12,
+        "0": 16
+      },
+      "nonconstant_edge_bit": true,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "target_delta_equal",
+      "edge_value_counts": {
+        "0": 28
+      },
+      "nonconstant_edge_bit": false,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "target_delta_parity_xor",
+      "edge_value_counts": {
+        "1": 19,
+        "0": 9
+      },
+      "nonconstant_edge_bit": true,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "target_slot_wrap",
+      "edge_value_counts": {
+        "0": 20,
+        "1": 8
+      },
+      "nonconstant_edge_bit": true,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "transition_c_wrap",
+      "edge_value_counts": {
+        "1": 12,
+        "0": 16
+      },
+      "nonconstant_edge_bit": true,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "transition_slot_wrap",
+      "edge_value_counts": {
+        "0": 20,
+        "1": 8
+      },
+      "nonconstant_edge_bit": true,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    },
+    {
+      "feature": "transition_wrap_xor",
+      "edge_value_counts": {
+        "1": 20,
+        "0": 8
+      },
+      "nonconstant_edge_bit": true,
+      "cycle_count": 0,
+      "cycle_parity_counts": {},
+      "closure_sensitive": false,
+      "feedback_candidate": false
+    }
+  ],
+  "nodes": [
+    {
+      "node_id": 0,
+      "law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ]
+    },
+    {
+      "node_id": 1,
+      "law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ]
+    },
+    {
+      "node_id": 2,
+      "law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ]
+    },
+    {
+      "node_id": 3,
+      "law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ]
+    },
+    {
+      "node_id": 4,
+      "law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ]
+    },
+    {
+      "node_id": 5,
+      "law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ]
+    },
+    {
+      "node_id": 6,
+      "law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ]
+    },
+    {
+      "node_id": 7,
+      "law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ]
+    },
+    {
+      "node_id": 8,
+      "law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ]
+    },
+    {
+      "node_id": 9,
+      "law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ]
+    },
+    {
+      "node_id": 10,
+      "law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ]
+    },
+    {
+      "node_id": 11,
+      "law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ]
+    },
+    {
+      "node_id": 12,
+      "law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ]
+    },
+    {
+      "node_id": 13,
+      "law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ]
+    },
+    {
+      "node_id": 14,
+      "law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ]
+    },
+    {
+      "node_id": 15,
+      "law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ]
+    },
+    {
+      "node_id": 16,
+      "law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ]
+    },
+    {
+      "node_id": 17,
+      "law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ]
+    },
+    {
+      "node_id": 18,
+      "law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ]
+    },
+    {
+      "node_id": 19,
+      "law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ]
+    },
+    {
+      "node_id": 20,
+      "law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ]
+    },
+    {
+      "node_id": 21,
+      "law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ]
+    },
+    {
+      "node_id": 22,
+      "law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ]
+    },
+    {
+      "node_id": 23,
+      "law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "packet_count": 2,
+      "role_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "source": 0,
+      "target": 1,
+      "source_law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "target_law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 1,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "source_law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "target_law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "source_law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "target_law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 1,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "source_law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "target_law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "source_law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "target_law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "bits": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "source_law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "target_law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 1,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "source_law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "target_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 1,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "source_law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "target_law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 1,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "source_law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "target_law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 1,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 8,
+      "target": 12,
+      "source_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "target_law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 1,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 8,
+      "target": 15,
+      "source_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "target_law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 9,
+      "target": 18,
+      "source_law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "target_law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 10,
+      "target": 5,
+      "source_law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "target_law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "bits": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 11,
+      "target": 10,
+      "source_law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "target_law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 1,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 12,
+      "target": 6,
+      "source_law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "target_law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "bits": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 1,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 12,
+      "target": 8,
+      "source_law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "target_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "bits": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 1,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 13,
+      "target": 11,
+      "source_law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "target_law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "bits": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 1,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 14,
+      "target": 12,
+      "source_law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "target_law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 1,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "source_law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "target_law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 0,
+        "role_hook_change": 0
+      }
+    },
+    {
+      "source": 15,
+      "target": 13,
+      "source_law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "target_law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 1,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 16,
+      "target": 2,
+      "source_law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "target_law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "bits": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 0,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 17,
+      "target": 16,
+      "source_law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "target_law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 1,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 18,
+      "target": 19,
+      "source_law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "target_law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 1,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 19,
+      "target": 23,
+      "source_law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "target_law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 1,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 20,
+      "target": 17,
+      "source_law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "target_law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "bits": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 1,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 21,
+      "target": 20,
+      "source_law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "target_law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 1,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 22,
+      "target": 7,
+      "source_law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "target_law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "bits": {
+        "source_slot_wrap": 1,
+        "source_c_wrap": 0,
+        "source_delta_parity_xor": 1,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 0,
+        "target_c_wrap": 1,
+        "target_delta_parity_xor": 0,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 0,
+        "transition_c_wrap": 1,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    },
+    {
+      "source": 23,
+      "target": 22,
+      "source_law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "target_law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "bits": {
+        "source_slot_wrap": 0,
+        "source_c_wrap": 1,
+        "source_delta_parity_xor": 0,
+        "source_delta_equal": 0,
+        "source_cross_equal_xor": 0,
+        "source_slot_c_order_xor": 1,
+        "target_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_parity_xor": 1,
+        "target_delta_equal": 0,
+        "transition_slot_wrap": 1,
+        "transition_c_wrap": 0,
+        "transition_wrap_xor": 1,
+        "role_hook_change": 1
+      }
+    }
+  ],
+  "cycles": [],
+  "native_receipt_bit_excluded": true,
+  "support_sources_excluded_from_features": true,
+  "feedback_unit_admitted": false,
+  "transport_feedback_rule_admitted": false,
+  "cocycle_admitted": false,
+  "holonomy_class_admitted": false,
+  "channel_axis_rule_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "unique_native_g15_embedding_proven": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "checks": {
+    "packet_row_count_48": true,
+    "native_receipt_bit_excluded": true,
+    "support_sources_excluded_from_features": true,
+    "unique_law_key_node_count_positive": true,
+    "transition_count_positive": true,
+    "search_completed": true
+  },
+  "interpretation": [
+    "Rows are collapsed to unique slot/C law-key states.",
+    "A directed transition is admitted when the source endpoint equals the target start in both slot and C coordinates.",
+    "Candidate bits use only slot/C and role-hook relations.",
+    "A candidate must be nonconstant on transitions and produce both cycle parities on directed three-cycles.",
+    "This nominates a closure-sensitive bit but does not establish a cocycle or native transport law."
+  ],
+  "boundary": [
+    "Transition-level candidate search only.",
+    "Native provenance receipt bit excluded.",
+    "Support-source filenames excluded from tested feedback features.",
+    "No feedback unit admission.",
+    "No transport-feedback rule admission.",
+    "No cocycle admission.",
+    "No holonomy-class admission.",
+    "No upstairs/downstairs identification.",
+    "No channel-axis rule admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No unique native G15 embedding proof.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "search_longer_cycle_channel_feedback_residue_001"
+}
