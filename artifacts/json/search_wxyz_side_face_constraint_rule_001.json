@@ -1,0 +1,1444 @@
+{
+  "artifact_kind": "wxyz_side_face_constraint_candidate_search",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "fixed_self_fluid_other_vocabulary_only": true,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "geometry_claim": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "side_face_constraint_candidate_search_only": true,
+    "source_law_admitted": false,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "candidate_interpretation": {
+    "birth_order_proven": false,
+    "candidate_statement": "Native packets are consistent with fixed pre-role self, while non-native packets occupy fluid role-facing other states.",
+    "fixed_self": "pre_role_packet / none-none",
+    "fluid_other": "station_role and role_pair side-face reporting",
+    "source_law_admitted": false,
+    "wxyz_reading": "WXYZ side-face constraints appear after the fixed source packet, not as the source law itself."
+  },
+  "checks": {
+    "answer_label_leakage_closed_false": true,
+    "birth_order_proven_false": true,
+    "birth_search_pass": true,
+    "feature_test_count_positive": true,
+    "gap_a_closure_false": true,
+    "native_packet_count_positive": true,
+    "no_answer_label_leakage_closure": true,
+    "no_forbidden_features": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_geometry_claim": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "non_native_packet_count_positive": true,
+    "packet_rows_positive": true,
+    "pal_record_pass": true,
+    "plan_pass": true,
+    "screw_candidate_found": true,
+    "screw_derive_pass": true,
+    "source_law_admitted_false": true,
+    "source_only_extract_pass": true
+  },
+  "created_utc": "2026-07-10T17:24:33+00:00",
+  "features_tested": [
+    "fixed_pre_role_self",
+    "fluid_role_other",
+    "station_role",
+    "role_pair",
+    "station_role_family",
+    "role_pair_axis",
+    "has_w_side",
+    "has_x_side",
+    "has_y_side",
+    "has_z_side",
+    "has_ti_polar",
+    "side_face_count",
+    "polar_touch",
+    "side_face_axis",
+    "slot_delta_mod15",
+    "c_delta_mod15",
+    "slot_delta_eq_c_delta",
+    "mirror_contact",
+    "pal_receipt_proxy"
+  ],
+  "id": "search_wxyz_side_face_constraint_rule_001",
+  "input_artifacts": {
+    "native_packet_birth_search": "artifacts/json/search_native_packet_birth_rule_for_slot_c_001.json",
+    "palindromic_receipt_candidate": "artifacts/json/record_wxyztitzyxw_palindromic_receipt_candidate_001.json",
+    "screw_engagement_candidates": "artifacts/json/derive_screw_engagement_constraint_candidates_001.json",
+    "source_construction_search_plan": "artifacts/json/derive_slot_c_source_construction_rule_search_plan_001.json",
+    "source_only_packets": "artifacts/json/extract_source_only_slot_c_row_packets_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/derive_screw_engagement_constraint_candidates_001.json": "f784cacab83835258a04198e821f363faef78b6f080036f73985b32731925cf1",
+    "artifacts/json/derive_slot_c_source_construction_rule_search_plan_001.json": "fb15822b13fcddeecbcfd41f42fc9adad2e5b2ea301f78a6d9b1ec3055cde55a",
+    "artifacts/json/extract_source_only_slot_c_row_packets_001.json": "80deb83bd070e8b7f2a4d86c98bac34d6d527235e7890aa726c3fb38443e87d4",
+    "artifacts/json/record_wxyztitzyxw_palindromic_receipt_candidate_001.json": "454b3fe6f3a5297e439906fe6ae844d0e4d59cd0973392145cb10101503e5ffd",
+    "artifacts/json/search_native_packet_birth_rule_for_slot_c_001.json": "3356f32c22f821d06793d6fa24dcdd8c9e9dcb9e53f83b3c039e85aab79d9395"
+  },
+  "keeper_line": "I am fixed. The other is fluid. The side faces report the relation.",
+  "next_gate": "derive_slot_c_superposition_register_transition_rule_001",
+  "search_scope": {
+    "answer_or_eval_fields_used": false,
+    "feature_subset_size_max": 3,
+    "feature_subset_size_min": 1,
+    "target": "native_packet_vs_non_native_source_packet"
+  },
+  "status": "WXYZ_SIDE_FACE_CONSTRAINT_RULE_001_RECORDED",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "check_count": 27,
+    "compressed_exact_hit_count": 956,
+    "exact_hit_count": 1000,
+    "failed_count": 0,
+    "feature_count": 19,
+    "feature_test_count": 1159,
+    "frontier_status": "wxyz_side_face_constraint_candidate_found_not_admitted",
+    "gap_a_closure": false,
+    "native_packet_count": 24,
+    "non_identity_exact_hit_count": 956,
+    "non_native_packet_count": 24,
+    "packet_row_count": 48,
+    "passed_count": 27,
+    "recommended_next": "derive_slot_c_superposition_register_transition_rule_001",
+    "search_pass": true,
+    "source_law_admitted": false,
+    "wxyz_exact_hit_count": 896,
+    "wxyz_status": "wxyz_side_face_constraint_candidate_found_not_admitted"
+  },
+  "wxyz_result": {
+    "best_by_leak_first_20": [
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "fixed_pre_role_self"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "fluid_role_other"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "side_face_count"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "role_pair"
+        ],
+        "group_count": 4,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "station_role_family"
+        ],
+        "group_count": 4,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "role_pair_axis"
+        ],
+        "group_count": 4,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "side_face_axis"
+        ],
+        "group_count": 4,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "station_role"
+        ],
+        "group_count": 7,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "fluid_role_other"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "slot_delta_eq_c_delta"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "slot_delta_eq_c_delta"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_w_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_x_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_y_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_z_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_ti_polar"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "side_face_count"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "polar_touch"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "has_w_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "has_x_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      }
+    ],
+    "compressed_exact_hit_count": 956,
+    "exact_hit_count": 1000,
+    "exact_hits_first_20": [
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "fixed_pre_role_self"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "fluid_role_other"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "side_face_count"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "role_pair"
+        ],
+        "group_count": 4,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "station_role_family"
+        ],
+        "group_count": 4,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "role_pair_axis"
+        ],
+        "group_count": 4,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "side_face_axis"
+        ],
+        "group_count": 4,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "station_role"
+        ],
+        "group_count": 7,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "fluid_role_other"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "slot_delta_eq_c_delta"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "slot_delta_eq_c_delta"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_w_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_x_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_y_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_z_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_ti_polar"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "side_face_count"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "polar_touch"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "has_w_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "has_x_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      }
+    ],
+    "feature_count": 19,
+    "feature_counts_first_40": [
+      {
+        "count": 24,
+        "feature": "fixed_pre_role_self",
+        "target": "native_packet",
+        "value": "1"
+      },
+      {
+        "count": 24,
+        "feature": "fluid_role_other",
+        "target": "native_packet",
+        "value": "0"
+      },
+      {
+        "count": 24,
+        "feature": "station_role",
+        "target": "native_packet",
+        "value": "none"
+      },
+      {
+        "count": 24,
+        "feature": "role_pair",
+        "target": "native_packet",
+        "value": "none"
+      },
+      {
+        "count": 24,
+        "feature": "station_role_family",
+        "target": "native_packet",
+        "value": "fixed_pre_role"
+      },
+      {
+        "count": 24,
+        "feature": "role_pair_axis",
+        "target": "native_packet",
+        "value": "fixed_pre_role"
+      },
+      {
+        "count": 24,
+        "feature": "has_w_side",
+        "target": "native_packet",
+        "value": "0"
+      },
+      {
+        "count": 24,
+        "feature": "has_x_side",
+        "target": "native_packet",
+        "value": "0"
+      },
+      {
+        "count": 24,
+        "feature": "has_y_side",
+        "target": "native_packet",
+        "value": "0"
+      },
+      {
+        "count": 24,
+        "feature": "has_z_side",
+        "target": "native_packet",
+        "value": "0"
+      },
+      {
+        "count": 24,
+        "feature": "has_ti_polar",
+        "target": "native_packet",
+        "value": "0"
+      },
+      {
+        "count": 24,
+        "feature": "side_face_count",
+        "target": "native_packet",
+        "value": "0"
+      },
+      {
+        "count": 24,
+        "feature": "polar_touch",
+        "target": "native_packet",
+        "value": "0"
+      },
+      {
+        "count": 24,
+        "feature": "side_face_axis",
+        "target": "native_packet",
+        "value": "fixed_pre_role"
+      },
+      {
+        "count": 24,
+        "feature": "slot_delta_eq_c_delta",
+        "target": "native_packet",
+        "value": "0"
+      },
+      {
+        "count": 24,
+        "feature": "fixed_pre_role_self",
+        "target": "non_native_packet",
+        "value": "0"
+      },
+      {
+        "count": 24,
+        "feature": "fluid_role_other",
+        "target": "non_native_packet",
+        "value": "1"
+      },
+      {
+        "count": 24,
+        "feature": "slot_delta_eq_c_delta",
+        "target": "non_native_packet",
+        "value": "0"
+      },
+      {
+        "count": 16,
+        "feature": "has_x_side",
+        "target": "non_native_packet",
+        "value": "1"
+      },
+      {
+        "count": 16,
+        "feature": "has_y_side",
+        "target": "non_native_packet",
+        "value": "1"
+      },
+      {
+        "count": 16,
+        "feature": "has_w_side",
+        "target": "non_native_packet",
+        "value": "1"
+      },
+      {
+        "count": 16,
+        "feature": "has_z_side",
+        "target": "non_native_packet",
+        "value": "1"
+      },
+      {
+        "count": 16,
+        "feature": "has_ti_polar",
+        "target": "non_native_packet",
+        "value": "0"
+      },
+      {
+        "count": 16,
+        "feature": "side_face_count",
+        "target": "non_native_packet",
+        "value": "3"
+      },
+      {
+        "count": 16,
+        "feature": "polar_touch",
+        "target": "non_native_packet",
+        "value": "0"
+      },
+      {
+        "count": 12,
+        "feature": "mirror_contact",
+        "target": "native_packet",
+        "value": "1"
+      },
+      {
+        "count": 12,
+        "feature": "pal_receipt_proxy",
+        "target": "native_packet",
+        "value": "1"
+      },
+      {
+        "count": 12,
+        "feature": "slot_delta_mod15",
+        "target": "native_packet",
+        "value": "0"
+      },
+      {
+        "count": 12,
+        "feature": "mirror_contact",
+        "target": "native_packet",
+        "value": "0"
+      },
+      {
+        "count": 12,
+        "feature": "pal_receipt_proxy",
+        "target": "native_packet",
+        "value": "0"
+      },
+      {
+        "count": 12,
+        "feature": "station_role_family",
+        "target": "non_native_packet",
+        "value": "wxyz_shared_side"
+      },
+      {
+        "count": 12,
+        "feature": "slot_delta_mod15",
+        "target": "non_native_packet",
+        "value": "0"
+      },
+      {
+        "count": 12,
+        "feature": "mirror_contact",
+        "target": "non_native_packet",
+        "value": "0"
+      },
+      {
+        "count": 12,
+        "feature": "pal_receipt_proxy",
+        "target": "non_native_packet",
+        "value": "0"
+      },
+      {
+        "count": 12,
+        "feature": "mirror_contact",
+        "target": "non_native_packet",
+        "value": "1"
+      },
+      {
+        "count": 12,
+        "feature": "pal_receipt_proxy",
+        "target": "non_native_packet",
+        "value": "1"
+      },
+      {
+        "count": 8,
+        "feature": "role_pair",
+        "target": "non_native_packet",
+        "value": "TI/XY"
+      },
+      {
+        "count": 8,
+        "feature": "role_pair_axis",
+        "target": "non_native_packet",
+        "value": "axis_ti_xy"
+      },
+      {
+        "count": 8,
+        "feature": "has_w_side",
+        "target": "non_native_packet",
+        "value": "0"
+      },
+      {
+        "count": 8,
+        "feature": "has_z_side",
+        "target": "non_native_packet",
+        "value": "0"
+      }
+    ],
+    "feature_test_count": 1159,
+    "native_packet_count": 24,
+    "non_identity_exact_hit_count": 956,
+    "non_native_packet_count": 24,
+    "packet_row_count": 48,
+    "wxyz_exact_hit_count": 896,
+    "wxyz_exact_hits_first_20": [
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "fixed_pre_role_self"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "fluid_role_other"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "side_face_count"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 1,
+        "features": [
+          "side_face_axis"
+        ],
+        "group_count": 4,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "fluid_role_other"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "slot_delta_eq_c_delta"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "slot_delta_eq_c_delta"
+        ],
+        "group_count": 2,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_w_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_x_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_y_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_z_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "has_ti_polar"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "side_face_count"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fixed_pre_role_self",
+          "polar_touch"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "has_w_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "has_x_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "has_y_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "has_z_side"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "has_ti_polar"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      },
+      {
+        "compression": 23,
+        "conflict_bucket_count": 0,
+        "exact": true,
+        "example_conflicts": [],
+        "feature_count": 2,
+        "features": [
+          "fluid_role_other",
+          "side_face_count"
+        ],
+        "group_count": 3,
+        "identity_like": false,
+        "native_packet_total": 24,
+        "non_native_packet_total": 24,
+        "selected_bucket_count": 1,
+        "selected_native_packet_count": 24,
+        "selected_non_native_packet_count": 0
+      }
+    ]
+  },
+  "wxyz_status": "wxyz_side_face_constraint_candidate_found_not_admitted"
+}
