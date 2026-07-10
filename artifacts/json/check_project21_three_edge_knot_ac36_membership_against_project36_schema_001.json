@@ -1,0 +1,103 @@
+{
+  "artifact": "check_project21_three_edge_knot_ac36_membership_against_project36_schema_001",
+  "audit_pass": true,
+  "verdict": "project21_three_edge_knot_admitted_to_ac36_and_u_ac36_invoked_within_bounded_scope",
+  "keeper": "The knot enters AC36 by exact schema replay. The universal theorem now applies only within its admitted scope.",
+  "scope": "formal_project36_schema_replay_for_project21_three_edge_knot",
+  "schema_source_mode": "project36_artifact_fields",
+  "required_schema_fields": [
+    "carrier_family"
+  ],
+  "required_schema_field_count": 1,
+  "required_schema_sources": [
+    {
+      "file": "project36_three_known_carriers_domain_membership_scan_001.json",
+      "path": "$.membership_results[0]",
+      "fields": [
+        "carrier_family"
+      ]
+    },
+    {
+      "file": "project36_three_known_carriers_domain_membership_scan_001.json",
+      "path": "$.membership_results[1]",
+      "fields": [
+        "carrier_family"
+      ]
+    },
+    {
+      "file": "project36_three_known_carriers_domain_membership_scan_001.json",
+      "path": "$.membership_results[2]",
+      "fields": [
+        "carrier_family"
+      ]
+    }
+  ],
+  "field_replay": [
+    {
+      "field": "carrier_family",
+      "candidate_pass": true,
+      "structural_pass": true,
+      "replay_pass": true,
+      "value": "project21_three_edge_closure_knot"
+    }
+  ],
+  "all_schema_fields_pass": true,
+  "project36_theorem": {
+    "symbol": "U_AC36",
+    "scope": "AC36 only",
+    "predicate_scope": "six P_AC36 predicates only",
+    "proof_rule_admitted": true,
+    "universal_theorem_admitted": true,
+    "theorem_boundary_pass": true
+  },
+  "anti_circularity": {
+    "answer_labels_used": false,
+    "g900_targets_used": false,
+    "g60_targets_used": false,
+    "g15_signing_used": false,
+    "g900_slot_projection_used": false,
+    "g900_anchor_projection_used": false,
+    "pass": true
+  },
+  "ac36_membership_admitted": true,
+  "u_ac36_invoked_on_project21": true,
+  "u_ac36_scope": "AC36 only; six P_AC36 predicates only",
+  "fork_orientation_admitted": false,
+  "branch_continuation_assignment_admitted": false,
+  "g900_demand_adapter_derived": false,
+  "g900_slot_projection_derived": false,
+  "g900_anchor_projection_derived": false,
+  "coupling_law_admitted": false,
+  "new_permission_channel_admitted": false,
+  "new_information_transport_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "new_theorem_claim": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "general_relativity_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "body_mutation": false,
+  "checks": {
+    "candidate_audit_pass": true,
+    "candidate_membership_pass": true,
+    "schema_field_count_nonzero": true,
+    "all_schema_fields_replay_pass": true,
+    "project36_u_ac36_admitted": true,
+    "project36_theorem_boundary_pass": true,
+    "non_claims_preserved": true,
+    "anti_circularity_pass": true,
+    "formal_schema_check_completed": true
+  },
+  "boundary": [
+    "Formal AC36 schema replay and bounded domain admission only.",
+    "U_AC36 is invoked only for this admitted AC36 carrier and only for the six P_AC36 predicates.",
+    "The user-declared t-to-I direction is preserved but is not independently derived by U_AC36.",
+    "AC36 membership does not itself choose the fork branch.",
+    "No branch or continuation role assignment is admitted here.",
+    "No G900 slot, limit, anchor, target, coupling, channel, transport, native generator, theorem extension, geometry, GR, physics, force, body mutation, or Gap A closure claim."
+  ],
+  "recommended_next": "derive_ac36_oriented_project21_fork_roles_001"
+}
