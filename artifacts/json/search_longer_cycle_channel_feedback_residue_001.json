@@ -1,0 +1,1005 @@
+{
+  "artifact": "search_longer_cycle_channel_feedback_residue_001",
+  "search_pass": true,
+  "verdict": "longer_cycle_residue_candidate_found",
+  "keeper": "No triangle closed. The bit may need a longer sentence.",
+  "scope": "directed_simple_cycle_feedback_residue_search",
+  "node_count": 24,
+  "transition_count": 28,
+  "scc_count": 3,
+  "cyclic_scc_count": 3,
+  "strongly_connected_components": [
+    [
+      0,
+      1,
+      4,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      2,
+      3,
+      16,
+      17,
+      20,
+      21
+    ],
+    [
+      7,
+      9,
+      18,
+      19,
+      22,
+      23
+    ]
+  ],
+  "cyclic_strongly_connected_components": [
+    [
+      0,
+      1,
+      4,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      2,
+      3,
+      16,
+      17,
+      20,
+      21
+    ],
+    [
+      7,
+      9,
+      18,
+      19,
+      22,
+      23
+    ]
+  ],
+  "max_cycle_length_tested": 24,
+  "simple_cycle_count": 7,
+  "cycle_length_counts": {
+    "6": 4,
+    "10": 1,
+    "12": 2
+  },
+  "tested_bit_count": 14,
+  "feedback_candidate_count": 11,
+  "feedback_candidate_found": true,
+  "leading_feedback_candidate": {
+    "feature": "role_hook_change",
+    "cycle_parity_counts": {
+      "0": 5,
+      "1": 2
+    },
+    "length_parity_counts": {
+      "6": {
+        "0": 4
+      },
+      "10": {
+        "1": 1
+      },
+      "12": {
+        "0": 1,
+        "1": 1
+      }
+    },
+    "both_cycle_residues_seen": true,
+    "rotation_invariant": true,
+    "reversal_pair_count": 0,
+    "reversal_residue_match_count": 0,
+    "reversal_residue_mismatch_count": 0,
+    "reversal_consistent_where_tested": true,
+    "longer_cycle_feedback_candidate": true
+  },
+  "feedback_candidates": [
+    {
+      "feature": "role_hook_change",
+      "cycle_parity_counts": {
+        "0": 5,
+        "1": 2
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 4
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 1,
+          "1": 1
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "source_slot_wrap",
+      "cycle_parity_counts": {
+        "0": 5,
+        "1": 2
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "target_slot_wrap",
+      "cycle_parity_counts": {
+        "0": 5,
+        "1": 2
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "transition_slot_wrap",
+      "cycle_parity_counts": {
+        "0": 5,
+        "1": 2
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "source_c_wrap",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 4
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "source_delta_parity_xor",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "0": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "source_slot_c_order_xor",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "0": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "target_c_wrap",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 4
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "target_delta_parity_xor",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "0": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "transition_c_wrap",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 4
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "transition_wrap_xor",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "0": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    }
+  ],
+  "feature_results": [
+    {
+      "feature": "role_hook_change",
+      "cycle_parity_counts": {
+        "0": 5,
+        "1": 2
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 4
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 1,
+          "1": 1
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "source_c_wrap",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 4
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "source_cross_equal_xor",
+      "cycle_parity_counts": {
+        "0": 7
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 4
+        },
+        "10": {
+          "0": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": false,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": false
+    },
+    {
+      "feature": "source_delta_equal",
+      "cycle_parity_counts": {
+        "0": 7
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 4
+        },
+        "10": {
+          "0": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": false,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": false
+    },
+    {
+      "feature": "source_delta_parity_xor",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "0": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "source_slot_c_order_xor",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "0": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "source_slot_wrap",
+      "cycle_parity_counts": {
+        "0": 5,
+        "1": 2
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "target_c_wrap",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 4
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "target_delta_equal",
+      "cycle_parity_counts": {
+        "0": 7
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 4
+        },
+        "10": {
+          "0": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": false,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": false
+    },
+    {
+      "feature": "target_delta_parity_xor",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "0": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "target_slot_wrap",
+      "cycle_parity_counts": {
+        "0": 5,
+        "1": 2
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "transition_c_wrap",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 4
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "transition_slot_wrap",
+      "cycle_parity_counts": {
+        "0": 5,
+        "1": 2
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "1": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    },
+    {
+      "feature": "transition_wrap_xor",
+      "cycle_parity_counts": {
+        "0": 6,
+        "1": 1
+      },
+      "length_parity_counts": {
+        "6": {
+          "0": 3,
+          "1": 1
+        },
+        "10": {
+          "0": 1
+        },
+        "12": {
+          "0": 2
+        }
+      },
+      "both_cycle_residues_seen": true,
+      "rotation_invariant": true,
+      "reversal_pair_count": 0,
+      "reversal_residue_match_count": 0,
+      "reversal_residue_mismatch_count": 0,
+      "reversal_consistent_where_tested": true,
+      "longer_cycle_feedback_candidate": true
+    }
+  ],
+  "cycle_samples": [
+    {
+      "cycle": [
+        0,
+        1,
+        14,
+        12,
+        6,
+        4
+      ],
+      "length": 6,
+      "residues": {
+        "role_hook_change": 0,
+        "source_c_wrap": 0,
+        "source_cross_equal_xor": 0,
+        "source_delta_equal": 0,
+        "source_delta_parity_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "source_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_equal": 0,
+        "target_delta_parity_xor": 0,
+        "target_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_slot_wrap": 0,
+        "transition_wrap_xor": 0
+      },
+      "reverse_cycle_exists": false
+    },
+    {
+      "cycle": [
+        2,
+        3,
+        21,
+        20,
+        17,
+        16
+      ],
+      "length": 6,
+      "residues": {
+        "role_hook_change": 0,
+        "source_c_wrap": 0,
+        "source_cross_equal_xor": 0,
+        "source_delta_equal": 0,
+        "source_delta_parity_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "source_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_equal": 0,
+        "target_delta_parity_xor": 0,
+        "target_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_slot_wrap": 0,
+        "transition_wrap_xor": 0
+      },
+      "reverse_cycle_exists": false
+    },
+    {
+      "cycle": [
+        5,
+        8,
+        15,
+        13,
+        11,
+        10
+      ],
+      "length": 6,
+      "residues": {
+        "role_hook_change": 0,
+        "source_c_wrap": 0,
+        "source_cross_equal_xor": 0,
+        "source_delta_equal": 0,
+        "source_delta_parity_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "source_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_equal": 0,
+        "target_delta_parity_xor": 0,
+        "target_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_slot_wrap": 0,
+        "transition_wrap_xor": 0
+      },
+      "reverse_cycle_exists": false
+    },
+    {
+      "cycle": [
+        7,
+        9,
+        18,
+        19,
+        23,
+        22
+      ],
+      "length": 6,
+      "residues": {
+        "role_hook_change": 0,
+        "source_c_wrap": 0,
+        "source_cross_equal_xor": 0,
+        "source_delta_equal": 0,
+        "source_delta_parity_xor": 1,
+        "source_slot_c_order_xor": 1,
+        "source_slot_wrap": 1,
+        "target_c_wrap": 0,
+        "target_delta_equal": 0,
+        "target_delta_parity_xor": 1,
+        "target_slot_wrap": 1,
+        "transition_c_wrap": 0,
+        "transition_slot_wrap": 1,
+        "transition_wrap_xor": 1
+      },
+      "reverse_cycle_exists": false
+    },
+    {
+      "cycle": [
+        0,
+        1,
+        14,
+        15,
+        13,
+        11,
+        10,
+        5,
+        6,
+        4
+      ],
+      "length": 10,
+      "residues": {
+        "role_hook_change": 1,
+        "source_c_wrap": 1,
+        "source_cross_equal_xor": 0,
+        "source_delta_equal": 0,
+        "source_delta_parity_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "source_slot_wrap": 1,
+        "target_c_wrap": 1,
+        "target_delta_equal": 0,
+        "target_delta_parity_xor": 0,
+        "target_slot_wrap": 1,
+        "transition_c_wrap": 1,
+        "transition_slot_wrap": 1,
+        "transition_wrap_xor": 0
+      },
+      "reverse_cycle_exists": false
+    },
+    {
+      "cycle": [
+        0,
+        1,
+        14,
+        12,
+        8,
+        15,
+        13,
+        11,
+        10,
+        5,
+        6,
+        4
+      ],
+      "length": 12,
+      "residues": {
+        "role_hook_change": 0,
+        "source_c_wrap": 0,
+        "source_cross_equal_xor": 0,
+        "source_delta_equal": 0,
+        "source_delta_parity_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "source_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_equal": 0,
+        "target_delta_parity_xor": 0,
+        "target_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_slot_wrap": 0,
+        "transition_wrap_xor": 0
+      },
+      "reverse_cycle_exists": false
+    },
+    {
+      "cycle": [
+        0,
+        1,
+        14,
+        15,
+        13,
+        11,
+        10,
+        5,
+        8,
+        12,
+        6,
+        4
+      ],
+      "length": 12,
+      "residues": {
+        "role_hook_change": 1,
+        "source_c_wrap": 0,
+        "source_cross_equal_xor": 0,
+        "source_delta_equal": 0,
+        "source_delta_parity_xor": 0,
+        "source_slot_c_order_xor": 0,
+        "source_slot_wrap": 0,
+        "target_c_wrap": 0,
+        "target_delta_equal": 0,
+        "target_delta_parity_xor": 0,
+        "target_slot_wrap": 0,
+        "transition_c_wrap": 0,
+        "transition_slot_wrap": 0,
+        "transition_wrap_xor": 0
+      },
+      "reverse_cycle_exists": false
+    }
+  ],
+  "rotation_invariance_note": "XOR residue is invariant under cycle rotation by construction.",
+  "native_receipt_bit_excluded": true,
+  "support_sources_excluded_from_features": true,
+  "feedback_unit_admitted": false,
+  "transport_feedback_rule_admitted": false,
+  "cocycle_admitted": false,
+  "holonomy_class_admitted": false,
+  "channel_axis_rule_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "unique_native_g15_embedding_proven": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Longer directed-cycle residue search only.",
+    "Native provenance receipt bit excluded.",
+    "Support-source filenames excluded from feedback features.",
+    "No feedback unit admission.",
+    "No transport-feedback rule admission.",
+    "No cocycle admission.",
+    "No holonomy-class admission.",
+    "No upstairs/downstairs identification.",
+    "No channel-axis rule admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No unique native G15 embedding proof.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "audit_longer_cycle_feedback_candidate_for_switching_invariance_001"
+}
