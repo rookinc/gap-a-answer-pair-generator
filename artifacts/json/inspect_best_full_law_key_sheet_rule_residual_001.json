@@ -1,0 +1,897 @@
+{
+  "artifact": "inspect_best_full_law_key_sheet_rule_residual_001",
+  "inspection_pass": true,
+  "verdict": "endpoint_rules_near_exact_but_joint_sheet_pair_relation_blocks_replay",
+  "keeper": "Each endpoint nearly knew its sheet. The pair still failed to become an edge.",
+  "scope": "best_full_law_key_sheet_rule_residual_inspection",
+  "orientation": "direct",
+  "from_coefficients": [
+    0,
+    0,
+    1,
+    2,
+    1
+  ],
+  "to_coefficients": [
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "matched_node_count": 3,
+  "matched_node_ids": [
+    18,
+    21,
+    23
+  ],
+  "matched_kind_counts": {
+    "internal_thalion_copy": 3
+  },
+  "mapped_transition_count": 0,
+  "from_endpoint_break_count": 1,
+  "from_endpoint_break_node_ids": [
+    22
+  ],
+  "to_endpoint_break_count": 1,
+  "to_endpoint_break_node_ids": [
+    4
+  ],
+  "joint_pair_exists_count": 3,
+  "endpoint_compatible_but_pair_missing_count": 19,
+  "endpoint_compatible_but_pair_missing_node_ids": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    20
+  ],
+  "replay_matches_saved_best_candidate": true,
+  "node_diagnostics": [
+    {
+      "node_id": 0,
+      "law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "kind": "internal_thalion_copy",
+      "predicted_q_from": 1,
+      "predicted_q_to": 2,
+      "predicted_local_from": 17,
+      "predicted_local_to": 35,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 1,
+      "law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "kind": "external_signed_carrier",
+      "predicted_q_from": 3,
+      "predicted_q_to": 1,
+      "predicted_local_from": 50,
+      "predicted_local_to": 15,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 2,
+      "law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "kind": "internal_thalion_copy",
+      "predicted_q_from": 2,
+      "predicted_q_to": 2,
+      "predicted_local_from": 40,
+      "predicted_local_to": 43,
+      "allowed_q_from": [
+        0,
+        1,
+        2
+      ],
+      "allowed_q_to": [
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 3,
+      "law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "kind": "external_signed_carrier",
+      "predicted_q_from": 0,
+      "predicted_q_to": 2,
+      "predicted_local_from": 13,
+      "predicted_local_to": 31,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 4,
+      "law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "kind": "external_signed_carrier",
+      "predicted_q_from": 2,
+      "predicted_q_to": 3,
+      "predicted_local_from": 30,
+      "predicted_local_to": 47,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": false,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 5,
+      "law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "kind": "internal_thalion_copy",
+      "predicted_q_from": 3,
+      "predicted_q_to": 2,
+      "predicted_local_from": 49,
+      "predicted_local_to": 35,
+      "allowed_q_from": [
+        0,
+        1,
+        3
+      ],
+      "allowed_q_to": [
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 6,
+      "law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "kind": "internal_thalion_copy",
+      "predicted_q_from": 0,
+      "predicted_q_to": 1,
+      "predicted_local_from": 5,
+      "predicted_local_to": 15,
+      "allowed_q_from": [
+        0,
+        1,
+        2
+      ],
+      "allowed_q_to": [
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 7,
+      "law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "kind": "internal_thalion_copy",
+      "predicted_q_from": 1,
+      "predicted_q_to": 0,
+      "predicted_local_from": 29,
+      "predicted_local_to": 11,
+      "allowed_q_from": [
+        0,
+        1
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 8,
+      "law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "kind": "external_signed_carrier",
+      "predicted_q_from": 1,
+      "predicted_q_to": 3,
+      "predicted_local_from": 20,
+      "predicted_local_to": 47,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 9,
+      "law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "kind": "external_signed_carrier",
+      "predicted_q_from": 3,
+      "predicted_q_to": 3,
+      "predicted_local_from": 56,
+      "predicted_local_to": 47,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 10,
+      "law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "kind": "external_signed_carrier",
+      "predicted_q_from": 2,
+      "predicted_q_to": 1,
+      "predicted_local_from": 32,
+      "predicted_local_to": 19,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 11,
+      "law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "kind": "internal_thalion_copy",
+      "predicted_q_from": 0,
+      "predicted_q_to": 3,
+      "predicted_local_from": 5,
+      "predicted_local_to": 47,
+      "allowed_q_from": [
+        0,
+        1,
+        2
+      ],
+      "allowed_q_to": [
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 12,
+      "law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "kind": "external_signed_carrier",
+      "predicted_q_from": 3,
+      "predicted_q_to": 2,
+      "predicted_local_from": 47,
+      "predicted_local_to": 35,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 13,
+      "law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "kind": "external_signed_carrier",
+      "predicted_q_from": 1,
+      "predicted_q_to": 2,
+      "predicted_local_from": 19,
+      "predicted_local_to": 35,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 14,
+      "law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "kind": "internal_thalion_copy",
+      "predicted_q_from": 3,
+      "predicted_q_to": 3,
+      "predicted_local_from": 45,
+      "predicted_local_to": 47,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 15,
+      "law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "kind": "internal_thalion_copy",
+      "predicted_q_from": 1,
+      "predicted_q_to": 1,
+      "predicted_local_from": 17,
+      "predicted_local_to": 19,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 16,
+      "law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "kind": "external_signed_carrier",
+      "predicted_q_from": 1,
+      "predicted_q_to": 3,
+      "predicted_local_from": 16,
+      "predicted_local_to": 55,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 17,
+      "law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "kind": "internal_thalion_copy",
+      "predicted_q_from": 1,
+      "predicted_q_to": 2,
+      "predicted_local_from": 28,
+      "predicted_local_to": 31,
+      "allowed_q_from": [
+        0,
+        1,
+        2
+      ],
+      "allowed_q_to": [
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 18,
+      "law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "kind": "internal_thalion_copy",
+      "predicted_q_from": 1,
+      "predicted_q_to": 3,
+      "predicted_local_from": 17,
+      "predicted_local_to": 59,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": true,
+      "exact_row_count": 1,
+      "compatible_sheet_pairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "joint_pair_exists": true,
+      "predicted_pair_in_joint_set": true
+    },
+    {
+      "node_id": 19,
+      "law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "kind": "external_signed_carrier",
+      "predicted_q_from": 1,
+      "predicted_q_to": 0,
+      "predicted_local_from": 29,
+      "predicted_local_to": 11,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 20,
+      "law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "kind": "external_signed_carrier",
+      "predicted_q_from": 3,
+      "predicted_q_to": 2,
+      "predicted_local_from": 55,
+      "predicted_local_to": 43,
+      "allowed_q_from": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 21,
+      "law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "kind": "internal_thalion_copy",
+      "predicted_q_from": 1,
+      "predicted_q_to": 3,
+      "predicted_local_from": 16,
+      "predicted_local_to": 55,
+      "allowed_q_from": [
+        0,
+        1,
+        2
+      ],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": true,
+      "exact_row_count": 1,
+      "compatible_sheet_pairs": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "joint_pair_exists": true,
+      "predicted_pair_in_joint_set": true
+    },
+    {
+      "node_id": 22,
+      "law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "kind": "external_signed_carrier",
+      "predicted_q_from": 0,
+      "predicted_q_to": 3,
+      "predicted_local_from": 2,
+      "predicted_local_to": 59,
+      "allowed_q_from": [],
+      "allowed_q_to": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": false,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": false,
+      "exact_row_count": 0,
+      "compatible_sheet_pairs": [],
+      "joint_pair_exists": false,
+      "predicted_pair_in_joint_set": false
+    },
+    {
+      "node_id": 23,
+      "law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "kind": "internal_thalion_copy",
+      "predicted_q_from": 2,
+      "predicted_q_to": 3,
+      "predicted_local_from": 41,
+      "predicted_local_to": 47,
+      "allowed_q_from": [
+        0,
+        2
+      ],
+      "allowed_q_to": [
+        1,
+        2,
+        3
+      ],
+      "from_endpoint_compatible": true,
+      "to_endpoint_compatible": true,
+      "exact_pair_match": true,
+      "exact_row_count": 1,
+      "compatible_sheet_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "joint_pair_exists": true,
+      "predicted_pair_in_joint_set": true
+    }
+  ],
+  "role_hook_bits_used": false,
+  "cocycle_values_used": false,
+  "cocycle_values_sealed": true,
+  "sheet_rule_admitted": false,
+  "joint_sheet_pair_rule_admitted": false,
+  "feedback_unit_admitted": false,
+  "transport_feedback_rule_admitted": false,
+  "native_signed_lift_identification_proven": false,
+  "cocycle_admitted": false,
+  "holonomy_class_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "checks": {
+    "search_pass": true,
+    "node_count_is_24": true,
+    "transition_count_is_28": true,
+    "sigma_row_count_is_3600": true,
+    "saved_best_replay_matches": true,
+    "role_hook_bits_not_used": true,
+    "cocycle_values_not_used": true,
+    "inspection_completed": true
+  },
+  "interpretation": [
+    "Endpoint compatibility is separated from exact joint x_sigma row compatibility.",
+    "A state may admit both predicted endpoint sheets while the ordered sheet pair is absent from the native row surface.",
+    "This distinguishes endpoint-sheet failure from joint pair-actuation failure.",
+    "Role-hook and cocycle values remain sealed."
+  ],
+  "boundary": [
+    "Best affine sheet-rule residual inspection only.",
+    "No wider rule search.",
+    "Role-hook-change bits excluded.",
+    "Cocycle values remain sealed.",
+    "No sheet or joint-pair rule admission.",
+    "No feedback unit or signed-lift identification.",
+    "No cocycle, theorem, proof, or Gap A closure claim."
+  ],
+  "recommended_next": "search_joint_sheet_pair_actuation_rule_001"
+}
