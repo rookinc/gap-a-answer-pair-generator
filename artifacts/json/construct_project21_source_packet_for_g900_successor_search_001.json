@@ -1,0 +1,767 @@
+{
+  "artifact": "construct_project21_source_packet_for_g900_successor_search_001",
+  "construction_pass": true,
+  "verdict": "canonical_project21_provenance_source_packet_constructed",
+  "keeper": "The bridge plug is cut from Project 21 closure provenance, not from the socket it is meant to enter.",
+  "scope": "project21_provenance_only_source_packet_construction",
+  "state_count": 24,
+  "transition_count": 28,
+  "cycle_space_dimension": 7,
+  "functional_rank": 1,
+  "nontrivial_basis_cycle_count": 2,
+  "seed_closure_defect_edge_count": 3,
+  "restricted_edge_pool_count": 15,
+  "restricted_edge_pool": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "enumerated_candidate_count": 16383,
+  "maximum_packet_size_tested": 7,
+  "selection_order": [
+    "hit every nontrivial residue basis cycle",
+    "contain every seed-invariant closure-defect edge",
+    "form one connected undirected packet",
+    "minimize packet size",
+    "maximize residue and defect support",
+    "lexicographic edge-id tie break"
+  ],
+  "canonical_packet_found": true,
+  "source_packet_id": "project21_closure_provenance_packet_001_P21",
+  "source_packet_size": 3,
+  "source_packet_rows": [
+    {
+      "packet_row": 0,
+      "edge_id": 5,
+      "source": 5,
+      "target": 6,
+      "role_hook_change": 1,
+      "is_seed_closure_defect_edge": true,
+      "is_reciprocal_pair_edge": false,
+      "nontrivial_basis_membership": [
+        1
+      ]
+    },
+    {
+      "packet_row": 1,
+      "edge_id": 6,
+      "source": 5,
+      "target": 8,
+      "role_hook_change": 1,
+      "is_seed_closure_defect_edge": true,
+      "is_reciprocal_pair_edge": false,
+      "nontrivial_basis_membership": []
+    },
+    {
+      "packet_row": 2,
+      "edge_id": 10,
+      "source": 8,
+      "target": 15,
+      "role_hook_change": 1,
+      "is_seed_closure_defect_edge": true,
+      "is_reciprocal_pair_edge": false,
+      "nontrivial_basis_membership": [
+        0
+      ]
+    }
+  ],
+  "best_candidate_summary": {
+    "edge_ids": [
+      5,
+      6,
+      10
+    ],
+    "size": 3,
+    "nontrivial_basis_hit_count": 2,
+    "hits_all_nontrivial_basis_cycles": true,
+    "defect_edge_hit_count": 3,
+    "contains_all_defect_edges": true,
+    "connected": true,
+    "hook_one_edge_count": 3
+  },
+  "top_candidates": [
+    {
+      "edge_ids": [
+        5,
+        6,
+        10
+      ],
+      "size": 3,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 3
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        7,
+        10
+      ],
+      "size": 4,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 4
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "size": 4,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 4
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        12
+      ],
+      "size": 4,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 4
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        15
+      ],
+      "size": 4,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 4
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        19
+      ],
+      "size": 4,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 4
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        18
+      ],
+      "size": 4,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 3
+    },
+    {
+      "edge_ids": [
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        7,
+        10,
+        12
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        7,
+        10,
+        15
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        7,
+        10,
+        19
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        9,
+        10,
+        12
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        9,
+        10,
+        15
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        9,
+        10,
+        17
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        9,
+        10,
+        19
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        12,
+        13
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        12,
+        15
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        12,
+        19
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        15,
+        17
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        15,
+        19
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        16,
+        19
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 5
+    },
+    {
+      "edge_ids": [
+        1,
+        5,
+        6,
+        10,
+        18
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 4
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        7,
+        10,
+        18
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 4
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        9,
+        10,
+        18
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 4
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        12,
+        18
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 4
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        15,
+        18
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 4
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        17,
+        18
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 4
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        10,
+        18,
+        19
+      ],
+      "size": 5,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 4
+    },
+    {
+      "edge_ids": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "size": 6,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 6
+    },
+    {
+      "edge_ids": [
+        1,
+        5,
+        6,
+        9,
+        10,
+        17
+      ],
+      "size": 6,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 6
+    },
+    {
+      "edge_ids": [
+        1,
+        5,
+        6,
+        10,
+        15,
+        17
+      ],
+      "size": 6,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 6
+    },
+    {
+      "edge_ids": [
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "size": 6,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 6
+    },
+    {
+      "edge_ids": [
+        4,
+        5,
+        6,
+        7,
+        10,
+        12
+      ],
+      "size": 6,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 6
+    },
+    {
+      "edge_ids": [
+        4,
+        5,
+        6,
+        7,
+        10,
+        15
+      ],
+      "size": 6,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 6
+    },
+    {
+      "edge_ids": [
+        4,
+        5,
+        6,
+        7,
+        10,
+        19
+      ],
+      "size": 6,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 6
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        7,
+        9,
+        10,
+        12
+      ],
+      "size": 6,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 6
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        7,
+        9,
+        10,
+        15
+      ],
+      "size": 6,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 6
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        7,
+        9,
+        10,
+        17
+      ],
+      "size": 6,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 6
+    },
+    {
+      "edge_ids": [
+        5,
+        6,
+        7,
+        9,
+        10,
+        19
+      ],
+      "size": 6,
+      "nontrivial_basis_hit_count": 2,
+      "hits_all_nontrivial_basis_cycles": true,
+      "defect_edge_hit_count": 3,
+      "contains_all_defect_edges": true,
+      "connected": true,
+      "hook_one_edge_count": 6
+    }
+  ],
+  "downstream_g900_targets_used": false,
+  "g60_targets_used": false,
+  "g15_signing_used": false,
+  "answer_labels_used": false,
+  "source_packet_admitted": false,
+  "g900_successor_rule_derived_for_project21": false,
+  "g60_target_packet_derived": false,
+  "residue_preservation_proven": false,
+  "coupling_law_admitted": false,
+  "new_permission_channel_admitted": false,
+  "new_information_transport_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "general_relativity_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "body_mutation": false,
+  "boundary": [
+    "Project 21 provenance-only source-packet construction.",
+    "Candidate edges come only from nontrivial cycle support, seed-invariant closure defects, and directed reciprocal support.",
+    "No G900 successor target, G60 target, G15 signing, or answer label is used in packet selection.",
+    "Canonical means canonical under the declared bounded scoring order only.",
+    "No packet admission, coupling law, channel, transport, theorem, GR, physics, force, body mutation, or Gap A closure claim."
+  ],
+  "recommended_next": "search_g900_carrier_incidence_successor_for_project21_packet_001"
+}
