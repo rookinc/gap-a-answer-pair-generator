@@ -1,0 +1,2217 @@
+{
+  "artifact": "audit_role_hook_change_feedback_candidate_native_provenance_001",
+  "audit_pass": true,
+  "verdict": "role_hook_change_reconstructs_from_clean_native_supported_source_payload",
+  "keeper": "The cycle space is complete. One residue speaks in a voice the coordinates do not share.",
+  "scope": "role_hook_change_source_payload_and_native_provenance_audit",
+  "packet_row_count": 48,
+  "unique_law_key_count": 24,
+  "transition_count": 28,
+  "payload_hook_occurrence_count": 48,
+  "row_level_hook_occurrence_count": 0,
+  "role_hooks_are_source_payload_only": true,
+  "forbidden_hook_payload_hit_count": 0,
+  "forbidden_hook_payload_clear": true,
+  "transition_reconstruction_match_count": 28,
+  "transition_reconstruction_mismatch_count": 0,
+  "role_hook_change_reconstruction_exact": true,
+  "source_family_counts": {
+    "native_chain": 24,
+    "project18": 48
+  },
+  "all_law_keys_have_native_chain_support": true,
+  "native_provenance_proven": true,
+  "expected_cycle_residue_signature": "0000101",
+  "key_profiles": [
+    {
+      "law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[12].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[13]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[12]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[4].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[12].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[13].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[14].shared_B_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[6].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[14]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[6]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[2].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[1].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[4].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[11].reverse_partner_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[22]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[10].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[22].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[9]"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[11]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[7].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[14].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[17].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[20].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[11].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[10]"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[16].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[12]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[16]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[8].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[27].reverse_partner_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[13].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[19]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[13]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[5].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[15].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[16].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[17].shared_B_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[2]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[2].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[6].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[7].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[8].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[2].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[17]"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[23].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[3]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[23]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[11].shared_B_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[7].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[20]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[7]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[3].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[2].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[5].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[8].reverse_partner_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[10]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[6].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[13].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[16].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[23].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[10].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[4]"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[17].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[18]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[17]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[9].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[24].reverse_partner_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[3]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[3].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[9].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[10].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[11].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[3].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[23]"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[8]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[4].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[15].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[18].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[21].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[8].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[16]"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[9].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[22]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[9]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[5].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[12].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[19].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[22].reverse_partner_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[20]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[8].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[24].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[25].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[26].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[20].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[15]"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[21].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[21]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[21]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[9].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[27].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[28].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[29].shared_B_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[4].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[8]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[4]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[0].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[3].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[6].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[9].reverse_partner_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[15]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[7].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[21].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[22].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[23].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[15].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[7]"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[1]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[1].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[3].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[4].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[5].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[1].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[5]"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[19].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[0]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[19]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[11].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[26].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[29].reverse_partner_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[18]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[10].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[25].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[28].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[18].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[6]"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[0].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[11]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[0]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[0].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[0].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[1].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[2].shared_B_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[5].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[2]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[5]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[1].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[0].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[7].reverse_partner_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[10].reverse_partner_row"
+        }
+      ]
+    },
+    {
+      "law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "packet_member_count": 2,
+      "hook_values": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "hook_count": 2,
+      "hook_container_counts": {
+        "source_payload": 2
+      },
+      "hook_field_counts": {
+        "role_pair": 1,
+        "station_role": 1
+      },
+      "support_sources": [
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ],
+      "has_native_chain_support": true,
+      "support_paths_first_20": [
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[14].features"
+        },
+        {
+          "source_file": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+          "source_path": "edge_records[1]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+          "source_path": "rows[14]"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "accepted_strict_pairs[6].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[18].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[19].shared_B_row"
+        },
+        {
+          "source_file": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+          "source_path": "rejected_strict_pairs_first_30[20].shared_B_row"
+        }
+      ]
+    }
+  ],
+  "transition_results": [
+    {
+      "source": 0,
+      "target": 1,
+      "source_law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "target_law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "source_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "target_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 1,
+      "target": 14,
+      "source_law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "target_law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "source_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "target_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "source_law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "target_law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "source_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "target_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 3,
+      "target": 21,
+      "source_law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "target_law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "source_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "target_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 4,
+      "target": 0,
+      "source_law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "target_law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "source_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ],
+      "target_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "source_law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "target_law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "source_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "target_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "source_law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "target_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "source_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "target_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "source_law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "target_law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "source_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "target_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "source_law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "target_law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "source_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "target_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 8,
+      "target": 12,
+      "source_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "target_law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "source_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "target_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 8,
+      "target": 15,
+      "source_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "target_law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "source_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "target_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 9,
+      "target": 18,
+      "source_law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "target_law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "source_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "target_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 10,
+      "target": 5,
+      "source_law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "target_law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "source_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ],
+      "target_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 11,
+      "target": 10,
+      "source_law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "target_law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "source_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "target_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 12,
+      "target": 6,
+      "source_law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "target_law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "source_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "target_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 12,
+      "target": 8,
+      "source_law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "target_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "source_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "target_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 13,
+      "target": 11,
+      "source_law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "target_law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "source_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "target_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 14,
+      "target": 12,
+      "source_law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "target_law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "source_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "target_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "source_law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "target_law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "source_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "target_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "reconstructed_role_hook_change": 0,
+      "recorded_role_hook_change": 0,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 15,
+      "target": 13,
+      "source_law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "target_law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "source_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "target_hooks": [
+        "role_pair=TI/XY",
+        "station_role=TI"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 16,
+      "target": 2,
+      "source_law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "target_law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "source_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "target_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 17,
+      "target": 16,
+      "source_law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "target_law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "source_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "target_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 18,
+      "target": 19,
+      "source_law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "target_law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "source_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "target_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 19,
+      "target": 23,
+      "source_law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "target_law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "source_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ],
+      "target_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 20,
+      "target": 17,
+      "source_law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "target_law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "source_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ],
+      "target_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 21,
+      "target": 20,
+      "source_law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "target_law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "source_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=IW"
+      ],
+      "target_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=WX"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 22,
+      "target": 7,
+      "source_law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "target_law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "source_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "target_hooks": [
+        "role_pair=WX/ZT",
+        "station_role=ZT"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    },
+    {
+      "source": 23,
+      "target": 22,
+      "source_law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "target_law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "source_hooks": [
+        "role_pair=TI/XY",
+        "station_role=XY"
+      ],
+      "target_hooks": [
+        "role_pair=IW/YZ",
+        "station_role=YZ"
+      ],
+      "reconstructed_role_hook_change": 1,
+      "recorded_role_hook_change": 1,
+      "match": true,
+      "source_has_native_chain_support": true,
+      "target_has_native_chain_support": true
+    }
+  ],
+  "reconstruction_mismatches": [],
+  "forbidden_hook_payload_hits": [],
+  "checks": {
+    "packet_row_count_is_48": true,
+    "unique_law_key_count_is_24": true,
+    "transition_count_is_28": true,
+    "leading_feature_is_role_hook_change": true,
+    "leading_signature_is_0000101": true,
+    "role_hook_change_reconstruction_exact": true,
+    "role_hooks_are_source_payload_only": true,
+    "forbidden_hook_payload_clear": true
+  },
+  "interpretation": [
+    "The edge bit is reconstructed by comparing source-side role-hook sets at transition endpoints.",
+    "Exact reconstruction establishes derivability from the stored source payload, not native origin.",
+    "Native provenance requires each role field to be traced to a native construction record.",
+    "No identification with the G30 to G15 signed-lift cocycle is made here."
+  ],
+  "feedback_unit_candidate_found": true,
+  "feedback_unit_admitted": false,
+  "transport_feedback_rule_admitted": false,
+  "cocycle_candidate_found": true,
+  "cocycle_admitted": false,
+  "holonomy_class_admitted": false,
+  "channel_axis_rule_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "unique_native_g15_embedding_proven": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Role-hook provenance audit only.",
+    "Observed 24-state transition graph only.",
+    "Exact source-payload reconstruction may be recorded.",
+    "No feedback unit admission.",
+    "No transport-feedback rule admission.",
+    "No native cocycle admission.",
+    "No holonomy-class admission.",
+    "No signed-lift identification.",
+    "No upstairs/downstairs identification.",
+    "No channel-axis rule admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No unique native G15 embedding proof.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "audit_role_hook_change_feedback_candidate_against_native_signed_lift_001"
+}
