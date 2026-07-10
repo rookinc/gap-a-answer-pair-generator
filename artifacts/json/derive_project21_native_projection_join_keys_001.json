@@ -1,0 +1,894 @@
+{
+  "artifact": "derive_project21_native_projection_join_keys_001",
+  "audit_pass": true,
+  "verdict": "native_four_row_v4_join_key_candidates_found_nonunique",
+  "scanned_file_count": 5,
+  "scanned_files": [
+    "artifacts/json/import_native_g15_signed_lift_receipt_001.json",
+    "artifacts/json/audit_lifted_residue_functional_against_native_signed_lift_001.json",
+    "artifacts/json/audit_role_hook_change_feedback_candidate_against_native_signed_lift_001.json",
+    "artifacts/json/audit_longer_cycle_feedback_candidate_for_switching_invariance_001.json",
+    "artifacts/json/search_transition_level_channel_feedback_unit_001.json"
+  ],
+  "record_table_count": 10,
+  "packet_linked_row_count": 28,
+  "four_row_v4_candidate_count": 512,
+  "exact_v4_join_candidate_count": 512,
+  "unique_best_join_key_candidate": null,
+  "top_join_key_candidates": [
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        14,
+        15
+      ],
+      "bit_fields": [
+        "bits.source_slot_c_order_xor",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_c_wrap": 0,
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_slot_wrap": 0,
+        "bits.target_c_wrap": 1,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 8,
+      "packet_match_count": 12
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        14,
+        15
+      ],
+      "bit_fields": [
+        "bits.source_slot_wrap",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_c_wrap": 0,
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_slot_wrap": 0,
+        "bits.target_c_wrap": 1,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 8,
+      "packet_match_count": 12
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        12,
+        14
+      ],
+      "bit_fields": [
+        "bits.source_slot_c_order_xor",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_c_wrap": 0,
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_slot_wrap": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 7,
+      "packet_match_count": 12
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        12,
+        14
+      ],
+      "bit_fields": [
+        "bits.source_slot_wrap",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_c_wrap": 0,
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_slot_wrap": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 7,
+      "packet_match_count": 12
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        10,
+        12,
+        14,
+        15
+      ],
+      "bit_fields": [
+        "bits.target_c_wrap",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.source_slot_c_order_xor": 1,
+        "bits.target_slot_wrap": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 7,
+      "packet_match_count": 10
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        10,
+        12,
+        14,
+        15
+      ],
+      "bit_fields": [
+        "bits.target_delta_parity_xor",
+        "bits.transition_c_wrap"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.source_slot_c_order_xor": 1,
+        "bits.target_slot_wrap": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 7,
+      "packet_match_count": 10
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        10,
+        12,
+        14,
+        15
+      ],
+      "bit_fields": [
+        "bits.target_delta_parity_xor",
+        "bits.transition_wrap_xor"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.source_slot_c_order_xor": 1,
+        "bits.target_slot_wrap": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 7,
+      "packet_match_count": 10
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "bit_fields": [
+        "bits.source_c_wrap",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_slot_wrap": 0,
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 14
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "bit_fields": [
+        "bits.source_slot_c_order_xor",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_slot_wrap": 0,
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 14
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "bit_fields": [
+        "bits.target_c_wrap",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_slot_wrap": 0,
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 14
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        9,
+        10
+      ],
+      "bit_fields": [
+        "bits.target_delta_parity_xor",
+        "bits.transition_c_wrap"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_slot_wrap": 0,
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 14
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        10,
+        12
+      ],
+      "bit_fields": [
+        "bits.source_slot_c_order_xor",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_slot_wrap": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 14
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        10,
+        12
+      ],
+      "bit_fields": [
+        "bits.target_c_wrap",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_slot_wrap": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 14
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        10,
+        12
+      ],
+      "bit_fields": [
+        "bits.target_delta_parity_xor",
+        "bits.transition_c_wrap"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_slot_wrap": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 14
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        10,
+        12
+      ],
+      "bit_fields": [
+        "bits.target_delta_parity_xor",
+        "bits.transition_wrap_xor"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_slot_wrap": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 14
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        10,
+        15
+      ],
+      "bit_fields": [
+        "bits.source_slot_c_order_xor",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_slot_wrap": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 14
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        18,
+        19
+      ],
+      "bit_fields": [
+        "bits.source_delta_parity_xor",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_slot_wrap": 0,
+        "bits.source_c_wrap": 0,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.source_slot_c_order_xor": 0,
+        "bits.target_delta_equal": 0
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 12
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        18,
+        19
+      ],
+      "bit_fields": [
+        "bits.target_c_wrap",
+        "bits.target_delta_parity_xor"
+      ],
+      "bit_pairs": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_slot_wrap": 0,
+        "bits.source_c_wrap": 0,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.source_slot_c_order_xor": 0,
+        "bits.target_delta_equal": 0
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 12
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        6,
+        18,
+        19
+      ],
+      "bit_fields": [
+        "bits.target_delta_parity_xor",
+        "bits.transition_c_wrap"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_slot_wrap": 0,
+        "bits.source_c_wrap": 0,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.source_slot_c_order_xor": 0,
+        "bits.target_delta_equal": 0
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 12
+    },
+    {
+      "file": "artifacts/json/search_transition_level_channel_feedback_unit_001.json",
+      "table_path": "$.transitions",
+      "row_indices": [
+        5,
+        10,
+        12,
+        14
+      ],
+      "bit_fields": [
+        "bits.source_slot_wrap",
+        "bits.target_c_wrap"
+      ],
+      "bit_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "shared_join_signature": {
+        "bits.source_delta_parity_xor": 1,
+        "bits.source_delta_equal": 0,
+        "bits.source_cross_equal_xor": 0,
+        "bits.target_slot_wrap": 0,
+        "bits.target_delta_equal": 0,
+        "bits.role_hook_change": 1
+      },
+      "shared_join_field_count": 6,
+      "packet_match_count": 12
+    }
+  ],
+  "project21_native_projection_join_key_derived": false,
+  "full_native_projection_map_derived": false,
+  "native_sheet_cocycle_identification_derived": false,
+  "native_face_vertex_identification_derived": false,
+  "four_chambers_per_edge_theorem_admitted": false,
+  "literal_534_honeycomb_claim": false,
+  "physics_claim": false,
+  "gap_a_closure": false,
+  "checks": {
+    "four_projection_rows_present": true,
+    "native_files_scanned": true,
+    "record_tables_scanned": true,
+    "packet_edge_node_and_law_key_matches_tested": true,
+    "two_binary_field_v4_factorizations_tested": true,
+    "shared_join_signatures_required": true,
+    "audit_completed": true
+  },
+  "boundary": [
+    "Finite native join-key derivation audit only.",
+    "Packet edge, node, and law-key values are used as provenance anchors.",
+    "A candidate requires four packet-linked native rows with two binary fields realizing all four V4 states.",
+    "A derived join key additionally requires a nonempty shared provenance signature and a unique best candidate.",
+    "No row-order join, sheet/cocycle naming, face/vertex naming, literal {5,3,4}, physics, or Gap A closure claim."
+  ],
+  "recommended_next": "disambiguate_project21_native_v4_join_key_candidates_001"
+}
