@@ -1,0 +1,1141 @@
+{
+  "artifact": "audit_x_sigma_radix60_and_kind_split_001",
+  "audit_pass": true,
+  "verdict": "radix60_encoding_and_exact_internal_external_kind_split_found",
+  "keeper": "The slot names the base. The local names the fiber. The vertex is their radix-60 address.",
+  "scope": "x_sigma_radix60_address_and_kind_split_audit",
+  "row_count": 3600,
+  "registered_g15_edge_count": 30,
+  "observed_slot_pair_count": 45,
+  "unregistered_slot_pair_count": 15,
+  "unregistered_slot_pairs": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      11,
+      11
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      13,
+      13
+    ],
+    [
+      14,
+      14
+    ]
+  ],
+  "expected_diagonal_pairs": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      11,
+      11
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      13,
+      13
+    ],
+    [
+      14,
+      14
+    ]
+  ],
+  "unregistered_pairs_are_exact_diagonal": true,
+  "u_radix60_match_count": 3600,
+  "v_radix60_match_count": 3600,
+  "u_radix60_identity_exact": true,
+  "v_radix60_identity_exact": true,
+  "kind_counts": {
+    "internal_thalion_copy": 1800,
+    "external_signed_carrier": 1800
+  },
+  "kind_profiles": {
+    "external_signed_carrier": {
+      "row_count": 1800,
+      "distinct_slot_pair_count": 30,
+      "registered_g15_edge_row_count": 1800,
+      "unregistered_row_count": 0,
+      "same_slot_row_count": 0,
+      "different_slot_row_count": 1800,
+      "all_registered": true,
+      "all_unregistered": false,
+      "all_same_slot": false,
+      "all_different_slot": true,
+      "slot_pair_counts": {
+        "0_1": 60,
+        "0_4": 60,
+        "0_5": 60,
+        "0_6": 60,
+        "1_2": 60,
+        "1_6": 60,
+        "1_7": 60,
+        "2_3": 60,
+        "2_7": 60,
+        "2_8": 60,
+        "3_4": 60,
+        "3_8": 60,
+        "3_9": 60,
+        "4_5": 60,
+        "4_9": 60,
+        "5_10": 60,
+        "5_14": 60,
+        "6_12": 60,
+        "6_13": 60,
+        "7_10": 60,
+        "7_11": 60,
+        "8_13": 60,
+        "8_14": 60,
+        "9_11": 60,
+        "9_12": 60,
+        "10_11": 60,
+        "10_14": 60,
+        "11_12": 60,
+        "12_13": 60,
+        "13_14": 60
+      },
+      "u_local_mod15_counts": {
+        "0": 120,
+        "1": 120,
+        "2": 120,
+        "3": 120,
+        "4": 120,
+        "5": 120,
+        "6": 120,
+        "7": 120,
+        "8": 120,
+        "9": 120,
+        "10": 120,
+        "11": 120,
+        "12": 120,
+        "13": 120,
+        "14": 120
+      },
+      "v_local_mod15_counts": {
+        "0": 120,
+        "1": 120,
+        "2": 120,
+        "3": 120,
+        "4": 120,
+        "5": 120,
+        "6": 120,
+        "7": 120,
+        "8": 120,
+        "9": 120,
+        "10": 120,
+        "11": 120,
+        "12": 120,
+        "13": 120,
+        "14": 120
+      },
+      "u_local_sheet_counts": {
+        "0": 450,
+        "1": 450,
+        "2": 450,
+        "3": 450
+      },
+      "v_local_sheet_counts": {
+        "0": 450,
+        "1": 450,
+        "2": 450,
+        "3": 450
+      }
+    },
+    "internal_thalion_copy": {
+      "row_count": 1800,
+      "distinct_slot_pair_count": 15,
+      "registered_g15_edge_row_count": 0,
+      "unregistered_row_count": 1800,
+      "same_slot_row_count": 1800,
+      "different_slot_row_count": 0,
+      "all_registered": false,
+      "all_unregistered": true,
+      "all_same_slot": true,
+      "all_different_slot": false,
+      "slot_pair_counts": {
+        "0_0": 120,
+        "1_1": 120,
+        "2_2": 120,
+        "3_3": 120,
+        "4_4": 120,
+        "5_5": 120,
+        "6_6": 120,
+        "7_7": 120,
+        "8_8": 120,
+        "9_9": 120,
+        "10_10": 120,
+        "11_11": 120,
+        "12_12": 120,
+        "13_13": 120,
+        "14_14": 120
+      },
+      "u_local_mod15_counts": {
+        "0": 120,
+        "1": 135,
+        "2": 150,
+        "3": 165,
+        "4": 150,
+        "5": 90,
+        "6": 120,
+        "7": 150,
+        "8": 135,
+        "9": 105,
+        "10": 60,
+        "11": 90,
+        "12": 120,
+        "13": 120,
+        "14": 90
+      },
+      "v_local_mod15_counts": {
+        "0": 120,
+        "1": 105,
+        "2": 90,
+        "3": 75,
+        "4": 90,
+        "5": 150,
+        "6": 120,
+        "7": 90,
+        "8": 105,
+        "9": 135,
+        "10": 180,
+        "11": 150,
+        "12": 120,
+        "13": 120,
+        "14": 150
+      },
+      "u_local_sheet_counts": {
+        "0": 840,
+        "1": 420,
+        "2": 360,
+        "3": 180
+      },
+      "v_local_sheet_counts": {
+        "0": 60,
+        "1": 480,
+        "2": 540,
+        "3": 720
+      }
+    }
+  },
+  "exact_kind_split": true,
+  "project21_c_values": [
+    0,
+    1,
+    2,
+    4,
+    5,
+    10,
+    11,
+    13,
+    14
+  ],
+  "x_sigma_local_mod15_values": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "x_sigma_local_sheet_values": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "project21_c_matches_local_mod15_domain": true,
+  "residue_sheet_summary": {
+    "0": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "1": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "2": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "3": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "4": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "5": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "6": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "7": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "8": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "9": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "10": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "11": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "12": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "13": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    },
+    "14": {
+      "0": 120,
+      "1": 120,
+      "2": 120,
+      "3": 120
+    }
+  },
+  "top_endpoint_relations": [
+    {
+      "u_local_mod15": 0,
+      "v_local_mod15": 1,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 0,
+      "v_local_mod15": 4,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 0,
+      "v_local_mod15": 10,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 0,
+      "v_local_mod15": 10,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 0,
+      "v_local_mod15": 0,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 1,
+      "v_local_mod15": 0,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 1,
+      "v_local_mod15": 11,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 1,
+      "v_local_mod15": 14,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 1,
+      "v_local_mod15": 5,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 1,
+      "v_local_mod15": 1,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 2,
+      "v_local_mod15": 10,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 2,
+      "v_local_mod15": 6,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 2,
+      "v_local_mod15": 9,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 2,
+      "v_local_mod15": 0,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 2,
+      "v_local_mod15": 2,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 3,
+      "v_local_mod15": 5,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 3,
+      "v_local_mod15": 1,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 3,
+      "v_local_mod15": 4,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 3,
+      "v_local_mod15": 10,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 3,
+      "v_local_mod15": 3,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 4,
+      "v_local_mod15": 0,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 4,
+      "v_local_mod15": 0,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 4,
+      "v_local_mod15": 11,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 4,
+      "v_local_mod15": 14,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 4,
+      "v_local_mod15": 4,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 5,
+      "v_local_mod15": 11,
+      "u_local_sheet": 0,
+      "v_local_sheet": 0,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 5,
+      "v_local_mod15": 14,
+      "u_local_sheet": 0,
+      "v_local_sheet": 0,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 5,
+      "v_local_mod15": 5,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 5,
+      "v_local_mod15": 5,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 5,
+      "v_local_mod15": 5,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 6,
+      "v_local_mod15": 10,
+      "u_local_sheet": 0,
+      "v_local_sheet": 0,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 6,
+      "v_local_mod15": 6,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 6,
+      "v_local_mod15": 9,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 6,
+      "v_local_mod15": 0,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 6,
+      "v_local_mod15": 6,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 7,
+      "v_local_mod15": 5,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 7,
+      "v_local_mod15": 1,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 7,
+      "v_local_mod15": 4,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 7,
+      "v_local_mod15": 10,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 7,
+      "v_local_mod15": 7,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 8,
+      "v_local_mod15": 0,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 8,
+      "v_local_mod15": 11,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 8,
+      "v_local_mod15": 14,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 8,
+      "v_local_mod15": 5,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 8,
+      "v_local_mod15": 8,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 9,
+      "v_local_mod15": 10,
+      "u_local_sheet": 0,
+      "v_local_sheet": 0,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 9,
+      "v_local_mod15": 10,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 9,
+      "v_local_mod15": 6,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 9,
+      "v_local_mod15": 9,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 9,
+      "v_local_mod15": 9,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 10,
+      "v_local_mod15": 9,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 10,
+      "v_local_mod15": 6,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 10,
+      "v_local_mod15": 10,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 11,
+      "v_local_mod15": 2,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 11,
+      "v_local_mod15": 5,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 11,
+      "v_local_mod15": 8,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 11,
+      "v_local_mod15": 11,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 12,
+      "v_local_mod15": 1,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 12,
+      "v_local_mod15": 3,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 12,
+      "v_local_mod15": 9,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 12,
+      "v_local_mod15": 13,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 12,
+      "v_local_mod15": 12,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 13,
+      "v_local_mod15": 2,
+      "u_local_sheet": 0,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 13,
+      "v_local_mod15": 6,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 13,
+      "v_local_mod15": 12,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 13,
+      "v_local_mod15": 14,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 13,
+      "v_local_mod15": 13,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 14,
+      "v_local_mod15": 5,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 14,
+      "v_local_mod15": 7,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 14,
+      "v_local_mod15": 13,
+      "u_local_sheet": 0,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 14,
+      "v_local_mod15": 14,
+      "u_local_sheet": 0,
+      "v_local_sheet": 2,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 0,
+      "v_local_mod15": 11,
+      "u_local_sheet": 1,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 0,
+      "v_local_mod15": 14,
+      "u_local_sheet": 1,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 0,
+      "v_local_mod15": 0,
+      "u_local_sheet": 1,
+      "v_local_sheet": 3,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 1,
+      "v_local_mod15": 10,
+      "u_local_sheet": 1,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 1,
+      "v_local_mod15": 13,
+      "u_local_sheet": 1,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 1,
+      "v_local_mod15": 1,
+      "u_local_sheet": 1,
+      "v_local_sheet": 3,
+      "kind": "external_signed_carrier",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 2,
+      "v_local_mod15": 8,
+      "u_local_sheet": 1,
+      "v_local_sheet": 1,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 2,
+      "v_local_mod15": 14,
+      "u_local_sheet": 1,
+      "v_local_sheet": 3,
+      "kind": "internal_thalion_copy",
+      "count": 15
+    },
+    {
+      "u_local_mod15": 2,
+      "v_local_mod15": 2,
+      "u_local_sheet": 1,
+      "v_local_sheet": 3,
+      "kind": "external_signed_carrier",
+      "count": 15
+    }
+  ],
+  "role_hook_bits_used": false,
+  "cocycle_values_used": false,
+  "cocycle_values_sealed": true,
+  "comparison_completed": false,
+  "feedback_unit_admitted": false,
+  "transport_feedback_rule_admitted": false,
+  "native_signed_lift_identification_proven": false,
+  "cocycle_admitted": false,
+  "holonomy_class_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "checks": {
+    "encoding_inspection_pass": true,
+    "sigma_row_count_is_3600": true,
+    "slot_register_edge_count_is_30": true,
+    "u_radix60_identity_exact": true,
+    "v_radix60_identity_exact": true,
+    "observed_slot_pair_count_is_45": true,
+    "unregistered_slot_pair_count_is_15": true,
+    "unregistered_pairs_are_exact_diagonal": true,
+    "kind_count_is_2": true,
+    "project21_c_domain_within_local_mod15_domain": true,
+    "role_hook_bits_not_used": true,
+    "cocycle_values_not_used": true,
+    "audit_completed": true
+  },
+  "interpretation": [
+    "The flattened x_sigma vertex address is tested against vertex = 60*slot + local at both endpoints.",
+    "The 45 observed slot pairs are separated into the 30 registered G15 edges and 15 unregistered pairs.",
+    "The kind labels are tested for an exact internal-diagonal versus external-G15-edge partition.",
+    "Project 21 C values are compared only to local residues modulo 15, while the four local sheets remain explicit.",
+    "Role-hook and cocycle values remain excluded."
+  ],
+  "boundary": [
+    "x_sigma radix-60 and kind-split audit only.",
+    "No Project 21 local-residue map admitted.",
+    "Role-hook-change bits excluded.",
+    "Cocycle values remain sealed.",
+    "No bit comparison completed.",
+    "No feedback unit admission.",
+    "No transport-feedback rule admission.",
+    "No native signed-lift identification.",
+    "No cocycle admission.",
+    "No holonomy-class admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "search_project21_c_to_x_sigma_local_residue_sheet_map_001"
+}
