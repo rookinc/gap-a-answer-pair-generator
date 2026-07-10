@@ -1,0 +1,224 @@
+{
+  "artifact_kind": "hard_absence_source_rule_candidate_audit",
+  "audit_decision": {
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "decision": "admit_gate_candidates_pause_source_law",
+    "failed_criteria_count": 2,
+    "failed_criteria_ids": [
+      "A6_source_construction_rule_proven",
+      "A7_birth_order_proven"
+    ],
+    "gap_a_closure": false,
+    "hard_absence_gate_candidate_admitted": true,
+    "native_chain_gate_candidate_admitted": true,
+    "passed_criteria_count": 5,
+    "role_pair_channel_gate_candidate_admitted": true,
+    "source_packet_gate_candidate_admitted": true,
+    "source_rule_admitted": false
+  },
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "candidate_audit_only": true,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "hard_absence_gate_candidate_admitted": true,
+    "native_chain_gate_candidate_admitted": true,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "role_pair_channel_gate_candidate_admitted": true,
+    "source_packet_gate_candidate_admitted": true,
+    "source_rule_admitted": false,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "candidate_stack": [
+    {
+      "admit_as_gate_candidate": false,
+      "candidate_id": "C1_endpoint_motion",
+      "candidate_strength": "negative_or_fingerprint_only",
+      "compressed_exact_hit_count": 0,
+      "exact_hit_count": 273,
+      "non_identity_exact_hit_count": 0,
+      "reason": "Endpoint motion found only identity-like rules and no compressed non-identity source rule.",
+      "status": "only_identity_like_endpoint_motion_rules_found"
+    },
+    {
+      "admit_as_gate_candidate": true,
+      "candidate_id": "C2_source_packet_incidence",
+      "candidate_strength": "strong_gate_candidate",
+      "compressed_exact_hit_count": 223,
+      "exact_hit_count": 291,
+      "non_identity_exact_hit_count": 223,
+      "reason": "Source packet presence exactly separates observed keys from hard absences without answer/evaluation fields.",
+      "status": "source_packet_incidence_gate_candidate_found_not_admitted"
+    },
+    {
+      "admit_as_gate_candidate": true,
+      "candidate_id": "C3_role_pair_channel",
+      "candidate_strength": "strong_channel_gate_candidate",
+      "compressed_exact_hit_count": 836,
+      "exact_hit_count": 974,
+      "non_identity_exact_hit_count": 836,
+      "reason": "Role-pair/channel features expose many non-identity compressed gate candidates without answer/evaluation fields.",
+      "status": "role_pair_channel_gate_candidate_found_not_admitted"
+    },
+    {
+      "admit_as_gate_candidate": true,
+      "candidate_id": "C4_native_chain_presence",
+      "candidate_strength": "strongest_native_gate_candidate",
+      "exact_hit_count": 28,
+      "native_chain_present_exact": true,
+      "native_chain_present_selected_hard_absence_count": 0,
+      "reason": "Native-chain presence exactly gates the 24 observed keys against all 5172 hard absences.",
+      "status": "native_chain_presence_gate_candidate_found_not_admitted"
+    }
+  ],
+  "checks": {
+    "answer_label_leakage_closed_false": true,
+    "birth_order_proven_false": true,
+    "classification_pass": true,
+    "closure_audit_pass": true,
+    "criteria_count_7": true,
+    "decisive_obstruction_count_3": true,
+    "endpoint_search_pass": true,
+    "failed_criteria_count_2": true,
+    "gap_a_closure_false": true,
+    "hard_absence_gate_candidate_admitted": true,
+    "incidence_search_pass": true,
+    "native_chain_gate_candidate_admitted": true,
+    "native_search_pass": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "passed_criteria_count_5": true,
+    "role_pair_search_pass": true,
+    "source_packet_gate_candidate_admitted": true,
+    "source_rule_admitted_false": true
+  },
+  "closure_criteria": [
+    {
+      "criterion": "At least one non-answer/evaluation gate candidate exactly separates observed keys from hard absences.",
+      "id": "A1_gate_candidates_exist",
+      "pass": true
+    },
+    {
+      "criterion": "Native-chain presence is exact over observed versus hard-absence keys.",
+      "id": "A2_native_gate_exact",
+      "pass": true
+    },
+    {
+      "criterion": "Source-packet incidence gate was found.",
+      "id": "A3_source_packet_gate_exact",
+      "pass": true
+    },
+    {
+      "criterion": "Search families explicitly exclude answer/evaluation fields.",
+      "id": "A4_no_answer_eval_fields",
+      "pass": true
+    },
+    {
+      "criterion": "Hard absences are accounted for as absence of source/native packet presence.",
+      "id": "A5_hard_absences_accounted_by_gate_presence",
+      "pass": true
+    },
+    {
+      "criterion": "A source construction rule explains why native/source packets exist exactly where they do.",
+      "id": "A6_source_construction_rule_proven",
+      "pass": false
+    },
+    {
+      "criterion": "Birth order is explicitly proven by construction receipt, not only projection, trace, replay, and gate presence.",
+      "id": "A7_birth_order_proven",
+      "pass": false
+    }
+  ],
+  "created_utc": "2026-07-10T17:00:19+00:00",
+  "decisive_obstructions": [
+    {
+      "detail": "The audits identify exact gate presence, but do not derive the source construction rule that creates native/source packets.",
+      "id": "O1_construction_rule_missing"
+    },
+    {
+      "detail": "Projection, trace, replay, and gate presence are not an explicit construction birth-order receipt.",
+      "id": "O2_birth_order_unproven"
+    },
+    {
+      "detail": "Gate candidates do not by themselves admit a native generator or close Gap A.",
+      "id": "O3_gap_a_requires_generator"
+    }
+  ],
+  "id": "audit_hard_absence_source_rule_candidates_001",
+  "input_artifacts": {
+    "birth_order_closure_audit": "artifacts/json/audit_slot_c_birth_order_receipts_for_leakage_closure_001.json",
+    "classification": "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json",
+    "endpoint_search": "artifacts/json/search_hard_absence_endpoint_motion_rules_001.json",
+    "native_chain_thin_search": "artifacts/json/search_native_chain_hard_absence_gate_thin_001.json",
+    "role_pair_channel_search": "artifacts/json/search_hard_absence_role_pair_channel_rules_001.json",
+    "source_packet_incidence_search": "artifacts/json/search_hard_absence_source_packet_incidence_rules_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_slot_c_birth_order_receipts_for_leakage_closure_001.json": "ef01c425339783ee1a3da8d180d5975cadda663d1929cf2a18e2eb946391a20b",
+    "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json": "343cc7328bfc48ab1e30b5cdd78e636936f3104f5129e951c8de8d0a80f81e0f",
+    "artifacts/json/search_hard_absence_endpoint_motion_rules_001.json": "5edf1b4691acfff7b0163bc7d22d491fef9ade61c255c3066599de25893ddab2",
+    "artifacts/json/search_hard_absence_role_pair_channel_rules_001.json": "9e4b1f8d52e03a55690e49fc74e7e9eb195a247aecd0da891f145d2d7871f54f",
+    "artifacts/json/search_hard_absence_source_packet_incidence_rules_001.json": "a16530a8fe46f6612d7c2e6ddf8f7ba592b374fd27be331f66b5daf9312ee774",
+    "artifacts/json/search_native_chain_hard_absence_gate_thin_001.json": "2762fe97a21e2a48444691018b32ce461fb77fe3e5482f889d372bd6c3ee48bc"
+  },
+  "keeper_line": "A gate can be admitted before the generator is known.",
+  "next_gate": "record_slot_c_superposition_register_candidate_001",
+  "status": "HARD_ABSENCE_SOURCE_RULE_CANDIDATES_001_GATE_CANDIDATES_ADMITTED_SOURCE_LAW_PAUSED",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "audit_pass": true,
+    "birth_order_proven": false,
+    "check_count": 28,
+    "criteria_count": 7,
+    "decision": "admit_gate_candidates_pause_source_law",
+    "failed_count": 0,
+    "failed_criteria_count": 2,
+    "failed_criteria_ids": [
+      "A6_source_construction_rule_proven",
+      "A7_birth_order_proven"
+    ],
+    "frontier_status": "gate_candidates_admitted_source_law_and_birth_order_paused",
+    "gap_a_closure": false,
+    "hard_absence_gate_absent": 5172,
+    "hard_absence_gate_candidate_admitted": true,
+    "native_chain_gate_candidate_admitted": true,
+    "observed_receipted": 24,
+    "passed_count": 28,
+    "passed_criteria_count": 5,
+    "proxy_invalid": 1365,
+    "recommended_next": "record_slot_c_superposition_register_candidate_001",
+    "role_pair_channel_gate_candidate_admitted": true,
+    "source_packet_gate_candidate_admitted": true,
+    "source_rule_admitted": false
+  },
+  "superposition_register_update": {
+    "candidate_key_count": 6561,
+    "closure_status": "bounded_register_candidate_not_source_law",
+    "hard_absence_gate_absent": 5172,
+    "lawful_statuses": [
+      "observed_receipted_by_source_packet_and_native_chain_presence",
+      "proxy_invalid_by_zero_motion",
+      "hard_absence_by_source_packet_and_native_chain_absence"
+    ],
+    "observed_receipted": 24,
+    "proxy_invalid": 1365,
+    "register_name": "slot_c_superposition_register_candidate",
+    "register_statement": "The future selection is unknown, but lawful candidate statuses are bounded by source/native gate presence."
+  }
+}
