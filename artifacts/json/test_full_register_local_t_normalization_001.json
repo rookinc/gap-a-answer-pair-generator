@@ -1,0 +1,431 @@
+{
+  "artifact_kind": "full_register_finite_normalization_test",
+  "boundary": {
+    "force_claim": false,
+    "full_register_finite_normalization_test": true,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "slot_c_numeric_proxy": true,
+    "source_law_admitted": false,
+    "theorem": false
+  },
+  "checks": {
+    "centroid_definition_pass": true,
+    "centroid_linearity_error_zero": true,
+    "coordinate_dimension_4": true,
+    "does_not_support_T2_yet": true,
+    "embedding_pass": true,
+    "full_register_normalization_pass": true,
+    "hard_absence_5172": true,
+    "no_force": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem_admitted": true,
+    "observed_count_24": true,
+    "point_count_6561": true,
+    "proxy_invalid_1365": true,
+    "source_only_extract_pass": true,
+    "supports_T1": true,
+    "supports_T3": true,
+    "supports_T4": true,
+    "t_value_count_6": true,
+    "theorem_candidate_audit_pass": true,
+    "universe_derive_pass": true
+  },
+  "created_utc": "2026-07-10T18:14:43+00:00",
+  "full_result": {
+    "centroid_0": [
+      6.666666666667,
+      6.666666666667,
+      6.666666666667,
+      6.666666666667
+    ],
+    "centroid_linearity_errors": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "centroid_linearity_max_error": 0.0,
+    "coordinate_dimension": 4,
+    "direction_mean": [
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "full_register_normalization_pass": true,
+    "local_i_point_count": 6561,
+    "status_centroids_0": {
+      "hard_absence_gate_absent": [
+        6.66879350348,
+        6.66879350348,
+        6.66879350348,
+        6.66879350348
+      ],
+      "observed_receipted": [
+        5.75,
+        5.75,
+        5.75,
+        5.75
+      ],
+      "proxy_invalid": [
+        6.674725274725,
+        6.674725274725,
+        6.674725274725,
+        6.674725274725
+      ]
+    },
+    "status_counts": {
+      "hard_absence_gate_absent": 5172,
+      "observed_receipted": 24,
+      "proxy_invalid": 1365
+    },
+    "t_results": [
+      {
+        "centroid_linearity_error": 0.0,
+        "centroid_t": [
+          6.666666666667,
+          6.666666666667,
+          6.666666666667,
+          6.666666666667
+        ],
+        "mean_norm2_after_centering": 103.111111111111,
+        "predicted_centroid_t": [
+          6.666666666667,
+          6.666666666667,
+          6.666666666667,
+          6.666666666667
+        ],
+        "status_centroids_t": {
+          "hard_absence_gate_absent": [
+            6.66879350348,
+            6.66879350348,
+            6.66879350348,
+            6.66879350348
+          ],
+          "observed_receipted": [
+            5.75,
+            5.75,
+            5.75,
+            5.75
+          ],
+          "proxy_invalid": [
+            6.674725274725,
+            6.674725274725,
+            6.674725274725,
+            6.674725274725
+          ]
+        },
+        "status_mean_norm2_after_centering": {
+          "hard_absence_gate_absent": 103.135086362465,
+          "observed_receipted": 92.777777777778,
+          "proxy_invalid": 103.201953601954
+        },
+        "t": 0
+      },
+      {
+        "centroid_linearity_error": 0.0,
+        "centroid_t": [
+          6.666666666667,
+          6.666666666667,
+          6.666666666667,
+          6.666666666667
+        ],
+        "mean_norm2_after_centering": 412.444444444444,
+        "predicted_centroid_t": [
+          6.666666666667,
+          6.666666666667,
+          6.666666666667,
+          6.666666666667
+        ],
+        "status_centroids_t": {
+          "hard_absence_gate_absent": [
+            6.670920340294,
+            6.670920340294,
+            6.670920340294,
+            6.670920340294
+          ],
+          "observed_receipted": [
+            4.833333333333,
+            4.833333333333,
+            4.833333333333,
+            4.833333333333
+          ],
+          "proxy_invalid": [
+            6.682783882784,
+            6.682783882784,
+            6.682783882784,
+            6.682783882784
+          ]
+        },
+        "status_mean_norm2_after_centering": {
+          "hard_absence_gate_absent": 412.540345449858,
+          "observed_receipted": 371.111111111111,
+          "proxy_invalid": 412.807814407814
+        },
+        "t": 1
+      },
+      {
+        "centroid_linearity_error": 0.0,
+        "centroid_t": [
+          6.666666666667,
+          6.666666666667,
+          6.666666666667,
+          6.666666666667
+        ],
+        "mean_norm2_after_centering": 928.0,
+        "predicted_centroid_t": [
+          6.666666666667,
+          6.666666666667,
+          6.666666666667,
+          6.666666666667
+        ],
+        "status_centroids_t": {
+          "hard_absence_gate_absent": [
+            6.673047177108,
+            6.673047177108,
+            6.673047177108,
+            6.673047177108
+          ],
+          "observed_receipted": [
+            3.916666666667,
+            3.916666666667,
+            3.916666666667,
+            3.916666666667
+          ],
+          "proxy_invalid": [
+            6.690842490842,
+            6.690842490842,
+            6.690842490842,
+            6.690842490842
+          ]
+        },
+        "status_mean_norm2_after_centering": {
+          "hard_absence_gate_absent": 928.215777262181,
+          "observed_receipted": 835.0,
+          "proxy_invalid": 928.817582417582
+        },
+        "t": 2
+      },
+      {
+        "centroid_linearity_error": 0.0,
+        "centroid_t": [
+          6.666666666667,
+          6.666666666667,
+          6.666666666667,
+          6.666666666667
+        ],
+        "mean_norm2_after_centering": 3712.0,
+        "predicted_centroid_t": [
+          6.666666666667,
+          6.666666666667,
+          6.666666666667,
+          6.666666666667
+        ],
+        "status_centroids_t": {
+          "hard_absence_gate_absent": [
+            6.679427687548,
+            6.679427687548,
+            6.679427687548,
+            6.679427687548
+          ],
+          "observed_receipted": [
+            1.166666666667,
+            1.166666666667,
+            1.166666666667,
+            1.166666666667
+          ],
+          "proxy_invalid": [
+            6.715018315018,
+            6.715018315018,
+            6.715018315018,
+            6.715018315018
+          ]
+        },
+        "status_mean_norm2_after_centering": {
+          "hard_absence_gate_absent": 3712.863109048724,
+          "observed_receipted": 3340.0,
+          "proxy_invalid": 3715.27032967033
+        },
+        "t": 5
+      },
+      {
+        "centroid_linearity_error": 0.0,
+        "centroid_t": [
+          6.666666666667,
+          6.666666666667,
+          6.666666666667,
+          6.666666666667
+        ],
+        "mean_norm2_after_centering": 12476.444444444445,
+        "predicted_centroid_t": [
+          6.666666666667,
+          6.666666666667,
+          6.666666666667,
+          6.666666666667
+        ],
+        "status_centroids_t": {
+          "hard_absence_gate_absent": [
+            6.690061871616,
+            6.690061871616,
+            6.690061871616,
+            6.690061871616
+          ],
+          "observed_receipted": [
+            -3.416666666667,
+            -3.416666666667,
+            -3.416666666667,
+            -3.416666666667
+          ],
+          "proxy_invalid": [
+            6.755311355311,
+            6.755311355311,
+            6.755311355311,
+            6.755311355311
+          ]
+        },
+        "status_mean_norm2_after_centering": {
+          "hard_absence_gate_absent": 12479.345449858212,
+          "observed_receipted": 11226.111111111111,
+          "proxy_invalid": 12487.436385836387
+        },
+        "t": 10
+      },
+      {
+        "centroid_linearity_error": 0.0,
+        "centroid_t": [
+          6.666666666667,
+          6.666666666667,
+          6.666666666667,
+          6.666666666667
+        ],
+        "mean_norm2_after_centering": 1051836.4444444445,
+        "predicted_centroid_t": [
+          6.666666666667,
+          6.666666666667,
+          6.666666666667,
+          6.666666666667
+        ],
+        "status_centroids_t": {
+          "hard_absence_gate_absent": [
+            6.881477184841,
+            6.881477184841,
+            6.881477184841,
+            6.881477184841
+          ],
+          "observed_receipted": [
+            -85.916666666667,
+            -85.916666666667,
+            -85.916666666667,
+            -85.916666666667
+          ],
+          "proxy_invalid": [
+            7.480586080586,
+            7.480586080586,
+            7.480586080586,
+            7.480586080586
+          ]
+        },
+        "status_mean_norm2_after_centering": {
+          "hard_absence_gate_absent": 1052081.0159835008,
+          "observed_receipted": 946426.111111111,
+          "proxy_invalid": 1052763.1286935285
+        },
+        "t": 100
+      }
+    ],
+    "t_values": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      100
+    ],
+    "test_scope": "full_6561_regenerated_slot_c_register"
+  },
+  "id": "test_full_register_local_t_normalization_001",
+  "input_artifacts": {
+    "g15_centroid_definition": "artifacts/json/define_g15_centroid_for_local_i_register_001.json",
+    "local_i_embedding": "artifacts/json/embed_slot_c_local_i_points_in_g15_coordinates_001.json",
+    "non_observed_universe": "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json",
+    "source_only_packets": "artifacts/json/extract_source_only_slot_c_row_packets_001.json",
+    "theorem_candidate_audit": "artifacts/json/audit_centroid_normalized_local_i_theorem_candidate_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_centroid_normalized_local_i_theorem_candidate_001.json": "156f6b06aba3c670e6acc922109b9761b01e5aa9fa1be8fc68a4a88e6aa17570",
+    "artifacts/json/define_g15_centroid_for_local_i_register_001.json": "6c65e59c23cd271e39b28b1056d5421d22bac501e7d6fca6ffda831e625b45b5",
+    "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json": "a0d053a39a16b1f134abdf6cdf1d3aa338a74231f603c5eb1e784ce269d02826",
+    "artifacts/json/embed_slot_c_local_i_points_in_g15_coordinates_001.json": "352163d86f016d837f5dd496549dcb3d90b6f6cc28dd14869823cc3561771854",
+    "artifacts/json/extract_source_only_slot_c_row_packets_001.json": "80deb83bd070e8b7f2a4d86c98bac34d6d527235e7890aa726c3fb38443e87d4"
+  },
+  "keeper_line": "Local t stays lawful when every I is counted.",
+  "next_gate": "test_centroid_normalized_direction_limit_on_slot_c_register_001",
+  "status": "FULL_REGISTER_LOCAL_T_NORMALIZATION_001_PASS",
+  "summary": {
+    "centroid_0": [
+      6.666666666667,
+      6.666666666667,
+      6.666666666667,
+      6.666666666667
+    ],
+    "centroid_linearity_max_error": 0.0,
+    "check_count": 24,
+    "coordinate_dimension": 4,
+    "failed_count": 0,
+    "frontier_status": "full_register_local_t_normalization_pass_direction_limit_and_native_embedding_open",
+    "full_register_normalization_pass": true,
+    "gap_a_closure": false,
+    "local_i_point_count": 6561,
+    "passed_count": 24,
+    "proof_claim": false,
+    "recommended_next": "test_centroid_normalized_direction_limit_on_slot_c_register_001",
+    "supports_T1_local_t_centroid_normalization": true,
+    "supports_T2_direction_limit": false,
+    "supports_T3_g15_local_i_comparability": true,
+    "supports_T4_slot_c_register_partition": true,
+    "t_values": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      100
+    ],
+    "test_pass": true,
+    "test_scope": "full_6561_regenerated_slot_c_register",
+    "theorem_admitted": false
+  },
+  "theorem_implication": {
+    "reason": "The full 6561-point register confirms affine centroid behavior under the local-t proxy, but direction-limit behavior and native embedding remain open.",
+    "supports_T1_local_t_centroid_normalization": true,
+    "supports_T2_direction_limit": false,
+    "supports_T3_g15_local_i_comparability": true,
+    "supports_T4_slot_c_register_partition": true
+  },
+  "unresolved": [
+    {
+      "detail": "Define finite direction data and test direction-limit behavior.",
+      "id": "U1_direction_limit",
+      "status": "open"
+    },
+    {
+      "detail": "Compare slot/C numeric proxy with a native G15 quotient embedding.",
+      "id": "U2_native_embedding",
+      "status": "open"
+    },
+    {
+      "detail": "Formal theorem statement remains paused until direction-limit and native embedding checks.",
+      "id": "U3_formal_theorem_text",
+      "status": "open"
+    }
+  ]
+}
