@@ -1,0 +1,697 @@
+{
+  "anchor_result": {
+    "field_count": 4,
+    "field_profiles": [
+      {
+        "all_distinct_count": 9,
+        "all_mean": 5.75,
+        "all_value_signature": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            13,
+            4
+          ],
+          [
+            14,
+            4
+          ]
+        ],
+        "compact_signature_hash": "4d0449241eb55962",
+        "field_name": "from_slot",
+        "native_distinct_count": 9,
+        "native_equals_non_native_signature": true,
+        "native_mean": 5.75,
+        "native_value_signature": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            14,
+            2
+          ]
+        ],
+        "non_native_distinct_count": 9,
+        "non_native_mean": 5.75,
+        "non_native_value_signature": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            14,
+            2
+          ]
+        ],
+        "position": 0
+      },
+      {
+        "all_distinct_count": 9,
+        "all_mean": 5.75,
+        "all_value_signature": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            13,
+            4
+          ],
+          [
+            14,
+            4
+          ]
+        ],
+        "compact_signature_hash": "4d0449241eb55962",
+        "field_name": "to_slot",
+        "native_distinct_count": 9,
+        "native_equals_non_native_signature": true,
+        "native_mean": 5.75,
+        "native_value_signature": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            14,
+            2
+          ]
+        ],
+        "non_native_distinct_count": 9,
+        "non_native_mean": 5.75,
+        "non_native_value_signature": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            14,
+            2
+          ]
+        ],
+        "position": 1
+      },
+      {
+        "all_distinct_count": 9,
+        "all_mean": 5.75,
+        "all_value_signature": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            13,
+            4
+          ],
+          [
+            14,
+            4
+          ]
+        ],
+        "compact_signature_hash": "4d0449241eb55962",
+        "field_name": "from_C",
+        "native_distinct_count": 9,
+        "native_equals_non_native_signature": true,
+        "native_mean": 5.75,
+        "native_value_signature": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            14,
+            2
+          ]
+        ],
+        "non_native_distinct_count": 9,
+        "non_native_mean": 5.75,
+        "non_native_value_signature": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            14,
+            2
+          ]
+        ],
+        "position": 2
+      },
+      {
+        "all_distinct_count": 9,
+        "all_mean": 5.75,
+        "all_value_signature": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            13,
+            4
+          ],
+          [
+            14,
+            4
+          ]
+        ],
+        "compact_signature_hash": "4d0449241eb55962",
+        "field_name": "to_C",
+        "native_distinct_count": 9,
+        "native_equals_non_native_signature": true,
+        "native_mean": 5.75,
+        "native_value_signature": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            14,
+            2
+          ]
+        ],
+        "non_native_distinct_count": 9,
+        "non_native_mean": 5.75,
+        "non_native_value_signature": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            14,
+            2
+          ]
+        ],
+        "position": 3
+      }
+    ],
+    "indistinguishable_group_count": 1,
+    "indistinguishable_groups": [
+      {
+        "fields": [
+          "from_slot",
+          "to_slot",
+          "from_C",
+          "to_C"
+        ],
+        "signature_hash": "4d0449241eb55962"
+      }
+    ],
+    "interpretation": "The tested unlabeled value/profile signatures do not promote a label-free native field anchor. The coordinate frame remains field-anchored by source packet names/order, not by a native invariant in this tested family.",
+    "label_free_field_anchor_found": false,
+    "native_field_anchor_status": "no_label_free_single_field_anchor_found_in_tested_profiles",
+    "pair_level_anchor_candidate": false,
+    "pair_profiles": [
+      {
+        "distinct_count": 21,
+        "native_distinct_count": 21,
+        "native_equals_non_native_signature": true,
+        "non_native_distinct_count": 21,
+        "pair_name": "slot_pair",
+        "positions": [
+          0,
+          1
+        ],
+        "signature_hash": "27ce5844e5d75cf1"
+      },
+      {
+        "distinct_count": 12,
+        "native_distinct_count": 12,
+        "native_equals_non_native_signature": true,
+        "non_native_distinct_count": 12,
+        "pair_name": "C_pair",
+        "positions": [
+          2,
+          3
+        ],
+        "signature_hash": "0d043d810bfea3ca"
+      },
+      {
+        "distinct_count": 22,
+        "native_distinct_count": 22,
+        "native_equals_non_native_signature": true,
+        "non_native_distinct_count": 22,
+        "pair_name": "from_pair",
+        "positions": [
+          0,
+          2
+        ],
+        "signature_hash": "7ba2ca8ad0a32ed9"
+      },
+      {
+        "distinct_count": 22,
+        "native_distinct_count": 22,
+        "native_equals_non_native_signature": true,
+        "non_native_distinct_count": 22,
+        "pair_name": "to_pair",
+        "positions": [
+          1,
+          3
+        ],
+        "signature_hash": "7ba2ca8ad0a32ed9"
+      },
+      {
+        "distinct_count": 21,
+        "native_distinct_count": 21,
+        "native_equals_non_native_signature": true,
+        "non_native_distinct_count": 21,
+        "pair_name": "cross_from_slot_to_C",
+        "positions": [
+          0,
+          3
+        ],
+        "signature_hash": "27ce5844e5d75cf1"
+      },
+      {
+        "distinct_count": 21,
+        "native_distinct_count": 21,
+        "native_equals_non_native_signature": true,
+        "non_native_distinct_count": 21,
+        "pair_name": "cross_to_slot_from_C",
+        "positions": [
+          1,
+          2
+        ],
+        "signature_hash": "f72aa0b53061bffc"
+      }
+    ],
+    "test_family": "unlabeled_field_value_and_native_non_native_profile_signatures",
+    "unique_profile_field_count": 0,
+    "unique_profile_fields": []
+  },
+  "artifact_kind": "field_anchor_invariant_probe",
+  "boundary": {
+    "bounded_field_anchor_probe_only": true,
+    "force_claim": false,
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "label_free_field_anchor_found": false,
+    "metric_geometry_claim": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "unique_native_g15_embedding_proven": false
+  },
+  "checks": {
+    "boundary_audit_pass": true,
+    "compare_pass": true,
+    "field_anchor_required_frontier": true,
+    "field_count_4": true,
+    "label_free_field_anchor_found_false": true,
+    "native_field_anchor_not_promoted": true,
+    "native_gate_search_pass": true,
+    "no_force": true,
+    "no_full_theorem": true,
+    "no_gap_a_closure": true,
+    "no_metric_geometry_claim": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "pair_profile_count_6": true,
+    "row_count_48": true,
+    "source_only_extract_pass": true,
+    "unique_native_g15_embedding_proven_false": true,
+    "uniqueness_test_pass": true
+  },
+  "created_utc": "2026-07-10T18:29:39+00:00",
+  "id": "test_slot_c_proxy_embedding_field_anchor_invariants_001",
+  "input_artifacts": {
+    "boundary_audit": "artifacts/json/audit_centroid_normalized_local_i_candidate_boundaries_001.json",
+    "native_chain_gate_search": "artifacts/json/search_native_chain_hard_absence_gate_thin_001.json",
+    "proxy_native_comparison": "artifacts/json/compare_slot_c_proxy_embedding_to_native_g15_001.json",
+    "source_only_packets": "artifacts/json/extract_source_only_slot_c_row_packets_001.json",
+    "uniqueness_probe": "artifacts/json/test_slot_c_proxy_embedding_uniqueness_against_native_g15_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_centroid_normalized_local_i_candidate_boundaries_001.json": "12040c5425fd8e3e3aa1768d931ec14259401e31b0a5840bca337cc813a88f91",
+    "artifacts/json/compare_slot_c_proxy_embedding_to_native_g15_001.json": "169fbba8bd83f9b64426ca3f14ef73c450a78ad0a0f3fcb4fab279969417e5ac",
+    "artifacts/json/extract_source_only_slot_c_row_packets_001.json": "80deb83bd070e8b7f2a4d86c98bac34d6d527235e7890aa726c3fb38443e87d4",
+    "artifacts/json/search_native_chain_hard_absence_gate_thin_001.json": "2762fe97a21e2a48444691018b32ce461fb77fe3e5482f889d372bd6c3ee48bc",
+    "artifacts/json/test_slot_c_proxy_embedding_uniqueness_against_native_g15_001.json": "f37c736a8d6cadaa1a84244bdc0db0c40b511ca0233606d74c321b60efefbe48"
+  },
+  "keeper_line": "The centroid gives the center. The invariant must give the axes.",
+  "next_gate": "test_slot_c_proxy_embedding_order_channel_axis_anchors_001",
+  "status": "SLOT_C_PROXY_FIELD_ANCHOR_INVARIANTS_001_BOUNDED_NEGATIVE",
+  "summary": {
+    "check_count": 20,
+    "failed_count": 0,
+    "field_count": 4,
+    "frontier_status": "single_field_value_profiles_do_not_anchor_axes_test_order_or_channels_next",
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "indistinguishable_group_count": 1,
+    "label_free_field_anchor_found": false,
+    "native_field_anchor_status": "no_label_free_single_field_anchor_found_in_tested_profiles",
+    "native_generator_admitted": false,
+    "pair_level_anchor_candidate": false,
+    "passed_count": 20,
+    "proof_claim": false,
+    "recommended_next": "test_slot_c_proxy_embedding_order_channel_axis_anchors_001",
+    "source_law_admitted": false,
+    "test_family": "unlabeled_field_value_and_native_non_native_profile_signatures",
+    "test_pass": true,
+    "unique_native_g15_embedding_proven": false,
+    "unique_profile_field_count": 0
+  },
+  "unresolved": [
+    {
+      "detail": "Test whether source packet order or native-chain order anchors from/to and slot/C fields.",
+      "id": "U1_native_order_anchor",
+      "status": "open"
+    },
+    {
+      "detail": "Test whether role-pair channel asymmetry breaks the unlabeled coordinate permutations.",
+      "id": "U2_role_pair_channel_anchor",
+      "status": "open"
+    },
+    {
+      "detail": "Do not promote field anchoring to source law without birth-order and leakage closure.",
+      "id": "U3_source_law_relation",
+      "status": "open"
+    }
+  ]
+}
