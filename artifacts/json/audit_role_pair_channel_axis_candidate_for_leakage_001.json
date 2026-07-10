@@ -1,0 +1,927 @@
+{
+  "artifact": "audit_role_pair_channel_axis_candidate_for_leakage_001",
+  "audit_pass": true,
+  "audit_scope": "channel_axis_leakage_and_provenance_only",
+  "keeper": "Order spoke first. Channel may speak cleaner.",
+  "inputs": {
+    "channel_search": "artifacts/json/search_role_pair_channel_axis_rule_001.json",
+    "order_search": "artifacts/json/search_native_chain_order_axis_rule_001.json",
+    "order_audit": "artifacts/json/audit_native_chain_order_axis_candidate_for_leakage_001.json",
+    "birth_trace": "artifacts/json/trace_native_chain_order_axis_birth_order_provenance_001.json",
+    "source_packets": "artifacts/json/extract_source_only_slot_c_row_packets_001.json",
+    "orientation_search": "artifacts/json/search_orientation_closure_axis_anchor_rule_001.json"
+  },
+  "channel_candidate_count": 3,
+  "channel_axis_candidates": [
+    "role_hooks",
+    "support_sources",
+    "native"
+  ],
+  "candidate_results": [
+    {
+      "candidate": "role_hooks",
+      "channel_search_hit_count": 9,
+      "source_packet_hit_count": 0,
+      "source_side_present": false,
+      "leakage_free": true,
+      "forbidden_hit_count": 0,
+      "forbidden_hits": [],
+      "provenance_status": "search_visible_clean_but_source_side_unproven"
+    },
+    {
+      "candidate": "support_sources",
+      "channel_search_hit_count": 9,
+      "source_packet_hit_count": 194,
+      "source_side_present": true,
+      "leakage_free": false,
+      "forbidden_hit_count": 162,
+      "forbidden_hits": [
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "shared_b",
+          "path": "$"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "shared_b",
+          "path": "$.source_packet_index"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[3]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[3]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "shared_b",
+          "path": "$.source_packet_index[3]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[3].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[3].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[3].support_sources[0]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[3].support_sources[0]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[4]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[4]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[4].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[4].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[4].support_sources[0]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[4].support_sources[0]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[6]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[6]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[6].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[6].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[6].support_sources[0]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[6].support_sources[0]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[7]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[7]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "shared_b",
+          "path": "$.source_packet_index[7]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[7].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[7].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[7].support_sources[0]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[7].support_sources[0]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[9]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[9]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[9].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[9].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[9].support_sources[0]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[9].support_sources[0]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[11]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[11]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[11].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[11].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[11].support_sources[0]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[11].support_sources[0]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[13]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[13]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "shared_b",
+          "path": "$.source_packet_index[13]"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[13].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer_pair",
+          "path": "$.source_packet_index[13].support_sources"
+        },
+        {
+          "candidate": "support_sources",
+          "term": "answer",
+          "path": "$.source_packet_index[13].support_sources[0]"
+        }
+      ],
+      "provenance_status": "source_packet_visible_with_forbidden_hits"
+    },
+    {
+      "candidate": "native",
+      "channel_search_hit_count": 16,
+      "source_packet_hit_count": 158,
+      "source_side_present": true,
+      "leakage_free": false,
+      "forbidden_hit_count": 18,
+      "forbidden_hits": [
+        {
+          "candidate": "native",
+          "term": "answer",
+          "path": "$"
+        },
+        {
+          "candidate": "native",
+          "term": "answer_pair",
+          "path": "$"
+        },
+        {
+          "candidate": "native",
+          "term": "shared_b",
+          "path": "$"
+        },
+        {
+          "candidate": "native",
+          "term": "answer",
+          "path": "$.boundary"
+        },
+        {
+          "candidate": "native",
+          "term": "shared_b",
+          "path": "$.boundary"
+        },
+        {
+          "candidate": "native",
+          "term": "answer",
+          "path": "$.checks"
+        },
+        {
+          "candidate": "native",
+          "term": "shared_b",
+          "path": "$.checks"
+        },
+        {
+          "candidate": "native",
+          "term": "answer",
+          "path": "$.input_artifacts"
+        },
+        {
+          "candidate": "native",
+          "term": "answer_pair",
+          "path": "$.input_artifacts"
+        },
+        {
+          "candidate": "native",
+          "term": "answer",
+          "path": "$.input_artifacts.source_files"
+        },
+        {
+          "candidate": "native",
+          "term": "answer_pair",
+          "path": "$.input_artifacts.source_files"
+        },
+        {
+          "candidate": "native",
+          "term": "answer",
+          "path": "$.input_sha256"
+        },
+        {
+          "candidate": "native",
+          "term": "answer_pair",
+          "path": "$.input_sha256"
+        },
+        {
+          "candidate": "native",
+          "term": "answer",
+          "path": "$.source_file_summaries"
+        },
+        {
+          "candidate": "native",
+          "term": "answer_pair",
+          "path": "$.source_file_summaries"
+        },
+        {
+          "candidate": "native",
+          "term": "answer",
+          "path": "$.source_packet_index"
+        },
+        {
+          "candidate": "native",
+          "term": "answer_pair",
+          "path": "$.source_packet_index"
+        },
+        {
+          "candidate": "native",
+          "term": "shared_b",
+          "path": "$.source_packet_index"
+        }
+      ],
+      "provenance_status": "source_packet_visible_with_forbidden_hits"
+    }
+  ],
+  "leakage_clear": false,
+  "forbidden_downstream_payload_hit_count": 180,
+  "forbidden_downstream_payload_hits": [
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "shared_b",
+      "path": "$"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "shared_b",
+      "path": "$.source_packet_index"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[3]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[3]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "shared_b",
+      "path": "$.source_packet_index[3]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[3].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[3].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[3].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[3].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[4]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[4]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[4].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[4].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[4].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[4].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[6]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[6]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[6].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[6].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[6].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[6].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[7]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[7]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "shared_b",
+      "path": "$.source_packet_index[7]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[7].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[7].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[7].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[7].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[9]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[9]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[9].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[9].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[9].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[9].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[11]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[11]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[11].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[11].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[11].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[11].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[13]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[13]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "shared_b",
+      "path": "$.source_packet_index[13]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[13].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[13].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[13].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[13].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[15]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[15]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[15].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[15].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[15].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[15].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[18]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[18]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[18].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[18].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[18].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[18].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[21]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[21]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "shared_b",
+      "path": "$.source_packet_index[21]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[21].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[21].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[21].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[21].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[22]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[22]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "shared_b",
+      "path": "$.source_packet_index[22]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[22].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[22].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[22].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[22].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[25]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[25]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "shared_b",
+      "path": "$.source_packet_index[25]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[25].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[25].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[25].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[25].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[26]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[26]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "shared_b",
+      "path": "$.source_packet_index[26]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[26].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[26].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[26].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[26].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[27]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[27]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[27].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[27].support_sources"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[27].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[27].support_sources[0]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer",
+      "path": "$.source_packet_index[28]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "answer_pair",
+      "path": "$.source_packet_index[28]"
+    },
+    {
+      "candidate": "support_sources",
+      "term": "shared_b",
+      "path": "$.source_packet_index[28]"
+    }
+  ],
+  "all_candidates_source_side_visible": false,
+  "order_axis_artifact_order_risk_present": true,
+  "channel_axis_cleaner_than_order_axis": false,
+  "channel_axis_status": "channel_candidates_have_forbidden_or_downstream_hits",
+  "channel_axis_rule_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "unique_native_g15_embedding_proven": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Channel-axis leakage/provenance audit only.",
+    "Candidate cleanliness may be recorded.",
+    "No channel-axis rule admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No unique native G15 embedding proof.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "inspect_role_pair_channel_axis_forbidden_hits_001"
+}
