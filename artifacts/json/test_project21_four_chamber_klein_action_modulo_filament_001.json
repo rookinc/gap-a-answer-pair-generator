@@ -1,0 +1,1050 @@
+{
+  "artifact": "test_project21_four_chamber_klein_action_modulo_filament_001",
+  "audit_pass": true,
+  "verdict": "exact_klein_four_common_filament_action_found",
+  "interpretation": "The four minimal transports form one exact V4 orbit. The nontrivial relative actions are commuting involutions that preserve the shared continuation filament.",
+  "transport_count": 4,
+  "common_source_tangent": [
+    "0",
+    "3",
+    "1",
+    "-3"
+  ],
+  "common_output_tangent": [
+    "3",
+    "0",
+    "-3",
+    "2"
+  ],
+  "alternate_image_class_count": 2,
+  "alternate_image_classes": [
+    [
+      "0",
+      "0",
+      "-5",
+      "2"
+    ],
+    [
+      "5",
+      "0",
+      "0",
+      "2"
+    ]
+  ],
+  "left_klein_hit_count": 4,
+  "right_klein_hit_count": 4,
+  "exact_klein_four_action_found": true,
+  "left_base_tests": [
+    {
+      "distinct": true,
+      "closure": true,
+      "commutative": true,
+      "orders": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "identity_count": 1,
+      "all_nontrivial_order_two": true,
+      "is_klein_four": true,
+      "base_transport": 0,
+      "all_fix_output_tangent": true,
+      "orbit_recovers_all_transports": true,
+      "elements": [
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ]
+    },
+    {
+      "distinct": true,
+      "closure": true,
+      "commutative": true,
+      "orders": [
+        2,
+        1,
+        2,
+        2
+      ],
+      "identity_count": 1,
+      "all_nontrivial_order_two": true,
+      "is_klein_four": true,
+      "base_transport": 1,
+      "all_fix_output_tangent": true,
+      "orbit_recovers_all_transports": true,
+      "elements": [
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ]
+    },
+    {
+      "distinct": true,
+      "closure": true,
+      "commutative": true,
+      "orders": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "identity_count": 1,
+      "all_nontrivial_order_two": true,
+      "is_klein_four": true,
+      "base_transport": 2,
+      "all_fix_output_tangent": true,
+      "orbit_recovers_all_transports": true,
+      "elements": [
+        [
+          [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ]
+    },
+    {
+      "distinct": true,
+      "closure": true,
+      "commutative": true,
+      "orders": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "identity_count": 1,
+      "all_nontrivial_order_two": true,
+      "is_klein_four": true,
+      "base_transport": 3,
+      "all_fix_output_tangent": true,
+      "orbit_recovers_all_transports": true,
+      "elements": [
+        [
+          [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ]
+    }
+  ],
+  "right_base_tests": [
+    {
+      "distinct": true,
+      "closure": true,
+      "commutative": true,
+      "orders": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "identity_count": 1,
+      "all_nontrivial_order_two": true,
+      "is_klein_four": true,
+      "base_transport": 0,
+      "all_fix_source_tangent": true,
+      "orbit_recovers_all_transports": true,
+      "elements": [
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ]
+        ]
+      ]
+    },
+    {
+      "distinct": true,
+      "closure": true,
+      "commutative": true,
+      "orders": [
+        2,
+        1,
+        2,
+        2
+      ],
+      "identity_count": 1,
+      "all_nontrivial_order_two": true,
+      "is_klein_four": true,
+      "base_transport": 1,
+      "all_fix_source_tangent": true,
+      "orbit_recovers_all_transports": true,
+      "elements": [
+        [
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ]
+        ]
+      ]
+    },
+    {
+      "distinct": true,
+      "closure": true,
+      "commutative": true,
+      "orders": [
+        2,
+        2,
+        1,
+        2
+      ],
+      "identity_count": 1,
+      "all_nontrivial_order_two": true,
+      "is_klein_four": true,
+      "base_transport": 2,
+      "all_fix_source_tangent": true,
+      "orbit_recovers_all_transports": true,
+      "elements": [
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ]
+    },
+    {
+      "distinct": true,
+      "closure": true,
+      "commutative": true,
+      "orders": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "identity_count": 1,
+      "all_nontrivial_order_two": true,
+      "is_klein_four": true,
+      "base_transport": 3,
+      "all_fix_source_tangent": true,
+      "orbit_recovers_all_transports": true,
+      "elements": [
+        [
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ]
+    }
+  ],
+  "checks": {
+    "source_candidate_family_ready": true,
+    "four_transports_present": true,
+    "all_share_continuation_filament": true,
+    "all_four_left_base_choices_tested": true,
+    "all_four_right_base_choices_tested": true,
+    "group_closure_and_commutation_tested": true,
+    "orbit_recovery_tested": true,
+    "audit_completed": true
+  },
+  "four_chambers_per_edge_theorem_admitted": false,
+  "schlafli_534_identity_admitted": false,
+  "literal_534_honeycomb_claim": false,
+  "orthogonal_transport_family_admitted": false,
+  "metric_geometry_claim": false,
+  "physics_claim": false,
+  "gap_a_closure": false,
+  "boundary": [
+    "Finite four-transport group-action audit only.",
+    "The common continuation tangent is treated as a candidate shared filament.",
+    "A Klein-four result requires four distinct elements, closure, commutation, one identity, and three involutions.",
+    "The action must preserve the common filament and recover the four observed transports as one orbit.",
+    "No literal {5,3,4} honeycomb, four-chambers-per-edge theorem, orthogonal-family, metric-geometry, physics, or Gap A closure claim."
+  ],
+  "recommended_next": "record_project21_four_chamber_klein_action_checkpoint_001"
+}
