@@ -1,0 +1,698 @@
+{
+  "artifact_kind": "gap_a_frontier_scan_ledger",
+  "blocked_frontier": [
+    {
+      "id": "B1_no_gap_a_closure",
+      "missing_receipt": "A native derivation that generates the required answer-pair structure without realized-row or answer-label dependence.",
+      "statement": "The scanned artifacts repeatedly preserve the boundary that Gap A is not closed."
+    },
+    {
+      "id": "B2_no_native_ab_assignment_law",
+      "missing_receipt": "A rule selecting A/B assignments from native inputs rather than realized answer rows.",
+      "statement": "A/B assignment remains the central missing law after candidate skeleton generation."
+    },
+    {
+      "id": "B3_no_full_role_labeled_shared_B_universe",
+      "missing_receipt": "A construction that generates all role-labeled shared_B rows with role class and support.",
+      "statement": "The full role-labeled shared_B universe is not yet derived from first principles."
+    },
+    {
+      "id": "B4_answer_label_leakage_open",
+      "missing_receipt": "A leakage audit showing the grouping/selection law is independent of answer labels and downstream rows.",
+      "statement": "Answer-label leakage remains open where selectors or reduced universes depend on already grouped/realized structures."
+    },
+    {
+      "id": "B5_source_construction_upstream",
+      "missing_receipt": "A source-construction law explaining transition support, role class, and A/B assignment together.",
+      "statement": "The frontier points upstream toward source construction variables rather than another flat row-feature selector."
+    }
+  ],
+  "boundary": {
+    "ab_assignment_law_admitted": false,
+    "answer_label_leakage_closed": false,
+    "force_claim": false,
+    "frontier_scan_ledger_only": true,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "theorem": false
+  },
+  "checks": {
+    "blocked_frontier_count_5": true,
+    "focus_records_present": true,
+    "missing_focus_count_zero": true,
+    "no_ab_assignment_law_admission": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_theorem": true,
+    "scan_exists": true,
+    "scan_hit_file_count_positive": true,
+    "solved_frontier_count_4": true
+  },
+  "created_utc": "2026-07-10T13:54:04+00:00",
+  "focus_records": [
+    {
+      "audit_id": "027",
+      "blocked_hits": [
+        {
+          "path": "boundary",
+          "value": "This is still a reduced-universe selector over the 16 candidates. It derives shell labels and shell ranks from native summaries visible in the reduced register shadow, but it does not yet derive the full role-labeled shared_B edge universe from first principles and does not close Gap A."
+        }
+      ],
+      "boundary_excerpt": "This is still a reduced-universe selector over the 16 candidates. It derives shell labels and shell ranks from native summaries visible in the reduced register shadow, but it does not yet derive the full role-labeled shared_B edge universe from first principles and does not close Gap A.",
+      "path": "artifacts/json/native_shell_rank_derivation_027.v1.json",
+      "sha256": "f59e8e28eaeaf815d9fd29bed4f044edfc60913be78c5b9229100f512817f974",
+      "solved_hits": [
+        {
+          "path": "boundary",
+          "value": "This is still a reduced-universe selector over the 16 candidates. It derives shell labels and shell ranks from native summaries visible in the reduced register shadow, but it does not yet derive the full role-labeled shared_B edge universe from first principles and does not close Gap A."
+        },
+        {
+          "path": "input_026",
+          "value": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/native_shell_label_derivation_026.v1.json"
+        },
+        {
+          "path": "interpretation",
+          "value": "This audit derives the shell-rank part of the 025 radial phase-lock selector from simple native summaries rather than from the selected permutation. The C rank is obtained by ordering C-cycles within each derived shell by their entry value c_path[0] / XY.from_C. The anchor rank is obtained by orderi..."
+        },
+        {
+          "path": "status",
+          "value": "native_shell_rank_derivation_recorded"
+        }
+      ],
+      "status": "native_shell_rank_derivation_recorded",
+      "summary_keys": []
+    },
+    {
+      "audit_id": "009",
+      "blocked_hits": [
+        {
+          "path": "boundary",
+          "value": "This is a schema inventory only. It does not test a generator and does not close Gap A."
+        },
+        {
+          "path": "inventory[1].needle_hits_first_80[30].sample",
+          "value": "This is a strong local selector chain for the WXYZTI role-block circulation. It shows that the target circulation is not arbitrary inside the signed G15/WXYZTI context. It is not, however, a G60-native generator derivation, because the directed WXYZTI transition table remains upstream."
+        },
+        {
+          "path": "inventory[4].needle_hits_first_80[58].sample",
+          "value": "This is still a row-pair candidate universe built from realized WXYZTI rows. It is stronger than a realized-pair audit, but it is not a native G60 generator and does not close Gap A."
+        },
+        {
+          "path": "inventory[5].needle_hits_first_80[5].sample",
+          "value": "This is a coordinate-shadow audit over realized WXYZTI rows only. It does not prove a complete generator, does not derive G60-native structure, and does not close Gap A."
+        },
+        {
+          "path": "inventory[6].needle_hits_first_80[0].sample",
+          "value": "This audits realized rows only. It does not prove selection from non-realized candidates and does not close Gap A."
+        },
+        {
+          "path": "inventory[7].needle_hits_first_80[0].sample",
+          "value": "This is an invariant audit over realized station rows only. It does not generate the allowed transitions from a non-realized candidate universe and does not close Gap A."
+        },
+        {
+          "path": "inventory[8].needle_hits_first_80[4].sample",
+          "value": "This is an exact law over realized WXYZTI station rows. It does not generate the allowed transitions from a larger candidate universe, does not derive G60-native structure, and does not close Gap A."
+        },
+        {
+          "path": "inventory[9].needle_hits_first_80[0].sample",
+          "value": "This audits realized shared_B rows only. It does not generate the shared_B candidate set and does not close Gap A."
+        },
+        {
+          "path": "inventory[11].needle_hits_first_80[3].sample",
+          "value": "This audits realized reciprocal pairs only. It does not generate the pair set from a non-realized candidate universe and does not close Gap A."
+        },
+        {
+          "path": "inventory[13].needle_hits_first_80[0].sample",
+          "value": "This audits only realized station rows. It does not compare against non-realized candidate rows, does not prove a complete generator, and does not close Gap A."
+        },
+        {
+          "path": "inventory[14].needle_hits_first_80[0].sample",
+          "value": "This audits realized station rows only. It does not generate shared_B from a non-realized candidate universe and does not close Gap A."
+        },
+        {
+          "path": "inventory[15].needle_hits_first_80[0].sample",
+          "value": "This is a schema/feature inspection. It does not prove a generator and does not close Gap A."
+        }
+      ],
+      "boundary_excerpt": "This is a schema inventory only. It does not test a generator and does not close Gap A.",
+      "path": "artifacts/json/source_artifact_schema_inventory_009.v1.json",
+      "sha256": "7c5729f7cbf0eb4e613783b9c6b2c0dc5c83442ab176e45e1a2a4f86b9717be4",
+      "solved_hits": [
+        {
+          "path": "inventory[0].needle_hits_first_80[1].path",
+          "value": "boundary.candidate_universe_generated"
+        },
+        {
+          "path": "inventory[0].needle_hits_first_80[19].sample",
+          "value": "The realized WXYZTI overlay has a paired local grammar. Each directed C-transition has one shared_B row and one reciprocal reverse_partner row. reverse_partner is the answering row: it preserves A and swaps B/C. shared_B preserves B/slot, and its target C is supplied by the paired reverse_partner ro..."
+        },
+        {
+          "path": "inventory[0].needle_hits_first_80[24].sample",
+          "value": "Generate the 12 reciprocal shared_B/reverse_partner pairs from a native candidate universe, rather than merely auditing realized WXYZTI rows."
+        },
+        {
+          "path": "inventory[0].needle_hits_first_80[26].path",
+          "value": "pair_coupling_law.exact_true_flag_count"
+        },
+        {
+          "path": "inventory[0].needle_hits_first_80[27].path",
+          "value": "pair_coupling_law.exact_true_flags"
+        },
+        {
+          "path": "inventory[0].needle_hits_first_80[28].path",
+          "value": "pair_coupling_law.exact_true_flags[]"
+        },
+        {
+          "path": "inventory[0].needle_hits_first_80[33].path",
+          "value": "reverse_partner_law.exact_true_flags"
+        },
+        {
+          "path": "inventory[0].needle_hits_first_80[34].path",
+          "value": "reverse_partner_law.exact_true_flags[]"
+        },
+        {
+          "path": "inventory[0].needle_hits_first_80[40].path",
+          "value": "reverse_partner_law.transform_exact"
+        },
+        {
+          "path": "inventory[0].needle_hits_first_80[42].path",
+          "value": "shared_B_law.exact_true_flags"
+        },
+        {
+          "path": "inventory[0].needle_hits_first_80[43].path",
+          "value": "shared_B_law.exact_true_flags[]"
+        },
+        {
+          "path": "inventory[1].file",
+          "value": "gap_a_wxyzti_role_block_selector_checkpoint_006c.v1.json"
+        },
+        {
+          "path": "inventory[1].needle_hits_first_80[13].path",
+          "value": "core_result.observed_support"
+        },
+        {
+          "path": "inventory[1].needle_hits_first_80[14].path",
+          "value": "core_result.observed_support[]"
+        },
+        {
+          "path": "inventory[1].needle_hits_first_80[20].sample",
+          "value": "The WXYZTI overlay has a strong local selector chain. Signed G15 native profile reduces the role-block circulation candidates to 7. Observed support, q0/q3 inclusion, and shared junction C=2 reduce those to 2. Directed WXYZTI channel compatibility selects exactly the target circulation."
+        },
+        {
+          "path": "inventory[1].needle_hits_first_80[30].sample",
+          "value": "This is a strong local selector chain for the WXYZTI role-block circulation. It shows that the target circulation is not arbitrary inside the signed G15/WXYZTI context. It is not, however, a G60-native generator derivation, because the directed WXYZTI transition table remains upstream."
+        },
+        {
+          "path": "inventory[1].needle_hits_first_80[33].path",
+          "value": "key_counts.candidate_count_006c"
+        },
+        {
+          "path": "inventory[1].needle_hits_first_80[35].path",
+          "value": "key_counts.exact_directed_transition_cover_count_006c"
+        }
+      ],
+      "status": "source_artifact_schema_inventory_recorded",
+      "summary_keys": []
+    },
+    {
+      "audit_id": "011",
+      "blocked_hits": [
+        {
+          "path": "boundary",
+          "value": "This is schema inspection only. It does not assert a native generator and does not close Gap A."
+        },
+        {
+          "path": "interpretation",
+          "value": "This schema inspection ranks imported native-chain artifacts by whether they expose transition, support, role, and A/B/C fields. The goal is to identify the best next source for reconstructing the missing A/B assignment law."
+        }
+      ],
+      "boundary_excerpt": "This is schema inspection only. It does not assert a native generator and does not close Gap A.",
+      "path": "artifacts/json/native_chain_schema_inspection_011.v1.json",
+      "sha256": "2e368c9002563118d58a7f994341eae907ec6a8c126299f7408421f3cb41a81a",
+      "solved_hits": [
+        {
+          "path": "interpretation",
+          "value": "This schema inspection ranks imported native-chain artifacts by whether they expose transition, support, role, and A/B/C fields. The goal is to identify the best next source for reconstructing the missing A/B assignment law."
+        },
+        {
+          "path": "ranked_files[0].file",
+          "value": "c_transition_overlay_delta_generator_001.v1.json"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[0].needle",
+          "value": "transition"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[0].path",
+          "value": "summary.c_transition_group_count"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[1].needle",
+          "value": "transition"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[1].path",
+          "value": "summary.c_transition_counts"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[2].needle",
+          "value": "transition"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[2].path",
+          "value": "summary.c_transition_counts.(0, 2)"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[3].needle",
+          "value": "transition"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[3].path",
+          "value": "summary.c_transition_counts.(1, 10)"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[4].needle",
+          "value": "transition"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[4].path",
+          "value": "summary.c_transition_counts.(2, 4)"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[5].needle",
+          "value": "transition"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[5].path",
+          "value": "summary.c_transition_counts.(2, 5)"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[6].needle",
+          "value": "transition"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[6].path",
+          "value": "summary.c_transition_counts.(2, 14)"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[7].needle",
+          "value": "transition"
+        },
+        {
+          "path": "ranked_files[0].needle_hits_first_120[7].path",
+          "value": "summary.c_transition_counts.(4, 5)"
+        }
+      ],
+      "status": "native_chain_schema_inspection_recorded",
+      "summary_keys": []
+    },
+    {
+      "audit_id": "025",
+      "blocked_hits": [
+        {
+          "path": "boundary",
+          "value": "This does not close Gap A. It derives an exact selector only after accepting the shell markers and matrix-order phase ranks from the reduced 024 representation. The next step is to derive those shell/rank labels natively."
+        }
+      ],
+      "boundary_excerpt": "This does not close Gap A. It derives an exact selector only after accepting the shell markers and matrix-order phase ranks from the reduced 024 representation. The next step is to derive those shell/rank labels natively.",
+      "path": "artifacts/json/radial_phase_lock_selector_025.v1.json",
+      "sha256": "2aceca7b5bff6ade13fc5387318806b6447fe7f0390db4d581ae7712cb3d5811",
+      "solved_hits": [
+        {
+          "path": "boundary",
+          "value": "This does not close Gap A. It derives an exact selector only after accepting the shell markers and matrix-order phase ranks from the reduced 024 representation. The next step is to derive those shell/rank labels natively."
+        },
+        {
+          "path": "exact_selectors[2].name",
+          "value": "radial_phase_lock_shell_and_rank"
+        },
+        {
+          "path": "interpretation",
+          "value": "This audit tests the radial phase-lock reading suggested by the hand sketch. The 024 permutation is modeled as a shell gate plus a phase-rank lock: C-cycles containing C=5 pair with anchor-cycles containing the branch anchor [8,18], while ordinary C-cycles pair with ordinary anchor-cycles. Within ea..."
+        },
+        {
+          "path": "selector_scores[2].name",
+          "value": "radial_phase_lock_shell_and_rank"
+        },
+        {
+          "path": "selector_scores[10].name",
+          "value": "branch_gate_only_shell_match"
+        },
+        {
+          "path": "selector_scores[11].name",
+          "value": "shell_rank_match_only"
+        },
+        {
+          "path": "status",
+          "value": "radial_phase_lock_selector_recorded"
+        }
+      ],
+      "status": "radial_phase_lock_selector_recorded",
+      "summary_keys": []
+    },
+    {
+      "audit_id": "003",
+      "blocked_hits": [
+        {
+          "path": "boundary",
+          "value": "This is not Gap A closure. It uses selected transition keys from 002, and it uses realized rows only for evaluation. It does not yet generate the transition support or the A/B assignments natively."
+        },
+        {
+          "path": "interpretation",
+          "value": "Given the selected transition key and reciprocal station roles, the pair grammar still leaves four mod-15 degrees of freedom: S.from_A, S.B/slot, S.to_A, and R.from_A. The synthetic skeleton universe therefore overgenerates heavily. This identifies the next native-generator problem: select the missi..."
+        }
+      ],
+      "boundary_excerpt": "This is not Gap A closure. It uses selected transition keys from 002, and it uses realized rows only for evaluation. It does not yet generate the transition support or the A/B assignments natively.",
+      "path": "artifacts/json/synthetic_pair_skeleton_universe_003.v1.json",
+      "sha256": "5ba5dc8ba53c3163e819549a536a0ce6d84d954b8ec9e3a24f548f7fb0878145",
+      "solved_hits": [
+        {
+          "path": "boundary",
+          "value": "This is not Gap A closure. It uses selected transition keys from 002, and it uses realized rows only for evaluation. It does not yet generate the transition support or the A/B assignments natively."
+        },
+        {
+          "path": "input_selector_002",
+          "value": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/admission_blind_row_pair_selector_002.v1.json"
+        },
+        {
+          "path": "interpretation",
+          "value": "Given the selected transition key and reciprocal station roles, the pair grammar still leaves four mod-15 degrees of freedom: S.from_A, S.B/slot, S.to_A, and R.from_A. The synthetic skeleton universe therefore overgenerates heavily. This identifies the next native-generator problem: select the missi..."
+        },
+        {
+          "path": "status",
+          "value": "synthetic_pair_skeleton_universe_recorded"
+        }
+      ],
+      "status": "synthetic_pair_skeleton_universe_recorded",
+      "summary_keys": []
+    },
+    {
+      "audit_id": "015",
+      "blocked_hits": [
+        {
+          "path": "boundary",
+          "value": "This is a reading and triage audit over an imported search artifact. It does not derive the G60 overlay edge records and does not close Gap A."
+        }
+      ],
+      "boundary_excerpt": "This is a reading and triage audit over an imported search artifact. It does not derive the G60 overlay edge records and does not close Gap A.",
+      "path": "artifacts/json/g60_overlay_generator_family_reading_015.v1.json",
+      "sha256": "df2258c7f3e076b213a0c2522234e5cb9c06688080e32e342923e357ca00e33b",
+      "solved_hits": [
+        {
+          "path": "boundary_from_source[2]",
+          "value": "Success would identify a candidate generator family, not full Gap A closure."
+        },
+        {
+          "path": "checks[6].id",
+          "value": "candidate_family_nonempty"
+        },
+        {
+          "path": "interpretation",
+          "value": "This audit reads the earlier G60 native overlay generator-family search. It records which candidate families were tested, which partial matches were found, whether any candidate already gave an exact all-edge generator, and what remains open. This is meant to prevent Project 21 from repeating a gene..."
+        },
+        {
+          "path": "purpose",
+          "value": "Test a bounded family of simple native G60 maps as candidate generators for WXYZTI overlay edges."
+        },
+        {
+          "path": "ranked_candidates[0].raw_keys[0]",
+          "value": "candidate"
+        },
+        {
+          "path": "ranked_candidates[0].raw_keys[1]",
+          "value": "exact_all"
+        },
+        {
+          "path": "ranked_candidates[0].raw_keys[2]",
+          "value": "exact_reverse_partner"
+        },
+        {
+          "path": "ranked_candidates[0].raw_keys[3]",
+          "value": "exact_shared_B"
+        },
+        {
+          "path": "ranked_candidates[1].raw_keys[0]",
+          "value": "candidate"
+        },
+        {
+          "path": "ranked_candidates[1].raw_keys[1]",
+          "value": "exact_all"
+        },
+        {
+          "path": "ranked_candidates[1].raw_keys[2]",
+          "value": "exact_reverse_partner"
+        },
+        {
+          "path": "ranked_candidates[1].raw_keys[3]",
+          "value": "exact_shared_B"
+        },
+        {
+          "path": "ranked_candidates[2].raw_keys[0]",
+          "value": "candidate"
+        },
+        {
+          "path": "ranked_candidates[2].raw_keys[1]",
+          "value": "exact_all"
+        },
+        {
+          "path": "ranked_candidates[2].raw_keys[2]",
+          "value": "exact_reverse_partner"
+        },
+        {
+          "path": "ranked_candidates[2].raw_keys[3]",
+          "value": "exact_shared_B"
+        },
+        {
+          "path": "ranked_candidates[3].raw_keys[0]",
+          "value": "candidate"
+        },
+        {
+          "path": "ranked_candidates[3].raw_keys[1]",
+          "value": "exact_all"
+        }
+      ],
+      "status": "g60_overlay_generator_family_reading_recorded",
+      "summary_keys": [
+        "best_single_candidate",
+        "candidate_count",
+        "candidate_names",
+        "edge_record_count",
+        "fiber_delta_by_label",
+        "form_count",
+        "forms_key",
+        "full_g900_admission_found",
+        "gap_a_closed",
+        "label_counts",
+        "next_step",
+        "role_counts",
+        "slot_delta_by_label",
+        "strict_native_two_map_generator_found",
+        "two_map_exact_hit_count"
+      ]
+    },
+    {
+      "audit_id": "012",
+      "blocked_hits": [
+        {
+          "path": "boundary",
+          "value": "This is an alignment audit. It does not yet derive the rule_members natively from G60, and therefore does not close Gap A by itself."
+        },
+        {
+          "path": "interpretation",
+          "value": "This audit aligns the native rule_members from the imported Project 18 native-chain artifact with the 12 selected C-tracks from Project 21. If the native members match the free variables in 004, then the A/B assignments are not absent; they are present in the earlier native transition member layer."
+        }
+      ],
+      "boundary_excerpt": "This is an alignment audit. It does not yet derive the rule_members natively from G60, and therefore does not close Gap A by itself.",
+      "path": "artifacts/json/native_rule_member_alignment_012.v1.json",
+      "sha256": "d1a5e475bd4c599948f7a7dfd3599ac1b6a0bea14afd667ec34cad7de5d504c2",
+      "solved_hits": [
+        {
+          "path": "input_native_rule_members",
+          "value": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/c_transition_overlay_delta_generator_001.v1.json"
+        },
+        {
+          "path": "input_selector_002",
+          "value": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/admission_blind_row_pair_selector_002.v1.json"
+        },
+        {
+          "path": "interpretation",
+          "value": "This audit aligns the native rule_members from the imported Project 18 native-chain artifact with the 12 selected C-tracks from Project 21. If the native members match the free variables in 004, then the A/B assignments are not absent; they are present in the earlier native transition member layer."
+        }
+      ],
+      "status": "native_rule_member_alignment_recorded",
+      "summary_keys": []
+    },
+    {
+      "audit_id": "006",
+      "blocked_hits": [
+        {
+          "path": "boundary",
+          "value": "This is an exploratory frame audit over realized WXYZTI rows. It does not generate the C-transition support or the A/B assignments natively. It is not Gap A closure."
+        }
+      ],
+      "boundary_excerpt": "This is an exploratory frame audit over realized WXYZTI rows. It does not generate the C-transition support or the A/B assignments natively. It is not Gap A closure.",
+      "path": "artifacts/json/triangle_frame_assignment_audit_006.v1.json",
+      "sha256": "b29fd277571b69e80e2973c932be162ab4dc3cc3354962140e7b3a3f65c392a6",
+      "solved_hits": [
+        {
+          "path": "boundary",
+          "value": "This is an exploratory frame audit over realized WXYZTI rows. It does not generate the C-transition support or the A/B assignments natively. It is not Gap A closure."
+        },
+        {
+          "path": "interpretation",
+          "value": "The triangle-frame predicate selects the same 12-style structure from the 48 row-pair candidate universe, but phrases the selector geometrically: fixed B face plus fixed A answer face, joined by forward and return C seams."
+        }
+      ],
+      "status": "triangle_frame_assignment_audit_recorded",
+      "summary_keys": []
+    },
+    {
+      "audit_id": "007",
+      "blocked_hits": [
+        {
+          "path": "boundary",
+          "value": "This is not Gap A closure. It uses selected transition keys from 002 and realized rows only for evaluation. It shows that triangle-frame closure alone does not solve the synthetic overgeneration problem."
+        },
+        {
+          "path": "interpretation",
+          "value": "The triangle-frame rule is already built into the synthetic skeleton construction. It accepts the whole synthetic skeleton universe rather than selecting the realized A/B assignments. Therefore the hand-sketch frame explains the pair closure grammar, but the missing generator problem remains the nat..."
+        }
+      ],
+      "boundary_excerpt": "This is not Gap A closure. It uses selected transition keys from 002 and realized rows only for evaluation. It shows that triangle-frame closure alone does not solve the synthetic overgeneration problem.",
+      "path": "artifacts/json/triangle_frame_synthetic_reduction_audit_007.v1.json",
+      "sha256": "bfd33699daa5417f5ef3e7066185ae174e310e8d5d9635fc9215a7eeb3b586fb",
+      "solved_hits": [
+        {
+          "path": "boundary",
+          "value": "This is not Gap A closure. It uses selected transition keys from 002 and realized rows only for evaluation. It shows that triangle-frame closure alone does not solve the synthetic overgeneration problem."
+        },
+        {
+          "path": "input_selector_002",
+          "value": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/admission_blind_row_pair_selector_002.v1.json"
+        },
+        {
+          "path": "interpretation",
+          "value": "The triangle-frame rule is already built into the synthetic skeleton construction. It accepts the whole synthetic skeleton universe rather than selecting the realized A/B assignments. Therefore the hand-sketch frame explains the pair closure grammar, but the missing generator problem remains the nat..."
+        },
+        {
+          "path": "status",
+          "value": "triangle_frame_synthetic_reduction_recorded"
+        }
+      ],
+      "status": "triangle_frame_synthetic_reduction_recorded",
+      "summary_keys": []
+    },
+    {
+      "audit_id": null,
+      "blocked_hits": [],
+      "boundary_excerpt": "['This searches a first bounded family of simple native G60 maps.', 'Failure refutes only this tested family.', 'Success would identify a candidate generator family, not full Gap A closure.', 'This does not prove full G900.']",
+      "path": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+      "sha256": "4a77cbd5b0cf631fdbba27c1eb3c04d6d8c593f2f0dbab6eb70bfff98419f78f",
+      "solved_hits": [
+        {
+          "path": "purpose",
+          "value": "Test a bounded family of simple native G60 maps as candidate generators for WXYZTI overlay edges."
+        },
+        {
+          "path": "checks[6].id",
+          "value": "candidate_family_nonempty"
+        },
+        {
+          "path": "boundary[2]",
+          "value": "Success would identify a candidate generator family, not full Gap A closure."
+        }
+      ],
+      "status": "g60_native_overlay_generator_not_found_in_tested_family",
+      "summary_keys": [
+        "best_single_candidate",
+        "candidate_count",
+        "candidate_names",
+        "edge_record_count",
+        "fiber_delta_by_label",
+        "form_count",
+        "forms_key",
+        "full_g900_admission_found",
+        "gap_a_closed",
+        "label_counts",
+        "next_step",
+        "role_counts",
+        "slot_delta_by_label",
+        "strict_native_two_map_generator_found",
+        "two_map_exact_hit_count"
+      ]
+    }
+  ],
+  "id": "extract_project21_gap_a_frontier_001",
+  "input_scan": "artifacts/json/gap_a_project21_scan_001.json",
+  "input_scan_sha256": "f898ba39ed76d97f1156eb465972498a81bc5500bd6350b5f47d7ffdcb73d9e6",
+  "keeper_line": "The frontier is not another selector; it is the missing source law behind the selector.",
+  "missing_focus_files": [],
+  "next_gate": "inspect_source_construction_fields_for_ab_assignment_001",
+  "recommended_next": [
+    "inspect_source_construction_fields_for_ab_assignment_001",
+    "compare_009_011_027_frontier_inputs_001",
+    "derive_project21_gap_a_source_law_candidate_001"
+  ],
+  "root": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator",
+  "solved_frontier": [
+    {
+      "id": "S1_candidate_skeleton_and_pair_shape",
+      "statement": "Project 21 has candidate skeleton and reciprocal pair-shape evidence, but not a native full generator.",
+      "support": [
+        "artifacts/json/synthetic_pair_skeleton_universe_003.v1.json",
+        "artifacts/json/triangle_frame_synthetic_reduction_audit_007.v1.json"
+      ]
+    },
+    {
+      "id": "S2_reduced_selector_wins",
+      "statement": "Project 21 has reduced-universe selector wins including radial/shell-rank style selectors.",
+      "support": [
+        "artifacts/json/radial_phase_lock_selector_025.v1.json",
+        "artifacts/json/native_shell_rank_derivation_027.v1.json"
+      ]
+    },
+    {
+      "id": "S3_native_chain_source_inventory",
+      "statement": "Project 21 imported and inspected native-chain/source artifacts and identified useful schema surfaces.",
+      "support": [
+        "artifacts/json/source_artifact_schema_inventory_009.v1.json",
+        "artifacts/json/native_chain_schema_inspection_011.v1.json"
+      ]
+    },
+    {
+      "id": "S4_overlay_role_data_present",
+      "statement": "Project 21 has visible shared_B/reverse_partner overlay role data to inspect.",
+      "support": [
+        "artifacts/json/native_rule_member_alignment_012.v1.json",
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+      ]
+    }
+  ],
+  "status": "PROJECT21_GAP_A_FRONTIER_001_EXTRACTED",
+  "summary": {
+    "ab_assignment_law_admitted": false,
+    "answer_label_leakage_closed": false,
+    "blocked_frontier_count": 5,
+    "check_count": 15,
+    "failed_count": 0,
+    "focus_record_count": 10,
+    "frontier_pass": true,
+    "frontier_status": "source_law_frontier",
+    "full_role_labeled_shared_b_derived": false,
+    "gap_a_closed": false,
+    "missing_focus_count": 0,
+    "native_generator_admitted": false,
+    "passed_count": 15,
+    "recommended_next": "inspect_source_construction_fields_for_ab_assignment_001",
+    "scan_hit_file_count": 168,
+    "solved_frontier_count": 4
+  }
+}

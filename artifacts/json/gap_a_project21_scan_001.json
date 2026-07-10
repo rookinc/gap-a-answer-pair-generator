@@ -1,0 +1,801 @@
+{
+  "boundary": {
+    "admission": false,
+    "force_claim": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "scan_only": true,
+    "theorem": false
+  },
+  "created_local": "2026-07-10T06:51:43",
+  "hit_file_count": 168,
+  "id": "gap_a_project21_scan_001",
+  "root": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator",
+  "scanned_file_count": 168,
+  "top_dirs": [
+    {
+      "dir": "source",
+      "hit_count": 66
+    },
+    {
+      "dir": "artifacts",
+      "hit_count": 36
+    },
+    {
+      "dir": "scripts",
+      "hit_count": 33
+    },
+    {
+      "dir": "notes",
+      "hit_count": 32
+    },
+    {
+      "dir": ".",
+      "hit_count": 1
+    }
+  ],
+  "top_hits": [
+    {
+      "path": "artifacts/json/native_shell_rank_derivation_027.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "gap-a=3",
+        "shared_B=1",
+        "role-labeled shared_B=1",
+        "selector=7",
+        "candidate=318",
+        "path_gap"
+      ],
+      "score": 342,
+      "snippets": [
+        "81: \"audit_id\": \"027\",\n82: \"best_selector_tests_first_80\": [\n83: {",
+        "83: {\n84: \"accepted_candidate_indices\": [\n85: 1,",
+        "94: \"false_positive\": 0,\n95: \"false_positive_candidate_indices\": [],\n96: \"miss\": 0,",
+        "96: \"miss\": 0,\n97: \"miss_candidate_indices\": [],\n98: \"name\": \"c_entry_asc__x__anchor_max_residue_asc\","
+      ]
+    },
+    {
+      "path": "artifacts/json/source_artifact_schema_inventory_009.v1.json",
+      "reasons": [
+        "Gap A=15",
+        "gap a=15",
+        "gap-a=1",
+        "shared_B=217",
+        "native generator=1",
+        "realized rows=5",
+        "reciprocal pair=2",
+        "selector=30",
+        "candidate=37",
+        "path_gap"
+      ],
+      "score": 333,
+      "snippets": [
+        "2: \"audit_id\": \"009\",\n3: \"boundary\": \"This is a schema inventory only. It does not test a generator and does not close Gap A.\",\n4: \"file_count\": 16,",
+        "27: \"needle\": \"A\",\n28: \"path\": \"boundary.candidate_universe_generated\",\n29: \"sample\": false,",
+        "64: \"path\": \"compact_statement\",\n65: \"sample\": \"The witness is the nearest neighbor that answers back: the shared_B carrier preserves B/slot, while the paired reverse_partner row supplies the returned C value by swapping B and C.\",\n66: \"type\": \"str\"",
+        "136: \"path\": \"core_result.summary\",\n137: \"sample\": \"The realized WXYZTI overlay has a paired local grammar. Each directed C-transition has one shared_B row and one reciprocal reverse_partner row. reverse_partner is the answering row: it preserves A and swaps B/...\n138: \"type\": \"str\""
+      ]
+    },
+    {
+      "path": "artifacts/json/native_chain_schema_inspection_011.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "gap-a=1",
+        "shared_B=65",
+        "native generator=1",
+        "A/B assignment=1",
+        "selector=6",
+        "candidate=62",
+        "path_gap"
+      ],
+      "score": 148,
+      "snippets": [
+        "2: \"audit_id\": \"011\",\n3: \"boundary\": \"This is schema inspection only. It does not assert a native generator and does not close Gap A.\",\n4: \"file_count\": 17,",
+        "27: },\n28: \"interpretation\": \"This schema inspection ranks imported native-chain artifacts by whether they expose transition, support, role, and A/B/C fields. The goal is to identify the best next source for reconstructing the miss...\n29: \"ranked_files\": [",
+        "142: \"needle\": \"transition\",\n143: \"path\": \"summary.c_transition_label_counts.(0, 2, 'shared_B')\",\n144: \"sample\": 1,",
+        "154: \"needle\": \"transition\",\n155: \"path\": \"summary.c_transition_label_counts.(1, 10, 'shared_B')\",\n156: \"sample\": 1,"
+      ]
+    },
+    {
+      "path": "artifacts/json/radial_phase_lock_selector_025.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "gap-a=2",
+        "selector=5",
+        "candidate=108",
+        "path_gap",
+        "path_selector"
+      ],
+      "score": 132,
+      "snippets": [
+        "12: \"audit_id\": \"025\",\n13: \"boundary\": \"This does not close Gap A. It derives an exact selector only after accepting the shell markers and matrix-order phase ranks from the reduced 024 representation. The next step is to derive those shell/rank la...\n14: \"c_shell_members\": {",
+        "23: },\n24: \"candidate_count\": 16,\n25: \"candidate_rows\": [",
+        "24: \"candidate_count\": 16,\n25: \"candidate_rows\": [\n26: {",
+        "48: ],\n49: \"candidate_index\": 0,\n50: \"intersection_size\": 1,"
+      ]
+    },
+    {
+      "path": "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=86",
+        "reciprocal pair=1",
+        "selector=14",
+        "candidate=18",
+        "path_gap"
+      ],
+      "score": 131,
+      "snippets": [
+        "63: \"role_pair\": \"IW/YZ\",\n64: \"shared_B_row\": {\n65: \"C_delta\": 9,",
+        "72: \"lift_q\": 0,\n73: \"role_class\": \"shared_B\",\n74: \"role_pair\": \"IW/YZ\",",
+        "143: \"role_pair\": \"IW/YZ\",\n144: \"shared_B_row\": {\n145: \"C_delta\": 12,",
+        "152: \"lift_q\": 0,\n153: \"role_class\": \"shared_B\",\n154: \"role_pair\": \"IW/YZ\","
+      ]
+    },
+    {
+      "path": "artifacts/json/synthetic_pair_skeleton_universe_003.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "gap-a=2",
+        "shared_B=48",
+        "A/B assignment=2",
+        "realized rows=2",
+        "synthetic=16",
+        "transition keys=1",
+        "selector=2",
+        "candidate=14",
+        "path_gap",
+        "path_synthetic"
+      ],
+      "score": 104,
+      "snippets": [
+        "2: \"audit_id\": \"003\",\n3: \"boundary\": \"This is not Gap A closure. It uses selected transition keys from 002, and it uses realized rows only for evaluation. It does not yet generate the transition support or the A/B assignments natively.\",\n4: \"free_variable_count_per_key\": 4,",
+        "4: \"free_variable_count_per_key\": 4,\n5: \"input_realized_rows_for_evaluation_only\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1...\n6: \"input_selector_002\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/admission_blind_row_pair_selector_002.v1.json\",",
+        "5: \"input_realized_rows_for_evaluation_only\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1...\n6: \"input_selector_002\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/admission_blind_row_pair_selector_002.v1.json\",\n7: \"interpretation\": \"Given the selected transition key and reciprocal station roles, the pair grammar still leaves four mod-15 degrees of freedom: S.from_A, S.B/slot, S.to_A, and R.from_A. The synthetic skeleton universe t...",
+        "6: \"input_selector_002\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/admission_blind_row_pair_selector_002.v1.json\",\n7: \"interpretation\": \"Given the selected transition key and reciprocal station roles, the pair grammar still leaves four mod-15 degrees of freedom: S.from_A, S.B/slot, S.to_A, and R.from_A. The synthetic skeleton universe t...\n8: \"matched_examples_first_20\": ["
+      ]
+    },
+    {
+      "path": "artifacts/json/g60_overlay_generator_family_reading_015.v1.json",
+      "reasons": [
+        "Gap A=2",
+        "gap a=2",
+        "gap-a=1",
+        "shared_B=41",
+        "candidate=36",
+        "path_gap"
+      ],
+      "score": 92,
+      "snippets": [
+        "2: \"audit_id\": \"015\",\n3: \"boundary\": \"This is a reading and triage audit over an imported search artifact. It does not derive the G60 overlay edge records and does not close Gap A.\",\n4: \"boundary_from_source\": [",
+        "6: \"Failure refutes only this tested family.\",\n7: \"Success would identify a candidate generator family, not full Gap A closure.\",\n8: \"This does not prove full G900.\"",
+        "9: ],\n10: \"candidate_result_count\": 10,\n11: \"check_status_counts\": {",
+        "37: \"reverse_partner\": 12,\n38: \"shared_B\": 12\n39: },"
+      ]
+    },
+    {
+      "path": "artifacts/json/native_rule_member_alignment_012.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "gap-a=3",
+        "shared_B=74",
+        "A/B assignment=1",
+        "selector=2",
+        "path_gap"
+      ],
+      "score": 92,
+      "snippets": [
+        "25: \"from_slot\": 13,\n26: \"label\": \"shared_B\",\n27: \"slot_delta_mod15\": 0,",
+        "57: \"reverse_partner\": 1,\n58: \"shared_B\": 1\n59: },",
+        "76: {\n77: \"class\": \"shared_B\",\n78: \"edge_role\": \"IW\",",
+        "83: \"from_fiber\": 1,\n84: \"label\": \"shared_B\",\n85: \"to_columns\": ["
+      ]
+    },
+    {
+      "path": "scripts/radial_phase_lock_selector_025.py",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "selector=41",
+        "candidate=19",
+        "path_gap",
+        "path_selector"
+      ],
+      "score": 77,
+      "snippets": [
+        "11: \n12: OUT_JSON = ROOT / \"artifacts/json/radial_phase_lock_selector_025.v1.json\"\n13: OUT_NOTE = ROOT / \"notes/radial_phase_lock_selector_025.md\"",
+        "12: OUT_JSON = ROOT / \"artifacts/json/radial_phase_lock_selector_025.v1.json\"\n13: OUT_NOTE = ROOT / \"notes/radial_phase_lock_selector_025.md\"\n14: ",
+        "25: \n26: def score_selector(rows, name, pred):\n27: tp = fp = tn = fn = 0",
+        "36: if predicted:\n37: selected_indices.append(int(r[\"candidate_index\"]))\n38: "
+      ]
+    },
+    {
+      "path": "scripts/g60_overlay_generator_family_reading_015.py",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=10",
+        "candidate=49",
+        "path_gap"
+      ],
+      "score": 71,
+      "snippets": [
+        "39: \n40: def compact_candidate(c):\n41: matched_edges = count_like(c.get(\"matched_edges\"))",
+        "45: return {\n46: \"candidate\": c.get(\"candidate\"),\n47: \"exact_all\": bool(c.get(\"exact_all\")),",
+        "48: \"exact_reverse_partner\": bool(c.get(\"exact_reverse_partner\")),\n49: \"exact_shared_B\": bool(c.get(\"exact_shared_B\")),\n50: \"is_permutation\": bool(c.get(\"is_permutation\")),",
+        "62: edge_records = data.get(\"edge_records\", [])\n63: candidate_results = data.get(\"candidate_results\", [])\n64: two_map_exact_hits = data.get(\"two_map_exact_hits\", [])"
+      ]
+    },
+    {
+      "path": "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=41",
+        "candidate=18",
+        "path_gap"
+      ],
+      "score": 71,
+      "snippets": [
+        "4: \"timestamp_utc\": \"2026-06-15T14:00:56.601438+00:00\",\n5: \"purpose\": \"Test a bounded family of simple native G60 maps as candidate generators for WXYZTI overlay edges.\",\n6: \"summary\": {",
+        "11: \"reverse_partner\": 12,\n12: \"shared_B\": 12\n13: },",
+        "21: },\n22: \"candidate_count\": 10,\n23: \"candidate_names\": [",
+        "22: \"candidate_count\": 10,\n23: \"candidate_names\": [\n24: \"identity\","
+      ]
+    },
+    {
+      "path": "artifacts/json/triangle_frame_assignment_audit_006.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "gap-a=1",
+        "shared_B=50",
+        "A/B assignment=1",
+        "selector=1",
+        "candidate=3",
+        "path_gap"
+      ],
+      "score": 68,
+      "snippets": [
+        "2: \"audit_id\": \"006\",\n3: \"boundary\": \"This is an exploratory frame audit over realized WXYZTI rows. It does not generate the C-transition support or the A/B assignments natively. It is not Gap A closure.\",\n4: \"candidate_count\": 48,",
+        "3: \"boundary\": \"This is an exploratory frame audit over realized WXYZTI rows. It does not generate the C-transition support or the A/B assignments natively. It is not Gap A closure.\",\n4: \"candidate_count\": 48,\n5: \"candidate_universe\": \"All shared_B rows crossed with all reverse_partner rows having the same role_pair.\",",
+        "4: \"candidate_count\": 48,\n5: \"candidate_universe\": \"All shared_B rows crossed with all reverse_partner rows having the same role_pair.\",\n6: \"input_rows\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json\",",
+        "5: \"candidate_universe\": \"All shared_B rows crossed with all reverse_partner rows having the same role_pair.\",\n6: \"input_rows\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json\",\n7: \"interpretation\": \"The triangle-frame predicate selects the same 12-style structure from the 48 row-pair candidate universe, but phrases the selector geometrically: fixed B face plus fixed A answer face, joined by forwar..."
+      ]
+    },
+    {
+      "path": "notes/g60_overlay_generator_family_reading_015.md",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "gap-a=1",
+        "shared_B=30",
+        "candidate=23",
+        "path_gap"
+      ],
+      "score": 66,
+      "snippets": [
+        "6: \n7: - G60 overlay artifact: `/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json`\n8: ",
+        "12: - edge_role_counts: `{'IW': 4, 'TI': 4, 'WX': 4, 'XY': 4, 'YZ': 4, 'ZT': 4}`\n13: - label_counts: `{'reverse_partner': 12, 'shared_B': 12}`\n14: - form_counts: `{'0': 6, '1': 6, '2': 6, '3': 6}`",
+        "17: \n18: ## Candidate-family search\n19: ",
+        "19: \n20: - candidate_result_count: `10`\n21: - exact_all_candidate_count: `0`"
+      ]
+    },
+    {
+      "path": "artifacts/json/import_project18_native_chain_010.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "gap-a=36",
+        "A/B assignment=1",
+        "selector=12",
+        "candidate=1",
+        "path_gap"
+      ],
+      "score": 62,
+      "snippets": [
+        "2: \"audit_id\": \"010\",\n3: \"boundary\": \"This is an import manifest only. It does not test a generator and does not close Gap A.\",\n4: \"copied_json\": [",
+        "6: \"bytes\": 31101,\n7: \"dest\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/g60_native_generator_input_bundle_001.v1.json\",\n8: \"sha256\": \"d9ad376911b03cad2aa0f9214b5372de78135ca6fa3b72e56da5f3478f9771ee\",",
+        "12: \"bytes\": 20162,\n13: \"dest\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json\",\n14: \"sha256\": \"4a77cbd5b0cf631fdbba27c1eb3c04d6d8c593f2f0dbab6eb70bfff98419f78f\",",
+        "18: \"bytes\": 12266,\n19: \"dest\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/context_dependent_overlay_delta_rules_001.v1.json\",\n20: \"sha256\": \"a35bcc26a4f500794db567976eb6912d70e7a01def725b600bd6b0d070c4dfdf\","
+      ]
+    },
+    {
+      "path": "scripts/sharedB_16_candidate_selector_search_023.py",
+      "reasons": [
+        "shared_B=2",
+        "selector=6",
+        "candidate=37",
+        "path_gap",
+        "path_selector"
+      ],
+      "score": 60,
+      "snippets": [
+        "9: IN_G60_OVERLAY = ROOT / \"source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json\"\n10: IN_022 = ROOT / \"artifacts/json/sharedB_candidate_universe_boundary_022.v1.json\"\n11: ",
+        "11: \n12: OUT_JSON = ROOT / \"artifacts/json/sharedB_16_candidate_selector_search_023.v1.json\"\n13: OUT_NOTE = ROOT / \"notes/sharedB_16_candidate_selector_search_023.md\"",
+        "12: OUT_JSON = ROOT / \"artifacts/json/sharedB_16_candidate_selector_search_023.v1.json\"\n13: OUT_NOTE = ROOT / \"notes/sharedB_16_candidate_selector_search_023.md\"\n14: ",
+        "146: \n147: def candidate_features(cyc, reverse_info):\n148: # cyc is ordered as XY, IW, ZT with twisted column closure already attached."
+      ]
+    },
+    {
+      "path": "scripts/synthetic_pair_skeleton_universe_003.py",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=4",
+        "A/B assignment=2",
+        "realized rows=2",
+        "synthetic=17",
+        "transition keys=1",
+        "selector=2",
+        "candidate=14",
+        "path_gap",
+        "path_synthetic"
+      ],
+      "score": 59,
+      "snippets": [
+        "7: \n8: IN_002 = ROOT / \"artifacts/json/admission_blind_row_pair_selector_002.v1.json\"\n9: IN_ROWS = ROOT / \"source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json\"",
+        "10: \n11: OUT_JSON = ROOT / \"artifacts/json/synthetic_pair_skeleton_universe_003.v1.json\"\n12: OUT_NOTE = ROOT / \"notes/synthetic_pair_skeleton_universe_003.md\"",
+        "11: OUT_JSON = ROOT / \"artifacts/json/synthetic_pair_skeleton_universe_003.v1.json\"\n12: OUT_NOTE = ROOT / \"notes/synthetic_pair_skeleton_universe_003.md\"\n13: ",
+        "26: if role in SHAREDB_ROLES:\n27: return \"shared_B\"\n28: return \"unknown\""
+      ]
+    },
+    {
+      "path": "scripts/native_shell_rank_derivation_027.py",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=1",
+        "role-labeled shared_B=1",
+        "selector=27",
+        "candidate=17",
+        "path_gap"
+      ],
+      "score": 58,
+      "snippets": [
+        "52: if got:\n53: accepted.append(r[\"candidate_index\"])\n54: if got and actual:",
+        "57: fp += 1\n58: false_pos.append(r[\"candidate_index\"])\n59: elif not got and actual:",
+        "60: miss += 1\n61: misses.append(r[\"candidate_index\"])\n62: else:",
+        "72: \"miss\": miss,\n73: \"accepted_candidate_indices\": accepted,\n74: \"false_positive_candidate_indices\": false_pos,"
+      ]
+    },
+    {
+      "path": "artifacts/json/triangle_frame_synthetic_reduction_audit_007.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "gap-a=2",
+        "A/B assignment=2",
+        "realized rows=1",
+        "synthetic=18",
+        "transition keys=1",
+        "selector=2",
+        "candidate=14",
+        "path_gap",
+        "path_synthetic"
+      ],
+      "score": 57,
+      "snippets": [
+        "2: \"audit_id\": \"007\",\n3: \"boundary\": \"This is not Gap A closure. It uses selected transition keys from 002 and realized rows only for evaluation. It shows that triangle-frame closure alone does not solve the synthetic overgeneration problem.\",\n4: \"input_realized_rows_for_evaluation_only\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1...",
+        "3: \"boundary\": \"This is not Gap A closure. It uses selected transition keys from 002 and realized rows only for evaluation. It shows that triangle-frame closure alone does not solve the synthetic overgeneration problem.\",\n4: \"input_realized_rows_for_evaluation_only\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1...\n5: \"input_selector_002\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/admission_blind_row_pair_selector_002.v1.json\",",
+        "4: \"input_realized_rows_for_evaluation_only\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1...\n5: \"input_selector_002\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/admission_blind_row_pair_selector_002.v1.json\",\n6: \"interpretation\": \"The triangle-frame rule is already built into the synthetic skeleton construction. It accepts the whole synthetic skeleton universe rather than selecting the realized A/B assignments. Therefore the han...",
+        "5: \"input_selector_002\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/admission_blind_row_pair_selector_002.v1.json\",\n6: \"interpretation\": \"The triangle-frame rule is already built into the synthetic skeleton construction. It accepts the whole synthetic skeleton universe rather than selecting the realized A/B assignments. Therefore the han...\n7: \"per_key\": ["
+      ]
+    },
+    {
+      "path": "notes/source_artifact_schema_inventory_009.md",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=24",
+        "selector=12",
+        "candidate=9",
+        "path_gap"
+      ],
+      "score": 57,
+      "snippets": [
+        "51: - needle_hit_count: `189`\n52: - top_keys: `['boundary', 'input', 'interpretation', 'name', 'reverse_partner_matches', 'reverse_partner_misses', 'reverse_partner_row_count', 'reverse_partner_swap_BC_exact', 'reverse_partner_swap_BC_match_count', 'reve...\n53: - records: `reverse_partner_matches` count `12`",
+        "54: - sample_keys: `['from_ABC', 'matches', 'predicted_to_ABC', 'station_role', 'to_ABC']`\n55: - records: `shared_B_by_role.IW.items` count `4`\n56: - sample_keys: `['B_preserved', 'delta_ABC_mod15', 'from_ABC', 'role_pair', 'rows', 'slot_preserved', 'station_role', 'to_ABC']`",
+        "56: - sample_keys: `['B_preserved', 'delta_ABC_mod15', 'from_ABC', 'role_pair', 'rows', 'slot_preserved', 'station_role', 'to_ABC']`\n57: - records: `shared_B_by_role.XY.items` count `4`\n58: - sample_keys: `['B_preserved', 'delta_ABC_mod15', 'from_ABC', 'role_pair', 'rows', 'slot_preserved', 'station_role', 'to_ABC']`",
+        "58: - sample_keys: `['B_preserved', 'delta_ABC_mod15', 'from_ABC', 'role_pair', 'rows', 'slot_preserved', 'station_role', 'to_ABC']`\n59: - records: `shared_B_by_role.ZT.items` count `4`\n60: - sample_keys: `['B_preserved', 'delta_ABC_mod15', 'from_ABC', 'role_pair', 'rows', 'slot_preserved', 'station_role', 'to_ABC']`"
+      ]
+    },
+    {
+      "path": "scripts/triangle_frame_synthetic_reduction_audit_007.py",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=5",
+        "A/B assignment=2",
+        "realized rows=1",
+        "synthetic=20",
+        "transition keys=1",
+        "selector=2",
+        "candidate=8",
+        "path_gap",
+        "path_synthetic"
+      ],
+      "score": 56,
+      "snippets": [
+        "7: \n8: IN_002 = ROOT / \"artifacts/json/admission_blind_row_pair_selector_002.v1.json\"\n9: IN_ROWS = ROOT / \"source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json\"",
+        "10: \n11: OUT_JSON = ROOT / \"artifacts/json/triangle_frame_synthetic_reduction_audit_007.v1.json\"\n12: OUT_NOTE = ROOT / \"notes/triangle_frame_synthetic_reduction_audit_007.md\"",
+        "11: OUT_JSON = ROOT / \"artifacts/json/triangle_frame_synthetic_reduction_audit_007.v1.json\"\n12: OUT_NOTE = ROOT / \"notes/triangle_frame_synthetic_reduction_audit_007.md\"\n13: ",
+        "26: if role in SHAREDB_ROLES:\n27: return \"shared_B\"\n28: return \"unknown\""
+      ]
+    },
+    {
+      "path": "source/project18_artifacts/json/wxyzti_role_class_invariant_audit_018.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=40",
+        "candidate=1",
+        "path_gap"
+      ],
+      "score": 53,
+      "snippets": [
+        "1: {\n2: \"boundary\": \"This is an invariant audit over realized station rows only. It does not generate the allowed transitions from a non-realized candidate universe and does not close Gap A.\",\n3: \"input\": \"/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json\",",
+        "3: \"input\": \"/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json\",\n4: \"interpretation\": \"This audits preservation and equality invariants for reverse_partner and shared_B WXYZTI station rows. It tests whether reverse_partner and shared_B are distinguished by preserving A vs B/slot.\",\n5: \"reverse_partner_summary\": {",
+        "450: \"lift_q\": 0,\n451: \"role_class\": \"shared_B\",\n452: \"role_pair\": \"IW/YZ\",",
+        "469: \"lift_q\": 0,\n470: \"role_class\": \"shared_B\",\n471: \"role_pair\": \"IW/YZ\","
+      ]
+    },
+    {
+      "path": "source/project18_native_chain/json/c_transition_overlay_delta_generator_001.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=38",
+        "native derivation=1",
+        "path_gap"
+      ],
+      "score": 51,
+      "snippets": [
+        "9: \"reverse_partner\": 12,\n10: \"shared_B\": 12\n11: },",
+        "28: \"(0, 2, 'reverse_partner')\": 1,\n29: \"(0, 2, 'shared_B')\": 1,\n30: \"(1, 10, 'reverse_partner')\": 1,",
+        "30: \"(1, 10, 'reverse_partner')\": 1,\n31: \"(1, 10, 'shared_B')\": 1,\n32: \"(2, 4, 'reverse_partner')\": 1,",
+        "32: \"(2, 4, 'reverse_partner')\": 1,\n33: \"(2, 4, 'shared_B')\": 1,\n34: \"(2, 5, 'reverse_partner')\": 1,"
+      ]
+    },
+    {
+      "path": "scripts/native_rule_member_target_table_013.py",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=4",
+        "A/B assignment=2",
+        "synthetic=18",
+        "selector=2",
+        "candidate=12",
+        "path_gap"
+      ],
+      "score": 50,
+      "snippets": [
+        "10: IN_NATIVE = ROOT / \"source/project18_native_chain/json/c_transition_overlay_delta_generator_001.v1.json\"\n11: IN_002 = ROOT / \"artifacts/json/admission_blind_row_pair_selector_002.v1.json\"\n12: ",
+        "42: if \"shared\" in label:\n43: return \"shared_B\"\n44: if \"reverse\" in label:",
+        "47: if m.get(\"from_B\") == m.get(\"to_B\") and m.get(\"from_slot\") == m.get(\"to_slot\"):\n48: return \"shared_B\"\n49: if m.get(\"from_A\") == m.get(\"to_A\") and m.get(\"from_B\") == m.get(\"to_C\") and m.get(\"from_C\") == m.get(\"to_B\"):",
+        "134: \n135: shared = class_buckets.get(\"shared_B\", [])\n136: reverse = class_buckets.get(\"reverse_partner\", [])"
+      ]
+    },
+    {
+      "path": "artifacts/json/sharedB_16_candidate_selector_search_023.v1.json",
+      "reasons": [
+        "gap-a=2",
+        "selector=3",
+        "candidate=26",
+        "path_gap",
+        "path_selector"
+      ],
+      "score": 46,
+      "snippets": [
+        "2: \"audit_id\": \"023\",\n3: \"boundary\": \"This is a selector search over the already reduced 16-candidate universe. It does not derive a native selector unless a compact, non-row-identifying feature is found and then validated against a larger candi...\n4: \"candidate_count\": 16,",
+        "3: \"boundary\": \"This is a selector search over the already reduced 16-candidate universe. It does not derive a native selector unless a compact, non-row-identifying feature is found and then validated against a larger candi...\n4: \"candidate_count\": 16,\n5: \"exact_test_count\": 31032,",
+        "728: \"feature_count\": 132,\n729: \"input_022\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/sharedB_candidate_universe_boundary_022.v1.json\",\n730: \"input_g60_overlay\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json\",",
+        "729: \"input_022\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/sharedB_candidate_universe_boundary_022.v1.json\",\n730: \"input_g60_overlay\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json\",\n731: \"interpretation\": \"This audit reduces the corrected 022 boundary to the 16 candidates admitted by both observed C-cycle support and observed twisted anchor-cycle support. It compares the 4 selected candidates against the..."
+      ]
+    },
+    {
+      "path": "notes/sharedB_16_candidate_selector_search_023.md",
+      "reasons": [
+        "shared_B=1",
+        "selector=4",
+        "candidate=26",
+        "path_gap",
+        "path_selector"
+      ],
+      "score": 46,
+      "snippets": [
+        "1: # Shared_B 16-candidate selector search 023\n2: ",
+        "2: \n3: Status: sharedB_16_candidate_selector_search_recorded\n4: ",
+        "6: \n7: - candidate_count: `16`\n8: - selected_count: `4`",
+        "93: \n94: ## Selected candidates\n95: "
+      ]
+    },
+    {
+      "path": "scripts/rebuild_project18_pair_universe_001.py",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=4",
+        "native generator=1",
+        "selector=13",
+        "candidate=16",
+        "path_gap"
+      ],
+      "score": 46,
+      "snippets": [
+        "26: if role in SHAREDB_ROLES:\n27: return \"shared_B\"\n28: return \"unknown\"",
+        "110: \n111: def selector_score(candidates, expected_ids, name):\n112: accepted = [c for c in candidates if c[\"flags\"][name]]",
+        "111: def selector_score(candidates, expected_ids, name):\n112: accepted = [c for c in candidates if c[\"flags\"][name]]\n113: accepted_ids = {c[\"pair_id\"] for c in accepted}",
+        "116: return {\n117: \"selector\": name,\n118: \"accepted_count\": len(accepted),"
+      ]
+    },
+    {
+      "path": "artifacts/json/reduced_universe_shell_rank_theorem_028.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "gap-a=4",
+        "shared_B=4",
+        "role-labeled shared_B=1",
+        "selector=4",
+        "candidate=20",
+        "path_gap"
+      ],
+      "score": 45,
+      "snippets": [
+        "31: \"audit_id\": \"028\",\n32: \"boundary\": \"This theorem is conditional on the reduced 16-candidate universe. It does not derive the full role-labeled shared_B edge universe from first principles, and it does not close Gap A. It proves the selector in...\n33: \"c_rank_details\": {",
+        "60: \"c_row_count\": 4,\n61: \"candidate_count\": 16,\n62: \"conclusion\": {",
+        "85: \"H4_anchor_rank_unambiguous\": true,\n86: \"H5_027_target_rank_selector_exact\": true\n87: },",
+        "87: },\n88: \"input_024_csv\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/csv/sharedB_selection_matrix_024.v1.csv\",\n89: \"input_024_json\": \"/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/21-gap-a-answer-pair-generator/artifacts/json/sharedB_selection_matrix_024.v1.json\","
+      ]
+    },
+    {
+      "path": "source/project18_artifacts/json/wxyzti_station_transform_map_audit_019.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=31",
+        "candidate=1",
+        "path_gap"
+      ],
+      "score": 44,
+      "snippets": [
+        "1: {\n2: \"boundary\": \"This audits realized station rows only. It does not generate shared_B from a non-realized candidate universe and does not close Gap A.\",\n3: \"input\": \"/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json\",",
+        "3: \"input\": \"/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json\",\n4: \"interpretation\": \"This writes the reverse_partner side as an explicit station transform and profiles the remaining shared_B transform by station role. reverse_partner should be exactly (A,B,C)->(A,C,B). shared_B preserv...\n5: \"name\": \"all_rows\",",
+        "241: \"row_count\": 24,\n242: \"shared_B_by_role\": {\n243: \"IW\": {",
+        "294: \"lift_q\": 0,\n295: \"role_class\": \"shared_B\",\n296: \"role_pair\": \"IW/YZ\","
+      ]
+    },
+    {
+      "path": "scripts/c_transition_block_order_derivation_021.py",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=30",
+        "candidate=1",
+        "path_gap"
+      ],
+      "score": 43,
+      "snippets": [
+        "47: EXPECTED_CHANNEL_CIRCULATION = [\"WX/ZT\", \"TI/XY\", \"IW/YZ\"]\n48: EXPECTED_SHARED_B_ROLE_ORDER = [\"XY\", \"IW\", \"ZT\"]\n49: EXPECTED_SHARED_B_CHANNEL_ORDER = [\"TI/XY\", \"IW/YZ\", \"WX/ZT\"]",
+        "48: EXPECTED_SHARED_B_ROLE_ORDER = [\"XY\", \"IW\", \"ZT\"]\n49: EXPECTED_SHARED_B_CHANNEL_ORDER = [\"TI/XY\", \"IW/YZ\", \"WX/ZT\"]\n50: EXPECTED_SHARED_B_BLOCK_ORDER = [[\"B\", \"C\"], [\"C\", \"A\"], [\"A\", \"B\"]]",
+        "49: EXPECTED_SHARED_B_CHANNEL_ORDER = [\"TI/XY\", \"IW/YZ\", \"WX/ZT\"]\n50: EXPECTED_SHARED_B_BLOCK_ORDER = [[\"B\", \"C\"], [\"C\", \"A\"], [\"A\", \"B\"]]\n51: ",
+        "176: for r in overlay.get(\"edge_records\", []):\n177: if r.get(\"label\") != \"shared_B\":\n178: continue"
+      ]
+    },
+    {
+      "path": "artifacts/json/reduced_theorem_boundary_dependency_audit_030.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "gap-a=7",
+        "shared_B=5",
+        "role-labeled shared_B=3",
+        "selector=6",
+        "candidate=9",
+        "path_gap"
+      ],
+      "score": 42,
+      "snippets": [
+        "37: \"gap_status\": \"proved_inside_reduced_universe\",\n38: \"item\": \"Reduced selector\",\n39: \"status\": \"proved_exact\"",
+        "41: ],\n42: \"current_best_statement\": \"The reduced-universe shell-rank selector is proved exactly inside the 16-candidate shared_B reduced universe. Native shell labels and native shell ranks select exactly the four observed shared_...\n43: \"dependency_ledger\": [",
+        "59: \"artifact\": \"022\",\n60: \"claim\": \"C-cycle support crossed with twisted anchor-cycle support gives 16 candidates.\",\n61: \"gap_status\": \"not_first_principles_native_generation\",",
+        "61: \"gap_status\": \"not_first_principles_native_generation\",\n62: \"item\": \"Reduced 16-candidate universe\",\n63: \"status\": \"bounded_construct\""
+      ]
+    },
+    {
+      "path": "notes/synthetic_pair_skeleton_universe_003.md",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "A/B assignment=2",
+        "realized rows=2",
+        "synthetic=18",
+        "transition keys=1",
+        "candidate=2",
+        "path_gap",
+        "path_synthetic"
+      ],
+      "score": 42,
+      "snippets": [
+        "1: # Synthetic pair skeleton universe 003\n2: ",
+        "2: \n3: Status: synthetic_pair_skeleton_universe_recorded\n4: ",
+        "10: \n11: ## Synthetic universe\n12: ",
+        "15: - values_per_free_variable: `15`\n16: - synthetic_candidate_count_per_key: `50625`\n17: - total_synthetic_candidate_count: `607500`"
+      ]
+    },
+    {
+      "path": "notes/radial_phase_lock_selector_025.md",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "selector=6",
+        "candidate=18",
+        "path_gap",
+        "path_selector"
+      ],
+      "score": 41,
+      "snippets": [
+        "1: # Radial phase-lock selector 025\n2: ",
+        "2: \n3: Status: radial_phase_lock_selector_recorded\n4: ",
+        "6: \n7: - candidate_count: `16`\n8: - selected_count: `4`",
+        "17: \n18: ## Selector scores\n19: "
+      ]
+    },
+    {
+      "path": "notes/triangle_frame_synthetic_reduction_audit_007.md",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "A/B assignment=2",
+        "realized rows=1",
+        "synthetic=19",
+        "transition keys=1",
+        "candidate=1",
+        "path_gap",
+        "path_synthetic"
+      ],
+      "score": 41,
+      "snippets": [
+        "1: # Triangle-frame synthetic reduction audit 007\n2: ",
+        "2: \n3: Status: triangle_frame_synthetic_reduction_recorded\n4: ",
+        "13: - selected_key_count: `12`\n14: - total_synthetic_candidate_count: `607500`\n15: - triangle_frame_selected_count: `607500`",
+        "16: - realized_match_count: `12`\n17: - triangle_frame_accepts_all_synthetic_skeletons: `True`\n18: - triangle_frame_reduction_factor: `1.0`"
+      ]
+    },
+    {
+      "path": "scripts/reduced_universe_shell_rank_theorem_028.py",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=4",
+        "role-labeled shared_B=1",
+        "selector=4",
+        "candidate=20",
+        "path_gap"
+      ],
+      "score": 41,
+      "snippets": [
+        "59: m027 = load_json(IN_027)\n60: candidate_rows = load_csv(IN_024_CSV)\n61: ",
+        "110: \n111: for r in candidate_rows:\n112: c_row = int(r[\"c_row\"])",
+        "113: a_col = int(r[\"a_col\"])\n114: candidate_index = int(r[\"candidate_index\"])\n115: actual = str(r[\"selected\"]) == \"1\"",
+        "122: if actual:\n123: actual_selected.append(candidate_index)\n124: if predicted:"
+      ]
+    },
+    {
+      "path": "source/project18_artifacts/json/wxyzti_reverse_partner_vs_sharedB_audit_016.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=27",
+        "realized rows=1",
+        "candidate=1",
+        "path_gap"
+      ],
+      "score": 41,
+      "snippets": [
+        "1: {\n2: \"boundary\": \"This audits realized rows only. It does not prove selection from non-realized candidates and does not close Gap A.\",\n3: \"input\": \"/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json\",",
+        "3: \"input\": \"/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json\",\n4: \"interpretation\": \"This isolates the clean reverse_partner law from the shared_B residual. It tests simple source-field laws for to_C across role classes and station roles.\",\n5: \"reverse_partner_summary\": {",
+        "1434: \"row_count\": 24,\n1435: \"shared_B_summary\": {\n1436: \"from_B_values\": [",
+        "2653: ],\n2654: \"name\": \"shared_B\",\n2655: \"row_count\": 12,"
+      ]
+    },
+    {
+      "path": "source/project18_artifacts/json/wxyzti_shared_reverse_pair_coupling_audit_021.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=26",
+        "reciprocal pair=1",
+        "candidate=1",
+        "path_gap"
+      ],
+      "score": 40,
+      "snippets": [
+        "3: \"bad_buckets\": [],\n4: \"boundary\": \"This audits realized reciprocal pairs only. It does not generate the pair set from a non-realized candidate universe and does not close Gap A.\",\n5: \"exact_true_flag_count\": 16,",
+        "42: \"input\": \"/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json\",\n43: \"interpretation\": \"This pairs each shared_B row with its reciprocal reverse_partner row using (role_pair, from_C, to_C). It tests whether shared_B's target is coupled to the neighboring reverse_partner row rather than ex...\n44: \"pair_count\": 12,",
+        "89: \"reverse_role\": \"YZ\",\n90: \"shared_B_row\": {\n91: \"C_delta\": 9,",
+        "98: \"lift_q\": 0,\n99: \"role_class\": \"shared_B\",\n100: \"role_pair\": \"IW/YZ\","
+      ]
+    },
+    {
+      "path": "scripts/reduced_theorem_boundary_dependency_audit_030.py",
+      "reasons": [
+        "Gap A=2",
+        "gap a=2",
+        "shared_B=4",
+        "role-labeled shared_B=2",
+        "selector=6",
+        "candidate=13",
+        "path_gap"
+      ],
+      "score": 39,
+      "snippets": [
+        "6: \n7: IN_022 = ROOT / \"artifacts/json/sharedB_candidate_universe_boundary_022.v1.json\"\n8: IN_026 = ROOT / \"artifacts/json/native_shell_label_derivation_026.v1.json\"",
+        "12: \n13: SECTION = ROOT / \"paper/sections/07_reduced_universe_shell_rank_selector.tex\"\n14: MAIN_TEX = ROOT / \"paper/main.tex\"",
+        "58: def reduced_universe_16_witness(a022, a028):\n59: candidates = [\n60: find_key(a022, \"c_and_anchor_only\"),",
+        "62: find_key(a022, \"c_and_anchor_only_selected_count\"),\n63: find_key(a022, \"reduced_candidate_count\"),\n64: find_key(a022, \"candidate_count_after_c_and_anchor\"),"
+      ]
+    },
+    {
+      "path": "scripts/sharedB_selection_matrix_024.py",
+      "reasons": [
+        "shared_B=2",
+        "native generator=1",
+        "selector=2",
+        "candidate=24",
+        "path_gap"
+      ],
+      "score": 39,
+      "snippets": [
+        "9: \n10: IN_023 = ROOT / \"artifacts/json/sharedB_16_candidate_selector_search_023.v1.json\"\n11: ",
+        "113: rows = []\n114: for r in data.get(\"selected_candidates\", []):\n115: rr = dict(r)",
+        "117: rows.append(rr)\n118: for r in data.get(\"rejected_candidates\", []):\n119: rr = dict(r)",
+        "122: \n123: rows.sort(key=lambda r: int(r[\"candidate_index\"]))\n124: "
+      ]
+    },
+    {
+      "path": "source/project18_artifacts/json/wxyzti_station_provenance_law_audit_010.v1.json",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=26",
+        "candidate=1",
+        "path_gap"
+      ],
+      "score": 39,
+      "snippets": [
+        "1: {\n2: \"boundary\": \"This audits only realized station rows. It does not compare against non-realized candidate rows, does not prove a complete generator, and does not close Gap A.\",\n3: \"deterministic_test_count\": 96,",
+        "290: \"reverse_partner\": 12,\n291: \"shared_B\": 12\n292: },",
+        "396: },\n397: \"role_class\": \"shared_B\",\n398: \"slot_delta_counts\": {",
+        "562: \"from_slot\": 13,\n563: \"label\": \"shared_B\",\n564: \"to_A\": 9,"
+      ]
+    },
+    {
+      "path": "scripts/sharedB_candidate_universe_boundary_022.py",
+      "reasons": [
+        "Gap A=1",
+        "gap a=1",
+        "shared_B=7",
+        "role-labeled shared_B=1",
+        "selector=3",
+        "candidate=15",
+        "path_gap"
+      ],
+      "score": 38,
+      "snippets": [
+        "11: \n12: OUT_JSON = ROOT / \"artifacts/json/sharedB_candidate_universe_boundary_022.v1.json\"\n13: OUT_NOTE = ROOT / \"notes/sharedB_candidate_universe_boundary_022.md\"",
+        "12: OUT_JSON = ROOT / \"artifacts/json/sharedB_candidate_universe_boundary_022.v1.json\"\n13: OUT_NOTE = ROOT / \"notes/sharedB_candidate_universe_boundary_022.md\"\n14: ",
+        "126: reverse_rows.append(rr)\n127: elif r.get(\"label\") == \"shared_B\":\n128: shared_rows.append(rr)",
+        "185: \n186: combined_candidate_count = len(c_cycle_universe) * len(anchor_cycle_universe)\n187: "
+      ]
+    }
+  ]
+}
