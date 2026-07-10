@@ -1,0 +1,324 @@
+{
+  "artifact_kind": "answer_label_leakage_audit",
+  "boundary": {
+    "ab_assignment_law_admitted": false,
+    "answer_label_leakage_closed": false,
+    "force_claim": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "leakage_audit_only": true,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem": false
+  },
+  "checks": {
+    "answer_label_leakage_closed_false": true,
+    "cross_source_conflict_count_zero": true,
+    "cross_source_support_positive": true,
+    "forbidden_inputs_not_in_law_key": true,
+    "global_ab_delta_exact": true,
+    "global_from_to_ab_exact": true,
+    "global_to_ab_exact": true,
+    "hypotheses_derive_pass": true,
+    "loaded_source_count_at_least_2": true,
+    "no_ab_assignment_law_admission": true,
+    "no_force": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "row_count_positive": true,
+    "slot_test_exact_hit_found": true,
+    "slot_test_pass_true": true
+  },
+  "created_utc": "2026-07-10T14:34:14+00:00",
+  "cross_source_conflict_count": 0,
+  "cross_source_support_count": 24,
+  "forbidden_fields": [
+    "role_class",
+    "label",
+    "shared_B",
+    "reverse_partner",
+    "accepted_candidate_indices",
+    "false_positive_candidate_indices",
+    "miss_candidate_indices",
+    "exact",
+    "accepted_count",
+    "candidate_index",
+    "actual",
+    "selected",
+    "expected"
+  ],
+  "global_stats": {
+    "ab_delta_pair": {
+      "conflict_group_count": 0,
+      "exact": true,
+      "example_conflicts": [],
+      "group_count": 24,
+      "purity": 1.0,
+      "row_count": 156,
+      "target": "ab_delta_pair"
+    },
+    "from_to_ab_quad": {
+      "conflict_group_count": 0,
+      "exact": true,
+      "example_conflicts": [],
+      "group_count": 24,
+      "purity": 1.0,
+      "row_count": 156,
+      "target": "from_to_ab_quad"
+    },
+    "to_ab_pair": {
+      "conflict_group_count": 0,
+      "exact": true,
+      "example_conflicts": [],
+      "group_count": 24,
+      "purity": 1.0,
+      "row_count": 156,
+      "target": "to_ab_pair"
+    }
+  },
+  "id": "audit_slot_coupled_ab_assignment_for_answer_label_leakage_001",
+  "input_artifacts": {
+    "hypotheses": "artifacts/json/derive_ab_assignment_candidate_field_hypotheses_001.json",
+    "slot_test": "artifacts/json/test_slot_coupled_ab_assignment_hypothesis_001.json",
+    "source_files": [
+      "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+      "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+      "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+    ]
+  },
+  "input_sha256": {
+    "artifacts/json/derive_ab_assignment_candidate_field_hypotheses_001.json": "00f9fb9be90c5313b4cda802e682c6cb6d051b7823ad074af0b12efade96d407",
+    "artifacts/json/test_slot_coupled_ab_assignment_hypothesis_001.json": "6784e67d937b0ab9862cdfad99dd161be8a161c925d447a9c7c4784644f88215",
+    "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json": "8a8e50eab152313720ec68a3cc15b576bb90efdf187ad0c28fe8b96e9c4faa55",
+    "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json": "0ab5c174680c0d4226156bce38f815322bbf40e769d9415d88a41703daebd83e",
+    "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json": "4a77cbd5b0cf631fdbba27c1eb3c04d6d8c593f2f0dbab6eb70bfff98419f78f"
+  },
+  "keeper_line": "No leakage detected is not the same as leakage closed.",
+  "law_features": [
+    "from_slot",
+    "to_slot",
+    "from_C",
+    "to_C"
+  ],
+  "leakage_result": "leakage_not_detected_on_observed_rows_not_closed",
+  "next_gate": "derive_slot_coupled_ab_assignment_law_candidate_001",
+  "partition_audits": [
+    {
+      "part_count": 3,
+      "partition_field": "source",
+      "parts": {
+        "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 24,
+          "purity": 1.0,
+          "row_count": 84,
+          "target": "ab_delta_pair"
+        },
+        "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 24,
+          "purity": 1.0,
+          "row_count": 48,
+          "target": "ab_delta_pair"
+        },
+        "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 24,
+          "purity": 1.0,
+          "row_count": 24,
+          "target": "ab_delta_pair"
+        }
+      },
+      "target": "ab_delta_pair"
+    },
+    {
+      "part_count": 7,
+      "partition_field": "station_role",
+      "parts": {
+        "IW": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 4,
+          "purity": 1.0,
+          "row_count": 20,
+          "target": "ab_delta_pair"
+        },
+        "None": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 24,
+          "purity": 1.0,
+          "row_count": 48,
+          "target": "ab_delta_pair"
+        },
+        "TI": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 4,
+          "purity": 1.0,
+          "row_count": 20,
+          "target": "ab_delta_pair"
+        },
+        "WX": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 4,
+          "purity": 1.0,
+          "row_count": 14,
+          "target": "ab_delta_pair"
+        },
+        "XY": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 4,
+          "purity": 1.0,
+          "row_count": 20,
+          "target": "ab_delta_pair"
+        },
+        "YZ": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 4,
+          "purity": 1.0,
+          "row_count": 20,
+          "target": "ab_delta_pair"
+        },
+        "ZT": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 4,
+          "purity": 1.0,
+          "row_count": 14,
+          "target": "ab_delta_pair"
+        }
+      },
+      "target": "ab_delta_pair"
+    },
+    {
+      "part_count": 4,
+      "partition_field": "role_pair",
+      "parts": {
+        "IW/YZ": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 8,
+          "purity": 1.0,
+          "row_count": 40,
+          "target": "ab_delta_pair"
+        },
+        "None": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 24,
+          "purity": 1.0,
+          "row_count": 48,
+          "target": "ab_delta_pair"
+        },
+        "TI/XY": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 8,
+          "purity": 1.0,
+          "row_count": 40,
+          "target": "ab_delta_pair"
+        },
+        "WX/ZT": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 8,
+          "purity": 1.0,
+          "row_count": 28,
+          "target": "ab_delta_pair"
+        }
+      },
+      "target": "ab_delta_pair"
+    },
+    {
+      "part_count": 2,
+      "partition_field": "role_class",
+      "parts": {
+        "reverse_partner": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 12,
+          "purity": 1.0,
+          "row_count": 78,
+          "target": "ab_delta_pair"
+        },
+        "shared_B": {
+          "conflict_group_count": 0,
+          "exact": true,
+          "example_conflicts": [],
+          "group_count": 12,
+          "purity": 1.0,
+          "row_count": 78,
+          "target": "ab_delta_pair"
+        }
+      },
+      "target": "ab_delta_pair"
+    }
+  ],
+  "role_class_counterexample_count": 0,
+  "role_class_counterexamples_first_20": [],
+  "row_count": 156,
+  "source_counts": {
+    "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json": 84,
+    "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json": 48,
+    "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json": 24
+  },
+  "status": "SLOT_COUPLED_AB_ASSIGNMENT_LEAKAGE_AUDIT_001_PASS",
+  "summary": {
+    "ab_assignment_law_admitted": false,
+    "answer_label_leakage_closed": false,
+    "audit_pass": true,
+    "check_count": 21,
+    "cross_source_conflict_count": 0,
+    "cross_source_support_count": 24,
+    "failed_count": 0,
+    "forbidden_inputs_not_in_law_key": true,
+    "frontier_status": "slot_coupled_ab_assignment_no_leakage_detected_not_closed",
+    "full_role_labeled_shared_b_derived": false,
+    "gap_a_closure": false,
+    "global_ab_delta_exact": true,
+    "global_from_to_ab_exact": true,
+    "global_to_ab_exact": true,
+    "law_features": [
+      "from_slot",
+      "to_slot",
+      "from_C",
+      "to_C"
+    ],
+    "leakage_result": "leakage_not_detected_on_observed_rows_not_closed",
+    "loaded_source_count": 3,
+    "native_generator_admitted": false,
+    "passed_count": 21,
+    "recommended_next": "derive_slot_coupled_ab_assignment_law_candidate_001",
+    "row_count": 156,
+    "source_law_admitted": false
+  }
+}
