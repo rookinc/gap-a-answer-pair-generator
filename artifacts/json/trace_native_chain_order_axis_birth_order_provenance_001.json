@@ -1,0 +1,135 @@
+{
+  "artifact_kind": "birth_order_provenance_trace",
+  "boundary": {
+    "artifact_file_order_risk": true,
+    "birth_order_provenance_trace_only": true,
+    "force_claim": false,
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "geometry_claim": false,
+    "native_generator_admitted": false,
+    "native_order_axis_rule_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "source_side_birth_order_proven": false,
+    "unique_native_g15_embedding_proven": false
+  },
+  "checks": {
+    "artifact_file_order_risk_recorded": true,
+    "birth_order_status_recorded": true,
+    "candidate_sequence_hash_count_6": true,
+    "exact_order_anchor_found": true,
+    "leakage_audit_pass": true,
+    "leakage_clear": true,
+    "native_order_axis_rule_admitted_false": true,
+    "native_row_count_24": true,
+    "no_force": true,
+    "no_full_theorem": true,
+    "no_gap_a_closure": true,
+    "no_geometry_claim": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_unique_native_g15_embedding_proof": true,
+    "non_native_row_count_24": true,
+    "order_axis_search_pass": true,
+    "packet_row_count_48": true,
+    "source_law_admitted_false": true,
+    "source_only_extract_pass": true,
+    "source_side_birth_order_proven_false": true
+  },
+  "created_utc": "2026-07-10T18:43:03+00:00",
+  "id": "trace_native_chain_order_axis_birth_order_provenance_001",
+  "input_artifacts": {
+    "leakage_audit": "artifacts/json/audit_native_chain_order_axis_candidate_for_leakage_001.json",
+    "order_axis_search": "artifacts/json/search_native_chain_order_axis_rule_001.json",
+    "source_only_packets": "artifacts/json/extract_source_only_slot_c_row_packets_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_native_chain_order_axis_candidate_for_leakage_001.json": "754fa2b1704725aacdd0851906b690cc4600e1e866a1c99ff9981c20d28e4dd9",
+    "artifacts/json/extract_source_only_slot_c_row_packets_001.json": "80deb83bd070e8b7f2a4d86c98bac34d6d527235e7890aa726c3fb38443e87d4",
+    "artifacts/json/search_native_chain_order_axis_rule_001.json": "e03f857280f7e865b5f38dc0515356455d5b19ed86548020487b416b8ed9a99d"
+  },
+  "keeper_line": "Order can speak, but birth order must show its source.",
+  "next_gate": "search_role_pair_channel_axis_rule_001",
+  "status": "NATIVE_CHAIN_ORDER_AXIS_BIRTH_ORDER_PROVENANCE_001_UNPROVEN",
+  "summary": {
+    "artifact_file_order_risk": true,
+    "birth_order_status": "order_like_fields_present_but_not_validated_as_birth_order",
+    "check_count": 22,
+    "failed_count": 0,
+    "frontier_status": "order_axis_candidate_clean_but_birth_order_unproven",
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "native_order_axis_rule_admitted": false,
+    "native_row_count": 24,
+    "non_native_row_count": 24,
+    "order_field_name_count": 1,
+    "packet_row_count": 48,
+    "passed_count": 22,
+    "proof_claim": false,
+    "recommended_next": "search_role_pair_channel_axis_rule_001",
+    "source_law_admitted": false,
+    "source_side_birth_order_proven": false,
+    "trace_pass": true,
+    "unique_native_g15_embedding_proven": false
+  },
+  "trace_result": {
+    "artifact_file_order_risk": true,
+    "birth_order_status": "order_like_fields_present_but_not_validated_as_birth_order",
+    "candidate_sequence_hashes": {
+      "list_order": "f1b537b69bae3319",
+      "native_list_order": "d692ea5013987cb5",
+      "native_packet_id_order": "d692ea5013987cb5",
+      "non_native_list_order": "3818ee572641d14c",
+      "non_native_packet_id_order": "3818ee572641d14c",
+      "packet_id_order": "f1b537b69bae3319"
+    },
+    "interpretation": "The native/non-native partition and support-source tags are present, but no independent source-side birth-order receipt is proven. The order-axis candidate remains clean but unadmitted.",
+    "native_order_axis_rule_admitted": false,
+    "native_order_field_names": [
+      "source_packet_id"
+    ],
+    "native_row_count": 24,
+    "non_native_order_field_names": [
+      "source_packet_id"
+    ],
+    "non_native_row_count": 24,
+    "order_field_name_count": 1,
+    "order_field_names": [
+      "source_packet_id"
+    ],
+    "packet_row_count": 48,
+    "provenance_signals": [
+      "explicit_order_like_fields_present",
+      "support_sources_present",
+      "native_non_native_partition_present"
+    ],
+    "source_law_admitted": false,
+    "source_side_birth_order_proven": false
+  },
+  "unresolved": [
+    {
+      "detail": "Find an explicit source-side birth-order receipt or generator order for source packets.",
+      "id": "U1_birth_order_receipt",
+      "status": "open"
+    },
+    {
+      "detail": "Test role-pair/channel support as an axis anchor if birth order remains unproven.",
+      "id": "U2_channel_axis_fallback",
+      "status": "open"
+    },
+    {
+      "detail": "Find lifted sign or residue-like packet data for orientation-closure anchoring.",
+      "id": "U3_lifted_residue_data",
+      "status": "open"
+    },
+    {
+      "detail": "Do not promote source law without birth-order proof and leakage closure.",
+      "id": "U4_source_law_boundary",
+      "status": "open"
+    }
+  ]
+}
