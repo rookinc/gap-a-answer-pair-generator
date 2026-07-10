@@ -1,0 +1,57 @@
+{
+  "boundary": {
+    "channel_axis_rule_admitted": false,
+    "channel_axis_search_only": true,
+    "force_claim": false,
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "geometry_claim": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "unique_native_g15_embedding_proven": false
+  },
+  "id": "search_role_pair_channel_axis_rule_001",
+  "keeper_line": "The values are symmetric. Order speaks. Channel may receipt the voice.",
+  "next_gate": "audit_role_pair_channel_axis_candidate_for_leakage_001",
+  "result": {
+    "channel_profiles": {
+      "native": {
+        "bucket_count": 2,
+        "exact_bucket_count": 2
+      },
+      "role_hooks": {
+        "bucket_count": 6,
+        "exact_bucket_count": 6
+      },
+      "support_sources": {
+        "bucket_count": 2,
+        "exact_bucket_count": 2
+      }
+    }
+  },
+  "status": "ROLE_PAIR_CHANNEL_AXIS_RULE_001_SEARCH_COMPLETE",
+  "summary": {
+    "channel_axis_candidates": [
+      "role_hooks",
+      "support_sources",
+      "native"
+    ],
+    "channel_axis_rule_admitted": false,
+    "channel_axis_status": "channel_axis_candidate_found_not_admitted",
+    "exact_channel_axis_candidate_count": 3,
+    "exact_channel_axis_found": true,
+    "full_theorem_admitted": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "native_row_count": 24,
+    "non_native_row_count": 24,
+    "packet_row_count": 48,
+    "proof_claim": false,
+    "recommended_next": "audit_role_pair_channel_axis_candidate_for_leakage_001",
+    "search_pass": true,
+    "source_law_admitted": false,
+    "unique_native_g15_embedding_proven": false
+  }
+}
