@@ -1,0 +1,229 @@
+{
+  "artifact": "test_project21_three_edge_knot_for_ac36_membership_001",
+  "audit_pass": true,
+  "verdict": "project21_three_edge_knot_satisfies_bounded_ac36_membership_candidate_schema",
+  "keeper": "The knot enters AC36 by witnessed roles, not by resemblance or label.",
+  "scope": "project21_three_edge_knot_bounded_ac36_membership_candidate_test",
+  "project21_packet": {
+    "source_packet_id": "project21_closure_provenance_packet_001_P21",
+    "edge_count": 3,
+    "edge_pairs": [
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        8,
+        15
+      ]
+    ],
+    "vertices": [
+      5,
+      6,
+      8,
+      15
+    ],
+    "fork_sources": [
+      5
+    ],
+    "nontrivial_basis_memberships": [
+      0,
+      1
+    ]
+  },
+  "project36_theorem": {
+    "theorem_symbol": "U_AC36",
+    "theorem_scope": "AC36 only",
+    "predicate_scope": "six P_AC36 predicates only",
+    "proof_rule_admitted": true,
+    "universal_theorem_admitted": true
+  },
+  "declared_carrier_fields": {
+    "carrier_id": "project21_closure_provenance_packet_001_P21",
+    "carrier_family": "project21_three_edge_closure_knot",
+    "declared_boundary_receipt_role": {
+      "present": true,
+      "witness": "three seed-invariant closure-defect edges",
+      "edge_ids": [
+        5,
+        6,
+        10
+      ]
+    },
+    "declared_diad_closure_role": {
+      "present": true,
+      "witness": "packet touches both nontrivial residue basis cycles",
+      "basis_indices": [
+        0,
+        1
+      ]
+    },
+    "declared_same_boundary_closure_test": {
+      "present": true,
+      "witness": "closure-defect edge set is invariant under held seed 0 versus held seed 1",
+      "closure_defect_edges": [
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          8,
+          15
+        ]
+      ]
+    },
+    "declared_triad_action_role": {
+      "present": true,
+      "witness": "one fork plus one continuation over three directed packet edges",
+      "shape": "6 <- 5 -> 8 -> 15",
+      "fork_sources": [
+        5
+      ]
+    },
+    "scanable_preservation_relation": {
+      "present": true,
+      "witness": "each packet row retains explicit source, target, edge id, hook bit, defect status, and cycle support",
+      "transition_rows": [
+        {
+          "packet_row": 0,
+          "edge_id": 5,
+          "source": 5,
+          "target": 6,
+          "role_hook_change": 1,
+          "is_seed_closure_defect_edge": true,
+          "is_reciprocal_pair_edge": false,
+          "nontrivial_basis_membership": [
+            1
+          ]
+        },
+        {
+          "packet_row": 1,
+          "edge_id": 6,
+          "source": 5,
+          "target": 8,
+          "role_hook_change": 1,
+          "is_seed_closure_defect_edge": true,
+          "is_reciprocal_pair_edge": false,
+          "nontrivial_basis_membership": []
+        },
+        {
+          "packet_row": 2,
+          "edge_id": 10,
+          "source": 8,
+          "target": 15,
+          "role_hook_change": 1,
+          "is_seed_closure_defect_edge": true,
+          "is_reciprocal_pair_edge": false,
+          "nontrivial_basis_membership": [
+            0
+          ]
+        }
+      ]
+    },
+    "morphism_or_translation_boundary": {
+      "present": true,
+      "witness": "all tested centered affine cycle displacements close exactly",
+      "affine_centroid": [
+        "23/4",
+        "23/4",
+        "23/4",
+        "23/4"
+      ]
+    },
+    "declared_source_output_orientation": {
+      "present": true,
+      "source_socket": "t",
+      "output_socket": "I",
+      "status": "user_declared_orientation_for_this_fork",
+      "native_direction_theorem": false
+    },
+    "non_claim_boundary": {
+      "all_carriers_claim": false,
+      "geometry_claim": false,
+      "physics_claim": false,
+      "force_claim": false,
+      "channel_admission": false,
+      "marker_lighting": false,
+      "body_mutation": false,
+      "native_generator_claim": false,
+      "gap_a_closure": false
+    }
+  },
+  "membership_field_results": {
+    "declared_boundary_receipt_role": true,
+    "declared_diad_closure_role": true,
+    "declared_same_boundary_closure_test": true,
+    "declared_triad_action_role": true,
+    "scanable_preservation_relation": true,
+    "morphism_or_translation_boundary": true,
+    "declared_source_output_orientation": true,
+    "non_claim_boundary": true,
+    "carrier_id": true,
+    "carrier_family": true
+  },
+  "supported_membership_field_count": 10,
+  "membership_field_count": 10,
+  "all_membership_fields_present": true,
+  "translation_preserves_non_claims": true,
+  "required_fields_detected_in_domain_artifact": [],
+  "ac36_membership_candidate_pass": true,
+  "checks": {
+    "packet_construction_pass": true,
+    "canonical_three_edge_packet_present": true,
+    "packet_connected": true,
+    "all_packet_edges_are_seed_defects": true,
+    "all_packet_edges_have_hook_change": true,
+    "both_nontrivial_basis_cycles_touched": true,
+    "rank_one_functional_derived": true,
+    "seed_independent_closure_test_present": true,
+    "affine_translation_boundary_present": true,
+    "project36_u_ac36_admitted": true,
+    "all_declared_membership_fields_present": true,
+    "non_claims_preserved": true,
+    "membership_test_completed": true
+  },
+  "interpretation": [
+    "The packet exposes a boundary receipt through its three seed-invariant defect edges.",
+    "It exposes a diad closure role by touching both nontrivial residue basis cycles.",
+    "It exposes a triad action role as one fork plus one continuation.",
+    "The same-boundary closure test is supplied by seed-invariant defect support.",
+    "The affine centroid frame supplies a scanable translation boundary.",
+    "The t and I direction remains user-declared and is not promoted to a native direction theorem."
+  ],
+  "ac36_membership_admitted": false,
+  "u_ac36_invoked_on_project21": false,
+  "fork_orientation_admitted": false,
+  "branch_continuation_assignment_admitted": false,
+  "g900_demand_adapter_derived": false,
+  "g900_slot_projection_derived": false,
+  "g900_anchor_projection_derived": false,
+  "coupling_law_admitted": false,
+  "new_permission_channel_admitted": false,
+  "new_information_transport_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "general_relativity_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "body_mutation": false,
+  "boundary": [
+    "Bounded AC36 membership-candidate test only.",
+    "The Project 21 knot is evaluated by witnessed schema roles, not by family name or resemblance.",
+    "The user-declared t-to-I orientation is preserved but not promoted to a native theorem.",
+    "Membership candidate pass is not yet formal AC36 admission.",
+    "U_AC36 is not yet invoked on the Project 21 packet.",
+    "No fork selection, G900 slot, limit, anchor, target, coupling, channel, transport, theorem extension, geometry, GR, physics, force, body mutation, or Gap A closure claim."
+  ],
+  "recommended_next": "check_project21_three_edge_knot_ac36_membership_against_project36_schema_001"
+}
