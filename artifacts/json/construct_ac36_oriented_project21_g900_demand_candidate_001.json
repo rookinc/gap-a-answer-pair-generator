@@ -1,0 +1,168 @@
+{
+  "artifact": "construct_ac36_oriented_project21_g900_demand_candidate_001",
+  "construction_pass": true,
+  "verdict": "ac36_oriented_project21_g900_demand_candidate_constructed_with_open_addresses",
+  "keeper": "AC36 names how the knot acts. Native provenance must still supply where that action enters G900.",
+  "scope": "ac36_oriented_project21_to_g900_open_address_demand_candidate",
+  "source_packet_id": "project21_closure_provenance_packet_001_P21",
+  "declared_orientation": {
+    "input_socket": "t",
+    "input_node": 5,
+    "output_socket": "I",
+    "output_node": 15,
+    "conditional_on_user_declaration": true,
+    "native_source_direction_derived": false
+  },
+  "demand_schema": {
+    "required_fields": [
+      "ac36_role",
+      "project21_source_node",
+      "project21_target_node",
+      "project21_source_law_key",
+      "project21_target_law_key",
+      "g900_segment_role",
+      "g900_from_slot",
+      "g900_to_slot",
+      "g900_anchor_limit"
+    ],
+    "open_address_fields": [
+      "g900_segment_role",
+      "g900_from_slot",
+      "g900_to_slot",
+      "g900_anchor_limit"
+    ]
+  },
+  "demand_rows": [
+    {
+      "demand_index": 0,
+      "project21_edge_id": 6,
+      "ac36_role": "continuation_entry",
+      "project21_source_node": 5,
+      "project21_target_node": 8,
+      "project21_source_law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "project21_target_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "role_hook_change": 1,
+      "is_seed_closure_defect_edge": true,
+      "nontrivial_basis_membership": [],
+      "g900_segment_role": null,
+      "g900_from_slot": null,
+      "g900_to_slot": null,
+      "g900_anchor_limit": null,
+      "address_status": "open_requires_native_projection"
+    },
+    {
+      "demand_index": 1,
+      "project21_edge_id": 10,
+      "ac36_role": "continuation_output",
+      "project21_source_node": 8,
+      "project21_target_node": 15,
+      "project21_source_law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "project21_target_law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "role_hook_change": 1,
+      "is_seed_closure_defect_edge": true,
+      "nontrivial_basis_membership": [
+        0
+      ],
+      "g900_segment_role": null,
+      "g900_from_slot": null,
+      "g900_to_slot": null,
+      "g900_anchor_limit": null,
+      "address_status": "open_requires_native_projection"
+    },
+    {
+      "demand_index": 2,
+      "project21_edge_id": 5,
+      "ac36_role": "alternate_terminal_branch",
+      "project21_source_node": 5,
+      "project21_target_node": 6,
+      "project21_source_law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "project21_target_law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "role_hook_change": 1,
+      "is_seed_closure_defect_edge": true,
+      "nontrivial_basis_membership": [
+        1
+      ],
+      "g900_segment_role": null,
+      "g900_from_slot": null,
+      "g900_to_slot": null,
+      "g900_anchor_limit": null,
+      "address_status": "open_requires_native_projection"
+    }
+  ],
+  "checks": {
+    "orientation_derivation_pass": true,
+    "ac36_membership_admitted": true,
+    "fork_orientation_admitted": true,
+    "three_demand_rows_constructed": true,
+    "all_ac36_roles_present": true,
+    "all_project21_law_keys_present": true,
+    "all_g900_addresses_left_open": true,
+    "no_downstream_target_data_used": true,
+    "construction_completed": true
+  },
+  "ac36_membership_admitted": true,
+  "u_ac36_invoked_on_project21": true,
+  "fork_orientation_admitted": true,
+  "branch_continuation_assignment_admitted": true,
+  "g900_demand_candidate_constructed": true,
+  "g900_demand_adapter_derived": false,
+  "g900_segment_role_derived": false,
+  "g900_slot_projection_derived": false,
+  "g900_limit_projection_derived": false,
+  "g900_anchor_projection_derived": false,
+  "g900_target_packet_derived": false,
+  "g60_target_packet_derived": false,
+  "coupling_law_admitted": false,
+  "new_permission_channel_admitted": false,
+  "new_information_transport_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "new_theorem_claim": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "general_relativity_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "body_mutation": false,
+  "boundary": [
+    "AC36-oriented G900 demand-candidate construction only.",
+    "AC36 roles are derived only for the three-edge Project 21 packet.",
+    "The t-to-I orientation remains conditional on the user declaration.",
+    "All G900 address fields remain explicitly open.",
+    "No G900 segment role, slot, limit, anchor, or target is inferred from Project 21 node numbers.",
+    "No G60 or G15 target data is used.",
+    "No coupling, channel, transport, native generator, theorem extension, geometry, GR, physics, force, body mutation, or Gap A closure claim."
+  ],
+  "recommended_next": "search_native_projection_from_project21_law_keys_to_g900_demand_addresses_001"
+}
