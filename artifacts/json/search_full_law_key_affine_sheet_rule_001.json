@@ -1,0 +1,2083 @@
+{
+  "artifact": "search_full_law_key_affine_sheet_rule_001",
+  "search_pass": true,
+  "verdict": "partial_full_law_key_affine_sheet_rule_candidate_found",
+  "keeper": "The sheet is not local to an endpoint. It may belong to the relation between endpoints.",
+  "node_count": 24,
+  "transition_count": 28,
+  "endpoint_rule_count_per_orientation": 1024,
+  "orientation_count": 2,
+  "exact_sheet_rule_pair_count": 0,
+  "exact_sheet_rule_found": false,
+  "best_candidate": {
+    "orientation": "direct",
+    "from_coefficients": [
+      0,
+      0,
+      1,
+      2,
+      1
+    ],
+    "to_coefficients": [
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "from_endpoint_compatible_count": 23,
+    "to_endpoint_compatible_count": 23,
+    "matched_node_count": 3,
+    "unique_row_node_count": 3,
+    "external_column_count": 0,
+    "mapped_transition_count": 0,
+    "direct_hit_nodes_matched": 0,
+    "full_node_replay": false,
+    "full_transition_replay": false
+  },
+  "best_candidate_node_rows": [
+    {
+      "node_id": 0,
+      "law_key": [
+        0,
+        0,
+        2,
+        5
+      ],
+      "q_from": 1,
+      "q_to": 2,
+      "local_from": 17,
+      "local_to": 35,
+      "kind": "internal_thalion_copy",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 1,
+      "law_key": [
+        0,
+        5,
+        5,
+        0
+      ],
+      "q_from": 3,
+      "q_to": 1,
+      "local_from": 50,
+      "local_to": 15,
+      "kind": "external_signed_carrier",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 2,
+      "law_key": [
+        1,
+        1,
+        10,
+        13
+      ],
+      "q_from": 2,
+      "q_to": 2,
+      "local_from": 40,
+      "local_to": 43,
+      "kind": "internal_thalion_copy",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 3,
+      "law_key": [
+        1,
+        13,
+        13,
+        1
+      ],
+      "q_from": 0,
+      "q_to": 2,
+      "local_from": 13,
+      "local_to": 31,
+      "kind": "external_signed_carrier",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 4,
+      "law_key": [
+        2,
+        0,
+        0,
+        2
+      ],
+      "q_from": 2,
+      "q_to": 3,
+      "local_from": 30,
+      "local_to": 47,
+      "kind": "external_signed_carrier",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 5,
+      "law_key": [
+        2,
+        2,
+        4,
+        5
+      ],
+      "q_from": 3,
+      "q_to": 2,
+      "local_from": 49,
+      "local_to": 35,
+      "kind": "internal_thalion_copy",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 6,
+      "law_key": [
+        2,
+        2,
+        5,
+        0
+      ],
+      "q_from": 0,
+      "q_to": 1,
+      "local_from": 5,
+      "local_to": 15,
+      "kind": "internal_thalion_copy",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 7,
+      "law_key": [
+        2,
+        2,
+        14,
+        11
+      ],
+      "q_from": 1,
+      "q_to": 0,
+      "local_from": 29,
+      "local_to": 11,
+      "kind": "internal_thalion_copy",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 8,
+      "law_key": [
+        2,
+        5,
+        5,
+        2
+      ],
+      "q_from": 1,
+      "q_to": 3,
+      "local_from": 20,
+      "local_to": 47,
+      "kind": "external_signed_carrier",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 9,
+      "law_key": [
+        2,
+        11,
+        11,
+        2
+      ],
+      "q_from": 3,
+      "q_to": 3,
+      "local_from": 56,
+      "local_to": 47,
+      "kind": "external_signed_carrier",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 10,
+      "law_key": [
+        4,
+        2,
+        2,
+        4
+      ],
+      "q_from": 2,
+      "q_to": 1,
+      "local_from": 32,
+      "local_to": 19,
+      "kind": "external_signed_carrier",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 11,
+      "law_key": [
+        4,
+        4,
+        5,
+        2
+      ],
+      "q_from": 0,
+      "q_to": 3,
+      "local_from": 5,
+      "local_to": 47,
+      "kind": "internal_thalion_copy",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 12,
+      "law_key": [
+        5,
+        2,
+        2,
+        5
+      ],
+      "q_from": 3,
+      "q_to": 2,
+      "local_from": 47,
+      "local_to": 35,
+      "kind": "external_signed_carrier",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 13,
+      "law_key": [
+        5,
+        4,
+        4,
+        5
+      ],
+      "q_from": 1,
+      "q_to": 2,
+      "local_from": 19,
+      "local_to": 35,
+      "kind": "external_signed_carrier",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 14,
+      "law_key": [
+        5,
+        5,
+        0,
+        2
+      ],
+      "q_from": 3,
+      "q_to": 3,
+      "local_from": 45,
+      "local_to": 47,
+      "kind": "internal_thalion_copy",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 15,
+      "law_key": [
+        5,
+        5,
+        2,
+        4
+      ],
+      "q_from": 1,
+      "q_to": 1,
+      "local_from": 17,
+      "local_to": 19,
+      "kind": "internal_thalion_copy",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 16,
+      "law_key": [
+        10,
+        1,
+        1,
+        10
+      ],
+      "q_from": 1,
+      "q_to": 3,
+      "local_from": 16,
+      "local_to": 55,
+      "kind": "external_signed_carrier",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 17,
+      "law_key": [
+        10,
+        10,
+        13,
+        1
+      ],
+      "q_from": 1,
+      "q_to": 2,
+      "local_from": 28,
+      "local_to": 31,
+      "kind": "internal_thalion_copy",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 18,
+      "law_key": [
+        11,
+        11,
+        2,
+        14
+      ],
+      "q_from": 1,
+      "q_to": 3,
+      "local_from": 17,
+      "local_to": 59,
+      "kind": "internal_thalion_copy",
+      "match_count": 1,
+      "columns": []
+    },
+    {
+      "node_id": 19,
+      "law_key": [
+        11,
+        14,
+        14,
+        11
+      ],
+      "q_from": 1,
+      "q_to": 0,
+      "local_from": 29,
+      "local_to": 11,
+      "kind": "external_signed_carrier",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 20,
+      "law_key": [
+        13,
+        10,
+        10,
+        13
+      ],
+      "q_from": 3,
+      "q_to": 2,
+      "local_from": 55,
+      "local_to": 43,
+      "kind": "external_signed_carrier",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 21,
+      "law_key": [
+        13,
+        13,
+        1,
+        10
+      ],
+      "q_from": 1,
+      "q_to": 3,
+      "local_from": 16,
+      "local_to": 55,
+      "kind": "internal_thalion_copy",
+      "match_count": 1,
+      "columns": []
+    },
+    {
+      "node_id": 22,
+      "law_key": [
+        14,
+        2,
+        2,
+        14
+      ],
+      "q_from": 0,
+      "q_to": 3,
+      "local_from": 2,
+      "local_to": 59,
+      "kind": "external_signed_carrier",
+      "match_count": 0,
+      "columns": []
+    },
+    {
+      "node_id": 23,
+      "law_key": [
+        14,
+        14,
+        11,
+        2
+      ],
+      "q_from": 2,
+      "q_to": 3,
+      "local_from": 41,
+      "local_to": 47,
+      "kind": "internal_thalion_copy",
+      "match_count": 1,
+      "columns": []
+    }
+  ],
+  "orientation_results": [
+    {
+      "orientation": "direct",
+      "exact_from_rule_count": 0,
+      "exact_to_rule_count": 0,
+      "from_pool_count": 64,
+      "to_pool_count": 64,
+      "crossed_pair_count": 4096,
+      "best_pair": {
+        "orientation": "direct",
+        "from_coefficients": [
+          0,
+          0,
+          1,
+          2,
+          1
+        ],
+        "to_coefficients": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "from_endpoint_compatible_count": 23,
+        "to_endpoint_compatible_count": 23,
+        "matched_node_count": 3,
+        "unique_row_node_count": 3,
+        "external_column_count": 0,
+        "mapped_transition_count": 0,
+        "direct_hit_nodes_matched": 0,
+        "full_node_replay": false,
+        "full_transition_replay": false
+      },
+      "top_pairs": [
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            3,
+            0,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            2,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            2,
+            2,
+            0,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            0,
+            3,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            2,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            0,
+            3,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            2,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            0,
+            3,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            0,
+            3,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            1,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            0,
+            3,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            0,
+            3,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            2,
+            0,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            2,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            2,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            3,
+            0,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            2,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            2,
+            2,
+            0,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            1,
+            2,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            2,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            1,
+            2,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            2,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            1,
+            2,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            1,
+            2,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            1,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            1,
+            2,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            1,
+            2,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            2,
+            0,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            2,
+            1,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            2,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            2,
+            1,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            2,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            2,
+            1,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            2,
+            1,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            1,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            2,
+            1,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            2,
+            0,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            2,
+            1,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            2,
+            0,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            2,
+            3,
+            2,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            2,
+            3,
+            2,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            3,
+            0,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            2,
+            3,
+            2,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            2,
+            2,
+            0,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            3,
+            0,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            2,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            3,
+            0,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            2,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "direct",
+          "from_coefficients": [
+            0,
+            3,
+            0,
+            2,
+            2
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 3,
+          "unique_row_node_count": 3,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        }
+      ]
+    },
+    {
+      "orientation": "reverse",
+      "exact_from_rule_count": 0,
+      "exact_to_rule_count": 0,
+      "from_pool_count": 64,
+      "to_pool_count": 64,
+      "crossed_pair_count": 4096,
+      "best_pair": {
+        "orientation": "reverse",
+        "from_coefficients": [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "to_coefficients": [
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "from_endpoint_compatible_count": 23,
+        "to_endpoint_compatible_count": 23,
+        "matched_node_count": 2,
+        "unique_row_node_count": 2,
+        "external_column_count": 0,
+        "mapped_transition_count": 0,
+        "direct_hit_nodes_matched": 0,
+        "full_node_replay": false,
+        "full_transition_replay": false
+      },
+      "top_pairs": [
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            2,
+            3,
+            1,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            3,
+            2,
+            1,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            1,
+            3,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            1,
+            3,
+            2,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            2,
+            2,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            2,
+            2,
+            2,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            3,
+            1,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            3,
+            1,
+            2,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            2,
+            0,
+            2,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            0,
+            1,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            2,
+            0,
+            2,
+            2,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            2,
+            3,
+            1,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            3,
+            2,
+            1,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            1,
+            3,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            1,
+            3,
+            2,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            2,
+            2,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            2,
+            2,
+            2,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            3,
+            1,
+            0,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            0,
+            3,
+            1,
+            2,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            2,
+            0,
+            2,
+            0,
+            0
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            1,
+            0,
+            3,
+            1
+          ],
+          "to_coefficients": [
+            2,
+            0,
+            2,
+            2,
+            2
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            2,
+            3,
+            0,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            0,
+            1,
+            1,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        },
+        {
+          "orientation": "reverse",
+          "from_coefficients": [
+            0,
+            2,
+            3,
+            0,
+            1
+          ],
+          "to_coefficients": [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "from_endpoint_compatible_count": 23,
+          "to_endpoint_compatible_count": 23,
+          "matched_node_count": 2,
+          "unique_row_node_count": 2,
+          "external_column_count": 0,
+          "mapped_transition_count": 0,
+          "direct_hit_nodes_matched": 0,
+          "full_node_replay": false,
+          "full_transition_replay": false
+        }
+      ]
+    }
+  ],
+  "role_hook_bits_used": false,
+  "cocycle_values_used": false,
+  "cocycle_values_sealed": true,
+  "sheet_rule_admitted": false,
+  "feedback_unit_admitted": false,
+  "transport_feedback_rule_admitted": false,
+  "native_signed_lift_identification_proven": false,
+  "cocycle_admitted": false,
+  "holonomy_class_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "boundary": [
+    "Full-law-key affine sheet-rule search only.",
+    "Direct and reverse endpoint orientations tested.",
+    "Role-hook-change bits excluded.",
+    "Cocycle values remain sealed.",
+    "No sheet rule admission.",
+    "No feedback unit admission.",
+    "No native signed-lift identification.",
+    "No cocycle or Gap A closure claim."
+  ],
+  "recommended_next": "inspect_best_full_law_key_sheet_rule_residual_001"
+}
