@@ -1,0 +1,1603 @@
+{
+  "all_analyses_top_40": [
+    {
+      "conflict_group_count": 0,
+      "exact": true,
+      "exact_group_count": 24,
+      "example_conflicts": [],
+      "features": [
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 24,
+      "max_group_target_count": 1,
+      "purity": 1.0,
+      "target": "ab_delta_pair",
+      "usable_row_count": 156
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": true,
+      "exact_group_count": 24,
+      "example_conflicts": [],
+      "features": [
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 24,
+      "max_group_target_count": 1,
+      "purity": 1.0,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 156
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": true,
+      "exact_group_count": 24,
+      "example_conflicts": [],
+      "features": [
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 24,
+      "max_group_target_count": 1,
+      "purity": 1.0,
+      "target": "to_ab_pair",
+      "usable_row_count": 156
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": true,
+      "exact_group_count": 24,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 24,
+      "max_group_target_count": 1,
+      "purity": 1.0,
+      "target": "ab_delta_pair",
+      "usable_row_count": 108
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": true,
+      "exact_group_count": 24,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 24,
+      "max_group_target_count": 1,
+      "purity": 1.0,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 108
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": true,
+      "exact_group_count": 24,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 24,
+      "max_group_target_count": 1,
+      "purity": 1.0,
+      "target": "to_ab_pair",
+      "usable_row_count": 108
+    },
+    {
+      "conflict_group_count": 1,
+      "exact": false,
+      "exact_group_count": 22,
+      "example_conflicts": [
+        {
+          "feature_key": [
+            [
+              "station_role",
+              "ZT"
+            ],
+            [
+              "from_slot",
+              "5"
+            ],
+            [
+              "to_slot",
+              "5"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 5,
+              "target": "(2, 0)"
+            },
+            {
+              "count": 5,
+              "target": "(13, 0)"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot"
+      ],
+      "group_count": 23,
+      "max_group_target_count": 2,
+      "purity": 0.9537037037037037,
+      "target": "ab_delta_pair",
+      "usable_row_count": 108
+    },
+    {
+      "conflict_group_count": 1,
+      "exact": false,
+      "exact_group_count": 22,
+      "example_conflicts": [
+        {
+          "feature_key": [
+            [
+              "station_role",
+              "ZT"
+            ],
+            [
+              "from_slot",
+              "5"
+            ],
+            [
+              "to_slot",
+              "5"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 5,
+              "target": "(10, 5, 12, 5)"
+            },
+            {
+              "count": 5,
+              "target": "(12, 5, 10, 5)"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot"
+      ],
+      "group_count": 23,
+      "max_group_target_count": 2,
+      "purity": 0.9537037037037037,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 108
+    },
+    {
+      "conflict_group_count": 1,
+      "exact": false,
+      "exact_group_count": 22,
+      "example_conflicts": [
+        {
+          "feature_key": [
+            [
+              "station_role",
+              "ZT"
+            ],
+            [
+              "from_slot",
+              "5"
+            ],
+            [
+              "to_slot",
+              "5"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 5,
+              "target": "(12, 5)"
+            },
+            {
+              "count": 5,
+              "target": "(10, 5)"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot"
+      ],
+      "group_count": 23,
+      "max_group_target_count": 2,
+      "purity": 0.9537037037037037,
+      "target": "to_ab_pair",
+      "usable_row_count": 108
+    },
+    {
+      "conflict_group_count": 2,
+      "exact": false,
+      "exact_group_count": 19,
+      "example_conflicts": [
+        {
+          "feature_key": [
+            [
+              "from_slot",
+              "2"
+            ],
+            [
+              "to_slot",
+              "2"
+            ],
+            [
+              "slot_delta_mod15",
+              "0"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(1, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 2)"
+            }
+          ]
+        },
+        {
+          "feature_key": [
+            [
+              "from_slot",
+              "5"
+            ],
+            [
+              "to_slot",
+              "5"
+            ],
+            [
+              "slot_delta_mod15",
+              "0"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 1,
+              "target": "(12, 5)"
+            },
+            {
+              "count": 1,
+              "target": "(10, 5)"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15"
+      ],
+      "group_count": 21,
+      "max_group_target_count": 2,
+      "purity": 0.9166666666666666,
+      "target": "to_ab_pair",
+      "usable_row_count": 24
+    },
+    {
+      "conflict_group_count": 2,
+      "exact": false,
+      "exact_group_count": 19,
+      "example_conflicts": [
+        {
+          "feature_key": [
+            [
+              "from_slot",
+              "2"
+            ],
+            [
+              "to_slot",
+              "2"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 11,
+              "target": "(1, 2)"
+            },
+            {
+              "count": 7,
+              "target": "(12, 2)"
+            }
+          ]
+        },
+        {
+          "feature_key": [
+            [
+              "from_slot",
+              "5"
+            ],
+            [
+              "to_slot",
+              "5"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 7,
+              "target": "(12, 5)"
+            },
+            {
+              "count": 7,
+              "target": "(10, 5)"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "from_slot",
+        "to_slot"
+      ],
+      "group_count": 21,
+      "max_group_target_count": 2,
+      "purity": 0.9102564102564102,
+      "target": "to_ab_pair",
+      "usable_row_count": 156
+    },
+    {
+      "conflict_group_count": 2,
+      "exact": false,
+      "exact_group_count": 19,
+      "example_conflicts": [
+        {
+          "feature_key": [
+            [
+              "from_slot",
+              "2"
+            ],
+            [
+              "to_slot",
+              "2"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 7,
+              "target": "(4, 0)"
+            },
+            {
+              "count": 7,
+              "target": "(9, 0)"
+            },
+            {
+              "count": 4,
+              "target": "(13, 0)"
+            }
+          ]
+        },
+        {
+          "feature_key": [
+            [
+              "from_slot",
+              "5"
+            ],
+            [
+              "to_slot",
+              "5"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 7,
+              "target": "(2, 0)"
+            },
+            {
+              "count": 7,
+              "target": "(13, 0)"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "from_slot",
+        "to_slot"
+      ],
+      "group_count": 21,
+      "max_group_target_count": 3,
+      "purity": 0.8846153846153846,
+      "target": "ab_delta_pair",
+      "usable_row_count": 156
+    },
+    {
+      "conflict_group_count": 2,
+      "exact": false,
+      "exact_group_count": 19,
+      "example_conflicts": [
+        {
+          "feature_key": [
+            [
+              "from_slot",
+              "2"
+            ],
+            [
+              "to_slot",
+              "2"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 7,
+              "target": "(12, 2, 1, 2)"
+            },
+            {
+              "count": 7,
+              "target": "(3, 2, 12, 2)"
+            },
+            {
+              "count": 4,
+              "target": "(3, 2, 1, 2)"
+            }
+          ]
+        },
+        {
+          "feature_key": [
+            [
+              "from_slot",
+              "5"
+            ],
+            [
+              "to_slot",
+              "5"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 7,
+              "target": "(10, 5, 12, 5)"
+            },
+            {
+              "count": 7,
+              "target": "(12, 5, 10, 5)"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "from_slot",
+        "to_slot"
+      ],
+      "group_count": 21,
+      "max_group_target_count": 3,
+      "purity": 0.8846153846153846,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 156
+    },
+    {
+      "conflict_group_count": 2,
+      "exact": false,
+      "exact_group_count": 19,
+      "example_conflicts": [
+        {
+          "feature_key": [
+            [
+              "from_slot",
+              "2"
+            ],
+            [
+              "to_slot",
+              "2"
+            ],
+            [
+              "slot_delta_mod15",
+              "0"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 1,
+              "target": "(13, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(4, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(9, 0)"
+            }
+          ]
+        },
+        {
+          "feature_key": [
+            [
+              "from_slot",
+              "5"
+            ],
+            [
+              "to_slot",
+              "5"
+            ],
+            [
+              "slot_delta_mod15",
+              "0"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 1,
+              "target": "(2, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(13, 0)"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15"
+      ],
+      "group_count": 21,
+      "max_group_target_count": 3,
+      "purity": 0.875,
+      "target": "ab_delta_pair",
+      "usable_row_count": 24
+    },
+    {
+      "conflict_group_count": 2,
+      "exact": false,
+      "exact_group_count": 19,
+      "example_conflicts": [
+        {
+          "feature_key": [
+            [
+              "from_slot",
+              "2"
+            ],
+            [
+              "to_slot",
+              "2"
+            ],
+            [
+              "slot_delta_mod15",
+              "0"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 1,
+              "target": "(3, 2, 1, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 2, 1, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 2, 12, 2)"
+            }
+          ]
+        },
+        {
+          "feature_key": [
+            [
+              "from_slot",
+              "5"
+            ],
+            [
+              "to_slot",
+              "5"
+            ],
+            [
+              "slot_delta_mod15",
+              "0"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 1,
+              "target": "(10, 5, 12, 5)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 5, 10, 5)"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15"
+      ],
+      "group_count": 21,
+      "max_group_target_count": 3,
+      "purity": 0.875,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 24
+    },
+    {
+      "conflict_group_count": 1,
+      "exact": false,
+      "exact_group_count": 7,
+      "example_conflicts": [
+        {
+          "feature_key": [
+            [
+              "slot_delta_mod15",
+              "0"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(13, 0)"
+            },
+            {
+              "count": 2,
+              "target": "(6, 0)"
+            },
+            {
+              "count": 2,
+              "target": "(2, 0)"
+            },
+            {
+              "count": 2,
+              "target": "(9, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(11, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(7, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(4, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(8, 0)"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "slot_delta_mod15"
+      ],
+      "group_count": 8,
+      "max_group_target_count": 8,
+      "purity": 0.5833333333333334,
+      "target": "ab_delta_pair",
+      "usable_row_count": 24
+    },
+    {
+      "conflict_group_count": 4,
+      "exact": false,
+      "exact_group_count": 4,
+      "example_conflicts": [
+        {
+          "feature_key": [
+            [
+              "slot_delta_mod15",
+              "3"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 1,
+              "target": "(7, 14)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 5)"
+            }
+          ]
+        },
+        {
+          "feature_key": [
+            [
+              "slot_delta_mod15",
+              "0"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 2,
+              "target": "(1, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 14)"
+            },
+            {
+              "count": 1,
+              "target": "(7, 11)"
+            },
+            {
+              "count": 1,
+              "target": "(0, 10)"
+            },
+            {
+              "count": 1,
+              "target": "(2, 1)"
+            },
+            {
+              "count": 1,
+              "target": "(9, 13)"
+            },
+            {
+              "count": 1,
+              "target": "(10, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 5)"
+            }
+          ]
+        },
+        {
+          "feature_key": [
+            [
+              "slot_delta_mod15",
+              "12"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 1,
+              "target": "(9, 10)"
+            },
+            {
+              "count": 1,
+              "target": "(2, 13)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 2)"
+            }
+          ]
+        },
+        {
+          "feature_key": [
+            [
+              "slot_delta_mod15",
+              "13"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 1,
+              "target": "(1, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 2)"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "slot_delta_mod15"
+      ],
+      "group_count": 8,
+      "max_group_target_count": 11,
+      "purity": 0.375,
+      "target": "to_ab_pair",
+      "usable_row_count": 24
+    },
+    {
+      "conflict_group_count": 4,
+      "exact": false,
+      "exact_group_count": 4,
+      "example_conflicts": [
+        {
+          "feature_key": [
+            [
+              "slot_delta_mod15",
+              "3"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 1,
+              "target": "(7, 11, 7, 14)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 14, 3, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 2, 12, 5)"
+            }
+          ]
+        },
+        {
+          "feature_key": [
+            [
+              "slot_delta_mod15",
+              "0"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 1,
+              "target": "(7, 14, 3, 14)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 2, 1, 2)"
+            },
+            {
+              "count": 1,
+              "target": "(1, 11, 7, 11)"
+            },
+            {
+              "count": 1,
+              "target": "(9, 10, 0, 10)"
+            },
+            {
+              "count": 1,
+              "target": "(0, 1, 2, 1)"
+            },
+            {
+              "count": 1,
+              "target": "(2, 13, 9, 13)"
+            },
+            {
+              "count": 1,
+              "target": "(1, 0, 10, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(10, 5, 12, 5)"
+            }
+          ]
+        },
+        {
+          "feature_key": [
+            [
+              "slot_delta_mod15",
+              "12"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 1,
+              "target": "(9, 13, 9, 10)"
+            },
+            {
+              "count": 1,
+              "target": "(2, 1, 2, 13)"
+            },
+            {
+              "count": 1,
+              "target": "(12, 5, 12, 2)"
+            }
+          ]
+        },
+        {
+          "feature_key": [
+            [
+              "slot_delta_mod15",
+              "13"
+            ]
+          ],
+          "target_counts": [
+            {
+              "count": 1,
+              "target": "(1, 2, 1, 0)"
+            },
+            {
+              "count": 1,
+              "target": "(3, 4, 3, 2)"
+            }
+          ]
+        }
+      ],
+      "features": [
+        "slot_delta_mod15"
+      ],
+      "group_count": 8,
+      "max_group_target_count": 12,
+      "purity": 0.3333333333333333,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 24
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "slot_delta_mod15"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "ab_delta_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "slot_delta_mod15"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "slot_delta_mod15"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "to_ab_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "role_pair",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "ab_delta_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "ab_delta_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "role_pair",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "role_pair",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "to_ab_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "to_ab_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15",
+        "C_delta"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "ab_delta_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15",
+        "integer_C_delta"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "ab_delta_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "role_pair",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "ab_delta_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15",
+        "C_delta"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15",
+        "integer_C_delta"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "role_pair",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15",
+        "C_delta"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "to_ab_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15",
+        "integer_C_delta"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "to_ab_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "role_pair",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "to_ab_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "ab_delta_pair",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 0
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": false,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 0,
+      "max_group_target_count": 0,
+      "purity": 0.0,
+      "target": "to_ab_pair",
+      "usable_row_count": 0
+    }
+  ],
+  "allowed_features": [
+    "station_role",
+    "role_pair",
+    "from_slot",
+    "to_slot",
+    "slot_delta_mod15",
+    "from_C",
+    "to_C",
+    "C_delta",
+    "integer_C_delta"
+  ],
+  "artifact_kind": "slot_coupled_ab_assignment_hypothesis_test",
+  "best_analysis": {
+    "conflict_group_count": 0,
+    "exact": true,
+    "exact_group_count": 24,
+    "example_conflicts": [],
+    "features": [
+      "from_slot",
+      "to_slot",
+      "from_C",
+      "to_C"
+    ],
+    "group_count": 24,
+    "max_group_target_count": 1,
+    "purity": 1.0,
+    "target": "ab_delta_pair",
+    "usable_row_count": 156
+  },
+  "boundary": {
+    "ab_assignment_law_admitted": false,
+    "answer_label_leakage_closed": false,
+    "force_claim": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "hypothesis_test_only": true,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem": false
+  },
+  "candidate_row_count": 156,
+  "checks": {
+    "allowed_input_used_only": true,
+    "analysis_count_positive": true,
+    "best_analysis_present": true,
+    "forbidden_inputs_not_used": true,
+    "hypotheses_derive_pass": true,
+    "inspection_pass_true": true,
+    "loaded_source_count_at_least_2": true,
+    "no_ab_assignment_law_admission": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "slot_ab_row_count_positive": true
+  },
+  "created_utc": "2026-07-10T14:32:34+00:00",
+  "exact_hit_count": 6,
+  "exact_hits_first_20": [
+    {
+      "conflict_group_count": 0,
+      "exact": true,
+      "exact_group_count": 24,
+      "example_conflicts": [],
+      "features": [
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 24,
+      "max_group_target_count": 1,
+      "purity": 1.0,
+      "target": "ab_delta_pair",
+      "usable_row_count": 156
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": true,
+      "exact_group_count": 24,
+      "example_conflicts": [],
+      "features": [
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 24,
+      "max_group_target_count": 1,
+      "purity": 1.0,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 156
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": true,
+      "exact_group_count": 24,
+      "example_conflicts": [],
+      "features": [
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 24,
+      "max_group_target_count": 1,
+      "purity": 1.0,
+      "target": "to_ab_pair",
+      "usable_row_count": 156
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": true,
+      "exact_group_count": 24,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 24,
+      "max_group_target_count": 1,
+      "purity": 1.0,
+      "target": "ab_delta_pair",
+      "usable_row_count": 108
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": true,
+      "exact_group_count": 24,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 24,
+      "max_group_target_count": 1,
+      "purity": 1.0,
+      "target": "from_to_ab_quad",
+      "usable_row_count": 108
+    },
+    {
+      "conflict_group_count": 0,
+      "exact": true,
+      "exact_group_count": 24,
+      "example_conflicts": [],
+      "features": [
+        "station_role",
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "group_count": 24,
+      "max_group_target_count": 1,
+      "purity": 1.0,
+      "target": "to_ab_pair",
+      "usable_row_count": 108
+    }
+  ],
+  "feature_sets_tested": [
+    [
+      "slot_delta_mod15"
+    ],
+    [
+      "from_slot",
+      "to_slot"
+    ],
+    [
+      "from_slot",
+      "to_slot",
+      "slot_delta_mod15"
+    ],
+    [
+      "station_role",
+      "from_slot",
+      "to_slot"
+    ],
+    [
+      "station_role",
+      "slot_delta_mod15"
+    ],
+    [
+      "station_role",
+      "from_slot",
+      "to_slot",
+      "slot_delta_mod15"
+    ],
+    [
+      "role_pair",
+      "from_slot",
+      "to_slot",
+      "slot_delta_mod15"
+    ],
+    [
+      "station_role",
+      "role_pair",
+      "from_slot",
+      "to_slot",
+      "slot_delta_mod15"
+    ],
+    [
+      "from_slot",
+      "to_slot",
+      "from_C",
+      "to_C"
+    ],
+    [
+      "station_role",
+      "from_slot",
+      "to_slot",
+      "from_C",
+      "to_C"
+    ],
+    [
+      "station_role",
+      "from_slot",
+      "to_slot",
+      "slot_delta_mod15",
+      "from_C",
+      "to_C"
+    ],
+    [
+      "station_role",
+      "from_slot",
+      "to_slot",
+      "slot_delta_mod15",
+      "C_delta"
+    ],
+    [
+      "station_role",
+      "from_slot",
+      "to_slot",
+      "slot_delta_mod15",
+      "integer_C_delta"
+    ]
+  ],
+  "forbidden_first_pass_inputs": [
+    "role_class",
+    "label",
+    "shared_B",
+    "reverse_partner",
+    "accepted_candidate_indices",
+    "false_positive_candidate_indices",
+    "miss_candidate_indices",
+    "exact",
+    "accepted_count",
+    "candidate_index"
+  ],
+  "hypothesis_result": "exact_mapping_found_on_observed_rows_not_admitted",
+  "id": "test_slot_coupled_ab_assignment_hypothesis_001",
+  "input_artifacts": {
+    "hypotheses": "artifacts/json/derive_ab_assignment_candidate_field_hypotheses_001.json",
+    "inspection": "artifacts/json/inspect_source_construction_fields_for_ab_assignment_001.json",
+    "source_files": [
+      "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json",
+      "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json",
+      "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json"
+    ]
+  },
+  "input_sha256": {
+    "artifacts/json/derive_ab_assignment_candidate_field_hypotheses_001.json": "00f9fb9be90c5313b4cda802e682c6cb6d051b7823ad074af0b12efade96d407",
+    "artifacts/json/inspect_source_construction_fields_for_ab_assignment_001.json": "ab7583492580791731cbb478d467eddfbfab23af07b78d56d39ce9905494537c",
+    "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json": "8a8e50eab152313720ec68a3cc15b576bb90efdf187ad0c28fe8b96e9c4faa55",
+    "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json": "0ab5c174680c0d4226156bce38f815322bbf40e769d9415d88a41703daebd83e",
+    "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json": "4a77cbd5b0cf631fdbba27c1eb3c04d6d8c593f2f0dbab6eb70bfff98419f78f"
+  },
+  "keeper_line": "Slot coupling may name the surface, but leakage audit decides whether it is law or residue.",
+  "next_gate": "audit_slot_coupled_ab_assignment_for_answer_label_leakage_001",
+  "source_row_counts": {
+    "source/project18_artifacts/json/wxyzti_answer_pair_candidate_universe_audit_022.v1.json": 84,
+    "source/project18_artifacts/json/wxyzti_same_sheet_wrap_carry_audit_012.v1.json": 48,
+    "source/project18_native_chain/json/g60_native_overlay_generator_family_search_001.v1.json": 24
+  },
+  "status": "SLOT_COUPLED_AB_ASSIGNMENT_HYPOTHESIS_001_TEST_RECORDED",
+  "summary": {
+    "ab_assignment_law_admitted": false,
+    "allowed_input_used_only": true,
+    "analysis_count": 39,
+    "answer_label_leakage_closed": false,
+    "best_conflict_group_count": 0,
+    "best_exact": true,
+    "best_features": [
+      "from_slot",
+      "to_slot",
+      "from_C",
+      "to_C"
+    ],
+    "best_purity": 1.0,
+    "best_target": "ab_delta_pair",
+    "candidate_row_count": 156,
+    "check_count": 18,
+    "exact_hit_count": 6,
+    "failed_count": 0,
+    "frontier_status": "slot_coupled_ab_assignment_tested_not_admitted",
+    "full_role_labeled_shared_b_derived": false,
+    "gap_a_closure": false,
+    "hypothesis_result": "exact_mapping_found_on_observed_rows_not_admitted",
+    "loaded_source_count": 3,
+    "native_generator_admitted": false,
+    "passed_count": 18,
+    "recommended_next": "audit_slot_coupled_ab_assignment_for_answer_label_leakage_001",
+    "source_law_admitted": false,
+    "test_pass": true
+  },
+  "targets": [
+    "ab_delta_pair",
+    "to_ab_pair",
+    "from_to_ab_quad"
+  ]
+}
