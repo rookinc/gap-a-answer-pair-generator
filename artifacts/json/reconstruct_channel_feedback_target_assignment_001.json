@@ -1,0 +1,325 @@
+{
+  "artifact": "reconstruct_channel_feedback_target_assignment_001",
+  "reconstruction_pass": true,
+  "keeper": "Before searching for the bit, recover who divided the rows.",
+  "scope": "external_native_non_native_assignment_reconstruction",
+  "row_path": "$.source_packet_index",
+  "row_count": 48,
+  "list_24_candidate_count": 0,
+  "reconstruction_candidate_count": 0,
+  "unique_partition_count": 0,
+  "exact_partition_found": false,
+  "unique_exact_partition": false,
+  "assignment_status": "external_24_24_assignment_not_reconstructed",
+  "assignment": null,
+  "partition_candidates": [],
+  "reconstruction_candidates": [],
+  "native_marker_counts": {
+    "search": 9,
+    "native_trace": 26,
+    "order_search": 16
+  },
+  "native_markers": {
+    "search": [
+      {
+        "path": "$.summary.unique_native_g15_embedding_proven",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.summary.non_native_row_count",
+        "value": 24,
+        "type": "int"
+      },
+      {
+        "path": "$.summary.native_row_count",
+        "value": 24,
+        "type": "int"
+      },
+      {
+        "path": "$.summary.native_generator_admitted",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.result.channel_profiles.native",
+        "type": "dict",
+        "keys": [
+          "bucket_count",
+          "exact_bucket_count"
+        ]
+      },
+      {
+        "path": "$.result.channel_profiles.native.exact_bucket_count",
+        "value": 2,
+        "type": "int"
+      },
+      {
+        "path": "$.result.channel_profiles.native.bucket_count",
+        "value": 2,
+        "type": "int"
+      },
+      {
+        "path": "$.boundary.unique_native_g15_embedding_proven",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.boundary.native_generator_admitted",
+        "value": false,
+        "type": "bool"
+      }
+    ],
+    "native_trace": [
+      {
+        "path": "$.trace_result.non_native_row_count",
+        "value": 24,
+        "type": "int"
+      },
+      {
+        "path": "$.trace_result.non_native_order_field_names",
+        "length": 1,
+        "type": "list",
+        "sample": [
+          "source_packet_id"
+        ]
+      },
+      {
+        "path": "$.trace_result.non_native_order_field_names[0]",
+        "value": "source_packet_id",
+        "type": "str"
+      },
+      {
+        "path": "$.trace_result.native_row_count",
+        "value": 24,
+        "type": "int"
+      },
+      {
+        "path": "$.trace_result.native_order_field_names",
+        "length": 1,
+        "type": "list",
+        "sample": [
+          "source_packet_id"
+        ]
+      },
+      {
+        "path": "$.trace_result.native_order_field_names[0]",
+        "value": "source_packet_id",
+        "type": "str"
+      },
+      {
+        "path": "$.trace_result.native_order_axis_rule_admitted",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.trace_result.candidate_sequence_hashes.non_native_packet_id_order",
+        "value": "3818ee572641d14c",
+        "type": "str"
+      },
+      {
+        "path": "$.trace_result.candidate_sequence_hashes.non_native_list_order",
+        "value": "3818ee572641d14c",
+        "type": "str"
+      },
+      {
+        "path": "$.trace_result.candidate_sequence_hashes.native_packet_id_order",
+        "value": "d692ea5013987cb5",
+        "type": "str"
+      },
+      {
+        "path": "$.trace_result.candidate_sequence_hashes.native_list_order",
+        "value": "d692ea5013987cb5",
+        "type": "str"
+      },
+      {
+        "path": "$.summary.unique_native_g15_embedding_proven",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.summary.non_native_row_count",
+        "value": 24,
+        "type": "int"
+      },
+      {
+        "path": "$.summary.native_row_count",
+        "value": 24,
+        "type": "int"
+      },
+      {
+        "path": "$.summary.native_order_axis_rule_admitted",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.summary.native_generator_admitted",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.input_sha256.artifacts/json/search_native_chain_order_axis_rule_001.json",
+        "value": "e03f857280f7e865b5f38dc0515356455d5b19ed86548020487b416b8ed9a99d",
+        "type": "str"
+      },
+      {
+        "path": "$.input_sha256.artifacts/json/audit_native_chain_order_axis_candidate_for_leakage_001.json",
+        "value": "754fa2b1704725aacdd0851906b690cc4600e1e866a1c99ff9981c20d28e4dd9",
+        "type": "str"
+      },
+      {
+        "path": "$.checks.non_native_row_count_24",
+        "value": true,
+        "type": "bool"
+      },
+      {
+        "path": "$.checks.no_unique_native_g15_embedding_proof",
+        "value": true,
+        "type": "bool"
+      },
+      {
+        "path": "$.checks.no_native_generator_admission",
+        "value": true,
+        "type": "bool"
+      },
+      {
+        "path": "$.checks.native_row_count_24",
+        "value": true,
+        "type": "bool"
+      },
+      {
+        "path": "$.checks.native_order_axis_rule_admitted_false",
+        "value": true,
+        "type": "bool"
+      },
+      {
+        "path": "$.boundary.unique_native_g15_embedding_proven",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.boundary.native_order_axis_rule_admitted",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.boundary.native_generator_admitted",
+        "value": false,
+        "type": "bool"
+      }
+    ],
+    "order_search": [
+      {
+        "path": "$.summary.unique_native_g15_embedding_proven",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.summary.non_native_row_count",
+        "value": 24,
+        "type": "int"
+      },
+      {
+        "path": "$.summary.native_row_count",
+        "value": 24,
+        "type": "int"
+      },
+      {
+        "path": "$.summary.native_order_axis_rule_admitted",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.summary.native_generator_admitted",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.result.non_native_row_count",
+        "value": 24,
+        "type": "int"
+      },
+      {
+        "path": "$.result.native_row_count",
+        "value": 24,
+        "type": "int"
+      },
+      {
+        "path": "$.result.native_order_axis_rule_admitted",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.checks.non_native_row_count_24",
+        "value": true,
+        "type": "bool"
+      },
+      {
+        "path": "$.checks.no_unique_native_g15_embedding_proof",
+        "value": true,
+        "type": "bool"
+      },
+      {
+        "path": "$.checks.no_native_generator_admission",
+        "value": true,
+        "type": "bool"
+      },
+      {
+        "path": "$.checks.native_row_count_24",
+        "value": true,
+        "type": "bool"
+      },
+      {
+        "path": "$.checks.native_order_axis_rule_admitted_false",
+        "value": true,
+        "type": "bool"
+      },
+      {
+        "path": "$.boundary.unique_native_g15_embedding_proven",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.boundary.native_order_axis_rule_admitted",
+        "value": false,
+        "type": "bool"
+      },
+      {
+        "path": "$.boundary.native_generator_admitted",
+        "value": false,
+        "type": "bool"
+      }
+    ]
+  },
+  "interpretation": [
+    "The native/non-native label is external to the 48 packet rows.",
+    "This audit attempts replay from explicit 24-item lists, indices, packet IDs, or row signatures.",
+    "A reconstructed partition is an evaluation assignment, not yet a packet-carried feedback unit."
+  ],
+  "feedback_unit_admitted": false,
+  "channel_axis_rule_admitted": false,
+  "source_law_admitted": false,
+  "native_generator_admitted": false,
+  "unique_native_g15_embedding_proven": false,
+  "full_theorem_admitted": false,
+  "proof_claim": false,
+  "gap_a_closure": false,
+  "geometry_claim": false,
+  "physics_claim": false,
+  "force_claim": false,
+  "boundary": [
+    "Target-assignment reconstruction only.",
+    "No feedback unit admission.",
+    "No channel-axis rule admission.",
+    "No source law admission.",
+    "No native generator admission.",
+    "No unique native G15 embedding proof.",
+    "No full theorem admitted.",
+    "No proof claim.",
+    "No Gap A closure.",
+    "No geometry claim.",
+    "No physics claim.",
+    "No force claim."
+  ],
+  "recommended_next": "trace_channel_axis_search_target_construction_001"
+}
