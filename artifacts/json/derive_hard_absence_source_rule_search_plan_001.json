@@ -1,0 +1,233 @@
+{
+  "artifact_kind": "hard_absence_source_rule_search_plan",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "search_plan_ledger_only": true,
+    "source_law_admitted": false,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "checks": {
+    "answer_label_leakage_closed_false": true,
+    "birth_order_proven_false": true,
+    "classify_pass": true,
+    "closure_audit_pass": true,
+    "closure_paused": true,
+    "closure_requirement_count_4": true,
+    "hard_absence_count_5172": true,
+    "immediate_next_endpoint_motion": true,
+    "no_answer_label_leakage_closure": true,
+    "no_closure_requirements_currently_satisfied": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "replay_pass": true,
+    "search_family_count_4": true,
+    "search_order_count_5": true,
+    "source_invalid_proxy_count_1365": true,
+    "source_law_admitted_false": true,
+    "universe_derive_pass": true
+  },
+  "closure_requirements": [
+    {
+      "currently_satisfied": false,
+      "id": "Q1_reject_or_withhold_all_hard_absences",
+      "requirement": "A source-side rule must reject or withhold all 5172 hard absences."
+    },
+    {
+      "currently_satisfied": false,
+      "id": "Q2_retain_all_observed_keys",
+      "requirement": "The rule must retain all 24 observed slot/C keys."
+    },
+    {
+      "currently_satisfied": false,
+      "id": "Q3_no_answer_or_eval_fields",
+      "requirement": "The rule must use no answer/evaluation fields."
+    },
+    {
+      "currently_satisfied": false,
+      "id": "Q4_birth_order_receipt",
+      "requirement": "The rule must be source-side enough to support birth-order closure."
+    }
+  ],
+  "created_utc": "2026-07-10T16:40:56+00:00",
+  "id": "derive_hard_absence_source_rule_search_plan_001",
+  "immediate_next": {
+    "artifact": "search_hard_absence_endpoint_motion_rules_001",
+    "forbidden_inputs": [
+      "from_A",
+      "from_B",
+      "to_A",
+      "to_B",
+      "role_class",
+      "label",
+      "shared_B",
+      "reverse_partner",
+      "accepted_candidate_indices",
+      "false_positive_candidate_indices",
+      "miss_candidate_indices",
+      "exact",
+      "accepted_count",
+      "candidate_index"
+    ],
+    "hard_absence_count": 5172,
+    "observed_key_count": 24,
+    "reason": "Start with the smallest source-side feature family before using richer packet or role context.",
+    "target": "distinguish 24 observed keys from 5172 hard-absence source-unknown keys without answer labels"
+  },
+  "input_artifacts": {
+    "classification": "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json",
+    "closure_audit": "artifacts/json/audit_slot_c_birth_order_receipts_for_leakage_closure_001.json",
+    "non_observed_universe": "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json",
+    "replay": "artifacts/json/replay_slot_c_ab_surface_from_source_only_packets_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_slot_c_birth_order_receipts_for_leakage_closure_001.json": "ef01c425339783ee1a3da8d180d5975cadda663d1929cf2a18e2eb946391a20b",
+    "artifacts/json/classify_non_observed_slot_c_keys_source_status_001.json": "343cc7328bfc48ab1e30b5cdd78e636936f3104f5129e951c8de8d0a80f81e0f",
+    "artifacts/json/derive_non_observed_slot_c_chirality_candidate_universe_001.json": "a0d053a39a16b1f134abdf6cdf1d3aa338a74231f603c5eb1e784ce269d02826",
+    "artifacts/json/replay_slot_c_ab_surface_from_source_only_packets_001.json": "494d68e5d18e8b15e0ce1b505180d912f115ac7bc72a0c25ef22d01a7a80f3c6"
+  },
+  "keeper_line": "The hard absences are not noise. They are the next source-law question.",
+  "next_gate": "search_hard_absence_endpoint_motion_rules_001",
+  "search_families": [
+    {
+      "allowed_features": [
+        "from_slot",
+        "to_slot",
+        "slot_delta_mod15",
+        "from_C",
+        "to_C",
+        "c_delta_mod15",
+        "zero_motion_flags"
+      ],
+      "failure_receipt": "endpoint_motion_does_not_resolve_hard_absences",
+      "family_id": "F1_endpoint_motion_filters",
+      "forbidden_features": [
+        "from_A",
+        "from_B",
+        "to_A",
+        "to_B",
+        "role_class",
+        "label",
+        "shared_B",
+        "reverse_partner",
+        "accepted/exact fields"
+      ],
+      "goal": "Search for source-side motion rules that reject hard absences by endpoint motion rather than answer labels.",
+      "recommended_artifact": "search_hard_absence_endpoint_motion_rules_001",
+      "success_receipt": "hard_absence_endpoint_motion_rule_candidate"
+    },
+    {
+      "allowed_features": [
+        "source_packet_presence",
+        "source_packet_support_count",
+        "support_sources",
+        "station_role",
+        "role_pair",
+        "law_key"
+      ],
+      "failure_receipt": "source_packet_incidence_not_enough",
+      "family_id": "F2_source_packet_incidence_filters",
+      "forbidden_features": [
+        "role_class",
+        "label",
+        "shared_B",
+        "reverse_partner",
+        "answer_payload",
+        "accepted/exact fields"
+      ],
+      "goal": "Use source-only packet incidence to distinguish observed keys from hard absences.",
+      "recommended_artifact": "search_hard_absence_source_packet_incidence_rules_001",
+      "success_receipt": "hard_absence_source_packet_incidence_rule_candidate"
+    },
+    {
+      "allowed_features": [
+        "station_role",
+        "role_pair",
+        "from_slot",
+        "to_slot",
+        "from_C",
+        "to_C"
+      ],
+      "failure_receipt": "role_pair_channel_not_enough",
+      "family_id": "F3_role_pair_channel_filters",
+      "forbidden_features": [
+        "role_class",
+        "label",
+        "shared_B",
+        "reverse_partner",
+        "from_A",
+        "from_B",
+        "to_A",
+        "to_B",
+        "accepted/exact fields"
+      ],
+      "goal": "Test whether role_pair/channel constraints reject hard absences before A/B assignment.",
+      "recommended_artifact": "search_hard_absence_role_pair_channel_rules_001",
+      "success_receipt": "hard_absence_role_pair_channel_rule_candidate"
+    },
+    {
+      "allowed_features": [
+        "native_chain_source_file_membership",
+        "source_packet_id",
+        "law_key",
+        "slot/C motion",
+        "station_role",
+        "role_pair"
+      ],
+      "failure_receipt": "native_chain_membership_not_enough",
+      "family_id": "F4_native_chain_lift_filters",
+      "forbidden_features": [
+        "role_class",
+        "label",
+        "shared_B",
+        "reverse_partner",
+        "answer_payload",
+        "accepted/exact fields"
+      ],
+      "goal": "Search native-chain source artifacts for a pre-answer lift or construction gate that admits observed slot/C keys and withholds hard absences.",
+      "recommended_artifact": "search_native_chain_hard_absence_gate_001",
+      "success_receipt": "native_chain_hard_absence_gate_candidate"
+    }
+  ],
+  "search_order": [
+    "search_hard_absence_endpoint_motion_rules_001",
+    "search_hard_absence_source_packet_incidence_rules_001",
+    "search_hard_absence_role_pair_channel_rules_001",
+    "search_native_chain_hard_absence_gate_001",
+    "audit_hard_absence_source_rule_candidates_001"
+  ],
+  "status": "HARD_ABSENCE_SOURCE_RULE_SEARCH_PLAN_001_DERIVED",
+  "summary": {
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "check_count": 26,
+    "failed_count": 0,
+    "frontier_status": "hard_absence_source_rule_search_ready",
+    "gap_a_closure": false,
+    "hard_absence_count": 5172,
+    "immediate_next": "search_hard_absence_endpoint_motion_rules_001",
+    "observed_key_count": 24,
+    "passed_count": 26,
+    "plan_pass": true,
+    "recommended_next": "search_hard_absence_endpoint_motion_rules_001",
+    "search_family_count": 4,
+    "search_order_count": 5,
+    "source_invalid_proxy_count": 1365,
+    "source_law_admitted": false
+  }
+}
