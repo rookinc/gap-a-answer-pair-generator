@@ -1,0 +1,152 @@
+{
+  "action_envelope": {
+    "candidate_reading": "The screw turns locally, crosses through inversion, and returns as a receipted shell.",
+    "local_turn_cell": 60,
+    "not_geometry_theorem": true,
+    "not_path_length": true,
+    "not_physics": true,
+    "outbound_boundary_sweep": 360,
+    "polar_crossing": 180,
+    "return_boundary_sweep": 360,
+    "shell": "360-180-360",
+    "total_envelope": 900
+  },
+  "artifact_kind": "palindromic_chamber_receipt_candidate",
+  "boundary": {
+    "answer_label_leakage_closed": false,
+    "candidate_vocabulary_and_receipt_shape_only": true,
+    "force_claim": false,
+    "full_chirality_admitted": false,
+    "full_role_labeled_shared_b_derivation": false,
+    "gap_a_closure": false,
+    "geometry_claim": false,
+    "native_generator_admitted": false,
+    "physics_claim": false,
+    "proof_claim": false,
+    "source_law_admitted": false,
+    "theorem": false,
+    "universal_ab_assignment_law_admitted": false
+  },
+  "checks": {
+    "audit_pass": true,
+    "candidate_vocabulary_only": true,
+    "crossing_180": true,
+    "envelope_total_900": true,
+    "gate_candidates_admitted": true,
+    "no_answer_label_leakage_closure": true,
+    "no_force": true,
+    "no_full_chirality_admission": true,
+    "no_full_role_labeled_shared_b_derivation": true,
+    "no_gap_a_closure": true,
+    "no_geometry_claim": true,
+    "no_native_generator_admission": true,
+    "no_physics": true,
+    "no_proof_claim": true,
+    "no_source_law_admission": true,
+    "no_theorem": true,
+    "no_universal_ab_assignment_law_admission": true,
+    "outbound_360": true,
+    "palindrome_token_count_11": true,
+    "plan_pass": true,
+    "polar_crossing_tit": true,
+    "register_counts_valid": true,
+    "register_pass": true,
+    "return_360": true,
+    "source_law_not_admitted": true
+  },
+  "created_utc": "2026-07-10T17:18:23+00:00",
+  "id": "record_wxyztitzyxw_palindromic_receipt_candidate_001",
+  "input_artifacts": {
+    "hard_absence_candidate_audit": "artifacts/json/audit_hard_absence_source_rule_candidates_001.json",
+    "source_construction_search_plan": "artifacts/json/derive_slot_c_source_construction_rule_search_plan_001.json",
+    "superposition_register": "artifacts/json/record_slot_c_superposition_register_candidate_001.json"
+  },
+  "input_sha256": {
+    "artifacts/json/audit_hard_absence_source_rule_candidates_001.json": "f68a1af35061f5b5152fe1cf7ddf82b02cadd43b6e540ef0b854ec8327dcbc79",
+    "artifacts/json/derive_slot_c_source_construction_rule_search_plan_001.json": "fb15822b13fcddeecbcfd41f42fc9adad2e5b2ea301f78a6d9b1ec3055cde55a",
+    "artifacts/json/record_slot_c_superposition_register_candidate_001.json": "22c6d510c68f775ea30d79971d87434bff58e3bf1b84b05fb9ba99ec8ae0ecac"
+  },
+  "keeper_line": "A path becomes a receipt when it can return through its own mirror.",
+  "next_gate": "search_native_packet_birth_rule_for_slot_c_001",
+  "palindrome": {
+    "candidate_reading": "The closed receipt is not merely WXYZTI. It is WXYZTITZYXW, an outbound chamber approach, polar turn-receipt-turn, and mirrored side-face return.",
+    "candidate_vocabulary_only": true,
+    "outbound": [
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "polar_crossing": [
+      "T",
+      "I",
+      "T"
+    ],
+    "return": [
+      "Z",
+      "Y",
+      "X",
+      "W"
+    ],
+    "string": "WXYZTITZYXW",
+    "tokens": [
+      "W",
+      "X",
+      "Y",
+      "Z",
+      "T",
+      "I",
+      "T",
+      "Z",
+      "Y",
+      "X",
+      "W"
+    ]
+  },
+  "screw_engagement_update": {
+    "I": "central indexed receipt or forward socket",
+    "T": "turn interface on both sides of I",
+    "WXYZ": "side-face approach",
+    "ZYXW": "mirrored side-face return",
+    "hard_absence_gate_absent": "candidate exists abstractly but lacks the palindromic engagement receipt",
+    "model_name": "palindromic_screw_engagement_candidate",
+    "native_chain_present": "candidate has chamber-supported palindromic receipt support",
+    "source_packet_present": "candidate has an engaged screw receipt surface",
+    "statement": "A path becomes a receipt when it can return through its own mirror."
+  },
+  "source_construction_hypothesis": {
+    "allowed_as": "search hypothesis",
+    "hypothesis": "A native packet is born only when the candidate can complete the WXYZTITZYXW palindromic chamber receipt, not merely enter the chamber.",
+    "hypothesis_id": "palindromic_chamber_receipt_birth_condition",
+    "next_search_impact": "Use WXYZTITZYXW as candidate vocabulary when searching for native packet birth and screw-engagement constraints.",
+    "not_allowed_as": [
+      "theorem",
+      "proof",
+      "native generator admission",
+      "Gap A closure",
+      "geometry claim",
+      "physics claim",
+      "force claim"
+    ]
+  },
+  "status": "WXYZTITZYXW_PALINDROMIC_RECEIPT_CANDIDATE_001_RECORDED",
+  "summary": {
+    "action_envelope": "360-180-360",
+    "answer_label_leakage_closed": false,
+    "birth_order_proven": false,
+    "candidate_key_count": 6561,
+    "check_count": 25,
+    "failed_count": 0,
+    "frontier_status": "palindromic_receipt_candidate_recorded_for_source_construction_search",
+    "gap_a_closure": false,
+    "hard_absence_gate_absent": 5172,
+    "observed_receipted": 24,
+    "palindrome": "WXYZTITZYXW",
+    "passed_count": 25,
+    "proxy_invalid": 1365,
+    "recommended_next": "search_native_packet_birth_rule_for_slot_c_001",
+    "record_pass": true,
+    "source_law_admitted": false,
+    "total_envelope": 900
+  }
+}
